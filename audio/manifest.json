@@ -2,7 +2,7 @@
  "app": "Mr English",
  "voice": "Shalabi: Orus, deep warm giant monster, Egyptian Arabic, playful, slow clear English words",
  "format": "audio/<id>.mp3 (ogg/m4a also accepted)",
- "count": 124,
+ "count": 194,
  "lines": [
   {
    "id": "ui_hello",
@@ -122,6 +122,496 @@
    "text": "نجمة يا مالك! بداية حلوة! العب الدرس تاني وهتبقى أحسن!",
    "personal": true,
    "note": "1 star"
+  },
+  {
+   "id": "ui_fun_aan_1",
+   "group": "ui",
+   "text": "تفاحة؟ an apple! هاهاها، ريحة التفاح فتحت نفسي!",
+   "personal": false,
+   "note": "joke after a correct answer in the aan lesson (plays about 1 in 3)"
+  },
+  {
+   "id": "ui_fun_aan_2",
+   "group": "ui",
+   "text": "a ball وan egg! هو انت اللي بتعلمني!",
+   "personal": false,
+   "note": "joke after a correct answer in the aan lesson (plays about 1 in 3)"
+  },
+  {
+   "id": "ui_fun_aan_3",
+   "group": "ui",
+   "text": "a و an! انت بقيت أستاذ!",
+   "personal": false,
+   "note": "joke after a correct answer in the aan lesson (plays about 1 in 3)"
+  },
+  {
+   "id": "ui_fun_can_1",
+   "group": "ui",
+   "text": "can! لو أنا أقدر أنط، فانت أقدر مني!",
+   "personal": false,
+   "note": "joke after a correct answer in the can lesson (plays about 1 in 3)"
+  },
+  {
+   "id": "ui_fun_can_2",
+   "group": "ui",
+   "text": "الكنغر بيقول It can jump! وأنا بقول: برافو عليك!",
+   "personal": false,
+   "note": "joke after a correct answer in the can lesson (plays about 1 in 3)"
+  },
+  {
+   "id": "ui_fun_can_3",
+   "group": "ui",
+   "text": "مين يقدر؟ انت تقدر! can can can!",
+   "personal": false,
+   "note": "joke after a correct answer in the can lesson (plays about 1 in 3)"
+  },
+  {
+   "id": "ui_fun_prep_1",
+   "group": "ui",
+   "text": "العصفورة مبسوطة، عرفت مكانها!",
+   "personal": false,
+   "note": "joke after a correct answer in the prep lesson (plays about 1 in 3)"
+  },
+  {
+   "id": "ui_fun_prep_2",
+   "group": "ui",
+   "text": "under و on و next to و in! أنا لسه بدور على الصندوق هاهاها!",
+   "personal": false,
+   "note": "joke after a correct answer in the prep lesson (plays about 1 in 3)"
+  },
+  {
+   "id": "ui_fun_prep_3",
+   "group": "ui",
+   "text": "عينك زي الرادار! بتلاقي كل حاجة!",
+   "personal": false,
+   "note": "joke after a correct answer in the prep lesson (plays about 1 in 3)"
+  },
+  {
+   "id": "ui_fun_adj_1",
+   "group": "ui",
+   "text": "أنا الكبير التخين وانت الشاطر! صح صح!",
+   "personal": false,
+   "note": "joke after a correct answer in the adj lesson (plays about 1 in 3)"
+  },
+  {
+   "id": "ui_fun_adj_2",
+   "group": "ui",
+   "text": "طويل وقصير! أنا الطويل وانت الذكي!",
+   "personal": false,
+   "note": "joke after a correct answer in the adj lesson (plays about 1 in 3)"
+  },
+  {
+   "id": "ui_fun_adj_3",
+   "group": "ui",
+   "text": "القطر السريع! تشو تشو! صح عليك!",
+   "personal": false,
+   "note": "joke after a correct answer in the adj lesson (plays about 1 in 3)"
+  },
+  {
+   "id": "ui_cheer_7",
+   "group": "ui",
+   "text": "الله! إجابة زي الفل!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_8",
+   "group": "ui",
+   "text": "تمام التمام! كمّل كده!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_9",
+   "group": "ui",
+   "text": "هو ده! عينك زي الصقر!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_10",
+   "group": "ui",
+   "text": "صح يا سيدي! دماغك تقيلة!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_11",
+   "group": "ui",
+   "text": "ما شاء الله عليك! انت ذكي!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_12",
+   "group": "ui",
+   "text": "أيوه! عشرة على عشرة!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_13",
+   "group": "ui",
+   "text": "هاهاها! ده انت مش سهل!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_14",
+   "group": "ui",
+   "text": "برافو عليك! كده بتتعلم بجد!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_streak_1",
+   "group": "ui",
+   "text": "ثلاثة ورا بعض! انت نار!",
+   "personal": false,
+   "note": "3 correct in a row (replaces the cheer)"
+  },
+  {
+   "id": "ui_streak_2",
+   "group": "ui",
+   "text": "ولا غلطة! انت ماشي زي الصاروخ!",
+   "personal": false,
+   "note": "3 correct in a row (replaces the cheer)"
+  },
+  {
+   "id": "ui_streak_3",
+   "group": "ui",
+   "text": "هاهاها! انت مش بتغلط النهارده!",
+   "personal": false,
+   "note": "3 correct in a row (replaces the cheer)"
+  },
+  {
+   "id": "ui_streak_4",
+   "group": "ui",
+   "text": "تلاتة صح ورا بعض! مين يوقفك؟",
+   "personal": false,
+   "note": "3 correct in a row (replaces the cheer)"
+  },
+  {
+   "id": "ui_try_5",
+   "group": "ui",
+   "text": "لأ مش كده، بس انت قريب! جرب تاني!",
+   "personal": false,
+   "note": "wrong"
+  },
+  {
+   "id": "ui_try_6",
+   "group": "ui",
+   "text": "همم، مش دي. بص كويس وجرب!",
+   "personal": false,
+   "note": "wrong"
+  },
+  {
+   "id": "ui_try_7",
+   "group": "ui",
+   "text": "حصل خير! المرة الجاية هتبقى صح!",
+   "personal": false,
+   "note": "wrong"
+  },
+  {
+   "id": "ui_try_8",
+   "group": "ui",
+   "text": "فكر كده شوية وجرب تاني، انت تقدر!",
+   "personal": false,
+   "note": "wrong"
+  },
+  {
+   "id": "ui_try_9",
+   "group": "ui",
+   "text": "أوبس! مش دي. بس مفيش مشكلة!",
+   "personal": false,
+   "note": "wrong"
+  },
+  {
+   "id": "ui_try_10",
+   "group": "ui",
+   "text": "مش مهم، الغلطة بتعلمنا. جرب كمان مرة!",
+   "personal": false,
+   "note": "wrong"
+  },
+  {
+   "id": "ui_hint_1",
+   "group": "ui",
+   "text": "استنى، هساعدك!",
+   "personal": false,
+   "note": "plays right before the lesson-specific _fix hint (after 2 wrong taps)"
+  },
+  {
+   "id": "ui_hint_2",
+   "group": "ui",
+   "text": "تعالى أقولك سر صغير!",
+   "personal": false,
+   "note": "plays right before the lesson-specific _fix hint (after 2 wrong taps)"
+  },
+  {
+   "id": "ui_hint_3",
+   "group": "ui",
+   "text": "ركز معايا شوية، بص كده!",
+   "personal": false,
+   "note": "plays right before the lesson-specific _fix hint (after 2 wrong taps)"
+  },
+  {
+   "id": "ui_hint_4",
+   "group": "ui",
+   "text": "مفيش مشكلة، هنفكر سوا!",
+   "personal": false,
+   "note": "plays right before the lesson-specific _fix hint (after 2 wrong taps)"
+  },
+  {
+   "id": "ui_quiz_intro_2",
+   "group": "ui",
+   "text": "جاهز يا بطل؟ يلا نشوف اللي اتعلمته!",
+   "personal": false,
+   "note": "start of every quiz (variant)"
+  },
+  {
+   "id": "ui_quiz_intro_3",
+   "group": "ui",
+   "text": "أسئلة حلوة جاية! ركز وجاوب!",
+   "personal": false,
+   "note": "start of every quiz (variant)"
+  },
+  {
+   "id": "ui_quiz_intro_4",
+   "group": "ui",
+   "text": "وقت التحدي! اختار الإجابة الصح!",
+   "personal": false,
+   "note": "start of every quiz (variant)"
+  },
+  {
+   "id": "ui_quiz_intro_5",
+   "group": "ui",
+   "text": "يلا يا وحش، وريني شطارتك!",
+   "personal": false,
+   "note": "start of every quiz (variant)"
+  },
+  {
+   "id": "ui_your_turn_2",
+   "group": "ui",
+   "text": "قولها معايا!",
+   "personal": false,
+   "note": "after a repeat-after-me line (variant)"
+  },
+  {
+   "id": "ui_your_turn_3",
+   "group": "ui",
+   "text": "يلا قول!",
+   "personal": false,
+   "note": "after a repeat-after-me line (variant)"
+  },
+  {
+   "id": "ui_your_turn_4",
+   "group": "ui",
+   "text": "اسمعني وقول زيي!",
+   "personal": false,
+   "note": "after a repeat-after-me line (variant)"
+  },
+  {
+   "id": "ui_your_turn_5",
+   "group": "ui",
+   "text": "دورك، وريني!",
+   "personal": false,
+   "note": "after a repeat-after-me line (variant)"
+  },
+  {
+   "id": "ui_your_turn_6",
+   "group": "ui",
+   "text": "قولها بصوت عالي!",
+   "personal": false,
+   "note": "after a repeat-after-me line (variant)"
+  },
+  {
+   "id": "ui_done_3_2",
+   "group": "ui",
+   "text": "ثلاث نجوم! ولا غلطة! انت أسطورة يا مالك!",
+   "personal": true,
+   "note": "3 stars (variant)"
+  },
+  {
+   "id": "ui_done_3_3",
+   "group": "ui",
+   "text": "كامل الدسم! تلات نجوم! يلا على درس جديد؟",
+   "personal": false,
+   "note": "3 stars (variant)"
+  },
+  {
+   "id": "ui_done_3_4",
+   "group": "ui",
+   "text": "هاهاها! تلات نجوم! مستر إنجلش فخور بيك أوي!",
+   "personal": false,
+   "note": "3 stars (variant)"
+  },
+  {
+   "id": "ui_done_2_2",
+   "group": "ui",
+   "text": "نجمتين! حلو أوي! جرب مرة كمان وهتاخد التلاتة!",
+   "personal": false,
+   "note": "2 stars (variant)"
+  },
+  {
+   "id": "ui_done_2_3",
+   "group": "ui",
+   "text": "نجمتين يا بطل! قريب من الكمال!",
+   "personal": false,
+   "note": "2 stars (variant)"
+  },
+  {
+   "id": "ui_done_2_4",
+   "group": "ui",
+   "text": "شاطر! نجمتين في الجيب!",
+   "personal": false,
+   "note": "2 stars (variant)"
+  },
+  {
+   "id": "ui_done_1_2",
+   "group": "ui",
+   "text": "نجمة! حلو! كل مرة هتبقى أحسن!",
+   "personal": false,
+   "note": "1 stars (variant)"
+  },
+  {
+   "id": "ui_done_1_3",
+   "group": "ui",
+   "text": "نجمة النهارده، وبكرة اتنين! جرب تاني!",
+   "personal": false,
+   "note": "1 stars (variant)"
+  },
+  {
+   "id": "ui_done_1_4",
+   "group": "ui",
+   "text": "بداية كويسة يا بطل! نلعبها تاني؟",
+   "personal": false,
+   "note": "1 stars (variant)"
+  },
+  {
+   "id": "ui_start_1",
+   "group": "ui",
+   "text": "يلا نبدأ درس جديد!",
+   "personal": false,
+   "note": "lesson start, any lesson"
+  },
+  {
+   "id": "ui_start_2",
+   "group": "ui",
+   "text": "جاهز؟ اسمعني كويس!",
+   "personal": false,
+   "note": "lesson start, any lesson"
+  },
+  {
+   "id": "ui_start_3",
+   "group": "ui",
+   "text": "درس حلو جاي! ركز معايا!",
+   "personal": false,
+   "note": "lesson start, any lesson"
+  },
+  {
+   "id": "ui_start_4",
+   "group": "ui",
+   "text": "يلا بينا نتعلم حاجة جديدة!",
+   "personal": false,
+   "note": "lesson start, any lesson"
+  },
+  {
+   "id": "ui_start_5",
+   "group": "ui",
+   "text": "اتفضل يا بطل، هنبدأ!",
+   "personal": false,
+   "note": "lesson start, any lesson"
+  },
+  {
+   "id": "ui_start_aan_1",
+   "group": "ui",
+   "text": "النهارده هنعرف إمتى نقول a وإمتى an!",
+   "personal": false,
+   "note": "start of the aan lesson"
+  },
+  {
+   "id": "ui_start_aan_2",
+   "group": "ui",
+   "text": "a و an، سر صغير وهتعرفه! يلا!",
+   "personal": false,
+   "note": "start of the aan lesson"
+  },
+  {
+   "id": "ui_start_can_1",
+   "group": "ui",
+   "text": "النهارده هنعرف إيه اللي نقدر نعمله وإيه اللي مانقدرش!",
+   "personal": false,
+   "note": "start of the can lesson"
+  },
+  {
+   "id": "ui_start_can_2",
+   "group": "ui",
+   "text": "can و can't! هنتكلم عن اللي بنقدر عليه!",
+   "personal": false,
+   "note": "start of the can lesson"
+  },
+  {
+   "id": "ui_start_prep_1",
+   "group": "ui",
+   "text": "هنعرف الحاجة فين! under و on و next to و in!",
+   "personal": false,
+   "note": "start of the prep lesson"
+  },
+  {
+   "id": "ui_start_prep_2",
+   "group": "ui",
+   "text": "فين العصفورة؟ تعالى نشوف!",
+   "personal": false,
+   "note": "start of the prep lesson"
+  },
+  {
+   "id": "ui_start_adj_1",
+   "group": "ui",
+   "text": "هنوصف الحاجات! تخين ورفيع، طويل وقصير!",
+   "personal": false,
+   "note": "start of the adj lesson"
+  },
+  {
+   "id": "ui_start_adj_2",
+   "group": "ui",
+   "text": "الصفات! هنقول الحاجة شكلها إيه!",
+   "personal": false,
+   "note": "start of the adj lesson"
+  },
+  {
+   "id": "ui_hello_2",
+   "group": "ui",
+   "text": "يا أهلاً بمالك! وحشتني! يلا نلعب إنجليزي!",
+   "personal": true,
+   "note": "home screen opens (variant)"
+  },
+  {
+   "id": "ui_hello_3",
+   "group": "ui",
+   "text": "مين جه؟ ده مالك البطل! يلا نتعلم حاجة جديدة!",
+   "personal": true,
+   "note": "home screen opens (variant)"
+  },
+  {
+   "id": "ui_hello_4",
+   "group": "ui",
+   "text": "أهلاً يا وحش! شلبي هنا. اختار الدرس!",
+   "personal": true,
+   "note": "home screen opens (variant)"
+  },
+  {
+   "id": "ui_locked_2",
+   "group": "ui",
+   "text": "ده لسه بيتجهز، جرب درس تاني!",
+   "personal": false,
+   "note": "locked lesson (variant)"
+  },
+  {
+   "id": "ui_locked_3",
+   "group": "ui",
+   "text": "استنى شوية! الدرس ده جاي قريب!",
+   "personal": false,
+   "note": "locked lesson (variant)"
   },
   {
    "id": "aan_s01",

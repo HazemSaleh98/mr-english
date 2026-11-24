@@ -16,6 +16,76 @@ ui_try_4	ui		ماتزعلش، كلنا بنغلط. جرب تاني!	wrong
 ui_done_3	ui	Y	ثلاث نجوم يا مالك! انت بطل البطل! هاهاها! يلا نتعلم درس جديد؟	3 stars
 ui_done_2	ui	Y	نجمتين يا مالك! شاطر أوي! ممكن تاخد تلاتة لو لعبت تاني. جرب!	2 stars
 ui_done_1	ui	Y	نجمة يا مالك! بداية حلوة! العب الدرس تاني وهتبقى أحسن!	1 star
+ui_fun_aan_1	ui		تفاحة؟ an apple! هاهاها، ريحة التفاح فتحت نفسي!	joke after a correct answer in the aan lesson (plays about 1 in 3)
+ui_fun_aan_2	ui		a ball وan egg! هو انت اللي بتعلمني!	joke after a correct answer in the aan lesson (plays about 1 in 3)
+ui_fun_aan_3	ui		a و an! انت بقيت أستاذ!	joke after a correct answer in the aan lesson (plays about 1 in 3)
+ui_fun_can_1	ui		can! لو أنا أقدر أنط، فانت أقدر مني!	joke after a correct answer in the can lesson (plays about 1 in 3)
+ui_fun_can_2	ui		الكنغر بيقول It can jump! وأنا بقول: برافو عليك!	joke after a correct answer in the can lesson (plays about 1 in 3)
+ui_fun_can_3	ui		مين يقدر؟ انت تقدر! can can can!	joke after a correct answer in the can lesson (plays about 1 in 3)
+ui_fun_prep_1	ui		العصفورة مبسوطة، عرفت مكانها!	joke after a correct answer in the prep lesson (plays about 1 in 3)
+ui_fun_prep_2	ui		under و on و next to و in! أنا لسه بدور على الصندوق هاهاها!	joke after a correct answer in the prep lesson (plays about 1 in 3)
+ui_fun_prep_3	ui		عينك زي الرادار! بتلاقي كل حاجة!	joke after a correct answer in the prep lesson (plays about 1 in 3)
+ui_fun_adj_1	ui		أنا الكبير التخين وانت الشاطر! صح صح!	joke after a correct answer in the adj lesson (plays about 1 in 3)
+ui_fun_adj_2	ui		طويل وقصير! أنا الطويل وانت الذكي!	joke after a correct answer in the adj lesson (plays about 1 in 3)
+ui_fun_adj_3	ui		القطر السريع! تشو تشو! صح عليك!	joke after a correct answer in the adj lesson (plays about 1 in 3)
+ui_cheer_7	ui		الله! إجابة زي الفل!	correct
+ui_cheer_8	ui		تمام التمام! كمّل كده!	correct
+ui_cheer_9	ui		هو ده! عينك زي الصقر!	correct
+ui_cheer_10	ui		صح يا سيدي! دماغك تقيلة!	correct
+ui_cheer_11	ui		ما شاء الله عليك! انت ذكي!	correct
+ui_cheer_12	ui		أيوه! عشرة على عشرة!	correct
+ui_cheer_13	ui		هاهاها! ده انت مش سهل!	correct
+ui_cheer_14	ui		برافو عليك! كده بتتعلم بجد!	correct
+ui_streak_1	ui		ثلاثة ورا بعض! انت نار!	3 correct in a row (replaces the cheer)
+ui_streak_2	ui		ولا غلطة! انت ماشي زي الصاروخ!	3 correct in a row (replaces the cheer)
+ui_streak_3	ui		هاهاها! انت مش بتغلط النهارده!	3 correct in a row (replaces the cheer)
+ui_streak_4	ui		تلاتة صح ورا بعض! مين يوقفك؟	3 correct in a row (replaces the cheer)
+ui_try_5	ui		لأ مش كده، بس انت قريب! جرب تاني!	wrong
+ui_try_6	ui		همم، مش دي. بص كويس وجرب!	wrong
+ui_try_7	ui		حصل خير! المرة الجاية هتبقى صح!	wrong
+ui_try_8	ui		فكر كده شوية وجرب تاني، انت تقدر!	wrong
+ui_try_9	ui		أوبس! مش دي. بس مفيش مشكلة!	wrong
+ui_try_10	ui		مش مهم، الغلطة بتعلمنا. جرب كمان مرة!	wrong
+ui_hint_1	ui		استنى، هساعدك!	plays right before the lesson-specific _fix hint (after 2 wrong taps)
+ui_hint_2	ui		تعالى أقولك سر صغير!	plays right before the lesson-specific _fix hint (after 2 wrong taps)
+ui_hint_3	ui		ركز معايا شوية، بص كده!	plays right before the lesson-specific _fix hint (after 2 wrong taps)
+ui_hint_4	ui		مفيش مشكلة، هنفكر سوا!	plays right before the lesson-specific _fix hint (after 2 wrong taps)
+ui_quiz_intro_2	ui		جاهز يا بطل؟ يلا نشوف اللي اتعلمته!	start of every quiz (variant)
+ui_quiz_intro_3	ui		أسئلة حلوة جاية! ركز وجاوب!	start of every quiz (variant)
+ui_quiz_intro_4	ui		وقت التحدي! اختار الإجابة الصح!	start of every quiz (variant)
+ui_quiz_intro_5	ui		يلا يا وحش، وريني شطارتك!	start of every quiz (variant)
+ui_your_turn_2	ui		قولها معايا!	after a repeat-after-me line (variant)
+ui_your_turn_3	ui		يلا قول!	after a repeat-after-me line (variant)
+ui_your_turn_4	ui		اسمعني وقول زيي!	after a repeat-after-me line (variant)
+ui_your_turn_5	ui		دورك، وريني!	after a repeat-after-me line (variant)
+ui_your_turn_6	ui		قولها بصوت عالي!	after a repeat-after-me line (variant)
+ui_done_3_2	ui	Y	ثلاث نجوم! ولا غلطة! انت أسطورة يا مالك!	3 stars (variant)
+ui_done_3_3	ui		كامل الدسم! تلات نجوم! يلا على درس جديد؟	3 stars (variant)
+ui_done_3_4	ui		هاهاها! تلات نجوم! مستر إنجلش فخور بيك أوي!	3 stars (variant)
+ui_done_2_2	ui		نجمتين! حلو أوي! جرب مرة كمان وهتاخد التلاتة!	2 stars (variant)
+ui_done_2_3	ui		نجمتين يا بطل! قريب من الكمال!	2 stars (variant)
+ui_done_2_4	ui		شاطر! نجمتين في الجيب!	2 stars (variant)
+ui_done_1_2	ui		نجمة! حلو! كل مرة هتبقى أحسن!	1 stars (variant)
+ui_done_1_3	ui		نجمة النهارده، وبكرة اتنين! جرب تاني!	1 stars (variant)
+ui_done_1_4	ui		بداية كويسة يا بطل! نلعبها تاني؟	1 stars (variant)
+ui_start_1	ui		يلا نبدأ درس جديد!	lesson start, any lesson
+ui_start_2	ui		جاهز؟ اسمعني كويس!	lesson start, any lesson
+ui_start_3	ui		درس حلو جاي! ركز معايا!	lesson start, any lesson
+ui_start_4	ui		يلا بينا نتعلم حاجة جديدة!	lesson start, any lesson
+ui_start_5	ui		اتفضل يا بطل، هنبدأ!	lesson start, any lesson
+ui_start_aan_1	ui		النهارده هنعرف إمتى نقول a وإمتى an!	start of the aan lesson
+ui_start_aan_2	ui		a و an، سر صغير وهتعرفه! يلا!	start of the aan lesson
+ui_start_can_1	ui		النهارده هنعرف إيه اللي نقدر نعمله وإيه اللي مانقدرش!	start of the can lesson
+ui_start_can_2	ui		can و can't! هنتكلم عن اللي بنقدر عليه!	start of the can lesson
+ui_start_prep_1	ui		هنعرف الحاجة فين! under و on و next to و in!	start of the prep lesson
+ui_start_prep_2	ui		فين العصفورة؟ تعالى نشوف!	start of the prep lesson
+ui_start_adj_1	ui		هنوصف الحاجات! تخين ورفيع، طويل وقصير!	start of the adj lesson
+ui_start_adj_2	ui		الصفات! هنقول الحاجة شكلها إيه!	start of the adj lesson
+ui_hello_2	ui	Y	يا أهلاً بمالك! وحشتني! يلا نلعب إنجليزي!	home screen opens (variant)
+ui_hello_3	ui	Y	مين جه؟ ده مالك البطل! يلا نتعلم حاجة جديدة!	home screen opens (variant)
+ui_hello_4	ui	Y	أهلاً يا وحش! شلبي هنا. اختار الدرس!	home screen opens (variant)
+ui_locked_2	ui		ده لسه بيتجهز، جرب درس تاني!	locked lesson (variant)
+ui_locked_3	ui		استنى شوية! الدرس ده جاي قريب!	locked lesson (variant)
 aan_s01	aan:lesson	Y	أهلاً يا مالك! أنا شلبي، مستر إنجلش بتاعك! النهارده هنتعلم كلمتين صغيرين أوي: a، وan. جاهز يا وحش؟	lesson step 1 | on screen: a  and  an
 aan_s02	aan:lesson		شوف القطة دي! cat. كلمة cat بتبدأ بحرف ساكن، c. فنقول a. a cat. قول معايا: a cat!	repeat-after-me line, English words slow and clear | on screen: a cat
 aan_s03	aan:lesson		وده كلب! dog. بتبدأ بحرف d، ساكن، يبقى a. a dog. قول معايا: a dog!	repeat-after-me line, English words slow and clear | on screen: a dog

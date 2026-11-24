@@ -9,6 +9,27 @@
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   const rand = (a) => a[Math.floor(Math.random() * a.length)];
+  /* Variety pools: Shalabi never repeats the same line back to back, cycles through every line before reusing one,
+     and only picks lines whose audio is actually available. */
+  const seq = (p, n) => Array.from({ length: n }, (_, i) => p + (i + 1));
+  const POOLS = {
+    cheer: seq('ui_cheer_', 14), streak: seq('ui_streak_', 4), hello: ['ui_hello', 'ui_hello_2', 'ui_hello_3', 'ui_hello_4'], locked: ['ui_locked', 'ui_locked_2', 'ui_locked_3'],
+    wrong1: ['ui_try_1', 'ui_try_2', 'ui_try_5', 'ui_try_9'], wrong2: ['ui_try_3', 'ui_try_6', 'ui_try_8'], wrong3: ['ui_try_4', 'ui_try_7', 'ui_try_10'],
+    hint: seq('ui_hint_', 4), qintro: ['ui_quiz_intro', 'ui_quiz_intro_2', 'ui_quiz_intro_3', 'ui_quiz_intro_4', 'ui_quiz_intro_5'], turn: ['ui_your_turn', 'ui_your_turn_2', 'ui_your_turn_3', 'ui_your_turn_4', 'ui_your_turn_5', 'ui_your_turn_6'],
+    done3: ['ui_done_3', 'ui_done_3_2', 'ui_done_3_3', 'ui_done_3_4'], done2: ['ui_done_2', 'ui_done_2_2', 'ui_done_2_3', 'ui_done_2_4'], done1: ['ui_done_1', 'ui_done_1_2', 'ui_done_1_3', 'ui_done_1_4']
+  };
+  ['aan', 'can', 'prep', 'adj'].forEach((l) => { POOLS['fun_' + l] = seq('ui_fun_' + l + '_', 3); POOLS['start_' + l] = ['ui_start_1', 'ui_start_2', 'ui_start_3', 'ui_start_4', 'ui_start_5', 'ui_start_' + l + '_1', 'ui_start_' + l + '_2', 'ui_start_' + l + '_1', 'ui_start_' + l + '_2']; });
+  const bags = {}, lastPick = {};
+  async function pick(pool) {
+    const all = POOLS[pool] || []; if (!all.length) return null;
+    const ok = [];
+    for (const id of all) { if ((lineIndex[id] || {}).personal && S.name !== DEFAULT_NAME) continue; if (await getBlob(id)) ok.push(id); }
+    if (!ok.length) return all[0];
+    let bag = (bags[pool] || []).filter((id) => ok.includes(id));
+    if (!bag.length) { bag = ok.slice().sort(() => Math.random() - .5); if (bag.length > 1 && bag[0] === lastPick[pool]) bag.push(bag.shift()); }
+    const id = bag.shift(); bags[pool] = bag; lastPick[pool] = id; return id;
+  }
+  const sayPool = async (pool) => say(await pick(pool));
 
   /* ---------- state ---------- */
   let S = { name: DEFAULT_NAME, sfx: true, voice: true, lessons: {} };
@@ -171,14 +192,14 @@
     setScreen('<div class="top"><div class="pill">⭐ ' + totalStars() + '</div><div class="brand">Mr English</div><button class="rbtn" id="gear" aria-label="settings">⚙️</button></div>'
       + '<div class="body"><div class="hero"><div class="bubble"><div>Hi ' + esc(S.name) + '! Let\'s learn English!</div><div class="ar">يلا نتعلم إنجليزي يا ' + esc(S.name === DEFAULT_NAME ? 'مالك' : S.name) + '!</div></div>' + shalabi('big') + buddy() + '</div>'
       + '<div><div class="sec">📚 Lessons</div><div class="grid">' + cards + '</div><div class="sec">🔜 Coming soon</div><div class="grid">' + soon + '</div></div></div>', 'home');
-    $('.hero .sh').onclick = () => { unlock(); SFX.pop(); jump($('.hero .sh')); say('ui_hello'); };
+    $('.hero .sh').onclick = () => { unlock(); SFX.pop(); jump($('.hero .sh')); sayPool('hello'); };
     app.querySelectorAll('.card[data-l]').forEach((b) => (b.onclick = () => { unlock(); SFX.tap(); startLesson(b.dataset.l); }));
-    app.querySelectorAll('.card[data-soon]').forEach((b) => (b.onclick = () => { unlock(); SFX.wrong(); b.classList.add('no'); setTimeout(() => b.classList.remove('no'), 500); b.style.opacity = ''; toast('🔒 Coming soon / قريب'); say('ui_locked'); }));
+    app.querySelectorAll('.card[data-soon]').forEach((b) => (b.onclick = () => { unlock(); SFX.wrong(); b.classList.add('no'); setTimeout(() => b.classList.remove('no'), 500); b.style.opacity = ''; toast('🔒 Coming soon / قريب'); sayPool('locked'); }));
     let hold; const g = $('#gear');
     const open = () => { SFX.pop(); settings(); };
     g.onpointerdown = () => { hold = setTimeout(open, 900); }; g.onpointerup = g.onpointerleave = () => clearTimeout(hold);
     g.onclick = () => toast('Hold ⚙️ for parents / اضغط مطولاً');
-    prefetch(['ui_hello', 'ui_locked']);
+    prefetch(POOLS.hello.concat(POOLS.locked));
     if (!greeted) { greeted = true; /* browsers need a tap first; greeting plays after first interaction */ }
   }
   function firstOpen() { for (let i = 0; i < LESSONS.length; i++) if (!starsOf(LESSONS[i].id)) return i; return -1; }
@@ -190,7 +211,7 @@
     const L = LESSONS.find((l) => l.id === id);
     cur = { L, i: step || 0 };
     const ids = []; L.steps.forEach((s) => ids.push(s.id)); L.quiz.forEach((q) => ids.push(q.id, q.id + '_right', q.id + '_fix'));
-    ids.push('ui_quiz_intro', 'ui_your_turn', 'ui_cheer_1', 'ui_cheer_2', 'ui_cheer_3', 'ui_try_1', 'ui_try_2');
+    ['qintro', 'turn', 'cheer', 'streak', 'wrong1', 'wrong2', 'wrong3', 'hint', 'start_' + id, 'fun_' + id, 'done1', 'done2', 'done3'].forEach((p) => ids.push(...(POOLS[p] || [])));
     prefetch(ids);
     stepView(true);
   }
@@ -210,11 +231,12 @@
     if (s.vowels) $('.vis.text span').innerHTML = ['a', 'e', 'i', 'o', 'u'].map((c, k) => '<em style="font-style:normal;color:' + ['#ff6b6b', '#ffa726', '#42a5f5', '#66bb6a', '#ab47bc'][k] + ';-webkit-text-fill-color:currentcolor;animation:pop .4s ' + k * 0.15 + 's both;display:inline-block;margin:0 .12em">' + c + '</em>').join('');
     async function play() {
       const r2 = ++stepRun;
+      if (cur.i === 0 && !cur.introDone) { cur.introDone = true; await sayPool('start_' + L.id); if (r2 !== stepRun) return; }
       const ok = await say(s.id);
       if (r2 !== stepRun) return;
       if (s.say_it) {
         const f = $('.foot'); const b = document.createElement('div'); b.className = 'say'; b.innerHTML = '<span class="mic">🎤</span> Your turn!'; emojify(b); f.appendChild(b);
-        await say('ui_your_turn'); if (r2 !== stepRun) return; await sleep(ok ? 2200 : 1500); if (r2 !== stepRun) return; b.remove();
+        await sayPool('turn'); if (r2 !== stepRun) return; await sleep(ok ? 2200 : 1500); if (r2 !== stepRun) return; b.remove();
       }
       const n = $('#nx'); if (n) n.classList.add('ready');
     }
@@ -229,7 +251,7 @@
 
   /* ---------- QUIZ ---------- */
   let Q = null;
-  function quizStart() { Q = { L: cur.L, i: 0, mistakes: 0 }; quizView(true); }
+  function quizStart() { Q = { L: cur.L, i: 0, mistakes: 0, streak: 0 }; quizView(true); }
   async function quizView(intro) {
     const q = Q.L.quiz[Q.i]; Q.tries = 0; Q.locked = false; const run = ++stepRun;
     stopVoice();
@@ -247,7 +269,7 @@
     $('#bk').onclick = () => { unlock(); SFX.tap(); stopVoice(); stepRun++; if (Q.i > 0) { Q.i--; quizView(); } else { cur = { L: Q.L, i: Q.L.steps.length - 1 }; stepView(); } };
     app.querySelectorAll('.opt').forEach((b) => (b.onclick = () => { unlock(); answer(b, q); }));
     SFX.whoosh();
-    if (intro) { await sleep(250); if (run !== stepRun) return; await say('ui_quiz_intro'); if (run !== stepRun) return; }
+    if (intro) { await sleep(250); if (run !== stepRun) return; await sayPool('qintro'); if (run !== stepRun) return; }
     await say(q.id);
   }
   async function answer(btn, q) {
@@ -261,18 +283,21 @@
       sh.classList.add('cheer'); jump(sh); $('#qb').textContent = '🎉 صح!'; emojify($('#qb'));
       app.querySelectorAll('.opt').forEach((o) => { if (o !== btn) o.classList.add('dim'); });
       await sleep(350); if (run !== stepRun) return;
-      await say(rand(['ui_cheer_1', 'ui_cheer_2', 'ui_cheer_3', 'ui_cheer_4', 'ui_cheer_5', 'ui_cheer_6'])); if (run !== stepRun) return;
+      Q.streak = (Q.streak || 0) + 1;
+      const cp = (Q.streak >= 3 && Q.streak % 3 === 0) ? 'streak' : (Math.random() < .33 && Q.tries === 0 ? 'fun_' + Q.L.id : 'cheer');
+      await sayPool(cp); if (run !== stepRun) return;
       await say(q.id + '_right'); if (run !== stepRun) return;
       await sleep(450); if (run !== stepRun) return;
       if (Q.i + 1 < Q.L.quiz.length) { Q.i++; quizView(); } else result();
     } else {
-      Q.mistakes++; Q.tries++;
+      Q.mistakes++; Q.tries++; Q.streak = 0;
       btn.classList.add('no'); SFX.wrong(); sh.classList.remove('oops'); void sh.offsetWidth; sh.classList.add('oops');
       $('#qb').textContent = 'جرب تاني 💪'; emojify($('#qb'));
       const run = ++stepRun; stopVoice();
-      await say(rand(['ui_try_1', 'ui_try_2', 'ui_try_3', 'ui_try_4'])); if (run !== stepRun) return;
+      await sayPool(Q.tries >= 3 ? 'wrong3' : Q.tries === 2 ? 'wrong2' : 'wrong1'); if (run !== stepRun) return;
       if (Q.tries >= 2) {
         const right = app.querySelector('.opt[data-k="' + aIdx + '"]'); if (right) right.classList.add('hint');
+        await sayPool('hint'); if (run !== stepRun) return;
         await say(q.id + '_fix');
       }
     }
@@ -293,7 +318,7 @@
     const st = app.querySelectorAll('.rstars i');
     for (let i = 0; i < stars; i++) { await sleep(500); if (run !== stepRun) return; st[i].classList.add('on'); SFX.star(i); burst(st[i].getBoundingClientRect().left + 40, st[i].getBoundingClientRect().top + 40, 24, false); }
     await sleep(500); if (run !== stepRun) return;
-    await say('ui_done_' + stars);
+    await sayPool('done' + stars);
   }
 
   /* ---------- SETTINGS ---------- */
