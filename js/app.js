@@ -186,10 +186,11 @@
     const vc = s.vis.k === 'text' ? 'vcard wide' : 'vcard';
     setScreen('<div class="top"><button class="rbtn" id="x" aria-label="close">✕</button>' + bar(L.steps.length, i) + '<div class="pill">' + L.icon + '</div></div>'
       + '<div class="stage"><div class="' + vc + '">' + vis(s.vis) + '</div><div class="word">' + esc(s.en) + '</div></div>'
-      + '<div class="foot">' + shalabi() + '<div class="bubble"><div class="ar">' + esc(s.ar) + '</div></div><div class="ctl"><button class="rbtn" id="rp" aria-label="replay">🔊</button><button class="go" id="nx" aria-label="next">➜</button></div></div>', 'lesson');
+      + '<div class="foot">' + shalabi() + '<div class="bubble"><div class="ar">' + esc(s.ar) + '</div></div><div class="ctl"><button class="rbtn" id="rp" aria-label="replay">🔊</button><div class="navrow"><button class="go back" id="bk" aria-label="back">➜</button><button class="go" id="nx" aria-label="next">➜</button></div></div></div>', 'lesson');
     $('#x').onclick = () => { SFX.tap(); home(); };
     $('#nx').onclick = () => { unlock(); SFX.next(); next(); };
     $('#rp').onclick = () => { unlock(); SFX.pop(); play(); };
+    $('#bk').onclick = () => { unlock(); SFX.tap(); stopVoice(); stepRun++; if (cur.i > 0) { cur.i--; stepView(); } else home(); };
     if (s.vowels) $('.vis.text span').innerHTML = ['a', 'e', 'i', 'o', 'u'].map((c, k) => '<em style="font-style:normal;color:' + ['#ff6b6b', '#ffa726', '#42a5f5', '#66bb6a', '#ab47bc'][k] + ';-webkit-text-fill-color:currentcolor;animation:pop .4s ' + k * 0.15 + 's both;display:inline-block;margin:0 .12em">' + c + '</em>').join('');
     async function play() {
       const r2 = ++stepRun;
@@ -224,9 +225,10 @@
     setScreen('<div class="top"><button class="rbtn" id="x" aria-label="close">✕</button>' + bar(Q.L.quiz.length, Q.i) + '<div class="pill">' + Q.L.icon + '</div></div>'
       + '<div class="stage"><div class="q"><div class="qprompt">' + pr + '</div><div class="vcard ' + (q.vis.k === 'text' ? 'wide' : '') + '">' + vis(q.vis) + '</div>'
       + '<div class="opts ' + (isPic ? 'p' : 'w') + n + '">' + opts + '</div></div></div>'
-      + '<div class="foot">' + shalabi() + '<div class="bubble"><div class="ar" id="qb">' + (intro ? 'وقت الأسئلة! 🎯' : 'اختار الإجابة الصح') + '</div></div><div class="ctl"><button class="rbtn" id="rp" aria-label="replay">🔊</button></div></div>', 'lesson quiz');
+      + '<div class="foot">' + shalabi() + '<div class="bubble"><div class="ar" id="qb">' + (intro ? 'وقت الأسئلة! 🎯' : 'اختار الإجابة الصح') + '</div></div><div class="ctl"><button class="rbtn" id="rp" aria-label="replay">🔊</button><div class="navrow"><button class="go back" id="bk" aria-label="back">➜</button></div></div></div>', 'lesson quiz');
     $('#x').onclick = () => { SFX.tap(); home(); };
     $('#rp').onclick = () => { unlock(); SFX.pop(); say(q.id); };
+    $('#bk').onclick = () => { unlock(); SFX.tap(); stopVoice(); stepRun++; if (Q.i > 0) { Q.i--; quizView(); } else { cur = { L: Q.L, i: Q.L.steps.length - 1 }; stepView(); } };
     app.querySelectorAll('.opt').forEach((b) => (b.onclick = () => { unlock(); answer(b, q); }));
     SFX.whoosh();
     if (intro) { await sleep(250); if (run !== stepRun) return; await say('ui_quiz_intro'); if (run !== stepRun) return; }

@@ -180,3 +180,7 @@ img.em{display:inline-block;height:1.05em;width:1.05em;vertical-align:-.14em;poi
 .pill .pairic{height:1.1em;width:1.4em}
 .card .ic .pairic{height:1.0em;width:1.6em;margin-bottom:.12em}
 .pairic .f{transform:scale(1.2,.92)}
+
+.navrow{display:flex;gap:12px;align-items:center}
+.go.back{width:clamp(56px,11vmin,80px);height:clamp(56px,11vmin,80px);font-size:clamp(28px,5.6vmin,40px);background:linear-gradient(#ffd166,#ffa62b);box-shadow:0 6px 0 #c77a0a,0 10px 14px rgba(120,70,0,.25);transform:scaleX(-1)}
+.go.back:active{transform:scaleX(-1) translateY(6px);box-shadow:0 2px 0 #c77a0a}
