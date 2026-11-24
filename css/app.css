@@ -184,3 +184,13 @@ img.em{display:inline-block;height:1.05em;width:1.05em;vertical-align:-.14em;poi
 .navrow{display:flex;gap:12px;align-items:center}
 .go.back{width:clamp(56px,11vmin,80px);height:clamp(56px,11vmin,80px);font-size:clamp(28px,5.6vmin,40px);background:linear-gradient(#ffd166,#ffa62b);box-shadow:0 6px 0 #c77a0a,0 10px 14px rgba(120,70,0,.25);transform:scaleX(-1)}
 .go.back:active{transform:scaleX(-1) translateY(6px);box-shadow:0 2px 0 #c77a0a}
+/* legible letterforms for English learning text */
+.word,.vis.text span,.qprompt,.opt.word,.capchip,.card .t{font-family:'Andika','Baloo 2',sans-serif;font-weight:700}
+.word{text-shadow:0 3px 0 rgba(30,100,170,.55);letter-spacing:.02em;font-size:min(10vw,6.4vh,60px)}
+.qprompt{text-shadow:0 2px 0 rgba(30,100,170,.55);letter-spacing:.02em;font-size:min(7vw,5vh,42px)}
+.opt.word{text-shadow:0 2px 0 rgba(0,0,0,.25);letter-spacing:.02em;font-size:min(9vw,6.2vh,50px)}
+.vis.text span{font-size:min(12vw,8.5vh,74px);letter-spacing:.02em}
+.q .vcard .vis.text span{font-size:min(9vw,5.4vh,50px)}
+.opt.pic .vis.text span{font-size:min(7vw,4.4vh,36px)}
+.card .t{text-shadow:0 2px 0 rgba(0,0,0,.22)}
+@media (max-height:520px){.word{font-size:min(8vw,11vh,44px)}}
