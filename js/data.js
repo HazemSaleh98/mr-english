@@ -4,6 +4,8 @@
   const SH = (cls) => ({ k: 'sh', cls });
   const SC = (o, p) => ({ k: 'scene', o, p });
   const TX = (t) => ({ k: 'text', t });
+  const KICK = (extra) => Object.assign({ k: 'kick' }, extra || {});
+  const ART = (extra) => Object.assign({ k: 'emoji', e: '🧑‍🎨' }, extra || {});
 
   const LESSONS = [
     /* ---------------- 1. a / an ---------------- */
@@ -37,20 +39,20 @@
         { id: 'can_s01', vis: TX("can  can't"), en: "can  and  can't", ar: 'بنستخدمهم نقول نقدر نعمل حاجة ولا لأ', say: 'يا أهلاً يا مالك! النهارده هنتعلم كلمتين: can، يعني أقدر. وcan\'t، يعني مقدرش. بنقول بيهم أنا أقدر أعمل إيه، ومقدرش أعمل إيه. يلا بينا!', personal: true },
         { id: 'can_s02', vis: E('🏊'), en: 'I can swim.', ar: 'أنا أستطيع السباحة', say: 'شوف الولد بيعوم! I can swim. يعني أنا أقدر أعوم. can، يعني أقدر. قول معايا: I can swim!', say_it: true },
         { id: 'can_s03', vis: E('🏊', { cross: true }), en: "I can't swim.", ar: 'أنا لا أستطيع السباحة', say: 'وهنا علامة إكس! I can\'t swim. يعني أنا مقدرش أعوم. can\'t، يعني مقدرش. قول معايا: I can\'t swim!', say_it: true },
-        { id: 'can_s04', vis: E('🦘'), en: 'I can jump.', ar: 'أنا أستطيع القفز', say: 'شوف الكنغر بيقفز! I can jump. يعني أنا أقدر أنط. قول معايا: I can jump!', say_it: true },
-        { id: 'can_s05', vis: E('🎨'), en: 'I can draw.', ar: 'أنا أستطيع الرسم', say: 'وده رسم جميل! I can draw. يعني أنا أقدر أرسم. قول معايا: I can draw!', say_it: true },
+        { id: 'can_s04', vis: E('🦘'), en: 'It can jump.', ar: 'هو يستطيع القفز، بنقول It للحيوان', say: 'شوف الكنغر بيقفز! It can jump. يعني هو يقدر ينط. بنقول It لما نتكلم عن حيوان. قول معايا: It can jump!', say_it: true },
+        { id: 'can_s05', vis: ART(), en: 'I can draw.', ar: 'أنا أستطيع الرسم', say: 'وده رسم جميل! I can draw. يعني أنا أقدر أرسم. قول معايا: I can draw!', say_it: true },
         { id: 'can_s06', vis: E('🏃', { cross: true }), en: "I can't run.", ar: 'أنا لا أستطيع الجري', say: 'وهنا علامة إكس تاني! I can\'t run. يعني أنا مقدرش أجري. قول معايا: I can\'t run!', say_it: true },
-        { id: 'can_s07', vis: E('⚽'), en: 'He can kick.', ar: 'هو يستطيع الركل', say: 'وده ولد بيشوط الكورة! He can kick. يعني هو يقدر يشوط. قول معايا: He can kick!', say_it: true },
+        { id: 'can_s07', vis: KICK(), en: 'He can kick.', ar: 'هو يستطيع الركل', say: 'وده ولد بيشوط الكورة! He can kick. يعني هو يقدر يشوط. قول معايا: He can kick!', say_it: true },
         { id: 'can_s08', vis: E('❌'), en: "✕ = can't", ar: 'علامة إكس يعني can\'t', say: 'خد بالك يا بطل! لو الصورة عليها علامة إكس، نقول can\'t. ولو مفيش علامة، نقول can.' },
         { id: 'can_s09', vis: TX("can  ·  can't"), en: "can = أقدر   can't = مقدرش", ar: 'can أقدر، can\'t مقدرش', say: 'برافو عليك يا بطل! can يعني أقدر. can\'t يعني مقدرش. يلا نلعب الأسئلة!' }
       ],
       quiz: [
-        { id: 'can_q1', vis: E('🦘', { cap: 'jump' }), prompt: 'I ___ jump.', say: 'الكنغر ده بيقفز، jump. نقول I can ولا I can\'t؟', type: 'word', opts: ['can', "can't"], ans: 'can', right: 'I can jump! أنا أقدر أنط.', fix: 'الكنغر بيقفز، يبقى can.' },
+        { id: 'can_q1', vis: E('🦘', { cap: 'jump' }), prompt: 'It ___ jump.', say: 'الكنغر ده بيقفز، jump. نقول It can ولا It can\'t؟', type: 'word', opts: ['can', "can't"], ans: 'can', right: 'It can jump! الكنغر بينط.', fix: 'الكنغر بيقفز، يبقى can.' },
         { id: 'can_q2', vis: E('🏊', { cap: 'swim', cross: true }), prompt: 'I ___ swim.', say: 'شوف علامة الإكس! swim، يعني أعوم. نقول I can ولا I can\'t؟', type: 'word', opts: ['can', "can't"], ans: "can't", right: "I can't swim! أنا مقدرش أعوم.", fix: 'في علامة إكس، يبقى can\'t.' },
-        { id: 'can_q3', vis: E('🎨', { cap: 'draw' }), prompt: 'I ___ draw.', say: 'الرسمة دي حلوة! draw، يعني أرسم. نقول I can ولا I can\'t؟', type: 'word', opts: ['can', "can't"], ans: 'can', right: 'I can draw! أنا أقدر أرسم.', fix: 'مفيش علامة إكس، يبقى can.' },
+        { id: 'can_q3', vis: ART({ cap: 'draw' }), prompt: 'I ___ draw.', say: 'الرسمة دي حلوة! draw، يعني أرسم. نقول I can ولا I can\'t؟', type: 'word', opts: ['can', "can't"], ans: 'can', right: 'I can draw! أنا أقدر أرسم.', fix: 'مفيش علامة إكس، يبقى can.' },
         { id: 'can_q4', vis: E('🏃', { cap: 'run', cross: true }), prompt: 'I ___ run.', say: 'وعلامة إكس تاني! run، يعني أجري. نقول I can ولا I can\'t؟', type: 'word', opts: ['can', "can't"], ans: "can't", right: "I can't run! أنا مقدرش أجري.", fix: 'في علامة إكس، يبقى can\'t.' },
-        { id: 'can_q5', vis: E('⚽', { cap: 'kick' }), prompt: 'He ___ kick.', say: 'الولد بيشوط الكورة، kick. نقول He can ولا He can\'t؟', type: 'word', opts: ['can', "can't"], ans: 'can', right: 'He can kick! هو يقدر يشوط.', fix: 'مفيش علامة إكس، يبقى can.' },
-        { id: 'can_q6', vis: TX('I can swim.'), prompt: 'Which one is  I can swim ?', say: 'دوس على الصورة اللي هي I can swim. أنا أقدر أعوم!', type: 'pic', opts: [E('🏊'), E('🏊', { cross: true }), E('🎨')], ans: 0, right: 'I can swim! الولد بيعوم.', fix: 'can swim يعني بيعوم. دوس على الصورة اللي بتعوم من غير إكس.' }
+        { id: 'can_q5', vis: KICK({ cap: 'kick' }), prompt: 'He ___ kick.', say: 'الولد بيشوط الكورة، kick. نقول He can ولا He can\'t؟', type: 'word', opts: ['can', "can't"], ans: 'can', right: 'He can kick! هو يقدر يشوط.', fix: 'مفيش علامة إكس، يبقى can.' },
+        { id: 'can_q6', vis: TX('I can swim.'), prompt: 'Which one is  I can swim ?', say: 'دوس على الصورة اللي هي I can swim. أنا أقدر أعوم!', type: 'pic', opts: [E('🏊'), E('🏊', { cross: true }), ART()], ans: 0, right: 'I can swim! الولد بيعوم.', fix: 'can swim يعني بيعوم. دوس على الصورة اللي بتعوم من غير إكس.' }
       ]
     },
     /* ---------------- 3. prepositions (p17) ---------------- */

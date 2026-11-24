@@ -194,3 +194,8 @@ img.em{display:inline-block;height:1.05em;width:1.05em;vertical-align:-.14em;poi
 .opt.pic .vis.text span{font-size:min(7vw,4.4vh,36px)}
 .card .t{text-shadow:0 2px 0 rgba(0,0,0,.22)}
 @media (max-height:520px){.word{font-size:min(8vw,11vh,44px)}}
+
+.vis .x{inset:auto!important;top:7%;right:7%;width:min(24vw,17vh,120px);height:min(24vw,17vh,120px);border-radius:50%;background:#ff4d6d;color:#fff!important;font-size:min(16vw,11vh,80px)!important;box-shadow:0 5px 0 #b3203f;display:grid;place-items:center;line-height:1}
+.q .vcard .vis .x,.opt.pic .vis .x{width:min(14vw,8vh,60px);height:min(14vw,8vh,60px);font-size:min(9vw,5vh,36px)!important;top:5%;right:5%}
+.vis .x{left:auto!important;bottom:auto!important;transform:none!important;margin:0!important}
+.vis .x{top:6%!important;right:6%!important;position:absolute!important}

@@ -98,10 +98,25 @@
     return '<svg viewBox="0 -8 200 172" role="img"><defs><radialGradient id="bg1" cx=".35" cy=".3"><stop offset="0" stop-color="#ff8a80"/><stop offset="1" stop-color="#e53935"/></radialGradient></defs>'
       + '<rect x="0" y="140" width="200" height="30" fill="#7bdc6a"/><rect x="0" y="140" width="200" height="6" fill="#5ccb5a"/>' + b + '</svg>';
   }
+  function kickSvg() {
+    return '<svg viewBox="0 0 200 170" role="img"><rect x="0" y="146" width="200" height="30" fill="#7bdc6a"/><rect x="0" y="146" width="200" height="6" fill="#5ccb5a"/>'
+      + '<ellipse cx="98" cy="148" rx="34" ry="5" fill="rgba(0,0,0,.12)"/>'
+      + '<line x1="86" y1="70" x2="64" y2="90" stroke="#f5c49b" stroke-width="9" stroke-linecap="round"/>'
+      + '<line x1="94" y1="114" x2="92" y2="142" stroke="#f5c49b" stroke-width="11" stroke-linecap="round"/><ellipse cx="97" cy="145" rx="12" ry="6" fill="#fff" stroke="#2b3a67" stroke-width="3"/>'
+      + '<line x1="106" y1="114" x2="136" y2="128" stroke="#f5c49b" stroke-width="11" stroke-linecap="round"/><ellipse cx="142" cy="131" rx="12" ry="6" transform="rotate(25 142 131)" fill="#fff" stroke="#2b3a67" stroke-width="3"/>'
+      + '<path d="M86 100 L112 100 L114 118 L84 118 Z" fill="#2f5fd0"/><path d="M84 62 L112 62 L110 102 L88 102 Z" fill="#ff8a3d"/>'
+      + '<line x1="110" y1="68" x2="132" y2="62" stroke="#f5c49b" stroke-width="9" stroke-linecap="round"/>'
+      + '<circle cx="98" cy="44" r="16" fill="#f5c49b"/><path d="M82 42 Q84 26 99 27 Q114 27 114 42 Q106 34 98 35 Q88 35 82 42Z" fill="#3a2a1a"/>'
+      + '<circle cx="105" cy="45" r="2.4" fill="#2b2b2b"/><path d="M99 52 Q105 57 110 51" stroke="#c0504d" stroke-width="2.5" fill="none" stroke-linecap="round"/>'
+      + '<path d="M150 118 Q160 92 176 86" stroke="#b9dff3" stroke-width="3" stroke-dasharray="4 6" fill="none" stroke-linecap="round"/>'
+      + '<g transform="translate(172,78)"><circle r="15" fill="#fff" stroke="#2b3a67" stroke-width="3"/><path d="M0 -6 L6 -2 L4 5 L-4 5 L-6 -2 Z" fill="#2b3a67"/><path d="M0 -6 L0 -15 M6 -2 L14 -5 M4 5 L9 12 M-4 5 L-9 12 M-6 -2 L-14 -5" stroke="#2b3a67" stroke-width="2.5"/></g>'
+      + '<path d="M146 98 L138 94 M148 106 L138 106" stroke="#f0b400" stroke-width="3" stroke-linecap="round"/></svg>';
+  }
   function vis(v, cls) {
     cls = cls || '';
     if (v.k === 'emoji') return '<div class="vis emoji ' + cls + '"><span>' + v.e + '</span>' + (v.cross ? '<div class="x">✕</div>' : '') + (v.cap ? '<div class="capchip">' + esc(v.cap) + '</div>' : '') + '</div>';
     if (v.k === 'sh') return '<div class="vis sfx ' + v.cls + ' ' + cls + '"><img src="img/blue_stand.png" alt=""></div>';
+    if (v.k === 'kick') return '<div class="vis ' + cls + '">' + kickSvg() + (v.cap ? '<div class="capchip">' + esc(v.cap) + '</div>' : '') + '</div>';
     if (v.k === 'scene') return '<div class="vis ' + cls + '">' + scene(v.o, v.p) + '</div>';
     return '<div class="vis text ' + cls + '"><span>' + esc(v.t) + '</span></div>';
   }
@@ -136,8 +151,9 @@
     while (w.nextNode()) if (/\p{Extended_Pictographic}/u.test(w.currentNode.nodeValue)) list.push(w.currentNode);
     list.forEach((n) => {
       const f = document.createDocumentFragment();
-      n.nodeValue.split(/(\p{Extended_Pictographic}\uFE0F?)/u).forEach((part) => {
-        if (/^\p{Extended_Pictographic}/u.test(part)) { const cp = part.codePointAt(0).toString(16); const im = document.createElement('img'); im.className = 'em'; im.alt = part; im.src = 'img/e/' + cp + '.svg'; im.draggable = false; f.appendChild(im); }
+      const SEQ = /(\p{Extended_Pictographic}\uFE0F?(?:\u200d\p{Extended_Pictographic}\uFE0F?)*)/u;
+      n.nodeValue.split(SEQ).forEach((part) => {
+        if (/^\p{Extended_Pictographic}/u.test(part)) { const cp = Array.from(part).map((c) => c.codePointAt(0).toString(16)).filter((x) => x !== 'fe0f').join('-'); const im = document.createElement('img'); im.className = 'em'; im.alt = part; im.src = 'img/e/' + cp + '.svg'; im.draggable = false; f.appendChild(im); }
         else if (part) f.appendChild(document.createTextNode(part));
       });
       n.parentNode.replaceChild(f, n);

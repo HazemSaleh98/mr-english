@@ -343,9 +343,9 @@
   {
    "id": "can_s04",
    "group": "can:lesson",
-   "text": "شوف الكنغر بيقفز! I can jump. يعني أنا أقدر أنط. قول معايا: I can jump!",
+   "text": "شوف الكنغر بيقفز! It can jump. يعني هو يقدر ينط. بنقول It لما نتكلم عن حيوان. قول معايا: It can jump!",
    "personal": false,
-   "note": "repeat-after-me line, English words slow and clear | on screen: I can jump."
+   "note": "repeat-after-me line, English words slow and clear | on screen: It can jump."
   },
   {
    "id": "can_s05",
@@ -385,14 +385,14 @@
   {
    "id": "can_q1",
    "group": "can:quiz",
-   "text": "الكنغر ده بيقفز، jump. نقول I can ولا I can't؟",
+   "text": "الكنغر ده بيقفز، jump. نقول It can ولا It can't؟",
    "personal": false,
    "note": "quiz question 1"
   },
   {
    "id": "can_q1_right",
    "group": "can:quiz",
-   "text": "I can jump! أنا أقدر أنط.",
+   "text": "It can jump! الكنغر بينط.",
    "personal": false,
    "note": "after correct answer (plays after a cheer line)"
   },

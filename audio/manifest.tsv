@@ -47,14 +47,14 @@ aan_q6_fix	aan:quiz		الفيل هو elephant. دوس على الفيل.	hint af
 can_s01	can:lesson	Y	يا أهلاً يا مالك! النهارده هنتعلم كلمتين: can، يعني أقدر. وcan't، يعني مقدرش. بنقول بيهم أنا أقدر أعمل إيه، ومقدرش أعمل إيه. يلا بينا!	lesson step 1 | on screen: can  and  can't
 can_s02	can:lesson		شوف الولد بيعوم! I can swim. يعني أنا أقدر أعوم. can، يعني أقدر. قول معايا: I can swim!	repeat-after-me line, English words slow and clear | on screen: I can swim.
 can_s03	can:lesson		وهنا علامة إكس! I can't swim. يعني أنا مقدرش أعوم. can't، يعني مقدرش. قول معايا: I can't swim!	repeat-after-me line, English words slow and clear | on screen: I can't swim.
-can_s04	can:lesson		شوف الكنغر بيقفز! I can jump. يعني أنا أقدر أنط. قول معايا: I can jump!	repeat-after-me line, English words slow and clear | on screen: I can jump.
+can_s04	can:lesson		شوف الكنغر بيقفز! It can jump. يعني هو يقدر ينط. بنقول It لما نتكلم عن حيوان. قول معايا: It can jump!	repeat-after-me line, English words slow and clear | on screen: It can jump.
 can_s05	can:lesson		وده رسم جميل! I can draw. يعني أنا أقدر أرسم. قول معايا: I can draw!	repeat-after-me line, English words slow and clear | on screen: I can draw.
 can_s06	can:lesson		وهنا علامة إكس تاني! I can't run. يعني أنا مقدرش أجري. قول معايا: I can't run!	repeat-after-me line, English words slow and clear | on screen: I can't run.
 can_s07	can:lesson		وده ولد بيشوط الكورة! He can kick. يعني هو يقدر يشوط. قول معايا: He can kick!	repeat-after-me line, English words slow and clear | on screen: He can kick.
 can_s08	can:lesson		خد بالك يا بطل! لو الصورة عليها علامة إكس، نقول can't. ولو مفيش علامة، نقول can.	lesson step 8 | on screen: ✕ = can't
 can_s09	can:lesson		برافو عليك يا بطل! can يعني أقدر. can't يعني مقدرش. يلا نلعب الأسئلة!	lesson step 9 | on screen: can = أقدر   can't = مقدرش
-can_q1	can:quiz		الكنغر ده بيقفز، jump. نقول I can ولا I can't؟	quiz question 1
-can_q1_right	can:quiz		I can jump! أنا أقدر أنط.	after correct answer (plays after a cheer line)
+can_q1	can:quiz		الكنغر ده بيقفز، jump. نقول It can ولا It can't؟	quiz question 1
+can_q1_right	can:quiz		It can jump! الكنغر بينط.	after correct answer (plays after a cheer line)
 can_q1_fix	can:quiz		الكنغر بيقفز، يبقى can.	hint after 2 wrong taps, gentle
 can_q2	can:quiz		شوف علامة الإكس! swim، يعني أعوم. نقول I can ولا I can't؟	quiz question 2
 can_q2_right	can:quiz		I can't swim! أنا مقدرش أعوم.	after correct answer (plays after a cheer line)
