@@ -75,7 +75,7 @@
     },
     /* ---------------- 4. adjectives (p56) ---------------- */
     {
-      id: 'adj', title: 'Adjectives', ar: 'الصفات', icon: '🌈', color: ['#f6d365', '#fda085'], book: 'Page 56',
+      id: 'adj', title: 'Adjectives', ar: 'الصفات', icon: '<span class="pairic"><img class="f" src="img/blue_stand.png" alt=""><img class="t" src="img/blue_stand.png" alt=""></span>', color: ['#f6d365', '#fda085'], book: 'Page 56',
       steps: [
         { id: 'adj_s01', vis: TX('fat  tall  sad  fast'), en: 'fat · tall · sad · fast', ar: 'الصفة كلمة بتوصف شخص أو شيء', say: 'يا أهلاً يا مالك! إيه هي الصفات يا شاطر؟ الصفة هي كلمة بتوصف شخص أو حاجة معينة. زي: fat، tall، sad، fast. يلا بينا!', personal: true },
         { id: 'adj_s02', vis: SH('fat'), en: 'Shalabi is fat.', ar: 'fat يعني تخين', say: 'شوف شلبي بقى تخين! Shalabi is fat. fat، يعني تخين. قول معايا: fat!', say_it: true },
