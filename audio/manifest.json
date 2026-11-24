@@ -1,0 +1,876 @@
+{
+ "app": "Mr English",
+ "voice": "Shalabi: Orus, deep warm giant monster, Egyptian Arabic, playful, slow clear English words",
+ "format": "audio/<id>.mp3 (ogg/m4a also accepted)",
+ "count": 124,
+ "lines": [
+  {
+   "id": "ui_hello",
+   "group": "ui",
+   "text": "أهلاً أهلاً يا مالك! أنا شلبي، مستر إنجلش بتاعك! يلا نتعلم إنجليزي ونلعب. اختار الدرس يا وحش!",
+   "personal": true,
+   "note": "plays when the home screen opens (once per app launch)"
+  },
+  {
+   "id": "ui_quiz_intro",
+   "group": "ui",
+   "text": "يلا بينا! وقت الأسئلة! دوس على الإجابة الصح!",
+   "personal": false,
+   "note": "start of every quiz"
+  },
+  {
+   "id": "ui_your_turn",
+   "group": "ui",
+   "text": "دورك يا وحش!",
+   "personal": false,
+   "note": "after a repeat-after-me line"
+  },
+  {
+   "id": "ui_locked",
+   "group": "ui",
+   "text": "الدرس ده لسه مجهز. قريب جداً! جرب درس تاني.",
+   "personal": false,
+   "note": "tap on a locked lesson card"
+  },
+  {
+   "id": "ui_cheer_1",
+   "group": "ui",
+   "text": "برافو يا وحش!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_2",
+   "group": "ui",
+   "text": "صح! عظمة عظمة!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_3",
+   "group": "ui",
+   "text": "ايوه كده! انت جامد!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_4",
+   "group": "ui",
+   "text": "هاهاها! شاطر أوي يا بطل!",
+   "personal": false,
+   "note": "with belly laugh"
+  },
+  {
+   "id": "ui_cheer_5",
+   "group": "ui",
+   "text": "ممتاز! انت أقوى حد في صحابك!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_6",
+   "group": "ui",
+   "text": "يا سلام! مستر إنجلش فخور بيك!",
+   "personal": false,
+   "note": "correct"
+  },
+  {
+   "id": "ui_try_1",
+   "group": "ui",
+   "text": "قريب! جرب تاني يا بطل.",
+   "personal": false,
+   "note": "wrong"
+  },
+  {
+   "id": "ui_try_2",
+   "group": "ui",
+   "text": "ولا يهمك، جرب تاني!",
+   "personal": false,
+   "note": "wrong"
+  },
+  {
+   "id": "ui_try_3",
+   "group": "ui",
+   "text": "مممم، لأ. فكر تاني وانت هتعرف!",
+   "personal": false,
+   "note": "wrong"
+  },
+  {
+   "id": "ui_try_4",
+   "group": "ui",
+   "text": "ماتزعلش، كلنا بنغلط. جرب تاني!",
+   "personal": false,
+   "note": "wrong"
+  },
+  {
+   "id": "ui_done_3",
+   "group": "ui",
+   "text": "ثلاث نجوم يا مالك! انت بطل البطل! هاهاها! يلا نتعلم درس جديد؟",
+   "personal": true,
+   "note": "3 stars"
+  },
+  {
+   "id": "ui_done_2",
+   "group": "ui",
+   "text": "نجمتين يا مالك! شاطر أوي! ممكن تاخد تلاتة لو لعبت تاني. جرب!",
+   "personal": true,
+   "note": "2 stars"
+  },
+  {
+   "id": "ui_done_1",
+   "group": "ui",
+   "text": "نجمة يا مالك! بداية حلوة! العب الدرس تاني وهتبقى أحسن!",
+   "personal": true,
+   "note": "1 star"
+  },
+  {
+   "id": "aan_s01",
+   "group": "aan:lesson",
+   "text": "أهلاً يا مالك! أنا شلبي، مستر إنجلش بتاعك! النهارده هنتعلم كلمتين صغيرين أوي: a، وan. جاهز يا وحش؟",
+   "personal": true,
+   "note": "lesson step 1 | on screen: a  and  an"
+  },
+  {
+   "id": "aan_s02",
+   "group": "aan:lesson",
+   "text": "شوف القطة دي! cat. كلمة cat بتبدأ بحرف ساكن، c. فنقول a. a cat. قول معايا: a cat!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: a cat"
+  },
+  {
+   "id": "aan_s03",
+   "group": "aan:lesson",
+   "text": "وده كلب! dog. بتبدأ بحرف d، ساكن، يبقى a. a dog. قول معايا: a dog!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: a dog"
+  },
+  {
+   "id": "aan_s04",
+   "group": "aan:lesson",
+   "text": "وده كورة! ball. حرف b، ساكن، يبقى a. a ball. قول معايا: a ball!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: a ball"
+  },
+  {
+   "id": "aan_s05",
+   "group": "aan:lesson",
+   "text": "طب انتبه يا بطل! في خمس حروف متحركة: a، e، i، o، u. لما الكلمة تبدأ بواحد منهم، مش بنقول a. بنقول an!",
+   "personal": false,
+   "note": "lesson step 5 | on screen: a  e  i  o  u"
+  },
+  {
+   "id": "aan_s06",
+   "group": "aan:lesson",
+   "text": "ده تفاحة! apple. بتبدأ بحرف a، متحرك. يبقى an. an apple. قول معايا: an apple!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: an apple"
+  },
+  {
+   "id": "aan_s07",
+   "group": "aan:lesson",
+   "text": "وده بيضة! egg. بتبدأ بحرف e، متحرك. يبقى an. an egg. قول معايا: an egg!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: an egg"
+  },
+  {
+   "id": "aan_s08",
+   "group": "aan:lesson",
+   "text": "وده فيل كبير! elephant. حرف e، متحرك. يبقى an. an elephant. قول معايا: an elephant!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: an elephant"
+  },
+  {
+   "id": "aan_s09",
+   "group": "aan:lesson",
+   "text": "وده شمسية! umbrella. حرف u، متحرك. يبقى an. an umbrella. قول معايا: an umbrella!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: an umbrella"
+  },
+  {
+   "id": "aan_s10",
+   "group": "aan:lesson",
+   "text": "برافو عليك يا وحش! حرف ساكن، نقول a. حرف متحرك، نقول an. يلا نلعب لعبة الأسئلة!",
+   "personal": false,
+   "note": "lesson step 10 | on screen: a + sound  |  an + a e i o u"
+  },
+  {
+   "id": "aan_q1",
+   "group": "aan:quiz",
+   "text": "القطة دي، cat. نقول a ولا an؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "aan_q1_right",
+   "group": "aan:quiz",
+   "text": "a cat! عظمة يا بطل، cat بتبدأ بحرف ساكن.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "aan_q1_fix",
+   "group": "aan:quiz",
+   "text": "cat بتبدأ بحرف ساكن، c. يبقى a cat.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "aan_q2",
+   "group": "aan:quiz",
+   "text": "التفاحة دي، apple. نقول a ولا an؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "aan_q2_right",
+   "group": "aan:quiz",
+   "text": "an apple! تمام، apple بتبدأ بحرف متحرك.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "aan_q2_fix",
+   "group": "aan:quiz",
+   "text": "apple بتبدأ بحرف a، متحرك. يبقى an apple.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "aan_q3",
+   "group": "aan:quiz",
+   "text": "الكلب ده، dog. نقول a ولا an؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "aan_q3_right",
+   "group": "aan:quiz",
+   "text": "a dog! ممتاز، dog بتبدأ بحرف d.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "aan_q3_fix",
+   "group": "aan:quiz",
+   "text": "dog بتبدأ بحرف ساكن، d. يبقى a dog.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "aan_q4",
+   "group": "aan:quiz",
+   "text": "البيضة دي، egg. نقول a ولا an؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "aan_q4_right",
+   "group": "aan:quiz",
+   "text": "an egg! جامد، egg بتبدأ بحرف e.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "aan_q4_fix",
+   "group": "aan:quiz",
+   "text": "egg بتبدأ بحرف e، متحرك. يبقى an egg.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "aan_q5",
+   "group": "aan:quiz",
+   "text": "الشمسية دي، umbrella. نقول a ولا an؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "aan_q5_right",
+   "group": "aan:quiz",
+   "text": "an umbrella! برافو، umbrella بتبدأ بحرف u.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "aan_q5_fix",
+   "group": "aan:quiz",
+   "text": "umbrella بتبدأ بحرف u، متحرك. يبقى an umbrella.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "aan_q6",
+   "group": "aan:quiz",
+   "text": "دوس على الصورة اللي هي an elephant. فين الفيل؟",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "aan_q6_right",
+   "group": "aan:quiz",
+   "text": "an elephant! فيل كبير زيك يا بطل.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "aan_q6_fix",
+   "group": "aan:quiz",
+   "text": "الفيل هو elephant. دوس على الفيل.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "can_s01",
+   "group": "can:lesson",
+   "text": "يا أهلاً يا مالك! النهارده هنتعلم الأبطال الخارقين: can، يعني يقدر، وcan't، يعني مش يقدر. يلا بينا!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: can  and  can't"
+  },
+  {
+   "id": "can_s02",
+   "group": "can:lesson",
+   "text": "شوف العصفور! A bird can fly. يعني العصفور يقدر يطير. can، يعني يقدر. قول معايا: A bird can fly!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: A bird can fly."
+  },
+  {
+   "id": "can_s03",
+   "group": "can:lesson",
+   "text": "وده سمكة! A fish can swim. السمكة تقدر تعوم. قول معايا: A fish can swim!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: A fish can swim."
+  },
+  {
+   "id": "can_s04",
+   "group": "can:lesson",
+   "text": "وده كلب! A dog can run. الكلب يقدر يجري. قول معايا: A dog can run!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: A dog can run."
+  },
+  {
+   "id": "can_s05",
+   "group": "can:lesson",
+   "text": "طب الفيل ده! An elephant can't fly. الفيل مش يقدر يطير. can't، يعني مش يقدر. قول معايا: An elephant can't fly!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: An elephant can't fly."
+  },
+  {
+   "id": "can_s06",
+   "group": "can:lesson",
+   "text": "والسمكة! A fish can't walk. السمكة مش تقدر تمشي على الأرض. قول معايا: A fish can't walk!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: A fish can't walk."
+  },
+  {
+   "id": "can_s07",
+   "group": "can:lesson",
+   "text": "والكلب! A dog can't fly. الكلب مش يقدر يطير. قول معايا: A dog can't fly!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: A dog can't fly."
+  },
+  {
+   "id": "can_s08",
+   "group": "can:lesson",
+   "text": "وفي سؤال كمان! Can a bird fly? هل العصفور يقدر يطير؟ Yes، it can! أيوه، يقدر. وCan a fish fly؟ No، it can't! لا، مش يقدر.",
+   "personal": false,
+   "note": "lesson step 8 | on screen: Can a bird fly?  Yes, it can."
+  },
+  {
+   "id": "can_s09",
+   "group": "can:lesson",
+   "text": "برافو عليك يا بطل! can يعني يقدر. can't يعني مش يقدر. يلا نلعب الأسئلة!",
+   "personal": false,
+   "note": "lesson step 9 | on screen: can = يقدر   can't = مش يقدر"
+  },
+  {
+   "id": "can_q1",
+   "group": "can:quiz",
+   "text": "العصفور ده، fly، يطير. هو can ولا can't؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "can_q1_right",
+   "group": "can:quiz",
+   "text": "A bird can fly! العصفور يطير يا بطل.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "can_q1_fix",
+   "group": "can:quiz",
+   "text": "العصفور يقدر يطير. يبقى can.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "can_q2",
+   "group": "can:quiz",
+   "text": "والسمكة دي، fly، تطير؟ هي can ولا can't؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "can_q2_right",
+   "group": "can:quiz",
+   "text": "A fish can't fly! السمكة مش بتطير، بتعوم.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "can_q2_fix",
+   "group": "can:quiz",
+   "text": "السمكة مش تقدر تطير. يبقى can't.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "can_q3",
+   "group": "can:quiz",
+   "text": "الكلب ده، run، يجري. هو can ولا can't؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "can_q3_right",
+   "group": "can:quiz",
+   "text": "A dog can run! الكلب يجري بسرعة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "can_q3_fix",
+   "group": "can:quiz",
+   "text": "الكلب يقدر يجري. يبقى can.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "can_q4",
+   "group": "can:quiz",
+   "text": "والفيل ده، fly، يطير؟ هو can ولا can't؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "can_q4_right",
+   "group": "can:quiz",
+   "text": "An elephant can't fly! الفيل تقيل أوي.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "can_q4_fix",
+   "group": "can:quiz",
+   "text": "الفيل مش يقدر يطير. يبقى can't.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "can_q5",
+   "group": "can:quiz",
+   "text": "والسمكة دي، swim، تعوم. هي can ولا can't؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "can_q5_right",
+   "group": "can:quiz",
+   "text": "A fish can swim! السمكة بتعوم عادي.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "can_q5_fix",
+   "group": "can:quiz",
+   "text": "السمكة تقدر تعوم. يبقى can.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "can_q6",
+   "group": "can:quiz",
+   "text": "مين اللي can fly؟ مين يقدر يطير؟ دوس عليه!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "can_q6_right",
+   "group": "can:quiz",
+   "text": "The bird can fly! العصفور بيطير.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "can_q6_fix",
+   "group": "can:quiz",
+   "text": "اللي يقدر يطير هو العصفور. دوس عليه.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "prep_s01",
+   "group": "prep:lesson",
+   "text": "أهلاً يا مالك! النهارده هنعمل لعبة الاستخباية! هنقول الكورة فين. in، on، under، next to. يلا بينا!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: Where is the ball?"
+  },
+  {
+   "id": "prep_s02",
+   "group": "prep:lesson",
+   "text": "الكورة دي جوه الصندوق! The ball is in the box. in، يعني جوه. قول معايا: in the box!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: in the box"
+  },
+  {
+   "id": "prep_s03",
+   "group": "prep:lesson",
+   "text": "والكورة دي فوق الصندوق! The ball is on the box. on، يعني فوق. قول معايا: on the box!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: on the box"
+  },
+  {
+   "id": "prep_s04",
+   "group": "prep:lesson",
+   "text": "والكورة دي تحت الترابيزة! The ball is under the table. under، يعني تحت. قول معايا: under the table!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: under the table"
+  },
+  {
+   "id": "prep_s05",
+   "group": "prep:lesson",
+   "text": "والكورة دي جنب الصندوق! The ball is next to the box. next to، يعني جنب. قول معايا: next to the box!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: next to the box"
+  },
+  {
+   "id": "prep_s06",
+   "group": "prep:lesson",
+   "text": "برافو عليك يا وحش! in جوه، on فوق، under تحت، next to جنب. يلا نلعب الأسئلة!",
+   "personal": false,
+   "note": "lesson step 6 | on screen: in  on  under  next to"
+  },
+  {
+   "id": "prep_q1",
+   "group": "prep:quiz",
+   "text": "الكورة فين؟ جوه الصندوق ولا فوقه ولا تحته ولا جنبه؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "prep_q1_right",
+   "group": "prep:quiz",
+   "text": "in the box! الكورة جوه الصندوق.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "prep_q1_fix",
+   "group": "prep:quiz",
+   "text": "الكورة جوه الصندوق. يبقى in.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "prep_q2",
+   "group": "prep:quiz",
+   "text": "الكورة دي فين بالنسبة للترابيزة؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "prep_q2_right",
+   "group": "prep:quiz",
+   "text": "under the table! الكورة تحت الترابيزة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "prep_q2_fix",
+   "group": "prep:quiz",
+   "text": "الكورة تحت الترابيزة. يبقى under.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "prep_q3",
+   "group": "prep:quiz",
+   "text": "والكورة دي فين بالنسبة للصندوق؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "prep_q3_right",
+   "group": "prep:quiz",
+   "text": "on the box! الكورة فوق الصندوق.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "prep_q3_fix",
+   "group": "prep:quiz",
+   "text": "الكورة فوق الصندوق. يبقى on.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "prep_q4",
+   "group": "prep:quiz",
+   "text": "والكورة دي فين؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "prep_q4_right",
+   "group": "prep:quiz",
+   "text": "next to the box! الكورة جنب الصندوق.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "prep_q4_fix",
+   "group": "prep:quiz",
+   "text": "الكورة جنب الصندوق. يبقى next to.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "prep_q5",
+   "group": "prep:quiz",
+   "text": "دوس على الصورة اللي فيها الكورة under the table. تحت الترابيزة!",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "prep_q5_right",
+   "group": "prep:quiz",
+   "text": "under the table! عيني عليك يا شاطر.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "prep_q5_fix",
+   "group": "prep:quiz",
+   "text": "under يعني تحت. دوس على الكورة اللي تحت الترابيزة.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "prep_q6",
+   "group": "prep:quiz",
+   "text": "دوس على الصورة اللي فيها الكورة in the box. جوه الصندوق!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "prep_q6_right",
+   "group": "prep:quiz",
+   "text": "in the box! الكورة جوه الصندوق.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "prep_q6_fix",
+   "group": "prep:quiz",
+   "text": "in يعني جوه. دوس على الكورة اللي جوه الصندوق.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "adj_s01",
+   "group": "adj:lesson",
+   "text": "يا أهلاً يا مالك! النهارده هنتعلم كلمات بتوصف الحاجات. زي: fat، tall، sad، fast. وكمان عكسهم! يلا بينا!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: fat · tall · sad · fast"
+  },
+  {
+   "id": "adj_s02",
+   "group": "adj:lesson",
+   "text": "شوف شلبي بقى تخين! fat. fat يعني تخين. قول معايا: fat!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: fat"
+  },
+  {
+   "id": "adj_s03",
+   "group": "adj:lesson",
+   "text": "وشوف شلبي بقى رفيع! thin. thin يعني رفيع. قول معايا: thin!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: thin"
+  },
+  {
+   "id": "adj_s04",
+   "group": "adj:lesson",
+   "text": "وشلبي بقى طويل أوي! tall. tall يعني طويل. قول معايا: tall!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: tall"
+  },
+  {
+   "id": "adj_s05",
+   "group": "adj:lesson",
+   "text": "وشلبي بقى قصير! short. short يعني قصير. قول معايا: short!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: short"
+  },
+  {
+   "id": "adj_s06",
+   "group": "adj:lesson",
+   "text": "وده حزين، بيعيط! sad. sad يعني حزين. قول معايا: sad!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: sad"
+  },
+  {
+   "id": "adj_s07",
+   "group": "adj:lesson",
+   "text": "وده سعيد، بيضحك! happy. happy يعني سعيد. قول معايا: happy!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: happy"
+  },
+  {
+   "id": "adj_s08",
+   "group": "adj:lesson",
+   "text": "وده فهد بيجري بسرعة! fast. fast يعني سريع. قول معايا: fast!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: fast"
+  },
+  {
+   "id": "adj_s09",
+   "group": "adj:lesson",
+   "text": "وده سلحفاة بتمشي براحة! slow. slow يعني بطيء. قول معايا: slow!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: slow"
+  },
+  {
+   "id": "adj_s10",
+   "group": "adj:lesson",
+   "text": "برافو عليك يا وحش! fat وthin. tall وshort. sad وhappy. fast وslow. كل كلمة وعكسها! يلا نلعب الأسئلة!",
+   "personal": false,
+   "note": "lesson step 10 | on screen: fat/thin  tall/short  sad/happy  fast/slow"
+  },
+  {
+   "id": "adj_q1",
+   "group": "adj:quiz",
+   "text": "دوس على الصورة اللي هي fat. مين التخين؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "adj_q1_right",
+   "group": "adj:quiz",
+   "text": "fat! تخين وجميل.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "adj_q1_fix",
+   "group": "adj:quiz",
+   "text": "fat يعني تخين. دوس على التخين.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "adj_q2",
+   "group": "adj:quiz",
+   "text": "دوس على الصورة اللي هي tall. مين الطويل؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "adj_q2_right",
+   "group": "adj:quiz",
+   "text": "tall! طويل زي الجبل.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "adj_q2_fix",
+   "group": "adj:quiz",
+   "text": "tall يعني طويل. دوس على الطويل.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "adj_q3",
+   "group": "adj:quiz",
+   "text": "دوس على الصورة اللي هي sad. مين الحزين؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "adj_q3_right",
+   "group": "adj:quiz",
+   "text": "sad! حزين شوية. ماتزعلش!",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "adj_q3_fix",
+   "group": "adj:quiz",
+   "text": "sad يعني حزين. دوس على الوش الحزين.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "adj_q4",
+   "group": "adj:quiz",
+   "text": "دوس على الصورة اللي هي fast. مين السريع؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "adj_q4_right",
+   "group": "adj:quiz",
+   "text": "fast! الفهد سريع أوي.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "adj_q4_fix",
+   "group": "adj:quiz",
+   "text": "fast يعني سريع. دوس على الفهد.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "adj_q5",
+   "group": "adj:quiz",
+   "text": "الوش ده بيضحك! هو happy ولا sad؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "adj_q5_right",
+   "group": "adj:quiz",
+   "text": "happy! سعيد وبيضحك.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "adj_q5_fix",
+   "group": "adj:quiz",
+   "text": "الوش بيضحك. يبقى happy.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "adj_q6",
+   "group": "adj:quiz",
+   "text": "السلحفاة دي بتمشي براحة. هي fast ولا slow؟",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "adj_q6_right",
+   "group": "adj:quiz",
+   "text": "slow! السلحفاة بطيئة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "adj_q6_fix",
+   "group": "adj:quiz",
+   "text": "السلحفاة بتمشي براحة. يبقى slow.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+id	group	personal	text	note
+ui_hello	ui	Y	أهلاً أهلاً يا مالك! أنا شلبي، مستر إنجلش بتاعك! يلا نتعلم إنجليزي ونلعب. اختار الدرس يا وحش!	plays when the home screen opens (once per app launch)
+ui_quiz_intro	ui		يلا بينا! وقت الأسئلة! دوس على الإجابة الصح!	start of every quiz
+ui_your_turn	ui		دورك يا وحش!	after a repeat-after-me line
+ui_locked	ui		الدرس ده لسه مجهز. قريب جداً! جرب درس تاني.	tap on a locked lesson card
+ui_cheer_1	ui		برافو يا وحش!	correct
+ui_cheer_2	ui		صح! عظمة عظمة!	correct
+ui_cheer_3	ui		ايوه كده! انت جامد!	correct
+ui_cheer_4	ui		هاهاها! شاطر أوي يا بطل!	with belly laugh
+ui_cheer_5	ui		ممتاز! انت أقوى حد في صحابك!	correct
+ui_cheer_6	ui		يا سلام! مستر إنجلش فخور بيك!	correct
+ui_try_1	ui		قريب! جرب تاني يا بطل.	wrong
+ui_try_2	ui		ولا يهمك، جرب تاني!	wrong
+ui_try_3	ui		مممم، لأ. فكر تاني وانت هتعرف!	wrong
+ui_try_4	ui		ماتزعلش، كلنا بنغلط. جرب تاني!	wrong
+ui_done_3	ui	Y	ثلاث نجوم يا مالك! انت بطل البطل! هاهاها! يلا نتعلم درس جديد؟	3 stars
+ui_done_2	ui	Y	نجمتين يا مالك! شاطر أوي! ممكن تاخد تلاتة لو لعبت تاني. جرب!	2 stars
+ui_done_1	ui	Y	نجمة يا مالك! بداية حلوة! العب الدرس تاني وهتبقى أحسن!	1 star
+aan_s01	aan:lesson	Y	أهلاً يا مالك! أنا شلبي، مستر إنجلش بتاعك! النهارده هنتعلم كلمتين صغيرين أوي: a، وan. جاهز يا وحش؟	lesson step 1 | on screen: a  and  an
+aan_s02	aan:lesson		شوف القطة دي! cat. كلمة cat بتبدأ بحرف ساكن، c. فنقول a. a cat. قول معايا: a cat!	repeat-after-me line, English words slow and clear | on screen: a cat
+aan_s03	aan:lesson		وده كلب! dog. بتبدأ بحرف d، ساكن، يبقى a. a dog. قول معايا: a dog!	repeat-after-me line, English words slow and clear | on screen: a dog
+aan_s04	aan:lesson		وده كورة! ball. حرف b، ساكن، يبقى a. a ball. قول معايا: a ball!	repeat-after-me line, English words slow and clear | on screen: a ball
+aan_s05	aan:lesson		طب انتبه يا بطل! في خمس حروف متحركة: a، e، i، o، u. لما الكلمة تبدأ بواحد منهم، مش بنقول a. بنقول an!	lesson step 5 | on screen: a  e  i  o  u
+aan_s06	aan:lesson		ده تفاحة! apple. بتبدأ بحرف a، متحرك. يبقى an. an apple. قول معايا: an apple!	repeat-after-me line, English words slow and clear | on screen: an apple
+aan_s07	aan:lesson		وده بيضة! egg. بتبدأ بحرف e، متحرك. يبقى an. an egg. قول معايا: an egg!	repeat-after-me line, English words slow and clear | on screen: an egg
+aan_s08	aan:lesson		وده فيل كبير! elephant. حرف e، متحرك. يبقى an. an elephant. قول معايا: an elephant!	repeat-after-me line, English words slow and clear | on screen: an elephant
+aan_s09	aan:lesson		وده شمسية! umbrella. حرف u، متحرك. يبقى an. an umbrella. قول معايا: an umbrella!	repeat-after-me line, English words slow and clear | on screen: an umbrella
+aan_s10	aan:lesson		برافو عليك يا وحش! حرف ساكن، نقول a. حرف متحرك، نقول an. يلا نلعب لعبة الأسئلة!	lesson step 10 | on screen: a + sound  |  an + a e i o u
+aan_q1	aan:quiz		القطة دي، cat. نقول a ولا an؟	quiz question 1
+aan_q1_right	aan:quiz		a cat! عظمة يا بطل، cat بتبدأ بحرف ساكن.	after correct answer (plays after a cheer line)
+aan_q1_fix	aan:quiz		cat بتبدأ بحرف ساكن، c. يبقى a cat.	hint after 2 wrong taps, gentle
+aan_q2	aan:quiz		التفاحة دي، apple. نقول a ولا an؟	quiz question 2
+aan_q2_right	aan:quiz		an apple! تمام، apple بتبدأ بحرف متحرك.	after correct answer (plays after a cheer line)
+aan_q2_fix	aan:quiz		apple بتبدأ بحرف a، متحرك. يبقى an apple.	hint after 2 wrong taps, gentle
+aan_q3	aan:quiz		الكلب ده، dog. نقول a ولا an؟	quiz question 3
+aan_q3_right	aan:quiz		a dog! ممتاز، dog بتبدأ بحرف d.	after correct answer (plays after a cheer line)
+aan_q3_fix	aan:quiz		dog بتبدأ بحرف ساكن، d. يبقى a dog.	hint after 2 wrong taps, gentle
+aan_q4	aan:quiz		البيضة دي، egg. نقول a ولا an؟	quiz question 4
+aan_q4_right	aan:quiz		an egg! جامد، egg بتبدأ بحرف e.	after correct answer (plays after a cheer line)
+aan_q4_fix	aan:quiz		egg بتبدأ بحرف e، متحرك. يبقى an egg.	hint after 2 wrong taps, gentle
+aan_q5	aan:quiz		الشمسية دي، umbrella. نقول a ولا an؟	quiz question 5
+aan_q5_right	aan:quiz		an umbrella! برافو، umbrella بتبدأ بحرف u.	after correct answer (plays after a cheer line)
+aan_q5_fix	aan:quiz		umbrella بتبدأ بحرف u، متحرك. يبقى an umbrella.	hint after 2 wrong taps, gentle
+aan_q6	aan:quiz		دوس على الصورة اللي هي an elephant. فين الفيل؟	quiz question 6
+aan_q6_right	aan:quiz		an elephant! فيل كبير زيك يا بطل.	after correct answer (plays after a cheer line)
+aan_q6_fix	aan:quiz		الفيل هو elephant. دوس على الفيل.	hint after 2 wrong taps, gentle
+can_s01	can:lesson	Y	يا أهلاً يا مالك! النهارده هنتعلم الأبطال الخارقين: can، يعني يقدر، وcan't، يعني مش يقدر. يلا بينا!	lesson step 1 | on screen: can  and  can't
+can_s02	can:lesson		شوف العصفور! A bird can fly. يعني العصفور يقدر يطير. can، يعني يقدر. قول معايا: A bird can fly!	repeat-after-me line, English words slow and clear | on screen: A bird can fly.
+can_s03	can:lesson		وده سمكة! A fish can swim. السمكة تقدر تعوم. قول معايا: A fish can swim!	repeat-after-me line, English words slow and clear | on screen: A fish can swim.
+can_s04	can:lesson		وده كلب! A dog can run. الكلب يقدر يجري. قول معايا: A dog can run!	repeat-after-me line, English words slow and clear | on screen: A dog can run.
+can_s05	can:lesson		طب الفيل ده! An elephant can't fly. الفيل مش يقدر يطير. can't، يعني مش يقدر. قول معايا: An elephant can't fly!	repeat-after-me line, English words slow and clear | on screen: An elephant can't fly.
+can_s06	can:lesson		والسمكة! A fish can't walk. السمكة مش تقدر تمشي على الأرض. قول معايا: A fish can't walk!	repeat-after-me line, English words slow and clear | on screen: A fish can't walk.
+can_s07	can:lesson		والكلب! A dog can't fly. الكلب مش يقدر يطير. قول معايا: A dog can't fly!	repeat-after-me line, English words slow and clear | on screen: A dog can't fly.
+can_s08	can:lesson		وفي سؤال كمان! Can a bird fly? هل العصفور يقدر يطير؟ Yes، it can! أيوه، يقدر. وCan a fish fly؟ No، it can't! لا، مش يقدر.	lesson step 8 | on screen: Can a bird fly?  Yes, it can.
+can_s09	can:lesson		برافو عليك يا بطل! can يعني يقدر. can't يعني مش يقدر. يلا نلعب الأسئلة!	lesson step 9 | on screen: can = يقدر   can't = مش يقدر
+can_q1	can:quiz		العصفور ده، fly، يطير. هو can ولا can't؟	quiz question 1
+can_q1_right	can:quiz		A bird can fly! العصفور يطير يا بطل.	after correct answer (plays after a cheer line)
+can_q1_fix	can:quiz		العصفور يقدر يطير. يبقى can.	hint after 2 wrong taps, gentle
+can_q2	can:quiz		والسمكة دي، fly، تطير؟ هي can ولا can't؟	quiz question 2
+can_q2_right	can:quiz		A fish can't fly! السمكة مش بتطير، بتعوم.	after correct answer (plays after a cheer line)
+can_q2_fix	can:quiz		السمكة مش تقدر تطير. يبقى can't.	hint after 2 wrong taps, gentle
+can_q3	can:quiz		الكلب ده، run، يجري. هو can ولا can't؟	quiz question 3
+can_q3_right	can:quiz		A dog can run! الكلب يجري بسرعة.	after correct answer (plays after a cheer line)
+can_q3_fix	can:quiz		الكلب يقدر يجري. يبقى can.	hint after 2 wrong taps, gentle
+can_q4	can:quiz		والفيل ده، fly، يطير؟ هو can ولا can't؟	quiz question 4
+can_q4_right	can:quiz		An elephant can't fly! الفيل تقيل أوي.	after correct answer (plays after a cheer line)
+can_q4_fix	can:quiz		الفيل مش يقدر يطير. يبقى can't.	hint after 2 wrong taps, gentle
+can_q5	can:quiz		والسمكة دي، swim، تعوم. هي can ولا can't؟	quiz question 5
+can_q5_right	can:quiz		A fish can swim! السمكة بتعوم عادي.	after correct answer (plays after a cheer line)
+can_q5_fix	can:quiz		السمكة تقدر تعوم. يبقى can.	hint after 2 wrong taps, gentle
+can_q6	can:quiz		مين اللي can fly؟ مين يقدر يطير؟ دوس عليه!	quiz question 6
+can_q6_right	can:quiz		The bird can fly! العصفور بيطير.	after correct answer (plays after a cheer line)
+can_q6_fix	can:quiz		اللي يقدر يطير هو العصفور. دوس عليه.	hint after 2 wrong taps, gentle
+prep_s01	prep:lesson	Y	أهلاً يا مالك! النهارده هنعمل لعبة الاستخباية! هنقول الكورة فين. in، on، under، next to. يلا بينا!	lesson step 1 | on screen: Where is the ball?
+prep_s02	prep:lesson		الكورة دي جوه الصندوق! The ball is in the box. in، يعني جوه. قول معايا: in the box!	repeat-after-me line, English words slow and clear | on screen: in the box
+prep_s03	prep:lesson		والكورة دي فوق الصندوق! The ball is on the box. on، يعني فوق. قول معايا: on the box!	repeat-after-me line, English words slow and clear | on screen: on the box
+prep_s04	prep:lesson		والكورة دي تحت الترابيزة! The ball is under the table. under، يعني تحت. قول معايا: under the table!	repeat-after-me line, English words slow and clear | on screen: under the table
+prep_s05	prep:lesson		والكورة دي جنب الصندوق! The ball is next to the box. next to، يعني جنب. قول معايا: next to the box!	repeat-after-me line, English words slow and clear | on screen: next to the box
+prep_s06	prep:lesson		برافو عليك يا وحش! in جوه، on فوق، under تحت، next to جنب. يلا نلعب الأسئلة!	lesson step 6 | on screen: in  on  under  next to
+prep_q1	prep:quiz		الكورة فين؟ جوه الصندوق ولا فوقه ولا تحته ولا جنبه؟	quiz question 1
+prep_q1_right	prep:quiz		in the box! الكورة جوه الصندوق.	after correct answer (plays after a cheer line)
+prep_q1_fix	prep:quiz		الكورة جوه الصندوق. يبقى in.	hint after 2 wrong taps, gentle
+prep_q2	prep:quiz		الكورة دي فين بالنسبة للترابيزة؟	quiz question 2
+prep_q2_right	prep:quiz		under the table! الكورة تحت الترابيزة.	after correct answer (plays after a cheer line)
+prep_q2_fix	prep:quiz		الكورة تحت الترابيزة. يبقى under.	hint after 2 wrong taps, gentle
+prep_q3	prep:quiz		والكورة دي فين بالنسبة للصندوق؟	quiz question 3
+prep_q3_right	prep:quiz		on the box! الكورة فوق الصندوق.	after correct answer (plays after a cheer line)
+prep_q3_fix	prep:quiz		الكورة فوق الصندوق. يبقى on.	hint after 2 wrong taps, gentle
+prep_q4	prep:quiz		والكورة دي فين؟	quiz question 4
+prep_q4_right	prep:quiz		next to the box! الكورة جنب الصندوق.	after correct answer (plays after a cheer line)
+prep_q4_fix	prep:quiz		الكورة جنب الصندوق. يبقى next to.	hint after 2 wrong taps, gentle
+prep_q5	prep:quiz		دوس على الصورة اللي فيها الكورة under the table. تحت الترابيزة!	quiz question 5
+prep_q5_right	prep:quiz		under the table! عيني عليك يا شاطر.	after correct answer (plays after a cheer line)
+prep_q5_fix	prep:quiz		under يعني تحت. دوس على الكورة اللي تحت الترابيزة.	hint after 2 wrong taps, gentle
+prep_q6	prep:quiz		دوس على الصورة اللي فيها الكورة in the box. جوه الصندوق!	quiz question 6
+prep_q6_right	prep:quiz		in the box! الكورة جوه الصندوق.	after correct answer (plays after a cheer line)
+prep_q6_fix	prep:quiz		in يعني جوه. دوس على الكورة اللي جوه الصندوق.	hint after 2 wrong taps, gentle
+adj_s01	adj:lesson	Y	يا أهلاً يا مالك! النهارده هنتعلم كلمات بتوصف الحاجات. زي: fat، tall، sad، fast. وكمان عكسهم! يلا بينا!	lesson step 1 | on screen: fat · tall · sad · fast
+adj_s02	adj:lesson		شوف شلبي بقى تخين! fat. fat يعني تخين. قول معايا: fat!	repeat-after-me line, English words slow and clear | on screen: fat
+adj_s03	adj:lesson		وشوف شلبي بقى رفيع! thin. thin يعني رفيع. قول معايا: thin!	repeat-after-me line, English words slow and clear | on screen: thin
+adj_s04	adj:lesson		وشلبي بقى طويل أوي! tall. tall يعني طويل. قول معايا: tall!	repeat-after-me line, English words slow and clear | on screen: tall
+adj_s05	adj:lesson		وشلبي بقى قصير! short. short يعني قصير. قول معايا: short!	repeat-after-me line, English words slow and clear | on screen: short
+adj_s06	adj:lesson		وده حزين، بيعيط! sad. sad يعني حزين. قول معايا: sad!	repeat-after-me line, English words slow and clear | on screen: sad
+adj_s07	adj:lesson		وده سعيد، بيضحك! happy. happy يعني سعيد. قول معايا: happy!	repeat-after-me line, English words slow and clear | on screen: happy
+adj_s08	adj:lesson		وده فهد بيجري بسرعة! fast. fast يعني سريع. قول معايا: fast!	repeat-after-me line, English words slow and clear | on screen: fast
+adj_s09	adj:lesson		وده سلحفاة بتمشي براحة! slow. slow يعني بطيء. قول معايا: slow!	repeat-after-me line, English words slow and clear | on screen: slow
+adj_s10	adj:lesson		برافو عليك يا وحش! fat وthin. tall وshort. sad وhappy. fast وslow. كل كلمة وعكسها! يلا نلعب الأسئلة!	lesson step 10 | on screen: fat/thin  tall/short  sad/happy  fast/slow
+adj_q1	adj:quiz		دوس على الصورة اللي هي fat. مين التخين؟	quiz question 1
+adj_q1_right	adj:quiz		fat! تخين وجميل.	after correct answer (plays after a cheer line)
+adj_q1_fix	adj:quiz		fat يعني تخين. دوس على التخين.	hint after 2 wrong taps, gentle
+adj_q2	adj:quiz		دوس على الصورة اللي هي tall. مين الطويل؟	quiz question 2
+adj_q2_right	adj:quiz		tall! طويل زي الجبل.	after correct answer (plays after a cheer line)
+adj_q2_fix	adj:quiz		tall يعني طويل. دوس على الطويل.	hint after 2 wrong taps, gentle
+adj_q3	adj:quiz		دوس على الصورة اللي هي sad. مين الحزين؟	quiz question 3
+adj_q3_right	adj:quiz		sad! حزين شوية. ماتزعلش!	after correct answer (plays after a cheer line)
+adj_q3_fix	adj:quiz		sad يعني حزين. دوس على الوش الحزين.	hint after 2 wrong taps, gentle
+adj_q4	adj:quiz		دوس على الصورة اللي هي fast. مين السريع؟	quiz question 4
+adj_q4_right	adj:quiz		fast! الفهد سريع أوي.	after correct answer (plays after a cheer line)
+adj_q4_fix	adj:quiz		fast يعني سريع. دوس على الفهد.	hint after 2 wrong taps, gentle
+adj_q5	adj:quiz		الوش ده بيضحك! هو happy ولا sad؟	quiz question 5
+adj_q5_right	adj:quiz		happy! سعيد وبيضحك.	after correct answer (plays after a cheer line)
+adj_q5_fix	adj:quiz		الوش بيضحك. يبقى happy.	hint after 2 wrong taps, gentle
+adj_q6	adj:quiz		السلحفاة دي بتمشي براحة. هي fast ولا slow؟	quiz question 6
+adj_q6_right	adj:quiz		slow! السلحفاة بطيئة.	after correct answer (plays after a cheer line)
+adj_q6_fix	adj:quiz		السلحفاة بتمشي براحة. يبقى slow.	hint after 2 wrong taps, gentle
