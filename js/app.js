@@ -34,7 +34,7 @@
   }
   async function getBlob(id) {
     if (id in blobs) return blobs[id];
-    for (const ext of ['mp3', 'ogg', 'm4a']) {
+    for (const ext of ['m4a', 'mp3', 'ogg']) {
       try {
         const r = await fetch('audio/' + id + '.' + ext);
         if (r.ok) { const b = await r.blob(); if (b.size > 800) { blobs[id] = URL.createObjectURL(b); return blobs[id]; } }
@@ -65,11 +65,12 @@
   }
 
   /* ---------- visuals ---------- */
-  function ball(cx, cy) {
+  function ballOld(cx, cy) {
     return '<g><ellipse cx="' + cx + '" cy="' + (cy + 22) + '" rx="22" ry="5" fill="rgba(0,0,0,.15)"/><circle cx="' + cx + '" cy="' + cy + '" r="22" fill="url(#bg1)" stroke="#c0392b" stroke-width="3"/>'
       + '<path d="M' + (cx - 21) + ' ' + (cy - 3) + ' Q' + cx + ' ' + (cy + 9) + ' ' + (cx + 21) + ' ' + (cy - 3) + '" fill="none" stroke="#fff" stroke-width="4" opacity=".85"/>'
       + '<ellipse cx="' + (cx - 8) + '" cy="' + (cy - 10) + '" rx="6" ry="4" fill="#fff" opacity=".6" transform="rotate(-30 ' + (cx - 8) + ' ' + (cy - 10) + ')"/></g>';
   }
+  function ball(cx, cy) { return '<ellipse cx="' + cx + '" cy="' + (cy + 22) + '" rx="22" ry="5" fill="rgba(0,0,0,.15)"/><image href="img/e/1f426.svg" x="' + (cx - 26) + '" y="' + (cy - 26) + '" width="52" height="52"/>'; }
   function box(x) {
     return '<g transform="translate(' + x + ',0)"><rect x="60" y="80" width="80" height="60" rx="5" fill="#e3a557" stroke="#a9722d" stroke-width="3"/>'
       + '<rect x="90" y="80" width="20" height="60" fill="#f2c27f" opacity=".7"/><rect x="56" y="74" width="88" height="12" rx="5" fill="#cf8f3d" stroke="#a9722d" stroke-width="3"/></g>';
@@ -195,7 +196,7 @@
       const ok = await say(s.id);
       if (r2 !== stepRun) return;
       if (s.say_it) {
-        const f = $('.foot'); const b = document.createElement('div'); b.className = 'say'; b.innerHTML = '<span class="mic">🎤</span> Your turn!'; f.appendChild(b);
+        const f = $('.foot'); const b = document.createElement('div'); b.className = 'say'; b.innerHTML = '<span class="mic">🎤</span> Your turn!'; emojify(b); f.appendChild(b);
         await say('ui_your_turn'); if (r2 !== stepRun) return; await sleep(ok ? 2200 : 1500); if (r2 !== stepRun) return; b.remove();
       }
       const n = $('#nx'); if (n) n.classList.add('ready');

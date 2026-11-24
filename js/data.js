@@ -34,66 +34,66 @@
     {
       id: 'can', title: "can / can't", ar: 'يقدر / مش يقدر', icon: '🦸', color: ['#a18cd1', '#6a5acd'], book: 'Page 44',
       steps: [
-        { id: 'can_s01', vis: TX("can  can't"), en: "can  and  can't", ar: 'يقدر ومش يقدر', say: 'يا أهلاً يا مالك! النهارده هنتعلم الأبطال الخارقين: can، يعني يقدر، وcan\'t، يعني مش يقدر. يلا بينا!', personal: true },
-        { id: 'can_s02', vis: E('🐦'), en: 'A bird can fly.', ar: 'العصفور يقدر يطير', say: 'شوف العصفور! A bird can fly. يعني العصفور يقدر يطير. can، يعني يقدر. قول معايا: A bird can fly!', say_it: true },
-        { id: 'can_s03', vis: E('🐟'), en: 'A fish can swim.', ar: 'السمكة تقدر تعوم', say: 'وده سمكة! A fish can swim. السمكة تقدر تعوم. قول معايا: A fish can swim!', say_it: true },
-        { id: 'can_s04', vis: E('🐕'), en: 'A dog can run.', ar: 'الكلب يقدر يجري', say: 'وده كلب! A dog can run. الكلب يقدر يجري. قول معايا: A dog can run!', say_it: true },
-        { id: 'can_s05', vis: E('🐘', { cross: true }), en: "An elephant can't fly.", ar: 'الفيل مش يقدر يطير', say: 'طب الفيل ده! An elephant can\'t fly. الفيل مش يقدر يطير. can\'t، يعني مش يقدر. قول معايا: An elephant can\'t fly!', say_it: true },
-        { id: 'can_s06', vis: E('🐟', { cross: true }), en: "A fish can't walk.", ar: 'السمكة مش تقدر تمشي', say: 'والسمكة! A fish can\'t walk. السمكة مش تقدر تمشي على الأرض. قول معايا: A fish can\'t walk!', say_it: true },
-        { id: 'can_s07', vis: E('🐶', { cross: true }), en: "A dog can't fly.", ar: 'الكلب مش يقدر يطير', say: 'والكلب! A dog can\'t fly. الكلب مش يقدر يطير. قول معايا: A dog can\'t fly!', say_it: true },
-        { id: 'can_s08', vis: TX('Can a bird fly?'), en: 'Can a bird fly?  Yes, it can.', ar: 'هل العصفور يقدر يطير؟ أيوه', say: 'وفي سؤال كمان! Can a bird fly? هل العصفور يقدر يطير؟ Yes، it can! أيوه، يقدر. وCan a fish fly؟ No، it can\'t! لا، مش يقدر.' },
-        { id: 'can_s09', vis: TX("can  ·  can't"), en: "can = يقدر   can't = مش يقدر", ar: 'can يقدر، can\'t مش يقدر', say: 'برافو عليك يا بطل! can يعني يقدر. can\'t يعني مش يقدر. يلا نلعب الأسئلة!' }
+        { id: 'can_s01', vis: TX("can  can't"), en: "can  and  can't", ar: 'بنستخدمهم نقول نقدر نعمل حاجة ولا لأ', say: 'يا أهلاً يا مالك! النهارده هنتعلم كلمتين: can، يعني أقدر. وcan\'t، يعني مقدرش. بنقول بيهم أنا أقدر أعمل إيه، ومقدرش أعمل إيه. يلا بينا!', personal: true },
+        { id: 'can_s02', vis: E('🏊'), en: 'I can swim.', ar: 'أنا أستطيع السباحة', say: 'شوف الولد بيعوم! I can swim. يعني أنا أقدر أعوم. can، يعني أقدر. قول معايا: I can swim!', say_it: true },
+        { id: 'can_s03', vis: E('🏊', { cross: true }), en: "I can't swim.", ar: 'أنا لا أستطيع السباحة', say: 'وهنا علامة إكس! I can\'t swim. يعني أنا مقدرش أعوم. can\'t، يعني مقدرش. قول معايا: I can\'t swim!', say_it: true },
+        { id: 'can_s04', vis: E('🦘'), en: 'I can jump.', ar: 'أنا أستطيع القفز', say: 'شوف الكنغر بيقفز! I can jump. يعني أنا أقدر أنط. قول معايا: I can jump!', say_it: true },
+        { id: 'can_s05', vis: E('🎨'), en: 'I can draw.', ar: 'أنا أستطيع الرسم', say: 'وده رسم جميل! I can draw. يعني أنا أقدر أرسم. قول معايا: I can draw!', say_it: true },
+        { id: 'can_s06', vis: E('🏃', { cross: true }), en: "I can't run.", ar: 'أنا لا أستطيع الجري', say: 'وهنا علامة إكس تاني! I can\'t run. يعني أنا مقدرش أجري. قول معايا: I can\'t run!', say_it: true },
+        { id: 'can_s07', vis: E('⚽'), en: 'He can kick.', ar: 'هو يستطيع الركل', say: 'وده ولد بيشوط الكورة! He can kick. يعني هو يقدر يشوط. قول معايا: He can kick!', say_it: true },
+        { id: 'can_s08', vis: E('❌'), en: "✕ = can't", ar: 'علامة إكس يعني can\'t', say: 'خد بالك يا بطل! لو الصورة عليها علامة إكس، نقول can\'t. ولو مفيش علامة، نقول can.' },
+        { id: 'can_s09', vis: TX("can  ·  can't"), en: "can = أقدر   can't = مقدرش", ar: 'can أقدر، can\'t مقدرش', say: 'برافو عليك يا بطل! can يعني أقدر. can\'t يعني مقدرش. يلا نلعب الأسئلة!' }
       ],
       quiz: [
-        { id: 'can_q1', vis: E('🐦', { cap: 'fly' }), prompt: 'A bird ___ fly.', say: 'العصفور ده، fly، يطير. هو can ولا can\'t؟', type: 'word', opts: ['can', "can't"], ans: 'can', right: 'A bird can fly! العصفور يطير يا بطل.', fix: 'العصفور يقدر يطير. يبقى can.' },
-        { id: 'can_q2', vis: E('🐟', { cap: 'fly' }), prompt: 'A fish ___ fly.', say: 'والسمكة دي، fly، تطير؟ هي can ولا can\'t؟', type: 'word', opts: ['can', "can't"], ans: "can't", right: "A fish can't fly! السمكة مش بتطير، بتعوم.", fix: "السمكة مش تقدر تطير. يبقى can't." },
-        { id: 'can_q3', vis: E('🐕', { cap: 'run' }), prompt: 'A dog ___ run.', say: 'الكلب ده، run، يجري. هو can ولا can\'t؟', type: 'word', opts: ['can', "can't"], ans: 'can', right: 'A dog can run! الكلب يجري بسرعة.', fix: 'الكلب يقدر يجري. يبقى can.' },
-        { id: 'can_q4', vis: E('🐘', { cap: 'fly' }), prompt: 'An elephant ___ fly.', say: 'والفيل ده، fly، يطير؟ هو can ولا can\'t؟', type: 'word', opts: ['can', "can't"], ans: "can't", right: "An elephant can't fly! الفيل تقيل أوي.", fix: "الفيل مش يقدر يطير. يبقى can't." },
-        { id: 'can_q5', vis: E('🐟', { cap: 'swim' }), prompt: 'A fish ___ swim.', say: 'والسمكة دي، swim، تعوم. هي can ولا can\'t؟', type: 'word', opts: ['can', "can't"], ans: 'can', right: 'A fish can swim! السمكة بتعوم عادي.', fix: 'السمكة تقدر تعوم. يبقى can.' },
-        { id: 'can_q6', vis: TX('Who can fly?'), prompt: 'Who  can  fly ?', say: 'مين اللي can fly؟ مين يقدر يطير؟ دوس عليه!', type: 'pic', opts: [E('🐘'), E('🐟'), E('🐦')], ans: 2, right: 'The bird can fly! العصفور بيطير.', fix: 'اللي يقدر يطير هو العصفور. دوس عليه.' }
+        { id: 'can_q1', vis: E('🦘', { cap: 'jump' }), prompt: 'I ___ jump.', say: 'الكنغر ده بيقفز، jump. نقول I can ولا I can\'t؟', type: 'word', opts: ['can', "can't"], ans: 'can', right: 'I can jump! أنا أقدر أنط.', fix: 'الكنغر بيقفز، يبقى can.' },
+        { id: 'can_q2', vis: E('🏊', { cap: 'swim', cross: true }), prompt: 'I ___ swim.', say: 'شوف علامة الإكس! swim، يعني أعوم. نقول I can ولا I can\'t؟', type: 'word', opts: ['can', "can't"], ans: "can't", right: "I can't swim! أنا مقدرش أعوم.", fix: 'في علامة إكس، يبقى can\'t.' },
+        { id: 'can_q3', vis: E('🎨', { cap: 'draw' }), prompt: 'I ___ draw.', say: 'الرسمة دي حلوة! draw، يعني أرسم. نقول I can ولا I can\'t؟', type: 'word', opts: ['can', "can't"], ans: 'can', right: 'I can draw! أنا أقدر أرسم.', fix: 'مفيش علامة إكس، يبقى can.' },
+        { id: 'can_q4', vis: E('🏃', { cap: 'run', cross: true }), prompt: 'I ___ run.', say: 'وعلامة إكس تاني! run، يعني أجري. نقول I can ولا I can\'t؟', type: 'word', opts: ['can', "can't"], ans: "can't", right: "I can't run! أنا مقدرش أجري.", fix: 'في علامة إكس، يبقى can\'t.' },
+        { id: 'can_q5', vis: E('⚽', { cap: 'kick' }), prompt: 'He ___ kick.', say: 'الولد بيشوط الكورة، kick. نقول He can ولا He can\'t؟', type: 'word', opts: ['can', "can't"], ans: 'can', right: 'He can kick! هو يقدر يشوط.', fix: 'مفيش علامة إكس، يبقى can.' },
+        { id: 'can_q6', vis: TX('I can swim.'), prompt: 'Which one is  I can swim ?', say: 'دوس على الصورة اللي هي I can swim. أنا أقدر أعوم!', type: 'pic', opts: [E('🏊'), E('🏊', { cross: true }), E('🎨')], ans: 0, right: 'I can swim! الولد بيعوم.', fix: 'can swim يعني بيعوم. دوس على الصورة اللي بتعوم من غير إكس.' }
       ]
     },
     /* ---------------- 3. prepositions (p17) ---------------- */
     {
-      id: 'prep', title: 'in · on · under', ar: 'حروف الجر', icon: '📦', color: ['#43cea2', '#185a9d'], book: 'Page 17',
+      id: 'prep', title: 'Preposition', ar: 'حروف الجر', icon: '📦', color: ['#43cea2', '#185a9d'], book: 'Page 17',
       steps: [
-        { id: 'prep_s01', vis: SC('box', 'in'), en: 'Where is the ball?', ar: 'فين الكورة؟', say: 'أهلاً يا مالك! النهارده هنعمل لعبة الاستخباية! هنقول الكورة فين. in، on، under، next to. يلا بينا!', personal: true },
-        { id: 'prep_s02', vis: SC('box', 'in'), en: 'in the box', ar: 'in يعني جوه', say: 'الكورة دي جوه الصندوق! The ball is in the box. in، يعني جوه. قول معايا: in the box!', say_it: true },
-        { id: 'prep_s03', vis: SC('box', 'on'), en: 'on the box', ar: 'on يعني فوق', say: 'والكورة دي فوق الصندوق! The ball is on the box. on، يعني فوق. قول معايا: on the box!', say_it: true },
-        { id: 'prep_s04', vis: SC('table', 'under'), en: 'under the table', ar: 'under يعني تحت', say: 'والكورة دي تحت الترابيزة! The ball is under the table. under، يعني تحت. قول معايا: under the table!', say_it: true },
-        { id: 'prep_s05', vis: SC('box', 'next'), en: 'next to the box', ar: 'next to يعني جنب', say: 'والكورة دي جنب الصندوق! The ball is next to the box. next to، يعني جنب. قول معايا: next to the box!', say_it: true },
-        { id: 'prep_s06', vis: TX('in · on · under · next to'), en: 'in  on  under  next to', ar: 'جوه، فوق، تحت، جنب', say: 'برافو عليك يا وحش! in جوه، on فوق، under تحت، next to جنب. يلا نلعب الأسئلة!' }
+        { id: 'prep_s01', vis: SC('box', 'in'), en: 'Where is the bird?', ar: 'حروف الجر بنحدد بيها المكان فين', say: 'أهلاً يا مالك! النهارده هنتعلم حروف الجر. حروف الجر بتقولنا المكان فين! هنقول العصفور فين: under، on، next to، in. يلا بينا!', personal: true },
+        { id: 'prep_s02', vis: SC('table', 'under'), en: 'under', ar: 'under يعني تحت', say: 'العصفور ده تحت الترابيزة! under. under، يعني تحت. قول معايا: under!', say_it: true },
+        { id: 'prep_s03', vis: SC('box', 'on'), en: 'on', ar: 'on يعني على', say: 'والعصفور ده على الصندوق! on. on، يعني على. قول معايا: on!', say_it: true },
+        { id: 'prep_s04', vis: SC('box', 'next'), en: 'next to', ar: 'next to يعني بجانب', say: 'والعصفور ده جنب الصندوق! next to. next to، يعني بجانب. قول معايا: next to!', say_it: true },
+        { id: 'prep_s05', vis: SC('box', 'in'), en: 'in', ar: 'in يعني في', say: 'والعصفور ده جوه الصندوق! in. in، يعني في. قول معايا: in!', say_it: true },
+        { id: 'prep_s06', vis: TX('under · on · next to · in'), en: 'under  on  next to  in', ar: 'تحت، على، بجانب، في', say: 'برافو عليك يا وحش! under تحت، on على، next to بجانب، in في. يلا نلعب الأسئلة!' }
       ],
       quiz: [
-        { id: 'prep_q1', vis: SC('box', 'in'), prompt: 'The ball is ___ the box.', say: 'الكورة فين؟ جوه الصندوق ولا فوقه ولا تحته ولا جنبه؟', type: 'word', opts: ['in', 'on', 'under', 'next to'], ans: 'in', right: 'in the box! الكورة جوه الصندوق.', fix: 'الكورة جوه الصندوق. يبقى in.' },
-        { id: 'prep_q2', vis: SC('table', 'under'), prompt: 'The ball is ___ the table.', say: 'الكورة دي فين بالنسبة للترابيزة؟', type: 'word', opts: ['in', 'on', 'under', 'next to'], ans: 'under', right: 'under the table! الكورة تحت الترابيزة.', fix: 'الكورة تحت الترابيزة. يبقى under.' },
-        { id: 'prep_q3', vis: SC('box', 'on'), prompt: 'The ball is ___ the box.', say: 'والكورة دي فين بالنسبة للصندوق؟', type: 'word', opts: ['in', 'on', 'under', 'next to'], ans: 'on', right: 'on the box! الكورة فوق الصندوق.', fix: 'الكورة فوق الصندوق. يبقى on.' },
-        { id: 'prep_q4', vis: SC('box', 'next'), prompt: 'The ball is ___ the box.', say: 'والكورة دي فين؟', type: 'word', opts: ['in', 'on', 'under', 'next to'], ans: 'next to', right: 'next to the box! الكورة جنب الصندوق.', fix: 'الكورة جنب الصندوق. يبقى next to.' },
-        { id: 'prep_q5', vis: TX('under the table'), prompt: 'Which one is  under the table ?', say: 'دوس على الصورة اللي فيها الكورة under the table. تحت الترابيزة!', type: 'pic', opts: [SC('table', 'on'), SC('table', 'next'), SC('table', 'under')], ans: 2, right: 'under the table! عيني عليك يا شاطر.', fix: 'under يعني تحت. دوس على الكورة اللي تحت الترابيزة.' },
-        { id: 'prep_q6', vis: TX('in the box'), prompt: 'Which one is  in the box ?', say: 'دوس على الصورة اللي فيها الكورة in the box. جوه الصندوق!', type: 'pic', opts: [SC('box', 'on'), SC('box', 'in'), SC('box', 'next')], ans: 1, right: 'in the box! الكورة جوه الصندوق.', fix: 'in يعني جوه. دوس على الكورة اللي جوه الصندوق.' }
+        { id: 'prep_q1', vis: SC('box', 'in'), prompt: 'The bird is ___ the box.', say: 'العصفور فين؟ in ولا on ولا under ولا next to؟', type: 'word', opts: ['in', 'on', 'under', 'next to'], ans: 'in', right: 'in the box! العصفور جوه الصندوق.', fix: 'العصفور جوه الصندوق. يبقى in.' },
+        { id: 'prep_q2', vis: SC('table', 'under'), prompt: 'The bird is ___ the table.', say: 'والعصفور ده فين بالنسبة للترابيزة؟', type: 'word', opts: ['in', 'on', 'under', 'next to'], ans: 'under', right: 'under the table! العصفور تحت الترابيزة.', fix: 'العصفور تحت الترابيزة. يبقى under.' },
+        { id: 'prep_q3', vis: SC('box', 'on'), prompt: 'The bird is ___ the box.', say: 'والعصفور ده فين بالنسبة للصندوق؟', type: 'word', opts: ['in', 'on', 'under', 'next to'], ans: 'on', right: 'on the box! العصفور على الصندوق.', fix: 'العصفور على الصندوق. يبقى on.' },
+        { id: 'prep_q4', vis: SC('box', 'next'), prompt: 'The bird is ___ the box.', say: 'والعصفور ده فين؟', type: 'word', opts: ['in', 'on', 'under', 'next to'], ans: 'next to', right: 'next to the box! العصفور جنب الصندوق.', fix: 'العصفور جنب الصندوق. يبقى next to.' },
+        { id: 'prep_q5', vis: TX('under the table'), prompt: 'Which one is  under the table ?', say: 'دوس على الصورة اللي فيها العصفور under the table. تحت الترابيزة!', type: 'pic', opts: [SC('table', 'on'), SC('table', 'next'), SC('table', 'under')], ans: 2, right: 'under the table! عيني عليك يا شاطر.', fix: 'under يعني تحت. دوس على العصفور اللي تحت الترابيزة.' },
+        { id: 'prep_q6', vis: TX('in the box'), prompt: 'Which one is  in the box ?', say: 'دوس على الصورة اللي فيها العصفور in the box. جوه الصندوق!', type: 'pic', opts: [SC('box', 'on'), SC('box', 'in'), SC('box', 'next')], ans: 1, right: 'in the box! العصفور جوه الصندوق.', fix: 'in يعني جوه. دوس على العصفور اللي جوه الصندوق.' }
       ]
     },
     /* ---------------- 4. adjectives (p56) ---------------- */
     {
       id: 'adj', title: 'Adjectives', ar: 'الصفات', icon: '🌈', color: ['#f6d365', '#fda085'], book: 'Page 56',
       steps: [
-        { id: 'adj_s01', vis: TX('fat  tall  sad  fast'), en: 'fat · tall · sad · fast', ar: 'كلمات بتوصف حاجات', say: 'يا أهلاً يا مالك! النهارده هنتعلم كلمات بتوصف الحاجات. زي: fat، tall، sad، fast. وكمان عكسهم! يلا بينا!', personal: true },
-        { id: 'adj_s02', vis: SH('fat'), en: 'fat', ar: 'fat يعني تخين', say: 'شوف شلبي بقى تخين! fat. fat يعني تخين. قول معايا: fat!', say_it: true },
-        { id: 'adj_s03', vis: SH('thin'), en: 'thin', ar: 'thin يعني رفيع', say: 'وشوف شلبي بقى رفيع! thin. thin يعني رفيع. قول معايا: thin!', say_it: true },
-        { id: 'adj_s04', vis: SH('tall'), en: 'tall', ar: 'tall يعني طويل', say: 'وشلبي بقى طويل أوي! tall. tall يعني طويل. قول معايا: tall!', say_it: true },
-        { id: 'adj_s05', vis: SH('short'), en: 'short', ar: 'short يعني قصير', say: 'وشلبي بقى قصير! short. short يعني قصير. قول معايا: short!', say_it: true },
-        { id: 'adj_s06', vis: E('😢'), en: 'sad', ar: 'sad يعني حزين', say: 'وده حزين، بيعيط! sad. sad يعني حزين. قول معايا: sad!', say_it: true },
-        { id: 'adj_s07', vis: E('😄'), en: 'happy', ar: 'happy يعني سعيد', say: 'وده سعيد، بيضحك! happy. happy يعني سعيد. قول معايا: happy!', say_it: true },
-        { id: 'adj_s08', vis: E('🐆'), en: 'fast', ar: 'fast يعني سريع', say: 'وده فهد بيجري بسرعة! fast. fast يعني سريع. قول معايا: fast!', say_it: true },
-        { id: 'adj_s09', vis: E('🐢'), en: 'slow', ar: 'slow يعني بطيء', say: 'وده سلحفاة بتمشي براحة! slow. slow يعني بطيء. قول معايا: slow!', say_it: true },
-        { id: 'adj_s10', vis: TX('fat · thin · tall · short'), en: 'fat/thin  tall/short  sad/happy  fast/slow', ar: 'كل كلمة وعكسها', say: 'برافو عليك يا وحش! fat وthin. tall وshort. sad وhappy. fast وslow. كل كلمة وعكسها! يلا نلعب الأسئلة!' }
+        { id: 'adj_s01', vis: TX('fat  tall  sad  fast'), en: 'fat · tall · sad · fast', ar: 'الصفة كلمة بتوصف شخص أو شيء', say: 'يا أهلاً يا مالك! إيه هي الصفات يا شاطر؟ الصفة هي كلمة بتوصف شخص أو حاجة معينة. زي: fat، tall، sad، fast. يلا بينا!', personal: true },
+        { id: 'adj_s02', vis: SH('fat'), en: 'Shalabi is fat.', ar: 'fat يعني تخين', say: 'شوف شلبي بقى تخين! Shalabi is fat. fat، يعني تخين. قول معايا: fat!', say_it: true },
+        { id: 'adj_s03', vis: SH('thin'), en: 'Shalabi is thin.', ar: 'thin يعني رفيع', say: 'وشوف شلبي بقى رفيع! Shalabi is thin. thin، يعني رفيع. قول معايا: thin!', say_it: true },
+        { id: 'adj_s04', vis: SH('tall'), en: 'Shalabi is tall.', ar: 'tall يعني طويل', say: 'وشلبي بقى طويل أوي! Shalabi is tall. tall، يعني طويل. قول معايا: tall!', say_it: true },
+        { id: 'adj_s05', vis: SH('short'), en: 'Shalabi is short.', ar: 'short يعني قصير', say: 'وشلبي بقى قصير! Shalabi is short. short، يعني قصير. قول معايا: short!', say_it: true },
+        { id: 'adj_s06', vis: E('😢'), en: 'a sad girl', ar: 'sad يعني حزين', say: 'وده حزين، بيعيط! a sad girl. sad، يعني حزين. قول معايا: sad!', say_it: true },
+        { id: 'adj_s07', vis: E('🚆'), en: 'a fast train', ar: 'fast يعني سريع', say: 'وده قطر سريع أوي! a fast train. fast، يعني سريع. قول معايا: fast!', say_it: true },
+        { id: 'adj_s08', vis: E('🐢'), en: 'a slow turtle', ar: 'slow يعني بطيء', say: 'وده سلحفاة بتمشي براحة! a slow turtle. slow، يعني بطيء. قول معايا: slow!', say_it: true },
+        { id: 'adj_s09', vis: TX('fat boy\nsad girl\nfast train'), en: 'adjective + noun', ar: 'خد بالك: الصفة بتيجي قبل الاسم', say: 'خد بالك يا شاطر! الصفة بتيجي قبل الاسم. fat boy. sad girl. fast train. الصفة الأول، وبعدها الاسم!' },
+        { id: 'adj_s10', vis: TX('fat · thin · tall · short'), en: 'fat/thin  tall/short  sad  fast/slow', ar: 'كل كلمة وعكسها', say: 'برافو عليك يا وحش! fat وthin. tall وshort. sad. fast وslow. يلا نلعب الأسئلة!' }
       ],
       quiz: [
         { id: 'adj_q1', vis: TX('fat'), prompt: 'Which one is  fat ?', say: 'دوس على الصورة اللي هي fat. مين التخين؟', type: 'pic', opts: [SH('thin'), SH('fat')], ans: 1, right: 'fat! تخين وجميل.', fix: 'fat يعني تخين. دوس على التخين.' },
         { id: 'adj_q2', vis: TX('tall'), prompt: 'Which one is  tall ?', say: 'دوس على الصورة اللي هي tall. مين الطويل؟', type: 'pic', opts: [SH('tall'), SH('short')], ans: 0, right: 'tall! طويل زي الجبل.', fix: 'tall يعني طويل. دوس على الطويل.' },
         { id: 'adj_q3', vis: TX('sad'), prompt: 'Which one is  sad ?', say: 'دوس على الصورة اللي هي sad. مين الحزين؟', type: 'pic', opts: [E('😄'), E('😢')], ans: 1, right: 'sad! حزين شوية. ماتزعلش!', fix: 'sad يعني حزين. دوس على الوش الحزين.' },
-        { id: 'adj_q4', vis: TX('fast'), prompt: 'Which one is  fast ?', say: 'دوس على الصورة اللي هي fast. مين السريع؟', type: 'pic', opts: [E('🐢'), E('🐆')], ans: 1, right: 'fast! الفهد سريع أوي.', fix: 'fast يعني سريع. دوس على الفهد.' },
-        { id: 'adj_q5', vis: E('😄'), prompt: 'happy  or  sad ?', say: 'الوش ده بيضحك! هو happy ولا sad؟', type: 'word', opts: ['happy', 'sad'], ans: 'happy', right: 'happy! سعيد وبيضحك.', fix: 'الوش بيضحك. يبقى happy.' },
+        { id: 'adj_q4', vis: TX('fast'), prompt: 'Which one is  fast ?', say: 'دوس على الصورة اللي هي fast. مين السريع؟', type: 'pic', opts: [E('🐢'), E('🚆')], ans: 1, right: 'fast! القطر سريع أوي.', fix: 'fast يعني سريع. دوس على القطر.' },
+        { id: 'adj_q5', vis: E('😢'), prompt: 'sad  or  fast ?', say: 'الوش ده بيعيط! هو sad ولا fast؟', type: 'word', opts: ['sad', 'fast'], ans: 'sad', right: 'sad! حزين وبيعيط.', fix: 'الوش بيعيط. يبقى sad.' },
         { id: 'adj_q6', vis: E('🐢'), prompt: 'fast  or  slow ?', say: 'السلحفاة دي بتمشي براحة. هي fast ولا slow؟', type: 'word', opts: ['fast', 'slow'], ans: 'slow', right: 'slow! السلحفاة بطيئة.', fix: 'السلحفاة بتمشي براحة. يبقى slow.' }
       ]
     }
