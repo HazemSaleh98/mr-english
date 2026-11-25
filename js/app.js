@@ -261,7 +261,7 @@
     $('#nx').onclick = () => { unlock(); SFX.next(); next(); };
     $('#rp').onclick = () => { unlock(); SFX.pop(); play(); };
     $('#bk').onclick = () => { unlock(); SFX.tap(); stopVoice(); stepRun++; if (cur.i > 0) { cur.i--; stepView(); } else home(); };
-    if (s.vowels) $('.vis.text span').innerHTML = ['a', 'e', 'i', 'o', 'u'].map((c, k) => '<em style="font-style:normal;color:' + ['#ff6b6b', '#ffa726', '#42a5f5', '#66bb6a', '#ab47bc'][k] + ';-webkit-text-fill-color:currentcolor;animation:pop .4s ' + k * 0.15 + 's both;display:inline-block;margin:0 .12em">' + c + '</em>').join('');
+    if (s.vowels) { $('.vis.text span').classList.add('vow'); } if (s.vowels) $('.vis.text span').innerHTML = ['a', 'e', 'i', 'o', 'u'].map((c, k) => '<em style="font-style:normal;color:' + ['#ff6b6b', '#ffa726', '#42a5f5', '#66bb6a', '#ab47bc'][k] + ';-webkit-text-fill-color:currentcolor;animation:pop .4s ' + k * 0.15 + 's both;display:inline-block;margin:0 .12em">' + c + '</em>').join('');
     async function play() {
       const r2 = ++stepRun;
       if (cur.i === 0 && !cur.introDone) { cur.introDone = true; await sayPool('start_' + L.id); if (r2 !== stepRun) return; }
