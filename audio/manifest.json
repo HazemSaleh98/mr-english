@@ -2,8 +2,22 @@
  "app": "Mr English",
  "voice": "Shalabi: Orus, deep warm giant monster, Egyptian Arabic, playful, slow clear English words",
  "format": "audio/<id>.mp3 (ogg/m4a also accepted)",
- "count": 977,
+ "count": 979,
  "lines": [
+  {
+   "id": "mike_hello",
+   "group": "ui",
+   "text": "أهلاً يا مالك، أنا مارد وشوشني وجاهز نلعب مع شلبي.",
+   "personal": true,
+   "note": "Mike (Gemini Puck): greets on the home screen right after Shalabi hello"
+  },
+  {
+   "id": "mike_hello_luka",
+   "group": "ui",
+   "text": "أهلاً يا لوكة، أنا مارد وشوشني وجاهز نلعب مع شلبي.",
+   "personal": true,
+   "note": "Mike (Gemini Puck): home greeting, Luka variant"
+  },
   {
    "id": "mike_intro",
    "group": "ui",

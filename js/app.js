@@ -16,7 +16,7 @@
     cheer: seq('ui_cheer_', 14), streak: seq('ui_streak_', 4), hello: ['ui_hello', 'ui_hello_2', 'ui_hello_3', 'ui_hello_4'], locked: ['ui_locked', 'ui_locked_2', 'ui_locked_3'],
     wrong1: ['ui_try_1', 'ui_try_2', 'ui_try_5', 'ui_try_9'], wrong2: ['ui_try_3', 'ui_try_6', 'ui_try_8'], wrong3: ['ui_try_4', 'ui_try_7', 'ui_try_10'],
     hint: seq('ui_hint_', 4), qintro: ['ui_quiz_intro', 'ui_quiz_intro_2', 'ui_quiz_intro_3', 'ui_quiz_intro_4', 'ui_quiz_intro_5'], turn: ['ui_your_turn', 'ui_your_turn_2', 'ui_your_turn_3', 'ui_your_turn_4', 'ui_your_turn_5', 'ui_your_turn_6'],
-    mike_ok: seq('mike_ok_', 4), mike_streak: seq('mike_streak_', 2), mike_retry: seq('mike_retry_', 3), mike_done: seq('mike_done_', 3),
+    mike_hello: ['mike_hello'], mike_ok: seq('mike_ok_', 4), mike_streak: seq('mike_streak_', 2), mike_retry: seq('mike_retry_', 3), mike_done: seq('mike_done_', 3),
     done3: ['ui_done_3', 'ui_done_3_2', 'ui_done_3_3', 'ui_done_3_4'], done2: ['ui_done_2', 'ui_done_2_2', 'ui_done_2_3', 'ui_done_2_4'], done1: ['ui_done_1', 'ui_done_1_2', 'ui_done_1_3', 'ui_done_1_4']
   };
   ['aan', 'can', 'prep', 'adj'].forEach((l) => { POOLS['fun_' + l] = seq('ui_fun_' + l + '_', 3); POOLS['start_' + l] = ['ui_start_1', 'ui_start_2', 'ui_start_3', 'ui_start_4', 'ui_start_5', 'ui_start_' + l + '_1', 'ui_start_' + l + '_2', 'ui_start_' + l + '_1', 'ui_start_' + l + '_2']; });
@@ -35,7 +35,7 @@
   }
   /* Mike (second character): shows now and then in place of Shalabi, never twice within 3 lines, only when his audio exists */
   const MIKE = { cheer: 'mike_ok', streak: 'mike_streak', wrong1: 'mike_retry', wrong2: 'mike_retry', done3: 'mike_done', done2: 'mike_done', done1: 'mike_done' };
-  let sayN = 0, lastMike = -9, mikeIntro = false;
+  let sayN = 0, lastMike = -9, mikeIntro = false, mikeHello = false, mikeBusy = false;
   async function mikeSay(id) {
     const meta = lineIndex[id] || {};
     const el = document.createElement('div'); el.className = 'mike';
@@ -225,14 +225,14 @@
     setScreen('<div class="top"><div class="pill">⭐ ' + totalStars() + '</div><div class="brand">Mr English</div><button class="rbtn" id="gear" aria-label="settings">⚙️</button></div>'
       + '<div class="body"><div class="hero"><div class="bubble"><div>Hi ' + esc(S.name) + '! Let\'s learn English!</div><div class="ar">يلا نتعلم إنجليزي يا ' + esc(S.name === DEFAULT_NAME ? 'مالك' : S.name) + '!</div></div>' + shalabi('big') + buddy() + '</div>'
       + '<div><div class="sec">📚 Lessons</div><div class="grid">' + cards + '</div><div class="sec">🔜 Coming soon</div><div class="grid">' + soon + '</div></div></div>', 'home');
-    $('.hero .sh').onclick = () => { unlock(); SFX.pop(); jump($('.hero .sh')); sayPool('hello'); };
+    $('.hero .sh').onclick = () => { unlock(); SFX.pop(); jump($('.hero .sh')); (async () => { await sayPool('hello'); if (!mikeHello && !mikeBusy && S.name === DEFAULT_NAME && S.voice) { const id = await pick('mike_hello'); if (id && await getBlob(id)) { mikeHello = true; mikeBusy = true; lastMike = sayN; try { await mikeSay(id); } finally { mikeBusy = false; } } } })(); };
     app.querySelectorAll('.card[data-l]').forEach((b) => (b.onclick = () => { unlock(); SFX.tap(); startLesson(b.dataset.l); }));
     app.querySelectorAll('.card[data-soon]').forEach((b) => (b.onclick = () => { unlock(); SFX.wrong(); b.classList.add('no'); setTimeout(() => b.classList.remove('no'), 500); b.style.opacity = ''; toast('🔒 Coming soon / قريب'); sayPool('locked'); }));
     let hold; const g = $('#gear');
     const open = () => { SFX.pop(); settings(); };
     g.onpointerdown = () => { hold = setTimeout(open, 900); }; g.onpointerup = g.onpointerleave = () => clearTimeout(hold);
     g.onclick = () => toast('Hold ⚙️ for parents / اضغط مطولاً');
-    prefetch(POOLS.hello.concat(POOLS.locked));
+    prefetch(POOLS.hello.concat(POOLS.locked, ['mike_hello', 'mike_hello_luka']));
     if (!greeted) { greeted = true; /* browsers need a tap first; greeting plays after first interaction */ }
   }
   function firstOpen() { for (let i = 0; i < LESSONS.length; i++) if (!starsOf(LESSONS[i].id)) return i; return -1; }

@@ -1,4 +1,6 @@
 id	group	personal	text	note
+mike_hello	ui	Y	أهلاً يا مالك، أنا مارد وشوشني وجاهز نلعب مع شلبي.	Mike (Gemini Puck): greets on the home screen right after Shalabi hello
+mike_hello_luka	ui	Y	أهلاً يا لوكة، أنا مارد وشوشني وجاهز نلعب مع شلبي.	Mike (Gemini Puck): home greeting, Luka variant
 mike_intro	ui		أنا مارد، وَشْوَشْنِي! أنا صاحب شلبي، وجاي أشجعك معاه!	Mike (Gemini Puck): first time he appears
 mike_ok_1	ui	Y	برافو عليك يا مالك يا بطل! عين واحدة وشايفاك شاطر!	Mike (Gemini Puck): after a correct answer
 mike_ok_2	ui		الله! إجابة جامدة!	Mike (Gemini Puck): after a correct answer

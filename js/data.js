@@ -122,6 +122,8 @@
 
   /* UI voice lines */
   const UI = [
+    { id: 'mike_hello', say: 'أهلاً يا مالك، أنا مارد وشوشني وجاهز نلعب مع شلبي.', kind: 'mike', note: 'Mike (Gemini Puck): greets on the home screen right after Shalabi hello', personal: true },
+    { id: 'mike_hello_luka', say: 'أهلاً يا لوكة، أنا مارد وشوشني وجاهز نلعب مع شلبي.', kind: 'mike', note: 'Mike (Gemini Puck): home greeting, Luka variant', personal: true },
     { id: 'mike_intro', say: 'أنا مارد، وَشْوَشْنِي! أنا صاحب شلبي، وجاي أشجعك معاه!', kind: 'mike', note: 'Mike (Gemini Puck): first time he appears' },
     { id: 'mike_ok_1', say: 'برافو عليك يا مالك يا بطل! عين واحدة وشايفاك شاطر!', kind: 'mike', note: 'Mike (Gemini Puck): after a correct answer', personal: true },
     { id: 'mike_ok_2', say: 'الله! إجابة جامدة!', kind: 'mike', note: 'Mike (Gemini Puck): after a correct answer' },
