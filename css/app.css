@@ -199,3 +199,19 @@ img.em{display:inline-block;height:1.05em;width:1.05em;vertical-align:-.14em;poi
 .q .vcard .vis .x,.opt.pic .vis .x{width:min(14vw,8vh,60px);height:min(14vw,8vh,60px);font-size:min(9vw,5vh,36px)!important;top:5%;right:5%}
 .vis .x{left:auto!important;bottom:auto!important;transform:none!important;margin:0!important}
 .vis .x{top:6%!important;right:6%!important;position:absolute!important}
+
+/* group + distance visuals */
+.vis.grp .gw{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:0 2px;max-width:94%;max-height:92%}
+.vis.grp .gw span{display:grid;place-items:center;animation:pop .35s both}
+.vis.grp span img.em{width:calc(var(--k,1)*var(--gs));height:calc(var(--k,1)*var(--gs));filter:drop-shadow(0 5px 0 rgba(0,0,0,.08))}
+.vis.grp.g2{--gs:min(30vw,21vh,170px)}.vis.grp.g4{--gs:min(23vw,15vh,125px)}.vis.grp.g6{--gs:min(19vw,12vh,100px)}.vis.grp.g10{--gs:min(15vw,9.5vh,78px)}
+.q .vcard{--k:.66}.opt.pic{--k:.42}.opts.p3 .opt.pic{--k:.34}
+.vis.dist{display:flex;align-items:flex-end;justify-content:space-between;padding:0 7%;width:100%;height:100%;position:relative}
+.vis.dist .kid img.em{width:calc(var(--k,1)*min(24vw,17vh,130px));height:calc(var(--k,1)*min(24vw,17vh,130px))}
+.vis.dist .obj{display:flex;margin-bottom:6%}
+.vis.dist.near .obj{margin-right:6%}
+.vis.dist.near .obj img.em{width:calc(var(--k,1)*min(32vw,22vh,170px));height:calc(var(--k,1)*min(32vw,22vh,170px))}
+.vis.dist.far .obj{margin-bottom:12%}
+.vis.dist.far .obj img.em{width:calc(var(--k,1)*min(13vw,9vh,70px));height:calc(var(--k,1)*min(13vw,9vh,70px))}
+.vis.dist .ground{position:absolute;left:4%;right:4%;bottom:14%;height:6px;border-radius:9px;background:rgba(80,160,90,.35)}
+.vis.dist.far .obj{opacity:.92}

@@ -2,7 +2,7 @@
  "app": "Mr English",
  "voice": "Shalabi: Orus, deep warm giant monster, Egyptian Arabic, playful, slow clear English words",
  "format": "audio/<id>.mp3 (ogg/m4a also accepted)",
- "count": 194,
+ "count": 327,
  "lines": [
   {
    "id": "ui_hello",
@@ -810,6 +810,1105 @@
    "note": "hint after 2 wrong taps, gentle"
   },
   {
+   "id": "num_s01",
+   "group": "num:lesson",
+   "text": "أهلاً يا مالك! أنا شلبي! النهارده هنتعلم نعد بالإنجليزي، من واحد لحد عشرة. جاهز نعد معايا يا وحش؟",
+   "personal": true,
+   "note": "lesson step 1 | on screen: one · two · three"
+  },
+  {
+   "id": "num_s02",
+   "group": "num:lesson",
+   "text": "شوف! تفاحة واحدة. one. الرقم 1. قول معايا: one!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: one  (1)"
+  },
+  {
+   "id": "num_s03",
+   "group": "num:lesson",
+   "text": "شوف! قطتين. two. الرقم 2. قول معايا: two!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: two  (2)"
+  },
+  {
+   "id": "num_s04",
+   "group": "num:lesson",
+   "text": "شوف! تلات بالونات. three. الرقم 3. قول معايا: three!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: three  (3)"
+  },
+  {
+   "id": "num_s05",
+   "group": "num:lesson",
+   "text": "شوف! أربع نجوم. four. الرقم 4. قول معايا: four!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: four  (4)"
+  },
+  {
+   "id": "num_s06",
+   "group": "num:lesson",
+   "text": "شوف! خمس موزات. five. الرقم 5. قول معايا: five!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: five  (5)"
+  },
+  {
+   "id": "num_s07",
+   "group": "num:lesson",
+   "text": "شوف! ست سمكات. six. الرقم 6. قول معايا: six!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: six  (6)"
+  },
+  {
+   "id": "num_s08",
+   "group": "num:lesson",
+   "text": "شوف! سبع عربيات. seven. الرقم 7. قول معايا: seven!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: seven  (7)"
+  },
+  {
+   "id": "num_s09",
+   "group": "num:lesson",
+   "text": "شوف! تمن فراولات. eight. الرقم 8. قول معايا: eight!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: eight  (8)"
+  },
+  {
+   "id": "num_s10",
+   "group": "num:lesson",
+   "text": "شوف! تسع ورود. nine. الرقم 9. قول معايا: nine!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: nine  (9)"
+  },
+  {
+   "id": "num_s11",
+   "group": "num:lesson",
+   "text": "شوف! عشر بسكوتات. ten. الرقم 10. قول معايا: ten!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: ten  (10)"
+  },
+  {
+   "id": "num_s12",
+   "group": "num:lesson",
+   "text": "برافو عليك يا وحش! عديت من one لحد ten. يلا نلعب لعبة الأسئلة!",
+   "personal": false,
+   "note": "lesson step 12 | on screen: one … ten"
+  },
+  {
+   "id": "num_q1",
+   "group": "num:quiz",
+   "text": "عد البالونات معايا. كام بالونة؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "num_q1_right",
+   "group": "num:quiz",
+   "text": "three! تلات بالونات. عديت صح!",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "num_q1_fix",
+   "group": "num:quiz",
+   "text": "عد واحدة واحدة: one، two، three. يبقى three.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "num_q2",
+   "group": "num:quiz",
+   "text": "كام قطة هنا؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "num_q2_right",
+   "group": "num:quiz",
+   "text": "two! قطتين. شاطر!",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "num_q2_fix",
+   "group": "num:quiz",
+   "text": "عد القطط: one، two. يبقى two.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "num_q3",
+   "group": "num:quiz",
+   "text": "عد النجوم. كام نجمة؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "num_q3_right",
+   "group": "num:quiz",
+   "text": "five! خمس نجوم. عظمة!",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "num_q3_fix",
+   "group": "num:quiz",
+   "text": "عد النجوم: one، two، three، four، five. يبقى five.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "num_q4",
+   "group": "num:quiz",
+   "text": "عد البسكوت. كام بسكوتة؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "num_q4_right",
+   "group": "num:quiz",
+   "text": "seven! سبع بسكوتات. جامد!",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "num_q4_fix",
+   "group": "num:quiz",
+   "text": "عد واحدة واحدة لحد ما تخلص. هتلاقيها seven.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "num_q5",
+   "group": "num:quiz",
+   "text": "ورود كتير! عدها معايا. كام وردة؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "num_q5_right",
+   "group": "num:quiz",
+   "text": "ten! عشر ورود. برافو!",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "num_q5_fix",
+   "group": "num:quiz",
+   "text": "عد الورود كلها: لحد ten.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "num_q6",
+   "group": "num:quiz",
+   "text": "دوس على الصورة اللي فيها four. أربعة!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "num_q6_right",
+   "group": "num:quiz",
+   "text": "four! أربع تفاحات.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "num_q6_fix",
+   "group": "num:quiz",
+   "text": "four يعني أربعة. عد التفاح: one، two، three، four.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "plu_s01",
+   "group": "plu:lesson",
+   "text": "أهلاً يا مالك! النهارده هنعرف الفرق بين واحد، وكتير. لما يبقى واحد، نقول مفرد. ولما يبقى كتير، نقول جمع. يلا بينا!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: one  →  many"
+  },
+  {
+   "id": "plu_s02",
+   "group": "plu:lesson",
+   "text": "شوف! قطة واحدة بس. a cat. ده مفرد. قول معايا: a cat!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: a cat"
+  },
+  {
+   "id": "plu_s03",
+   "group": "plu:lesson",
+   "text": "وهنا قطط كتير! cats. زودنا حرف s في الآخر، وبقت جمع. قول معايا: cats!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: cats"
+  },
+  {
+   "id": "plu_s04",
+   "group": "plu:lesson",
+   "text": "وده كلب واحد. a dog. قول معايا: a dog!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: a dog"
+  },
+  {
+   "id": "plu_s05",
+   "group": "plu:lesson",
+   "text": "وهنا كلاب كتير! dogs. زودنا s برضه. قول معايا: dogs!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: dogs"
+  },
+  {
+   "id": "plu_s06",
+   "group": "plu:lesson",
+   "text": "وده صندوق واحد. a box. قول معايا: a box!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: a box"
+  },
+  {
+   "id": "plu_s07",
+   "group": "plu:lesson",
+   "text": "وهنا صناديق كتير! boxes. الكلمة دي بتنتهي بحرف x، فبنزود es مش s بس. قول معايا: boxes!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: boxes"
+  },
+  {
+   "id": "plu_s08",
+   "group": "plu:lesson",
+   "text": "برافو عليك يا بطل! عشان نعمل جمع، بنزود s في الآخر. ولو الكلمة بتنتهي بـ x، نزود es. يلا نلعب لعبة الأسئلة!",
+   "personal": false,
+   "note": "lesson step 8 | on screen: cat → cats   box → boxes"
+  },
+  {
+   "id": "plu_q1",
+   "group": "plu:quiz",
+   "text": "كلاب كتير ولا كلب واحد؟ نقول dog ولا dogs؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "plu_q1_right",
+   "group": "plu:quiz",
+   "text": "dogs! كلاب كتير، زودنا s.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "plu_q1_fix",
+   "group": "plu:quiz",
+   "text": "في كلاب كتير، يبقى جمع. نزود s: dogs.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "plu_q2",
+   "group": "plu:quiz",
+   "text": "كورة واحدة بس. نقول ball ولا balls؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "plu_q2_right",
+   "group": "plu:quiz",
+   "text": "ball! كورة واحدة، مفرد.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "plu_q2_fix",
+   "group": "plu:quiz",
+   "text": "كورة واحدة، يبقى مفرد بدون s: ball.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "plu_q3",
+   "group": "plu:quiz",
+   "text": "تفاح كتير! نقول apple ولا apples؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "plu_q3_right",
+   "group": "plu:quiz",
+   "text": "apples! تفاح كتير.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "plu_q3_fix",
+   "group": "plu:quiz",
+   "text": "تفاح كتير يبقى جمع، نزود s: apples.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "plu_q4",
+   "group": "plu:quiz",
+   "text": "صندوقين! نقول boxs ولا boxes؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "plu_q4_right",
+   "group": "plu:quiz",
+   "text": "boxes! الكلمة بتنتهي بـ x، فنزود es.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "plu_q4_fix",
+   "group": "plu:quiz",
+   "text": "box بتنتهي بحرف x، فنزود es مش s: boxes.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "plu_q5",
+   "group": "plu:quiz",
+   "text": "أتوبيس واحد. نقول bus ولا buses؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "plu_q5_right",
+   "group": "plu:quiz",
+   "text": "bus! أتوبيس واحد.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "plu_q5_fix",
+   "group": "plu:quiz",
+   "text": "أتوبيس واحد، يبقى مفرد: bus.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "plu_q6",
+   "group": "plu:quiz",
+   "text": "دوس على الصورة اللي هي cats. قطط كتير!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "plu_q6_right",
+   "group": "plu:quiz",
+   "text": "cats! قطط كتير.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "plu_q6_fix",
+   "group": "plu:quiz",
+   "text": "cats يعني قطط كتير. اختار الصورة اللي فيها أكتر من قطة.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "many_s01",
+   "group": "many:lesson",
+   "text": "أهلاً يا مالك! لما نحب نسأل عن العدد، نقول: How many؟ يعني كام؟ وبعدها بنعد ونجاوب. يلا بينا!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: How many ... ?"
+  },
+  {
+   "id": "many_s02",
+   "group": "many:lesson",
+   "text": "شوف التفاح! How many apples؟ كام تفاحة؟ عد معايا: one، two. Two apples! قول معايا: two apples!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: How many apples? Two apples."
+  },
+  {
+   "id": "many_s03",
+   "group": "many:lesson",
+   "text": "وهنا بالونات! How many balloons؟ one، two، three. Three balloons! قول معايا: three balloons!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: How many balloons? Three balloons."
+  },
+  {
+   "id": "many_s04",
+   "group": "many:lesson",
+   "text": "وهنا عربيات! How many cars؟ one، two، three، four. Four cars! قول معايا: four cars!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: How many cars? Four cars."
+  },
+  {
+   "id": "many_s05",
+   "group": "many:lesson",
+   "text": "وهنا نجوم! How many stars؟ one، two، three، four، five. Five stars! قول معايا: five stars!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: How many stars? Five stars."
+  },
+  {
+   "id": "many_s06",
+   "group": "many:lesson",
+   "text": "وهنا كلاب! How many dogs؟ عدهم معايا لحد six. Six dogs! قول معايا: six dogs!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: How many dogs? Six dogs."
+  },
+  {
+   "id": "many_s07",
+   "group": "many:lesson",
+   "text": "برافو عليك يا وحش! بعد How many بنقول الكلمة جمع، زي apples وcars وstars. وبعدين بنجاوب بالرقم. يلا نلعب لعبة الأسئلة!",
+   "personal": false,
+   "note": "lesson step 7 | on screen: How many apples?"
+  },
+  {
+   "id": "many_q1",
+   "group": "many:quiz",
+   "text": "How many apples؟ عد التفاح.",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "many_q1_right",
+   "group": "many:quiz",
+   "text": "Three apples! عظمة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "many_q1_fix",
+   "group": "many:quiz",
+   "text": "عد التفاح: one، two، three. يبقى three.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "many_q2",
+   "group": "many:quiz",
+   "text": "How many cats؟ كام قطة؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "many_q2_right",
+   "group": "many:quiz",
+   "text": "Two cats! شاطر.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "many_q2_fix",
+   "group": "many:quiz",
+   "text": "عد القطط: one، two. يبقى two.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "many_q3",
+   "group": "many:quiz",
+   "text": "How many stars؟ عد النجوم.",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "many_q3_right",
+   "group": "many:quiz",
+   "text": "Five stars! جامد.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "many_q3_fix",
+   "group": "many:quiz",
+   "text": "عد النجوم واحدة واحدة. هتلاقيها five.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "many_q4",
+   "group": "many:quiz",
+   "text": "How many cars؟ كام عربية؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "many_q4_right",
+   "group": "many:quiz",
+   "text": "Four cars! ممتاز.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "many_q4_fix",
+   "group": "many:quiz",
+   "text": "عد العربيات: one، two، three، four. يبقى four.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "many_q5",
+   "group": "many:quiz",
+   "text": "How many balloons؟ كام بالونة؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "many_q5_right",
+   "group": "many:quiz",
+   "text": "One balloon! بالونة واحدة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "many_q5_fix",
+   "group": "many:quiz",
+   "text": "في بالونة واحدة بس. يبقى one.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "many_q6",
+   "group": "many:quiz",
+   "text": "دوس على الصورة اللي فيها four cars. أربع عربيات!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "many_q6_right",
+   "group": "many:quiz",
+   "text": "Four cars! أربع عربيات.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "many_q6_fix",
+   "group": "many:quiz",
+   "text": "four يعني أربعة. اختار الصورة اللي فيها أربع عربيات.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "cnt_s01",
+   "group": "cnt:lesson",
+   "text": "أهلاً يا مالك! في حاجات نقدر نعدها، زي التفاح. وفي حاجات مش بنعدها، زي الميه. النهارده هنفرق بينهم!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: Can we count it?"
+  },
+  {
+   "id": "cnt_s02",
+   "group": "cnt:lesson",
+   "text": "شوف التفاح! نقدر نعده: one، two، three. three apples. قول معايا: three apples!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: three apples"
+  },
+  {
+   "id": "cnt_s03",
+   "group": "cnt:lesson",
+   "text": "وكمان الكتب! نقدر نعدها: two books. قول معايا: two books!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: two books"
+  },
+  {
+   "id": "cnt_s04",
+   "group": "cnt:lesson",
+   "text": "لكن الميه! مش بنقول one water، two water. بنقول water بس. قول معايا: water!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: water"
+  },
+  {
+   "id": "cnt_s05",
+   "group": "cnt:lesson",
+   "text": "واللبن برضه مش بنعده. بنقول milk. قول معايا: milk!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: milk"
+  },
+  {
+   "id": "cnt_s06",
+   "group": "cnt:lesson",
+   "text": "والأرز كمان مش بنعده. rice. قول معايا: rice!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: rice"
+  },
+  {
+   "id": "cnt_s07",
+   "group": "cnt:lesson",
+   "text": "لما نعوز نقول شوية من حاجة مش بنعدها، بنقول some. some milk. قول معايا: some milk!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: some milk"
+  },
+  {
+   "id": "cnt_s08",
+   "group": "cnt:lesson",
+   "text": "برافو عليك يا بطل! التفاح والكتب نقدر نعدهم. والميه واللبن والأرز مش بنعدهم، بنقول some. يلا نلعب لعبة الأسئلة!",
+   "personal": false,
+   "note": "lesson step 8 | on screen: count ✓   no count ✗"
+  },
+  {
+   "id": "cnt_q1",
+   "group": "cnt:quiz",
+   "text": "التفاحة دي، apple. نقدر نعدها؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "cnt_q1_right",
+   "group": "cnt:quiz",
+   "text": "yes! نقدر نعدها: one apple، two apples.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "cnt_q1_fix",
+   "group": "cnt:quiz",
+   "text": "التفاح بنعده: one، two، three. يبقى yes.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "cnt_q2",
+   "group": "cnt:quiz",
+   "text": "الميه دي، water. نقدر نعدها؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "cnt_q2_right",
+   "group": "cnt:quiz",
+   "text": "no! الميه مش بنعدها.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "cnt_q2_fix",
+   "group": "cnt:quiz",
+   "text": "الميه مش بنقول one water، two water. يبقى no.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "cnt_q3",
+   "group": "cnt:quiz",
+   "text": "الكتب دي، books. نقدر نعدها؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "cnt_q3_right",
+   "group": "cnt:quiz",
+   "text": "yes! الكتب بنعدها.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "cnt_q3_fix",
+   "group": "cnt:quiz",
+   "text": "الكتب بنعدها: one book، two books. يبقى yes.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "cnt_q4",
+   "group": "cnt:quiz",
+   "text": "اللبن ده، milk. نقدر نعده؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "cnt_q4_right",
+   "group": "cnt:quiz",
+   "text": "no! اللبن مش بنعده.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "cnt_q4_fix",
+   "group": "cnt:quiz",
+   "text": "اللبن مش بنعده. بنقول some milk. يبقى no.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "cnt_q5",
+   "group": "cnt:quiz",
+   "text": "الأرز ده، rice. نقدر نعده؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "cnt_q5_right",
+   "group": "cnt:quiz",
+   "text": "no! الأرز مش بنعده.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "cnt_q5_fix",
+   "group": "cnt:quiz",
+   "text": "الأرز مش بنعده. بنقول some rice. يبقى no.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "cnt_q6",
+   "group": "cnt:quiz",
+   "text": "دوس على الصورة اللي هي some milk. شوية لبن!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "cnt_q6_right",
+   "group": "cnt:quiz",
+   "text": "some milk! شوية لبن.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "cnt_q6_fix",
+   "group": "cnt:quiz",
+   "text": "milk يعني لبن. اختار صورة كوباية اللبن.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "prep_s01",
+   "group": "prep:lesson",
+   "text": "أهلاً يا مالك! النهارده هنتعلم حروف الجر. حروف الجر بتقولنا المكان فين! هنقول العصفور فين: under، on، next to، in. يلا بينا!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: Where is the bird?"
+  },
+  {
+   "id": "prep_s02",
+   "group": "prep:lesson",
+   "text": "العصفور ده تحت الترابيزة! under. under، يعني تحت. قول معايا: under!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: under"
+  },
+  {
+   "id": "prep_s03",
+   "group": "prep:lesson",
+   "text": "والعصفور ده على الصندوق! on. on، يعني على. قول معايا: on!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: on"
+  },
+  {
+   "id": "prep_s04",
+   "group": "prep:lesson",
+   "text": "والعصفور ده جنب الصندوق! next to. next to، يعني بجانب. قول معايا: next to!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: next to"
+  },
+  {
+   "id": "prep_s05",
+   "group": "prep:lesson",
+   "text": "والعصفور ده جوه الصندوق! in. in، يعني في. قول معايا: in!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: in"
+  },
+  {
+   "id": "prep_s06",
+   "group": "prep:lesson",
+   "text": "برافو عليك يا وحش! under تحت، on على، next to بجانب، in في. يلا نلعب الأسئلة!",
+   "personal": false,
+   "note": "lesson step 6 | on screen: under  on  next to  in"
+  },
+  {
+   "id": "prep_q1",
+   "group": "prep:quiz",
+   "text": "العصفور فين؟ in ولا on ولا under ولا next to؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "prep_q1_right",
+   "group": "prep:quiz",
+   "text": "in the box! العصفور جوه الصندوق.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "prep_q1_fix",
+   "group": "prep:quiz",
+   "text": "العصفور جوه الصندوق. يبقى in.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "prep_q2",
+   "group": "prep:quiz",
+   "text": "والعصفور ده فين بالنسبة للترابيزة؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "prep_q2_right",
+   "group": "prep:quiz",
+   "text": "under the table! العصفور تحت الترابيزة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "prep_q2_fix",
+   "group": "prep:quiz",
+   "text": "العصفور تحت الترابيزة. يبقى under.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "prep_q3",
+   "group": "prep:quiz",
+   "text": "والعصفور ده فين بالنسبة للصندوق؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "prep_q3_right",
+   "group": "prep:quiz",
+   "text": "on the box! العصفور على الصندوق.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "prep_q3_fix",
+   "group": "prep:quiz",
+   "text": "العصفور على الصندوق. يبقى on.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "prep_q4",
+   "group": "prep:quiz",
+   "text": "والعصفور ده فين؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "prep_q4_right",
+   "group": "prep:quiz",
+   "text": "next to the box! العصفور جنب الصندوق.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "prep_q4_fix",
+   "group": "prep:quiz",
+   "text": "العصفور جنب الصندوق. يبقى next to.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "prep_q5",
+   "group": "prep:quiz",
+   "text": "دوس على الصورة اللي فيها العصفور under the table. تحت الترابيزة!",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "prep_q5_right",
+   "group": "prep:quiz",
+   "text": "under the table! عيني عليك يا شاطر.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "prep_q5_fix",
+   "group": "prep:quiz",
+   "text": "under يعني تحت. دوس على العصفور اللي تحت الترابيزة.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "prep_q6",
+   "group": "prep:quiz",
+   "text": "دوس على الصورة اللي فيها العصفور in the box. جوه الصندوق!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "prep_q6_right",
+   "group": "prep:quiz",
+   "text": "in the box! العصفور جوه الصندوق.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "prep_q6_fix",
+   "group": "prep:quiz",
+   "text": "in يعني جوه. دوس على العصفور اللي جوه الصندوق.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "this_s01",
+   "group": "this:lesson",
+   "text": "أهلاً يا مالك! النهارده هنتعلم كلمتين: this وthat. this لما الحاجة قريبة منك، وthat لما تبقى بعيدة. يلا بينا!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: this   and   that"
+  },
+  {
+   "id": "this_s02",
+   "group": "this:lesson",
+   "text": "شوف الولد! التفاحة قريبة منه. نقول this. this apple. قول معايا: this apple!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: this apple"
+  },
+  {
+   "id": "this_s03",
+   "group": "this:lesson",
+   "text": "وهنا التفاحة بعيدة عنه. نقول that. that apple. قول معايا: that apple!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: that apple"
+  },
+  {
+   "id": "this_s04",
+   "group": "this:lesson",
+   "text": "وده كلب قريب. this dog. قول معايا: this dog!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: this dog"
+  },
+  {
+   "id": "this_s05",
+   "group": "this:lesson",
+   "text": "وده كلب بعيد. that dog. قول معايا: that dog!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: that dog"
+  },
+  {
+   "id": "this_s06",
+   "group": "this:lesson",
+   "text": "شوف الكورة القريبة! This is a ball. يعني دي كورة. قول معايا: This is a ball!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: This is a ball."
+  },
+  {
+   "id": "this_s07",
+   "group": "this:lesson",
+   "text": "وهنا عجلة بعيدة! That is a bike. يعني دي عجلة. قول معايا: That is a bike!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: That is a bike."
+  },
+  {
+   "id": "this_s08",
+   "group": "this:lesson",
+   "text": "برافو عليك يا وحش! this للحاجة القريبة، وthat للحاجة البعيدة. يلا نلعب لعبة الأسئلة!",
+   "personal": false,
+   "note": "lesson step 8 | on screen: this = near   that = far"
+  },
+  {
+   "id": "this_q1",
+   "group": "this:quiz",
+   "text": "البالونة قريبة منه. نقول this ولا that؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "this_q1_right",
+   "group": "this:quiz",
+   "text": "this balloon! قريبة، يبقى this.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "this_q1_fix",
+   "group": "this:quiz",
+   "text": "البالونة قريبة، يبقى this.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "this_q2",
+   "group": "this:quiz",
+   "text": "الشجرة بعيدة. نقول this ولا that؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "this_q2_right",
+   "group": "this:quiz",
+   "text": "that tree! بعيدة، يبقى that.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "this_q2_fix",
+   "group": "this:quiz",
+   "text": "الشجرة بعيدة، يبقى that.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "this_q3",
+   "group": "this:quiz",
+   "text": "القطة بعيدة. نقول this ولا that؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "this_q3_right",
+   "group": "this:quiz",
+   "text": "that cat! بعيدة، يبقى that.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "this_q3_fix",
+   "group": "this:quiz",
+   "text": "القطة بعيدة، يبقى that.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "this_q4",
+   "group": "this:quiz",
+   "text": "الموزة قريبة. نقول this ولا that؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "this_q4_right",
+   "group": "this:quiz",
+   "text": "this banana! قريبة، يبقى this.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "this_q4_fix",
+   "group": "this:quiz",
+   "text": "الموزة قريبة، يبقى this.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "this_q5",
+   "group": "this:quiz",
+   "text": "العربية بعيدة. نقول this ولا that؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "this_q5_right",
+   "group": "this:quiz",
+   "text": "that car! بعيدة، يبقى that.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "this_q5_fix",
+   "group": "this:quiz",
+   "text": "العربية بعيدة، يبقى that.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "this_q6",
+   "group": "this:quiz",
+   "text": "دوس على الصورة اللي هي This is a ball. الكورة القريبة!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "this_q6_right",
+   "group": "this:quiz",
+   "text": "This is a ball! الكورة القريبة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "this_q6_fix",
+   "group": "this:quiz",
+   "text": "this يعني قريب. اختار الصورة اللي الكورة فيها قريبة.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
    "id": "can_s01",
    "group": "can:lesson",
    "text": "يا أهلاً يا مالك! النهارده هنتعلم كلمتين: can، يعني أقدر. وcan't، يعني مقدرش. بنقول بيهم أنا أقدر أعمل إيه، ومقدرش أعمل إيه. يلا بينا!",
@@ -995,174 +2094,6 @@
    "id": "can_q6_fix",
    "group": "can:quiz",
    "text": "can swim يعني بيعوم. دوس على الصورة اللي بتعوم من غير إكس.",
-   "personal": false,
-   "note": "hint after 2 wrong taps, gentle"
-  },
-  {
-   "id": "prep_s01",
-   "group": "prep:lesson",
-   "text": "أهلاً يا مالك! النهارده هنتعلم حروف الجر. حروف الجر بتقولنا المكان فين! هنقول العصفور فين: under، on، next to، in. يلا بينا!",
-   "personal": true,
-   "note": "lesson step 1 | on screen: Where is the bird?"
-  },
-  {
-   "id": "prep_s02",
-   "group": "prep:lesson",
-   "text": "العصفور ده تحت الترابيزة! under. under، يعني تحت. قول معايا: under!",
-   "personal": false,
-   "note": "repeat-after-me line, English words slow and clear | on screen: under"
-  },
-  {
-   "id": "prep_s03",
-   "group": "prep:lesson",
-   "text": "والعصفور ده على الصندوق! on. on، يعني على. قول معايا: on!",
-   "personal": false,
-   "note": "repeat-after-me line, English words slow and clear | on screen: on"
-  },
-  {
-   "id": "prep_s04",
-   "group": "prep:lesson",
-   "text": "والعصفور ده جنب الصندوق! next to. next to، يعني بجانب. قول معايا: next to!",
-   "personal": false,
-   "note": "repeat-after-me line, English words slow and clear | on screen: next to"
-  },
-  {
-   "id": "prep_s05",
-   "group": "prep:lesson",
-   "text": "والعصفور ده جوه الصندوق! in. in، يعني في. قول معايا: in!",
-   "personal": false,
-   "note": "repeat-after-me line, English words slow and clear | on screen: in"
-  },
-  {
-   "id": "prep_s06",
-   "group": "prep:lesson",
-   "text": "برافو عليك يا وحش! under تحت، on على، next to بجانب، in في. يلا نلعب الأسئلة!",
-   "personal": false,
-   "note": "lesson step 6 | on screen: under  on  next to  in"
-  },
-  {
-   "id": "prep_q1",
-   "group": "prep:quiz",
-   "text": "العصفور فين؟ in ولا on ولا under ولا next to؟",
-   "personal": false,
-   "note": "quiz question 1"
-  },
-  {
-   "id": "prep_q1_right",
-   "group": "prep:quiz",
-   "text": "in the box! العصفور جوه الصندوق.",
-   "personal": false,
-   "note": "after correct answer (plays after a cheer line)"
-  },
-  {
-   "id": "prep_q1_fix",
-   "group": "prep:quiz",
-   "text": "العصفور جوه الصندوق. يبقى in.",
-   "personal": false,
-   "note": "hint after 2 wrong taps, gentle"
-  },
-  {
-   "id": "prep_q2",
-   "group": "prep:quiz",
-   "text": "والعصفور ده فين بالنسبة للترابيزة؟",
-   "personal": false,
-   "note": "quiz question 2"
-  },
-  {
-   "id": "prep_q2_right",
-   "group": "prep:quiz",
-   "text": "under the table! العصفور تحت الترابيزة.",
-   "personal": false,
-   "note": "after correct answer (plays after a cheer line)"
-  },
-  {
-   "id": "prep_q2_fix",
-   "group": "prep:quiz",
-   "text": "العصفور تحت الترابيزة. يبقى under.",
-   "personal": false,
-   "note": "hint after 2 wrong taps, gentle"
-  },
-  {
-   "id": "prep_q3",
-   "group": "prep:quiz",
-   "text": "والعصفور ده فين بالنسبة للصندوق؟",
-   "personal": false,
-   "note": "quiz question 3"
-  },
-  {
-   "id": "prep_q3_right",
-   "group": "prep:quiz",
-   "text": "on the box! العصفور على الصندوق.",
-   "personal": false,
-   "note": "after correct answer (plays after a cheer line)"
-  },
-  {
-   "id": "prep_q3_fix",
-   "group": "prep:quiz",
-   "text": "العصفور على الصندوق. يبقى on.",
-   "personal": false,
-   "note": "hint after 2 wrong taps, gentle"
-  },
-  {
-   "id": "prep_q4",
-   "group": "prep:quiz",
-   "text": "والعصفور ده فين؟",
-   "personal": false,
-   "note": "quiz question 4"
-  },
-  {
-   "id": "prep_q4_right",
-   "group": "prep:quiz",
-   "text": "next to the box! العصفور جنب الصندوق.",
-   "personal": false,
-   "note": "after correct answer (plays after a cheer line)"
-  },
-  {
-   "id": "prep_q4_fix",
-   "group": "prep:quiz",
-   "text": "العصفور جنب الصندوق. يبقى next to.",
-   "personal": false,
-   "note": "hint after 2 wrong taps, gentle"
-  },
-  {
-   "id": "prep_q5",
-   "group": "prep:quiz",
-   "text": "دوس على الصورة اللي فيها العصفور under the table. تحت الترابيزة!",
-   "personal": false,
-   "note": "quiz question 5"
-  },
-  {
-   "id": "prep_q5_right",
-   "group": "prep:quiz",
-   "text": "under the table! عيني عليك يا شاطر.",
-   "personal": false,
-   "note": "after correct answer (plays after a cheer line)"
-  },
-  {
-   "id": "prep_q5_fix",
-   "group": "prep:quiz",
-   "text": "under يعني تحت. دوس على العصفور اللي تحت الترابيزة.",
-   "personal": false,
-   "note": "hint after 2 wrong taps, gentle"
-  },
-  {
-   "id": "prep_q6",
-   "group": "prep:quiz",
-   "text": "دوس على الصورة اللي فيها العصفور in the box. جوه الصندوق!",
-   "personal": false,
-   "note": "quiz question 6"
-  },
-  {
-   "id": "prep_q6_right",
-   "group": "prep:quiz",
-   "text": "in the box! العصفور جوه الصندوق.",
-   "personal": false,
-   "note": "after correct answer (plays after a cheer line)"
-  },
-  {
-   "id": "prep_q6_fix",
-   "group": "prep:quiz",
-   "text": "in يعني جوه. دوس على العصفور اللي جوه الصندوق.",
    "personal": false,
    "note": "hint after 2 wrong taps, gentle"
   },

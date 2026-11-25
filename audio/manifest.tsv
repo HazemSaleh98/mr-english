@@ -114,6 +114,163 @@ aan_q5_fix	aan:quiz		umbrella بتبدأ بحرف u، متحرك. يبقى an um
 aan_q6	aan:quiz		دوس على الصورة اللي هي an elephant. فين الفيل؟	quiz question 6
 aan_q6_right	aan:quiz		an elephant! فيل كبير زيك يا بطل.	after correct answer (plays after a cheer line)
 aan_q6_fix	aan:quiz		الفيل هو elephant. دوس على الفيل.	hint after 2 wrong taps, gentle
+num_s01	num:lesson	Y	أهلاً يا مالك! أنا شلبي! النهارده هنتعلم نعد بالإنجليزي، من واحد لحد عشرة. جاهز نعد معايا يا وحش؟	lesson step 1 | on screen: one · two · three
+num_s02	num:lesson		شوف! تفاحة واحدة. one. الرقم 1. قول معايا: one!	repeat-after-me line, English words slow and clear | on screen: one  (1)
+num_s03	num:lesson		شوف! قطتين. two. الرقم 2. قول معايا: two!	repeat-after-me line, English words slow and clear | on screen: two  (2)
+num_s04	num:lesson		شوف! تلات بالونات. three. الرقم 3. قول معايا: three!	repeat-after-me line, English words slow and clear | on screen: three  (3)
+num_s05	num:lesson		شوف! أربع نجوم. four. الرقم 4. قول معايا: four!	repeat-after-me line, English words slow and clear | on screen: four  (4)
+num_s06	num:lesson		شوف! خمس موزات. five. الرقم 5. قول معايا: five!	repeat-after-me line, English words slow and clear | on screen: five  (5)
+num_s07	num:lesson		شوف! ست سمكات. six. الرقم 6. قول معايا: six!	repeat-after-me line, English words slow and clear | on screen: six  (6)
+num_s08	num:lesson		شوف! سبع عربيات. seven. الرقم 7. قول معايا: seven!	repeat-after-me line, English words slow and clear | on screen: seven  (7)
+num_s09	num:lesson		شوف! تمن فراولات. eight. الرقم 8. قول معايا: eight!	repeat-after-me line, English words slow and clear | on screen: eight  (8)
+num_s10	num:lesson		شوف! تسع ورود. nine. الرقم 9. قول معايا: nine!	repeat-after-me line, English words slow and clear | on screen: nine  (9)
+num_s11	num:lesson		شوف! عشر بسكوتات. ten. الرقم 10. قول معايا: ten!	repeat-after-me line, English words slow and clear | on screen: ten  (10)
+num_s12	num:lesson		برافو عليك يا وحش! عديت من one لحد ten. يلا نلعب لعبة الأسئلة!	lesson step 12 | on screen: one … ten
+num_q1	num:quiz		عد البالونات معايا. كام بالونة؟	quiz question 1
+num_q1_right	num:quiz		three! تلات بالونات. عديت صح!	after correct answer (plays after a cheer line)
+num_q1_fix	num:quiz		عد واحدة واحدة: one، two، three. يبقى three.	hint after 2 wrong taps, gentle
+num_q2	num:quiz		كام قطة هنا؟	quiz question 2
+num_q2_right	num:quiz		two! قطتين. شاطر!	after correct answer (plays after a cheer line)
+num_q2_fix	num:quiz		عد القطط: one، two. يبقى two.	hint after 2 wrong taps, gentle
+num_q3	num:quiz		عد النجوم. كام نجمة؟	quiz question 3
+num_q3_right	num:quiz		five! خمس نجوم. عظمة!	after correct answer (plays after a cheer line)
+num_q3_fix	num:quiz		عد النجوم: one، two، three، four، five. يبقى five.	hint after 2 wrong taps, gentle
+num_q4	num:quiz		عد البسكوت. كام بسكوتة؟	quiz question 4
+num_q4_right	num:quiz		seven! سبع بسكوتات. جامد!	after correct answer (plays after a cheer line)
+num_q4_fix	num:quiz		عد واحدة واحدة لحد ما تخلص. هتلاقيها seven.	hint after 2 wrong taps, gentle
+num_q5	num:quiz		ورود كتير! عدها معايا. كام وردة؟	quiz question 5
+num_q5_right	num:quiz		ten! عشر ورود. برافو!	after correct answer (plays after a cheer line)
+num_q5_fix	num:quiz		عد الورود كلها: لحد ten.	hint after 2 wrong taps, gentle
+num_q6	num:quiz		دوس على الصورة اللي فيها four. أربعة!	quiz question 6
+num_q6_right	num:quiz		four! أربع تفاحات.	after correct answer (plays after a cheer line)
+num_q6_fix	num:quiz		four يعني أربعة. عد التفاح: one، two، three، four.	hint after 2 wrong taps, gentle
+plu_s01	plu:lesson	Y	أهلاً يا مالك! النهارده هنعرف الفرق بين واحد، وكتير. لما يبقى واحد، نقول مفرد. ولما يبقى كتير، نقول جمع. يلا بينا!	lesson step 1 | on screen: one  →  many
+plu_s02	plu:lesson		شوف! قطة واحدة بس. a cat. ده مفرد. قول معايا: a cat!	repeat-after-me line, English words slow and clear | on screen: a cat
+plu_s03	plu:lesson		وهنا قطط كتير! cats. زودنا حرف s في الآخر، وبقت جمع. قول معايا: cats!	repeat-after-me line, English words slow and clear | on screen: cats
+plu_s04	plu:lesson		وده كلب واحد. a dog. قول معايا: a dog!	repeat-after-me line, English words slow and clear | on screen: a dog
+plu_s05	plu:lesson		وهنا كلاب كتير! dogs. زودنا s برضه. قول معايا: dogs!	repeat-after-me line, English words slow and clear | on screen: dogs
+plu_s06	plu:lesson		وده صندوق واحد. a box. قول معايا: a box!	repeat-after-me line, English words slow and clear | on screen: a box
+plu_s07	plu:lesson		وهنا صناديق كتير! boxes. الكلمة دي بتنتهي بحرف x، فبنزود es مش s بس. قول معايا: boxes!	repeat-after-me line, English words slow and clear | on screen: boxes
+plu_s08	plu:lesson		برافو عليك يا بطل! عشان نعمل جمع، بنزود s في الآخر. ولو الكلمة بتنتهي بـ x، نزود es. يلا نلعب لعبة الأسئلة!	lesson step 8 | on screen: cat → cats   box → boxes
+plu_q1	plu:quiz		كلاب كتير ولا كلب واحد؟ نقول dog ولا dogs؟	quiz question 1
+plu_q1_right	plu:quiz		dogs! كلاب كتير، زودنا s.	after correct answer (plays after a cheer line)
+plu_q1_fix	plu:quiz		في كلاب كتير، يبقى جمع. نزود s: dogs.	hint after 2 wrong taps, gentle
+plu_q2	plu:quiz		كورة واحدة بس. نقول ball ولا balls؟	quiz question 2
+plu_q2_right	plu:quiz		ball! كورة واحدة، مفرد.	after correct answer (plays after a cheer line)
+plu_q2_fix	plu:quiz		كورة واحدة، يبقى مفرد بدون s: ball.	hint after 2 wrong taps, gentle
+plu_q3	plu:quiz		تفاح كتير! نقول apple ولا apples؟	quiz question 3
+plu_q3_right	plu:quiz		apples! تفاح كتير.	after correct answer (plays after a cheer line)
+plu_q3_fix	plu:quiz		تفاح كتير يبقى جمع، نزود s: apples.	hint after 2 wrong taps, gentle
+plu_q4	plu:quiz		صندوقين! نقول boxs ولا boxes؟	quiz question 4
+plu_q4_right	plu:quiz		boxes! الكلمة بتنتهي بـ x، فنزود es.	after correct answer (plays after a cheer line)
+plu_q4_fix	plu:quiz		box بتنتهي بحرف x، فنزود es مش s: boxes.	hint after 2 wrong taps, gentle
+plu_q5	plu:quiz		أتوبيس واحد. نقول bus ولا buses؟	quiz question 5
+plu_q5_right	plu:quiz		bus! أتوبيس واحد.	after correct answer (plays after a cheer line)
+plu_q5_fix	plu:quiz		أتوبيس واحد، يبقى مفرد: bus.	hint after 2 wrong taps, gentle
+plu_q6	plu:quiz		دوس على الصورة اللي هي cats. قطط كتير!	quiz question 6
+plu_q6_right	plu:quiz		cats! قطط كتير.	after correct answer (plays after a cheer line)
+plu_q6_fix	plu:quiz		cats يعني قطط كتير. اختار الصورة اللي فيها أكتر من قطة.	hint after 2 wrong taps, gentle
+many_s01	many:lesson	Y	أهلاً يا مالك! لما نحب نسأل عن العدد، نقول: How many؟ يعني كام؟ وبعدها بنعد ونجاوب. يلا بينا!	lesson step 1 | on screen: How many ... ?
+many_s02	many:lesson		شوف التفاح! How many apples؟ كام تفاحة؟ عد معايا: one، two. Two apples! قول معايا: two apples!	repeat-after-me line, English words slow and clear | on screen: How many apples? Two apples.
+many_s03	many:lesson		وهنا بالونات! How many balloons؟ one، two، three. Three balloons! قول معايا: three balloons!	repeat-after-me line, English words slow and clear | on screen: How many balloons? Three balloons.
+many_s04	many:lesson		وهنا عربيات! How many cars؟ one، two، three، four. Four cars! قول معايا: four cars!	repeat-after-me line, English words slow and clear | on screen: How many cars? Four cars.
+many_s05	many:lesson		وهنا نجوم! How many stars؟ one، two، three، four، five. Five stars! قول معايا: five stars!	repeat-after-me line, English words slow and clear | on screen: How many stars? Five stars.
+many_s06	many:lesson		وهنا كلاب! How many dogs؟ عدهم معايا لحد six. Six dogs! قول معايا: six dogs!	repeat-after-me line, English words slow and clear | on screen: How many dogs? Six dogs.
+many_s07	many:lesson		برافو عليك يا وحش! بعد How many بنقول الكلمة جمع، زي apples وcars وstars. وبعدين بنجاوب بالرقم. يلا نلعب لعبة الأسئلة!	lesson step 7 | on screen: How many apples?
+many_q1	many:quiz		How many apples؟ عد التفاح.	quiz question 1
+many_q1_right	many:quiz		Three apples! عظمة.	after correct answer (plays after a cheer line)
+many_q1_fix	many:quiz		عد التفاح: one، two، three. يبقى three.	hint after 2 wrong taps, gentle
+many_q2	many:quiz		How many cats؟ كام قطة؟	quiz question 2
+many_q2_right	many:quiz		Two cats! شاطر.	after correct answer (plays after a cheer line)
+many_q2_fix	many:quiz		عد القطط: one، two. يبقى two.	hint after 2 wrong taps, gentle
+many_q3	many:quiz		How many stars؟ عد النجوم.	quiz question 3
+many_q3_right	many:quiz		Five stars! جامد.	after correct answer (plays after a cheer line)
+many_q3_fix	many:quiz		عد النجوم واحدة واحدة. هتلاقيها five.	hint after 2 wrong taps, gentle
+many_q4	many:quiz		How many cars؟ كام عربية؟	quiz question 4
+many_q4_right	many:quiz		Four cars! ممتاز.	after correct answer (plays after a cheer line)
+many_q4_fix	many:quiz		عد العربيات: one، two، three، four. يبقى four.	hint after 2 wrong taps, gentle
+many_q5	many:quiz		How many balloons؟ كام بالونة؟	quiz question 5
+many_q5_right	many:quiz		One balloon! بالونة واحدة.	after correct answer (plays after a cheer line)
+many_q5_fix	many:quiz		في بالونة واحدة بس. يبقى one.	hint after 2 wrong taps, gentle
+many_q6	many:quiz		دوس على الصورة اللي فيها four cars. أربع عربيات!	quiz question 6
+many_q6_right	many:quiz		Four cars! أربع عربيات.	after correct answer (plays after a cheer line)
+many_q6_fix	many:quiz		four يعني أربعة. اختار الصورة اللي فيها أربع عربيات.	hint after 2 wrong taps, gentle
+cnt_s01	cnt:lesson	Y	أهلاً يا مالك! في حاجات نقدر نعدها، زي التفاح. وفي حاجات مش بنعدها، زي الميه. النهارده هنفرق بينهم!	lesson step 1 | on screen: Can we count it?
+cnt_s02	cnt:lesson		شوف التفاح! نقدر نعده: one، two، three. three apples. قول معايا: three apples!	repeat-after-me line, English words slow and clear | on screen: three apples
+cnt_s03	cnt:lesson		وكمان الكتب! نقدر نعدها: two books. قول معايا: two books!	repeat-after-me line, English words slow and clear | on screen: two books
+cnt_s04	cnt:lesson		لكن الميه! مش بنقول one water، two water. بنقول water بس. قول معايا: water!	repeat-after-me line, English words slow and clear | on screen: water
+cnt_s05	cnt:lesson		واللبن برضه مش بنعده. بنقول milk. قول معايا: milk!	repeat-after-me line, English words slow and clear | on screen: milk
+cnt_s06	cnt:lesson		والأرز كمان مش بنعده. rice. قول معايا: rice!	repeat-after-me line, English words slow and clear | on screen: rice
+cnt_s07	cnt:lesson		لما نعوز نقول شوية من حاجة مش بنعدها، بنقول some. some milk. قول معايا: some milk!	repeat-after-me line, English words slow and clear | on screen: some milk
+cnt_s08	cnt:lesson		برافو عليك يا بطل! التفاح والكتب نقدر نعدهم. والميه واللبن والأرز مش بنعدهم، بنقول some. يلا نلعب لعبة الأسئلة!	lesson step 8 | on screen: count ✓   no count ✗
+cnt_q1	cnt:quiz		التفاحة دي، apple. نقدر نعدها؟	quiz question 1
+cnt_q1_right	cnt:quiz		yes! نقدر نعدها: one apple، two apples.	after correct answer (plays after a cheer line)
+cnt_q1_fix	cnt:quiz		التفاح بنعده: one، two، three. يبقى yes.	hint after 2 wrong taps, gentle
+cnt_q2	cnt:quiz		الميه دي، water. نقدر نعدها؟	quiz question 2
+cnt_q2_right	cnt:quiz		no! الميه مش بنعدها.	after correct answer (plays after a cheer line)
+cnt_q2_fix	cnt:quiz		الميه مش بنقول one water، two water. يبقى no.	hint after 2 wrong taps, gentle
+cnt_q3	cnt:quiz		الكتب دي، books. نقدر نعدها؟	quiz question 3
+cnt_q3_right	cnt:quiz		yes! الكتب بنعدها.	after correct answer (plays after a cheer line)
+cnt_q3_fix	cnt:quiz		الكتب بنعدها: one book، two books. يبقى yes.	hint after 2 wrong taps, gentle
+cnt_q4	cnt:quiz		اللبن ده، milk. نقدر نعده؟	quiz question 4
+cnt_q4_right	cnt:quiz		no! اللبن مش بنعده.	after correct answer (plays after a cheer line)
+cnt_q4_fix	cnt:quiz		اللبن مش بنعده. بنقول some milk. يبقى no.	hint after 2 wrong taps, gentle
+cnt_q5	cnt:quiz		الأرز ده، rice. نقدر نعده؟	quiz question 5
+cnt_q5_right	cnt:quiz		no! الأرز مش بنعده.	after correct answer (plays after a cheer line)
+cnt_q5_fix	cnt:quiz		الأرز مش بنعده. بنقول some rice. يبقى no.	hint after 2 wrong taps, gentle
+cnt_q6	cnt:quiz		دوس على الصورة اللي هي some milk. شوية لبن!	quiz question 6
+cnt_q6_right	cnt:quiz		some milk! شوية لبن.	after correct answer (plays after a cheer line)
+cnt_q6_fix	cnt:quiz		milk يعني لبن. اختار صورة كوباية اللبن.	hint after 2 wrong taps, gentle
+prep_s01	prep:lesson	Y	أهلاً يا مالك! النهارده هنتعلم حروف الجر. حروف الجر بتقولنا المكان فين! هنقول العصفور فين: under، on، next to، in. يلا بينا!	lesson step 1 | on screen: Where is the bird?
+prep_s02	prep:lesson		العصفور ده تحت الترابيزة! under. under، يعني تحت. قول معايا: under!	repeat-after-me line, English words slow and clear | on screen: under
+prep_s03	prep:lesson		والعصفور ده على الصندوق! on. on، يعني على. قول معايا: on!	repeat-after-me line, English words slow and clear | on screen: on
+prep_s04	prep:lesson		والعصفور ده جنب الصندوق! next to. next to، يعني بجانب. قول معايا: next to!	repeat-after-me line, English words slow and clear | on screen: next to
+prep_s05	prep:lesson		والعصفور ده جوه الصندوق! in. in، يعني في. قول معايا: in!	repeat-after-me line, English words slow and clear | on screen: in
+prep_s06	prep:lesson		برافو عليك يا وحش! under تحت، on على، next to بجانب، in في. يلا نلعب الأسئلة!	lesson step 6 | on screen: under  on  next to  in
+prep_q1	prep:quiz		العصفور فين؟ in ولا on ولا under ولا next to؟	quiz question 1
+prep_q1_right	prep:quiz		in the box! العصفور جوه الصندوق.	after correct answer (plays after a cheer line)
+prep_q1_fix	prep:quiz		العصفور جوه الصندوق. يبقى in.	hint after 2 wrong taps, gentle
+prep_q2	prep:quiz		والعصفور ده فين بالنسبة للترابيزة؟	quiz question 2
+prep_q2_right	prep:quiz		under the table! العصفور تحت الترابيزة.	after correct answer (plays after a cheer line)
+prep_q2_fix	prep:quiz		العصفور تحت الترابيزة. يبقى under.	hint after 2 wrong taps, gentle
+prep_q3	prep:quiz		والعصفور ده فين بالنسبة للصندوق؟	quiz question 3
+prep_q3_right	prep:quiz		on the box! العصفور على الصندوق.	after correct answer (plays after a cheer line)
+prep_q3_fix	prep:quiz		العصفور على الصندوق. يبقى on.	hint after 2 wrong taps, gentle
+prep_q4	prep:quiz		والعصفور ده فين؟	quiz question 4
+prep_q4_right	prep:quiz		next to the box! العصفور جنب الصندوق.	after correct answer (plays after a cheer line)
+prep_q4_fix	prep:quiz		العصفور جنب الصندوق. يبقى next to.	hint after 2 wrong taps, gentle
+prep_q5	prep:quiz		دوس على الصورة اللي فيها العصفور under the table. تحت الترابيزة!	quiz question 5
+prep_q5_right	prep:quiz		under the table! عيني عليك يا شاطر.	after correct answer (plays after a cheer line)
+prep_q5_fix	prep:quiz		under يعني تحت. دوس على العصفور اللي تحت الترابيزة.	hint after 2 wrong taps, gentle
+prep_q6	prep:quiz		دوس على الصورة اللي فيها العصفور in the box. جوه الصندوق!	quiz question 6
+prep_q6_right	prep:quiz		in the box! العصفور جوه الصندوق.	after correct answer (plays after a cheer line)
+prep_q6_fix	prep:quiz		in يعني جوه. دوس على العصفور اللي جوه الصندوق.	hint after 2 wrong taps, gentle
+this_s01	this:lesson	Y	أهلاً يا مالك! النهارده هنتعلم كلمتين: this وthat. this لما الحاجة قريبة منك، وthat لما تبقى بعيدة. يلا بينا!	lesson step 1 | on screen: this   and   that
+this_s02	this:lesson		شوف الولد! التفاحة قريبة منه. نقول this. this apple. قول معايا: this apple!	repeat-after-me line, English words slow and clear | on screen: this apple
+this_s03	this:lesson		وهنا التفاحة بعيدة عنه. نقول that. that apple. قول معايا: that apple!	repeat-after-me line, English words slow and clear | on screen: that apple
+this_s04	this:lesson		وده كلب قريب. this dog. قول معايا: this dog!	repeat-after-me line, English words slow and clear | on screen: this dog
+this_s05	this:lesson		وده كلب بعيد. that dog. قول معايا: that dog!	repeat-after-me line, English words slow and clear | on screen: that dog
+this_s06	this:lesson		شوف الكورة القريبة! This is a ball. يعني دي كورة. قول معايا: This is a ball!	repeat-after-me line, English words slow and clear | on screen: This is a ball.
+this_s07	this:lesson		وهنا عجلة بعيدة! That is a bike. يعني دي عجلة. قول معايا: That is a bike!	repeat-after-me line, English words slow and clear | on screen: That is a bike.
+this_s08	this:lesson		برافو عليك يا وحش! this للحاجة القريبة، وthat للحاجة البعيدة. يلا نلعب لعبة الأسئلة!	lesson step 8 | on screen: this = near   that = far
+this_q1	this:quiz		البالونة قريبة منه. نقول this ولا that؟	quiz question 1
+this_q1_right	this:quiz		this balloon! قريبة، يبقى this.	after correct answer (plays after a cheer line)
+this_q1_fix	this:quiz		البالونة قريبة، يبقى this.	hint after 2 wrong taps, gentle
+this_q2	this:quiz		الشجرة بعيدة. نقول this ولا that؟	quiz question 2
+this_q2_right	this:quiz		that tree! بعيدة، يبقى that.	after correct answer (plays after a cheer line)
+this_q2_fix	this:quiz		الشجرة بعيدة، يبقى that.	hint after 2 wrong taps, gentle
+this_q3	this:quiz		القطة بعيدة. نقول this ولا that؟	quiz question 3
+this_q3_right	this:quiz		that cat! بعيدة، يبقى that.	after correct answer (plays after a cheer line)
+this_q3_fix	this:quiz		القطة بعيدة، يبقى that.	hint after 2 wrong taps, gentle
+this_q4	this:quiz		الموزة قريبة. نقول this ولا that؟	quiz question 4
+this_q4_right	this:quiz		this banana! قريبة، يبقى this.	after correct answer (plays after a cheer line)
+this_q4_fix	this:quiz		الموزة قريبة، يبقى this.	hint after 2 wrong taps, gentle
+this_q5	this:quiz		العربية بعيدة. نقول this ولا that؟	quiz question 5
+this_q5_right	this:quiz		that car! بعيدة، يبقى that.	after correct answer (plays after a cheer line)
+this_q5_fix	this:quiz		العربية بعيدة، يبقى that.	hint after 2 wrong taps, gentle
+this_q6	this:quiz		دوس على الصورة اللي هي This is a ball. الكورة القريبة!	quiz question 6
+this_q6_right	this:quiz		This is a ball! الكورة القريبة.	after correct answer (plays after a cheer line)
+this_q6_fix	this:quiz		this يعني قريب. اختار الصورة اللي الكورة فيها قريبة.	hint after 2 wrong taps, gentle
 can_s01	can:lesson	Y	يا أهلاً يا مالك! النهارده هنتعلم كلمتين: can، يعني أقدر. وcan't، يعني مقدرش. بنقول بيهم أنا أقدر أعمل إيه، ومقدرش أعمل إيه. يلا بينا!	lesson step 1 | on screen: can  and  can't
 can_s02	can:lesson		شوف الولد بيعوم! I can swim. يعني أنا أقدر أعوم. can، يعني أقدر. قول معايا: I can swim!	repeat-after-me line, English words slow and clear | on screen: I can swim.
 can_s03	can:lesson		وهنا علامة إكس! I can't swim. يعني أنا مقدرش أعوم. can't، يعني مقدرش. قول معايا: I can't swim!	repeat-after-me line, English words slow and clear | on screen: I can't swim.
@@ -141,30 +298,6 @@ can_q5_fix	can:quiz		مفيش علامة إكس، يبقى can.	hint after 2 wro
 can_q6	can:quiz		دوس على الصورة اللي هي I can swim. أنا أقدر أعوم!	quiz question 6
 can_q6_right	can:quiz		I can swim! الولد بيعوم.	after correct answer (plays after a cheer line)
 can_q6_fix	can:quiz		can swim يعني بيعوم. دوس على الصورة اللي بتعوم من غير إكس.	hint after 2 wrong taps, gentle
-prep_s01	prep:lesson	Y	أهلاً يا مالك! النهارده هنتعلم حروف الجر. حروف الجر بتقولنا المكان فين! هنقول العصفور فين: under، on، next to، in. يلا بينا!	lesson step 1 | on screen: Where is the bird?
-prep_s02	prep:lesson		العصفور ده تحت الترابيزة! under. under، يعني تحت. قول معايا: under!	repeat-after-me line, English words slow and clear | on screen: under
-prep_s03	prep:lesson		والعصفور ده على الصندوق! on. on، يعني على. قول معايا: on!	repeat-after-me line, English words slow and clear | on screen: on
-prep_s04	prep:lesson		والعصفور ده جنب الصندوق! next to. next to، يعني بجانب. قول معايا: next to!	repeat-after-me line, English words slow and clear | on screen: next to
-prep_s05	prep:lesson		والعصفور ده جوه الصندوق! in. in، يعني في. قول معايا: in!	repeat-after-me line, English words slow and clear | on screen: in
-prep_s06	prep:lesson		برافو عليك يا وحش! under تحت، on على، next to بجانب، in في. يلا نلعب الأسئلة!	lesson step 6 | on screen: under  on  next to  in
-prep_q1	prep:quiz		العصفور فين؟ in ولا on ولا under ولا next to؟	quiz question 1
-prep_q1_right	prep:quiz		in the box! العصفور جوه الصندوق.	after correct answer (plays after a cheer line)
-prep_q1_fix	prep:quiz		العصفور جوه الصندوق. يبقى in.	hint after 2 wrong taps, gentle
-prep_q2	prep:quiz		والعصفور ده فين بالنسبة للترابيزة؟	quiz question 2
-prep_q2_right	prep:quiz		under the table! العصفور تحت الترابيزة.	after correct answer (plays after a cheer line)
-prep_q2_fix	prep:quiz		العصفور تحت الترابيزة. يبقى under.	hint after 2 wrong taps, gentle
-prep_q3	prep:quiz		والعصفور ده فين بالنسبة للصندوق؟	quiz question 3
-prep_q3_right	prep:quiz		on the box! العصفور على الصندوق.	after correct answer (plays after a cheer line)
-prep_q3_fix	prep:quiz		العصفور على الصندوق. يبقى on.	hint after 2 wrong taps, gentle
-prep_q4	prep:quiz		والعصفور ده فين؟	quiz question 4
-prep_q4_right	prep:quiz		next to the box! العصفور جنب الصندوق.	after correct answer (plays after a cheer line)
-prep_q4_fix	prep:quiz		العصفور جنب الصندوق. يبقى next to.	hint after 2 wrong taps, gentle
-prep_q5	prep:quiz		دوس على الصورة اللي فيها العصفور under the table. تحت الترابيزة!	quiz question 5
-prep_q5_right	prep:quiz		under the table! عيني عليك يا شاطر.	after correct answer (plays after a cheer line)
-prep_q5_fix	prep:quiz		under يعني تحت. دوس على العصفور اللي تحت الترابيزة.	hint after 2 wrong taps, gentle
-prep_q6	prep:quiz		دوس على الصورة اللي فيها العصفور in the box. جوه الصندوق!	quiz question 6
-prep_q6_right	prep:quiz		in the box! العصفور جوه الصندوق.	after correct answer (plays after a cheer line)
-prep_q6_fix	prep:quiz		in يعني جوه. دوس على العصفور اللي جوه الصندوق.	hint after 2 wrong taps, gentle
 adj_s01	adj:lesson	Y	يا أهلاً يا مالك! إيه هي الصفات يا شاطر؟ الصفة هي كلمة بتوصف شخص أو حاجة معينة. زي: fat، tall، sad، fast. يلا بينا!	lesson step 1 | on screen: fat · tall · sad · fast
 adj_s02	adj:lesson		شوف شلبي بقى تخين! Shalabi is fat. fat، يعني تخين. قول معايا: fat!	repeat-after-me line, English words slow and clear | on screen: Shalabi is fat.
 adj_s03	adj:lesson		وشوف شلبي بقى رفيع! Shalabi is thin. thin، يعني رفيع. قول معايا: thin!	repeat-after-me line, English words slow and clear | on screen: Shalabi is thin.

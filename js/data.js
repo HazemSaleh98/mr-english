@@ -103,16 +103,21 @@
 
   /* Upcoming lessons from the book TOC (locked cards, "coming soon") */
   const SOON = [
-    { title: 'one · two · three', ar: 'الأرقام', icon: '🔢', book: 'Chapter 1' },
-    { title: 'singular / plural', ar: 'مفرد وجمع', icon: '🍓', book: 'Chapter 1' },
-    { title: 'How many?', ar: 'كام؟', icon: '🧮', book: 'Chapter 1' },
-    { title: 'this · that', ar: 'ده، دي', icon: '👉', book: 'Chapter 2' },
-    { title: 'these · those', ar: 'دول، دوك', icon: '👆', book: 'Chapter 2' },
-    { title: 'he · she · it', ar: 'الضمائر', icon: '🧒', book: 'Chapter 3' },
-    { title: 'verb to be', ar: 'am · is · are', icon: '⭐', book: 'Chapter 4' },
-    { title: 'verb to have', ar: 'have · has', icon: '🎒', book: 'Chapter 4' },
-    { title: 'his · her', ar: 'بتاعه، بتاعها', icon: '🧢', book: 'Chapter 5' },
-    { title: 'simple present', ar: 'المضارع البسيط', icon: '🏃', book: 'Chapter 5' }
+    { id: 'these', title: 'these · those', ar: 'دول، دوك', icon: '👆', book: 'Page 24' },
+    { id: 'noun', title: 'Nouns', ar: 'الأسماء', icon: '🏠', book: 'Page 29' },
+    { id: 'pron', title: 'Pronouns', ar: 'الضمائر', icon: '🧒', book: 'Page 31' },
+    { id: 'heshe', title: 'he · she', ar: 'هو، هي', icon: '👦', book: 'Page 32' },
+    { id: 'it', title: 'it', ar: 'للحاجات والحيوان', icon: '🐕', book: 'Page 34' },
+    { id: 'they', title: 'I · we · they', ar: 'أنا، إحنا، هم', icon: '👪', book: 'Page 38' },
+    { id: 'verb', title: 'Verbs', ar: 'الأفعال', icon: '🏃', book: 'Page 43' },
+    { id: 'tobe', title: 'verb to be', ar: 'am · is · are', icon: '⭐', book: 'Page 47' },
+    { id: 'nbe', title: 'not (is not)', ar: 'النفي', icon: '🚫', book: 'Page 52' },
+    { id: 'isit', title: 'Is it ...?', ar: 'هل هو؟', icon: '❓', book: 'Page 60' },
+    { id: 'what', title: 'What is it?', ar: 'ده إيه؟', icon: '🔍', book: 'Page 64' },
+    { id: 'have', title: 'have · has', ar: 'عندي، عنده', icon: '🎒', book: 'Page 66' },
+    { id: 'hish', title: 'his · her', ar: 'بتاعه، بتاعها', icon: '🧢', book: 'Page 70' },
+    { id: 'pres', title: 'simple present', ar: 'المضارع البسيط', icon: '🍽️', book: 'Page 73' },
+    { id: 'nsimp', title: "don't · doesn't", ar: 'نفي المضارع', icon: '🙅', book: 'Page 73' }
   ];
 
   /* UI voice lines */
@@ -206,6 +211,12 @@
     { id: 'ui_locked_3', say: 'استنى شوية! الدرس ده جاي قريب!', note: 'locked lesson (variant)' }
   ];
 
-  root.MRE_DATA = { LESSONS, SOON, UI };
+  /* extra units from the book TOC */
+  const MORE = (typeof module !== 'undefined' ? require('./lessons2.js') : root.MRE_MORE)({ E, TX });
+  MORE.forEach((l) => LESSONS.push(l));
+  const BOOK_ORDER = ['aan', 'num', 'plu', 'many', 'cnt', 'prep', 'this', 'these', 'noun', 'pron', 'heshe', 'it', 'they', 'verb', 'can', 'tobe', 'nbe', 'adj', 'isit', 'what', 'have', 'hish', 'pres', 'nsimp'];
+  LESSONS.sort((a, b) => { const i = BOOK_ORDER.indexOf(a.id), j = BOOK_ORDER.indexOf(b.id); return (i < 0 ? 99 : i) - (j < 0 ? 99 : j); });
+  const have = new Set(LESSONS.map((l) => l.id));
+  root.MRE_DATA = { LESSONS, SOON: SOON.filter((s) => !s.id || !have.has(s.id)), UI };
   if (typeof module !== 'undefined') module.exports = root.MRE_DATA;
 })(typeof window !== 'undefined' ? window : globalThis);

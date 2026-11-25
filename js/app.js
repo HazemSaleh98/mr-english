@@ -136,6 +136,8 @@
   function vis(v, cls) {
     cls = cls || '';
     if (v.k === 'emoji') return '<div class="vis emoji ' + cls + '"><span>' + v.e + '</span>' + (v.cross ? '<div class="x">✕</div>' : '') + (v.cap ? '<div class="capchip">' + esc(v.cap) + '</div>' : '') + '</div>';
+    if (v.k === 'grp') { const n = v.n, g = n <= 2 ? 2 : n <= 4 ? 4 : n <= 6 ? 6 : 10; return '<div class="vis grp g' + g + ' ' + cls + '"><div class="gw">' + Array.from({ length: n }, (_, i) => '<span style="animation-delay:' + i * 0.12 + 's">' + (Array.isArray(v.e) ? v.e[i % v.e.length] : v.e) + '</span>').join('') + '</div>' + (v.cap ? '<div class="capchip">' + esc(v.cap) + '</div>' : '') + '</div>'; }
+    if (v.k === 'dist') return '<div class="vis dist ' + (v.far ? 'far' : 'near') + ' ' + cls + '"><span class="kid">' + (v.kid || '🧒') + '</span><span class="obj">' + (v.n > 1 ? Array.from({ length: v.n }, () => '<i>' + v.e + '</i>').join('') : '<i>' + v.e + '</i>') + '</span><div class="ground"></div>' + (v.cap ? '<div class="capchip">' + esc(v.cap) + '</div>' : '') + '</div>';
     if (v.k === 'sh') return '<div class="vis sfx ' + v.cls + ' ' + cls + '"><img src="img/blue_stand.png" alt=""></div>';
     if (v.k === 'kick') return '<div class="vis ' + cls + '">' + kickSvg() + (v.cap ? '<div class="capchip">' + esc(v.cap) + '</div>' : '') + '</div>';
     if (v.k === 'scene') return '<div class="vis ' + cls + '">' + scene(v.o, v.p) + '</div>';

@@ -1,5 +1,5 @@
-const V = 'mre-v11';
-const CORE = ['./', 'index.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/sfx.js', 'manifest.webmanifest', 'fonts/fonts.css', 'icon-192.png', 'icon-180.png',
+const V = 'mre-v12';
+const CORE = ['./', 'index.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/lessons2.js', 'js/sfx.js', 'manifest.webmanifest', 'fonts/fonts.css', 'icon-192.png', 'icon-180.png',
   'img/blue_stand.png', 'img/blue_cheer.png', 'img/green_stand.png', 'img/green_cheer.png'];
 self.addEventListener('install', (e) => {
   e.waitUntil((async () => {
