@@ -12,6 +12,19 @@ mike_retry_3	ui		الغلط بيعلمنا! يلا تاني!	Mike (Gemini Puck):
 mike_done_1	ui	Y	خلصنا الدرس! انت أحسن واحد في الدنيا يا مالك!	Mike (Gemini Puck): finished a lesson
 mike_done_2	ui	Y	برافو يا مالك يا بطل! شلبي وأنا فخورين بيك أوي!	Mike (Gemini Puck): finished a lesson
 mike_done_3	ui		تعالى نلعب درس تاني؟ أنا جاهز!	Mike (Gemini Puck): finished a lesson
+mike_ok_1_luka	ui	Y	برافو عليك يا لوكة يا بطل! عين واحدة وشايفاك شاطر!	Mike (Gemini Puck): after a correct answer
+mike_ok_3_luka	ui	Y	كده يا لوكة يا بطل! كمل!	Mike (Gemini Puck): after a correct answer
+mike_streak_1_luka	ui	Y	ولا غلطة! انت نجم يا لوكة!	Mike (Gemini Puck): 3 correct in a row
+mike_retry_1_luka	ui	Y	ولا يهمك يا لوكة يا بطل! جرب تاني، انت تقدر!	Mike (Gemini Puck): after a wrong answer
+mike_done_1_luka	ui	Y	خلصنا الدرس! انت أحسن واحد في الدنيا يا لوكة!	Mike (Gemini Puck): finished a lesson
+mike_done_2_luka	ui	Y	برافو يا لوكة يا بطل! شلبي وأنا فخورين بيك أوي!	Mike (Gemini Puck): finished a lesson
+ui_cheer_1_luka	ui	Y	برافو يا لوكة يا بطل!	correct
+ui_cheer_3_luka	ui	Y	ايوه كده يا لوكة يا بطل! انت جامد!	correct
+ui_cheer_4_luka	ui	Y	شاطر أوي يا لوكة يا بطل!	luka variant
+ui_cheer_5_luka	ui	Y	ممتاز يا لوكة يا بطل! انت أقوى حد في صحابك!	correct
+ui_cheer_8_luka	ui	Y	تمام التمام يا لوكة يا بطل! كمّل كده!	correct
+ui_cheer_10_luka	ui	Y	صح يا سيدي! دماغك تقيلة يا لوكة يا بطل!	correct
+ui_cheer_13_luka	ui	Y	ده انت مش سهل يا لوكة يا بطل!	correct
 ui_hello	ui	Y	أهلاً أهلاً يا مالك! أنا شلبي سولوفانة، مستر إنجلش بتاعك! يلا نتعلم إنجليزي ونلعب. اختار الدرس يا وحش!	plays when the home screen opens (once per app launch)
 ui_quiz_intro	ui		يلا بينا! وقت الأسئلة! دوس على الإجابة الصح!	start of every quiz
 ui_your_turn	ui		دورك يا وحش!	after a repeat-after-me line

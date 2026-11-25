@@ -2,7 +2,7 @@
  "app": "Mr English",
  "voice": "Shalabi: Orus, deep warm giant monster, Egyptian Arabic, playful, slow clear English words",
  "format": "audio/<id>.mp3 (ogg/m4a also accepted)",
- "count": 964,
+ "count": 977,
  "lines": [
   {
    "id": "mike_intro",
@@ -94,6 +94,97 @@
    "text": "تعالى نلعب درس تاني؟ أنا جاهز!",
    "personal": false,
    "note": "Mike (Gemini Puck): finished a lesson"
+  },
+  {
+   "id": "mike_ok_1_luka",
+   "group": "ui",
+   "text": "برافو عليك يا لوكة يا بطل! عين واحدة وشايفاك شاطر!",
+   "personal": true,
+   "note": "Mike (Gemini Puck): after a correct answer"
+  },
+  {
+   "id": "mike_ok_3_luka",
+   "group": "ui",
+   "text": "كده يا لوكة يا بطل! كمل!",
+   "personal": true,
+   "note": "Mike (Gemini Puck): after a correct answer"
+  },
+  {
+   "id": "mike_streak_1_luka",
+   "group": "ui",
+   "text": "ولا غلطة! انت نجم يا لوكة!",
+   "personal": true,
+   "note": "Mike (Gemini Puck): 3 correct in a row"
+  },
+  {
+   "id": "mike_retry_1_luka",
+   "group": "ui",
+   "text": "ولا يهمك يا لوكة يا بطل! جرب تاني، انت تقدر!",
+   "personal": true,
+   "note": "Mike (Gemini Puck): after a wrong answer"
+  },
+  {
+   "id": "mike_done_1_luka",
+   "group": "ui",
+   "text": "خلصنا الدرس! انت أحسن واحد في الدنيا يا لوكة!",
+   "personal": true,
+   "note": "Mike (Gemini Puck): finished a lesson"
+  },
+  {
+   "id": "mike_done_2_luka",
+   "group": "ui",
+   "text": "برافو يا لوكة يا بطل! شلبي وأنا فخورين بيك أوي!",
+   "personal": true,
+   "note": "Mike (Gemini Puck): finished a lesson"
+  },
+  {
+   "id": "ui_cheer_1_luka",
+   "group": "ui",
+   "text": "برافو يا لوكة يا بطل!",
+   "personal": true,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_3_luka",
+   "group": "ui",
+   "text": "ايوه كده يا لوكة يا بطل! انت جامد!",
+   "personal": true,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_4_luka",
+   "group": "ui",
+   "text": "شاطر أوي يا لوكة يا بطل!",
+   "personal": true,
+   "note": "luka variant"
+  },
+  {
+   "id": "ui_cheer_5_luka",
+   "group": "ui",
+   "text": "ممتاز يا لوكة يا بطل! انت أقوى حد في صحابك!",
+   "personal": true,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_8_luka",
+   "group": "ui",
+   "text": "تمام التمام يا لوكة يا بطل! كمّل كده!",
+   "personal": true,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_10_luka",
+   "group": "ui",
+   "text": "صح يا سيدي! دماغك تقيلة يا لوكة يا بطل!",
+   "personal": true,
+   "note": "correct"
+  },
+  {
+   "id": "ui_cheer_13_luka",
+   "group": "ui",
+   "text": "ده انت مش سهل يا لوكة يا بطل!",
+   "personal": true,
+   "note": "correct"
   },
   {
    "id": "ui_hello",

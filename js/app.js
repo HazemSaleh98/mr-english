@@ -28,7 +28,10 @@
     if (!ok.length) return all[0];
     let bag = (bags[pool] || []).filter((id) => ok.includes(id));
     if (!bag.length) { bag = ok.slice().sort(() => Math.random() - .5); if (bag.length > 1 && bag[0] === lastPick[pool]) bag.push(bag.shift()); }
-    const id = bag.shift(); bags[pool] = bag; lastPick[pool] = id; return id;
+    let id = bag.shift(); bags[pool] = bag; lastPick[pool] = id;
+    /* personal lines alternate between the two nicknames (Malek / Luka) */
+    if ((lineIndex[id] || {}).personal && lineIndex[id + '_luka'] && Math.random() < 0.5 && await getBlob(id + '_luka')) id = id + '_luka';
+    return id;
   }
   /* Mike (second character): shows now and then in place of Shalabi, never twice within 3 lines, only when his audio exists */
   const MIKE = { cheer: 'mike_ok', streak: 'mike_streak', wrong1: 'mike_retry', wrong2: 'mike_retry', done3: 'mike_done', done2: 'mike_done', done1: 'mike_done' };
