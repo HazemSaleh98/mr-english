@@ -35,8 +35,8 @@
   {
    "id": "ui_cheer_1",
    "group": "ui",
-   "text": "برافو يا وحش!",
-   "personal": false,
+   "text": "برافو يا مالك يا بطل!",
+   "personal": true,
    "note": "correct"
   },
   {
@@ -49,22 +49,22 @@
   {
    "id": "ui_cheer_3",
    "group": "ui",
-   "text": "ايوه كده! انت جامد!",
-   "personal": false,
+   "text": "ايوه كده يا مالك يا بطل! انت جامد!",
+   "personal": true,
    "note": "correct"
   },
   {
    "id": "ui_cheer_4",
    "group": "ui",
-   "text": "شاطر أوي يا بطل!",
-   "personal": false,
+   "text": "شاطر أوي يا مالك يا بطل!",
+   "personal": true,
    "note": "with belly laugh"
   },
   {
    "id": "ui_cheer_5",
    "group": "ui",
-   "text": "ممتاز! انت أقوى حد في صحابك!",
-   "personal": false,
+   "text": "ممتاز يا مالك يا بطل! انت أقوى حد في صحابك!",
+   "personal": true,
    "note": "correct"
   },
   {
@@ -217,8 +217,8 @@
   {
    "id": "ui_cheer_8",
    "group": "ui",
-   "text": "تمام التمام! كمّل كده!",
-   "personal": false,
+   "text": "تمام التمام يا مالك يا بطل! كمّل كده!",
+   "personal": true,
    "note": "correct"
   },
   {
@@ -231,8 +231,8 @@
   {
    "id": "ui_cheer_10",
    "group": "ui",
-   "text": "صح يا سيدي! دماغك تقيلة!",
-   "personal": false,
+   "text": "صح يا سيدي! دماغك تقيلة يا مالك يا بطل!",
+   "personal": true,
    "note": "correct"
   },
   {
@@ -252,8 +252,8 @@
   {
    "id": "ui_cheer_13",
    "group": "ui",
-   "text": "ده انت مش سهل!",
-   "personal": false,
+   "text": "ده انت مش سهل يا مالك يا بطل!",
+   "personal": true,
    "note": "correct"
   },
   {

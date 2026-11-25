@@ -3,11 +3,11 @@ ui_hello	ui	Y	أهلاً أهلاً يا مالك! أنا شلبي سولوفا�
 ui_quiz_intro	ui		يلا بينا! وقت الأسئلة! دوس على الإجابة الصح!	start of every quiz
 ui_your_turn	ui		دورك يا وحش!	after a repeat-after-me line
 ui_locked	ui		الدرس ده لسه مجهز. قريب جداً! جرب درس تاني.	tap on a locked lesson card
-ui_cheer_1	ui		برافو يا وحش!	correct
+ui_cheer_1	ui	Y	برافو يا مالك يا بطل!	correct
 ui_cheer_2	ui		صح! عظمة عظمة!	correct
-ui_cheer_3	ui		ايوه كده! انت جامد!	correct
-ui_cheer_4	ui		شاطر أوي يا بطل!	with belly laugh
-ui_cheer_5	ui		ممتاز! انت أقوى حد في صحابك!	correct
+ui_cheer_3	ui	Y	ايوه كده يا مالك يا بطل! انت جامد!	correct
+ui_cheer_4	ui	Y	شاطر أوي يا مالك يا بطل!	with belly laugh
+ui_cheer_5	ui	Y	ممتاز يا مالك يا بطل! انت أقوى حد في صحابك!	correct
 ui_cheer_6	ui		يا سلام! مستر إنجلش فخور بيك!	correct
 ui_try_1	ui		قريب! جرب تاني يا بطل.	wrong
 ui_try_2	ui		ولا يهمك، جرب تاني!	wrong
@@ -29,12 +29,12 @@ ui_fun_adj_1	ui		أنا الكبير التخين وانت الشاطر! صح ص
 ui_fun_adj_2	ui		طويل وقصير! أنا الطويل وانت الذكي!	joke after a correct answer in the adj lesson (plays about 1 in 3)
 ui_fun_adj_3	ui		القطر السريع! تشو تشو! صح عليك!	joke after a correct answer in the adj lesson (plays about 1 in 3)
 ui_cheer_7	ui		الله! إجابة زي الفل!	correct
-ui_cheer_8	ui		تمام التمام! كمّل كده!	correct
+ui_cheer_8	ui	Y	تمام التمام يا مالك يا بطل! كمّل كده!	correct
 ui_cheer_9	ui		هو ده! عينك زي الصقر!	correct
-ui_cheer_10	ui		صح يا سيدي! دماغك تقيلة!	correct
+ui_cheer_10	ui	Y	صح يا سيدي! دماغك تقيلة يا مالك يا بطل!	correct
 ui_cheer_11	ui		ما شاء الله عليك! انت ذكي!	correct
 ui_cheer_12	ui		أيوه! عشرة على عشرة!	correct
-ui_cheer_13	ui		ده انت مش سهل!	correct
+ui_cheer_13	ui	Y	ده انت مش سهل يا مالك يا بطل!	correct
 ui_cheer_14	ui		برافو عليك! كده بتتعلم بجد!	correct
 ui_streak_1	ui		ثلاثة ورا بعض! انت نار!	3 correct in a row (replaces the cheer)
 ui_streak_2	ui		ولا غلطة! انت ماشي زي الصاروخ!	3 correct in a row (replaces the cheer)
