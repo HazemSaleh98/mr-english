@@ -280,19 +280,19 @@ can_s06	can:lesson		وهنا علامة إكس تاني! I can't run. يعني �
 can_s07	can:lesson		وده ولد بيشوط الكورة! He can kick. يعني هو يقدر يشوط. قول معايا: He can kick!	repeat-after-me line, English words slow and clear | on screen: He can kick.
 can_s08	can:lesson		خد بالك يا بطل! لو الصورة عليها علامة إكس، نقول can't. ولو مفيش علامة، نقول can.	lesson step 8 | on screen: ✕ = can't
 can_s09	can:lesson		برافو عليك يا بطل! can يعني أقدر. can't يعني مقدرش. يلا نلعب الأسئلة!	lesson step 9 | on screen: can = أقدر   can't = مقدرش
-can_q1	can:quiz		It can jump., or It can't jump.? الكنغر ده بيقفز، jump. نقول It can ولا It can't؟	quiz question 1
+can_q1	can:quiz		It can jump, or It can't jump? الكنغر ده بيقفز، jump. نقول It can ولا It can't؟	quiz question 1
 can_q1_right	can:quiz		It can jump! الكنغر بينط.	after correct answer (plays after a cheer line)
 can_q1_fix	can:quiz		الكنغر بيقفز، يبقى can.	hint after 2 wrong taps, gentle
-can_q2	can:quiz		I can swim., or I can't swim.? شوف علامة الإكس! swim، يعني أعوم. نقول I can ولا I can't؟	quiz question 2
+can_q2	can:quiz		I can swim, or I can't swim? شوف علامة الإكس! swim، يعني أعوم. نقول I can ولا I can't؟	quiz question 2
 can_q2_right	can:quiz		I can't swim! أنا مقدرش أعوم.	after correct answer (plays after a cheer line)
 can_q2_fix	can:quiz		في علامة إكس، يبقى can't.	hint after 2 wrong taps, gentle
-can_q3	can:quiz		I can draw., or I can't draw.? الرسمة دي حلوة! draw، يعني أرسم. نقول I can ولا I can't؟	quiz question 3
+can_q3	can:quiz		I can draw, or I can't draw? الرسمة دي حلوة! draw، يعني أرسم. نقول I can ولا I can't؟	quiz question 3
 can_q3_right	can:quiz		I can draw! أنا أقدر أرسم.	after correct answer (plays after a cheer line)
 can_q3_fix	can:quiz		مفيش علامة إكس، يبقى can.	hint after 2 wrong taps, gentle
-can_q4	can:quiz		I can run., or I can't run.? وعلامة إكس تاني! run، يعني أجري. نقول I can ولا I can't؟	quiz question 4
+can_q4	can:quiz		I can run, or I can't run? وعلامة إكس تاني! run، يعني أجري. نقول I can ولا I can't؟	quiz question 4
 can_q4_right	can:quiz		I can't run! أنا مقدرش أجري.	after correct answer (plays after a cheer line)
 can_q4_fix	can:quiz		في علامة إكس، يبقى can't.	hint after 2 wrong taps, gentle
-can_q5	can:quiz		He can kick., or He can't kick.? الولد بيشوط الكورة، kick. نقول He can ولا He can't؟	quiz question 5
+can_q5	can:quiz		He can kick, or He can't kick? الولد بيشوط الكورة، kick. نقول He can ولا He can't؟	quiz question 5
 can_q5_right	can:quiz		He can kick! هو يقدر يشوط.	after correct answer (plays after a cheer line)
 can_q5_fix	can:quiz		مفيش علامة إكس، يبقى can.	hint after 2 wrong taps, gentle
 can_q6	can:quiz		Which one is I can swim? دوس على الصورة اللي هي I can swim. أنا أقدر أعوم!	quiz question 6

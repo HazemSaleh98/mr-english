@@ -1974,7 +1974,7 @@
   {
    "id": "can_q1",
    "group": "can:quiz",
-   "text": "It can jump., or It can't jump.? الكنغر ده بيقفز، jump. نقول It can ولا It can't؟",
+   "text": "It can jump, or It can't jump? الكنغر ده بيقفز، jump. نقول It can ولا It can't؟",
    "personal": false,
    "note": "quiz question 1"
   },
@@ -1995,7 +1995,7 @@
   {
    "id": "can_q2",
    "group": "can:quiz",
-   "text": "I can swim., or I can't swim.? شوف علامة الإكس! swim، يعني أعوم. نقول I can ولا I can't؟",
+   "text": "I can swim, or I can't swim? شوف علامة الإكس! swim، يعني أعوم. نقول I can ولا I can't؟",
    "personal": false,
    "note": "quiz question 2"
   },
@@ -2016,7 +2016,7 @@
   {
    "id": "can_q3",
    "group": "can:quiz",
-   "text": "I can draw., or I can't draw.? الرسمة دي حلوة! draw، يعني أرسم. نقول I can ولا I can't؟",
+   "text": "I can draw, or I can't draw? الرسمة دي حلوة! draw، يعني أرسم. نقول I can ولا I can't؟",
    "personal": false,
    "note": "quiz question 3"
   },
@@ -2037,7 +2037,7 @@
   {
    "id": "can_q4",
    "group": "can:quiz",
-   "text": "I can run., or I can't run.? وعلامة إكس تاني! run، يعني أجري. نقول I can ولا I can't؟",
+   "text": "I can run, or I can't run? وعلامة إكس تاني! run، يعني أجري. نقول I can ولا I can't؟",
    "personal": false,
    "note": "quiz question 4"
   },
@@ -2058,7 +2058,7 @@
   {
    "id": "can_q5",
    "group": "can:quiz",
-   "text": "He can kick., or He can't kick.? الولد بيشوط الكورة، kick. نقول He can ولا He can't؟",
+   "text": "He can kick, or He can't kick? الولد بيشوط الكورة، kick. نقول He can ولا He can't؟",
    "personal": false,
    "note": "quiz question 5"
   },

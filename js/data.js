@@ -221,7 +221,7 @@
     if (/^a or an/.test(p)) return 'Is it a, or an?';
     if (/^Which one is/.test(p)) return p.replace(/ \?$/, '?');
     if (/^The bird is ___/.test(p)) return 'Where is the bird? In, on, under, or next to?';
-    if (/___/.test(p) && /can/.test(q.say)) const b = p.replace(/\.$/, ''); return b.replace('___', 'can') + ', or ' + b.replace('___', "can't") + '?';
+    if (/___/.test(p) && /can/.test(q.say)) { const b = p.replace(/\.$/, ''); return b.replace('___', 'can') + ', or ' + b.replace('___', "can't") + '?'; }
     if (/ or /.test(p)) { const m = p.replace(/ \?$/, '').split(' or '); return 'Is it ' + m[0].trim() + ', or ' + m[1].trim() + '?'; }
     return p;
   }
