@@ -99,6 +99,98 @@
       Q('this_q5', D('🚗', true), 'this  or  that ?', 'العربية بعيدة. نقول this ولا that؟', 'word', ['this', 'that'], 'that', 'that car! بعيدة، يبقى that.', 'العربية بعيدة، يبقى that.'),
       Q('this_q6', TX('This is a ball.'), 'Which one is this ?', 'دوس على الصورة اللي هي This is a ball. الكورة القريبة!', 'pic', [D('⚽', false), D('⚽', true)], 0, 'This is a ball! الكورة القريبة.', 'this يعني قريب. اختار الصورة اللي الكورة فيها قريبة.')
     ]);
+
+    /* ---------------- these / those (p24) ---------------- */
+    add('these', 'these · those', 'دول، دوك', '👆', ['#a8edea', '#fed6e3'], 'Page 24', [
+      S('these_s01', TX('these · those'), 'these · those', 'this و that للحاجة الواحدة، these و those لأكتر من واحدة', 'أهلاً يا مالك! عارف this وthat للحاجة الواحدة. النهارده هنعرف these وthose لما يبقوا أكتر من واحدة!', { personal: true }),
+      SI('these_s02', D('🍎', false, { n: 3 }), 'these apples', 'دول تفاح قريب مني', 'شوف! تلات تفاحات قريبين مني. these apples. قول معايا: these apples!'),
+      SI('these_s03', D('🍎', true, { n: 3 }), 'those apples', 'دوك تفاح بعيد عني', 'والتفاح ده بعيد عني. those apples. قول معايا: those apples!'),
+      SI('these_s04', D('🐱', false, { n: 2 }), 'these cats', 'دول قطتين قريبين', 'القطتين دول قريبين. these cats. قول معايا: these cats!'),
+      SI('these_s05', D('🐱', true, { n: 2 }), 'those cats', 'دوك قطتين بعيد', 'والقطتين دوك بعيد. those cats. قول معايا: those cats!'),
+      SI('these_s06', D('🎈', false, { n: 3 }), 'These are balloons.', 'دول بالونات', 'These are balloons. دول بالونات قريبين. قول معايا: These are balloons!'),
+      SI('these_s07', D('🌳', true, { n: 3 }), 'Those are trees.', 'دوك شجر بعيد', 'Those are trees. دوك شجر بعيد. قول معايا: Those are trees!'),
+      S('these_s08', TX('these = near   those = far'), 'near → these   far → those', 'قريب these، بعيد those', 'برافو يا وحش! لو كتير وقريب بنقول these، ولو كتير وبعيد بنقول those. يلا نلعب!')
+    ], [
+      Q('these_q1', D('🍎', false, { n: 3 }), 'these  or  those ?', 'التفاح قريب مني. نقول these ولا those؟', 'word', ['these', 'those'], 'these', 'these apples! قريبين، يبقى these.', 'القريب كتير بنقول these.'),
+      Q('these_q2', D('🐱', true, { n: 2 }), 'these  or  those ?', 'القطتين بعيد. نقول these ولا those؟', 'word', ['these', 'those'], 'those', 'those cats! بعيد، يبقى those.', 'البعيد كتير بنقول those.'),
+      Q('these_q3', D('🚗', true, { n: 3 }), 'these  or  those ?', 'العربيات بعيد. نقول these ولا those؟', 'word', ['these', 'those'], 'those', 'those cars! بعيد، يبقى those.', 'البعيد كتير بنقول those.'),
+      Q('these_q4', D('🍌', false, { n: 3 }), 'these  or  those ?', 'الموز قريب. نقول these ولا those؟', 'word', ['these', 'those'], 'these', 'these bananas! قريب، يبقى these.', 'القريب كتير بنقول these.'),
+      Q('these_q5', D('🌸', true, { n: 3 }), 'these  or  those ?', 'الورد بعيد. نقول these ولا those؟', 'word', ['these', 'those'], 'those', 'those flowers! بعيد، يبقى those.', 'البعيد كتير بنقول those.'),
+      Q('these_q6', TX('These are balls.'), 'Which one is  these ?', 'دوس على الصورة اللي هي These are balls. كور قريبة!', 'pic', [D('⚽', true, { n: 3 }), D('⚽', false, { n: 3 })], 1, 'These are balls! قريبين.', 'these يعني دول، قريب مني. اختار القريب.')
+    ]);
+
+    /* ---------------- Nouns (p29) ---------------- */
+    add('noun', 'Nouns', 'الأسماء', '🏠', ['#fbc2eb', '#a6c1ee'], 'Page 29', [
+      S('noun_s01', TX('boy · dog · house'), 'Nouns', 'الاسم هو اسم شخص أو حيوان أو مكان أو حاجة', 'أهلاً يا مالك! الاسم، بالإنجليزي noun، هو اسم شخص أو حيوان أو مكان أو حاجة. يلا نشوف!', { personal: true }),
+      SI('noun_s02', E('👦'), 'boy', 'اسم شخص', 'ولد. boy. ده اسم شخص. قول معايا: boy!'),
+      SI('noun_s03', E('👧'), 'girl', 'اسم شخص', 'بنت. girl. ده كمان اسم شخص. قول معايا: girl!'),
+      SI('noun_s04', E('🐶'), 'dog', 'اسم حيوان', 'كلب. dog. ده اسم حيوان. قول معايا: dog!'),
+      SI('noun_s05', E('🏠'), 'house', 'اسم مكان', 'بيت. house. ده اسم مكان. قول معايا: house!'),
+      SI('noun_s06', E('🏫'), 'school', 'اسم مكان', 'مدرسة. school. ده برضه اسم مكان. قول معايا: school!'),
+      SI('noun_s07', E('📚'), 'book', 'اسم حاجة', 'كتاب. book. ده اسم حاجة. قول معايا: book!'),
+      S('noun_s08', TX('person · animal · place · thing'), 'person · animal · place · thing', 'شخص، حيوان، مكان، حاجة', 'برافو عليك! الاسم ممكن يكون شخص، أو حيوان، أو مكان، أو حاجة. يلا نلعب!')
+    ], [
+      Q('noun_q1', E('👦'), 'What kind of noun?', 'الولد ده، boy. هو شخص ولا حيوان ولا مكان ولا حاجة؟', 'word', ['person', 'animal', 'place', 'thing'], 'person', 'person! الولد شخص.', 'الولد شخص. يبقى person.'),
+      Q('noun_q2', E('🐶'), 'What kind of noun?', 'الكلب ده، dog. هو إيه؟', 'word', ['person', 'animal', 'place', 'thing'], 'animal', 'animal! الكلب حيوان.', 'الكلب حيوان. يبقى animal.'),
+      Q('noun_q3', E('🏠'), 'What kind of noun?', 'البيت ده، house. هو إيه؟', 'word', ['person', 'animal', 'place', 'thing'], 'place', 'place! البيت مكان.', 'البيت مكان. يبقى place.'),
+      Q('noun_q4', E('📚'), 'What kind of noun?', 'الكتاب ده، book. هو إيه؟', 'word', ['person', 'animal', 'place', 'thing'], 'thing', 'thing! الكتاب حاجة.', 'الكتاب حاجة. يبقى thing.'),
+      Q('noun_q5', E('🏫'), 'What kind of noun?', 'المدرسة دي، school. هي إيه؟', 'word', ['person', 'animal', 'place', 'thing'], 'place', 'place! المدرسة مكان.', 'المدرسة مكان. يبقى place.'),
+      Q('noun_q6', TX('an animal'), 'Which one is  an animal ?', 'دوس على الصورة اللي هي an animal. حيوان!', 'pic', [E('🏠'), E('🐶'), E('📚')], 1, 'an animal! الكلب حيوان.', 'animal يعني حيوان. دوس على الكلب.')
+    ]);
+
+    /* ---------------- Pronouns (p31) ---------------- */
+    add('pron', 'Pronouns', 'الضمائر', '🧒', ['#ffecd2', '#fcb69f'], 'Page 31', [
+      S('pron_s01', TX('I · you · he · she'), 'Pronouns', 'الضمير بيحل مكان الاسم', 'أهلاً يا مالك! الضمير، pronoun، بيحل مكان الاسم. بدل ما نقول اسمك كل مرة، بنقول he أو she. يلا نشوف!', { personal: true }),
+      SI('pron_s02', E('🧒'), 'I', 'أنا', 'I يعني أنا. أنا مالك. I am Malek. قول معايا: I!'),
+      SI('pron_s03', E('👉'), 'you', 'إنت', 'you يعني إنت. قول معايا: you!'),
+      SI('pron_s04', E('👦'), 'he', 'هو (ولد)', 'ولد. بنقول he. قول معايا: he!'),
+      SI('pron_s05', E('👧'), 'she', 'هي (بنت)', 'بنت. بنقول she. قول معايا: she!'),
+      SI('pron_s06', E('🐶'), 'it', 'هو للحاجة أو الحيوان', 'كلب. بنقول it. قول معايا: it!'),
+      SI('pron_s07', E('👫'), 'they', 'هم', 'ولد وبنت مع بعض. بنقول they. قول معايا: they!'),
+      S('pron_s08', TX('he · she · it · they'), 'he · she · it · they', 'ضمائر بتحل مكان الأسماء', 'برافو! الضمائر بتحل مكان الأسماء. يلا نلعب!')
+    ], [
+      Q('pron_q1', E('👦'), 'Which pronoun?', 'ده ولد. نقول إيه؟', 'word', ['he', 'she', 'it'], 'he', 'he! ولد يبقى he.', 'الولد بنقول عليه he.'),
+      Q('pron_q2', E('👧'), 'Which pronoun?', 'دي بنت. نقول إيه؟', 'word', ['he', 'she', 'it'], 'she', 'she! بنت يبقى she.', 'البنت بنقول عليها she.'),
+      Q('pron_q3', E('🐶'), 'Which pronoun?', 'ده كلب. نقول إيه؟', 'word', ['he', 'she', 'it'], 'it', 'it! الكلب بنقول عليه it.', 'الحيوان بنقول عليه it.'),
+      Q('pron_q4', E('👫'), 'Which pronoun?', 'دول ولد وبنت مع بعض. نقول إيه؟', 'word', ['it', 'they'], 'they', 'they! اتنين يبقى they.', 'أكتر من واحد بنقول they.'),
+      Q('pron_q5', E('🚗'), 'Which pronoun?', 'دي عربية. نقول إيه؟', 'word', ['she', 'it'], 'it', 'it! العربية بنقول عليها it.', 'الحاجة بنقول عليها it.'),
+      Q('pron_q6', TX('she'), 'Which one is  she ?', 'دوس على الصورة اللي هي she. البنت!', 'pic', [E('👦'), E('👧'), E('🐶')], 1, 'she! البنت.', 'she يعني هي، للبنت. دوس على البنت.')
+    ]);
+
+    /* ---------------- he / she (p32) ---------------- */
+    add('heshe', 'he · she', 'هو، هي', '👦', ['#c2e9fb', '#a1c4fd'], 'Page 32', [
+      S('heshe_s01', TX('he · she'), 'he · she', 'he للولد، she للبنت', 'أهلاً يا مالك! he للولد، وshe للبنت. يلا نشوف!', { personal: true }),
+      SI('heshe_s02', E('👦'), 'He is a boy.', 'هو ولد', 'ولد. He is a boy. قول معايا: He is a boy!'),
+      SI('heshe_s03', E('👨'), 'He is a man.', 'هو راجل', 'راجل. He is a man. قول معايا: He is a man!'),
+      SI('heshe_s04', E('👧'), 'She is a girl.', 'هي بنت', 'بنت. She is a girl. قول معايا: She is a girl!'),
+      SI('heshe_s05', E('👩'), 'She is a woman.', 'هي ست', 'ست. She is a woman. قول معايا: She is a woman!'),
+      S('heshe_s06', TX('he = 👦👨   she = 👧👩'), 'he → boy, man   she → girl, woman', 'he للولد والراجل، she للبنت والست', 'برافو! he للولد والراجل، وshe للبنت والست. يلا نلعب!')
+    ], [
+      Q('heshe_q1', E('👦'), 'he  or  she ?', 'ده ولد. نقول he ولا she؟', 'word', ['he', 'she'], 'he', 'he! ولد يبقى he.', 'الولد بنقول he.'),
+      Q('heshe_q2', E('👩'), 'he  or  she ?', 'دي ست. نقول he ولا she؟', 'word', ['he', 'she'], 'she', 'she! ست يبقى she.', 'الست بنقول she.'),
+      Q('heshe_q3', E('👨'), 'he  or  she ?', 'ده راجل. نقول he ولا she؟', 'word', ['he', 'she'], 'he', 'he! راجل يبقى he.', 'الراجل بنقول he.'),
+      Q('heshe_q4', E('👧'), 'he  or  she ?', 'دي بنت. نقول he ولا she؟', 'word', ['he', 'she'], 'she', 'she! بنت يبقى she.', 'البنت بنقول she.'),
+      Q('heshe_q5', E('👦'), 'He is a ___ .', 'He is a boy ولا a girl؟', 'word', ['boy', 'girl'], 'boy', 'He is a boy! تمام.', 'he للولد. يبقى boy.'),
+      Q('heshe_q6', TX('She is a girl.'), 'Which one is  she ?', 'دوس على الصورة اللي هي she. البنت!', 'pic', [E('👦'), E('👧')], 1, 'she! البنت.', 'she للبنت. دوس على البنت.')
+    ]);
+
+    /* ---------------- it (p34) ---------------- */
+    add('it', 'it', 'للحاجات والحيوان', '🐕', ['#d4fc79', '#96e6a1'], 'Page 34', [
+      S('it_s01', TX('it'), 'it', 'it للحاجة وللحيوان', 'أهلاً يا مالك! it بنقولها على الحاجات وعلى الحيوانات. مش للولد ولا للبنت. يلا نشوف!', { personal: true }),
+      SI('it_s02', E('🐶'), 'It is a dog.', 'هو كلب', 'كلب. It is a dog. قول معايا: It is a dog!'),
+      SI('it_s03', E('🐱'), 'It is a cat.', 'هي قطة', 'قطة. It is a cat. قول معايا: It is a cat!'),
+      SI('it_s04', E('🚗'), 'It is a car.', 'دي عربية', 'عربية. It is a car. قول معايا: It is a car!'),
+      SI('it_s05', E('🍎'), 'It is an apple.', 'دي تفاحة', 'تفاحة. It is an apple. قول معايا: It is an apple!'),
+      S('it_s06', TX('it = 🐶🐱🚗🍎'), 'it = animal or thing', 'it للحيوان والحاجة', 'برافو! it للحيوان وللحاجة. يلا نلعب!')
+    ], [
+      Q('it_q1', E('🐶'), 'Which word?', 'ده كلب. نقول he ولا it؟', 'word', ['he', 'it'], 'it', 'it! الكلب it.', 'الحيوان بنقول it.'),
+      Q('it_q2', E('🚗'), 'Which word?', 'دي عربية. نقول she ولا it؟', 'word', ['she', 'it'], 'it', 'it! العربية it.', 'الحاجة بنقول it.'),
+      Q('it_q3', E('👧'), 'Which word?', 'دي بنت. نقول she ولا it؟', 'word', ['she', 'it'], 'she', 'she! البنت she.', 'البنت بنقول she مش it.'),
+      Q('it_q4', E('🍎'), 'It is an ___ .', 'It is an apple ولا a apple؟ هي حرف علة، فنقول an.', 'word', ['apple', 'dog'], 'apple', 'It is an apple! تمام.', 'an بتيجي قبل apple.'),
+      Q('it_q5', E('🐱'), 'Which word?', 'دي قطة. نقول it ولا he؟', 'word', ['it', 'he'], 'it', 'it! القطة it.', 'الحيوان بنقول it.'),
+      Q('it_q6', TX('It is a car.'), 'Which one is  it ?', 'دوس على الصورة اللي نقول عليها it. مش الولد!', 'pic', [E('👦'), E('🚗')], 1, 'it! العربية.', 'it للحاجة. دوس على العربية.')
+    ]);
+
     return out;
   };
   root.MRE_MORE = make;

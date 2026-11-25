@@ -271,6 +271,132 @@ this_q5_fix	this:quiz		العربية بعيدة، يبقى that.	hint after 2 w
 this_q6	this:quiz		Which one is this ball? دوس على الصورة اللي هي This is a ball. الكورة القريبة!	quiz question 6
 this_q6_right	this:quiz		This is a ball! الكورة القريبة.	after correct answer (plays after a cheer line)
 this_q6_fix	this:quiz		this يعني قريب. اختار الصورة اللي الكورة فيها قريبة.	hint after 2 wrong taps, gentle
+these_s01	these:lesson	Y	أهلاً يا مالك! عارف this وthat للحاجة الواحدة. النهارده هنعرف these وthose لما يبقوا أكتر من واحدة!	lesson step 1 | on screen: these · those
+these_s02	these:lesson		شوف! تلات تفاحات قريبين مني. these apples. قول معايا: these apples!	repeat-after-me line, English words slow and clear | on screen: these apples
+these_s03	these:lesson		والتفاح ده بعيد عني. those apples. قول معايا: those apples!	repeat-after-me line, English words slow and clear | on screen: those apples
+these_s04	these:lesson		القطتين دول قريبين. these cats. قول معايا: these cats!	repeat-after-me line, English words slow and clear | on screen: these cats
+these_s05	these:lesson		والقطتين دوك بعيد. those cats. قول معايا: those cats!	repeat-after-me line, English words slow and clear | on screen: those cats
+these_s06	these:lesson		These are balloons. دول بالونات قريبين. قول معايا: These are balloons!	repeat-after-me line, English words slow and clear | on screen: These are balloons.
+these_s07	these:lesson		Those are trees. دوك شجر بعيد. قول معايا: Those are trees!	repeat-after-me line, English words slow and clear | on screen: Those are trees.
+these_s08	these:lesson		برافو يا وحش! لو كتير وقريب بنقول these، ولو كتير وبعيد بنقول those. يلا نلعب!	lesson step 8 | on screen: near → these   far → those
+these_q1	these:quiz		Is it these, or those? التفاح قريب مني. نقول these ولا those؟	quiz question 1
+these_q1_right	these:quiz		these apples! قريبين، يبقى these.	after correct answer (plays after a cheer line)
+these_q1_fix	these:quiz		القريب كتير بنقول these.	hint after 2 wrong taps, gentle
+these_q2	these:quiz		Is it these, or those? القطتين بعيد. نقول these ولا those؟	quiz question 2
+these_q2_right	these:quiz		those cats! بعيد، يبقى those.	after correct answer (plays after a cheer line)
+these_q2_fix	these:quiz		البعيد كتير بنقول those.	hint after 2 wrong taps, gentle
+these_q3	these:quiz		Is it these, or those? العربيات بعيد. نقول these ولا those؟	quiz question 3
+these_q3_right	these:quiz		those cars! بعيد، يبقى those.	after correct answer (plays after a cheer line)
+these_q3_fix	these:quiz		البعيد كتير بنقول those.	hint after 2 wrong taps, gentle
+these_q4	these:quiz		Is it these, or those? الموز قريب. نقول these ولا those؟	quiz question 4
+these_q4_right	these:quiz		these bananas! قريب، يبقى these.	after correct answer (plays after a cheer line)
+these_q4_fix	these:quiz		القريب كتير بنقول these.	hint after 2 wrong taps, gentle
+these_q5	these:quiz		Is it these, or those? الورد بعيد. نقول these ولا those؟	quiz question 5
+these_q5_right	these:quiz		those flowers! بعيد، يبقى those.	after correct answer (plays after a cheer line)
+these_q5_fix	these:quiz		البعيد كتير بنقول those.	hint after 2 wrong taps, gentle
+these_q6	these:quiz		Which one is these? دوس على الصورة اللي هي These are balls. كور قريبة!	quiz question 6
+these_q6_right	these:quiz		These are balls! قريبين.	after correct answer (plays after a cheer line)
+these_q6_fix	these:quiz		these يعني دول، قريب مني. اختار القريب.	hint after 2 wrong taps, gentle
+noun_s01	noun:lesson	Y	أهلاً يا مالك! الاسم، بالإنجليزي noun، هو اسم شخص أو حيوان أو مكان أو حاجة. يلا نشوف!	lesson step 1 | on screen: Nouns
+noun_s02	noun:lesson		ولد. boy. ده اسم شخص. قول معايا: boy!	repeat-after-me line, English words slow and clear | on screen: boy
+noun_s03	noun:lesson		بنت. girl. ده كمان اسم شخص. قول معايا: girl!	repeat-after-me line, English words slow and clear | on screen: girl
+noun_s04	noun:lesson		كلب. dog. ده اسم حيوان. قول معايا: dog!	repeat-after-me line, English words slow and clear | on screen: dog
+noun_s05	noun:lesson		بيت. house. ده اسم مكان. قول معايا: house!	repeat-after-me line, English words slow and clear | on screen: house
+noun_s06	noun:lesson		مدرسة. school. ده برضه اسم مكان. قول معايا: school!	repeat-after-me line, English words slow and clear | on screen: school
+noun_s07	noun:lesson		كتاب. book. ده اسم حاجة. قول معايا: book!	repeat-after-me line, English words slow and clear | on screen: book
+noun_s08	noun:lesson		برافو عليك! الاسم ممكن يكون شخص، أو حيوان، أو مكان، أو حاجة. يلا نلعب!	lesson step 8 | on screen: person · animal · place · thing
+noun_q1	noun:quiz		What kind of noun? الولد ده، boy. هو شخص ولا حيوان ولا مكان ولا حاجة؟	quiz question 1
+noun_q1_right	noun:quiz		person! الولد شخص.	after correct answer (plays after a cheer line)
+noun_q1_fix	noun:quiz		الولد شخص. يبقى person.	hint after 2 wrong taps, gentle
+noun_q2	noun:quiz		What kind of noun? الكلب ده، dog. هو إيه؟	quiz question 2
+noun_q2_right	noun:quiz		animal! الكلب حيوان.	after correct answer (plays after a cheer line)
+noun_q2_fix	noun:quiz		الكلب حيوان. يبقى animal.	hint after 2 wrong taps, gentle
+noun_q3	noun:quiz		What kind of noun? البيت ده، house. هو إيه؟	quiz question 3
+noun_q3_right	noun:quiz		place! البيت مكان.	after correct answer (plays after a cheer line)
+noun_q3_fix	noun:quiz		البيت مكان. يبقى place.	hint after 2 wrong taps, gentle
+noun_q4	noun:quiz		What kind of noun? الكتاب ده، book. هو إيه؟	quiz question 4
+noun_q4_right	noun:quiz		thing! الكتاب حاجة.	after correct answer (plays after a cheer line)
+noun_q4_fix	noun:quiz		الكتاب حاجة. يبقى thing.	hint after 2 wrong taps, gentle
+noun_q5	noun:quiz		What kind of noun? المدرسة دي، school. هي إيه؟	quiz question 5
+noun_q5_right	noun:quiz		place! المدرسة مكان.	after correct answer (plays after a cheer line)
+noun_q5_fix	noun:quiz		المدرسة مكان. يبقى place.	hint after 2 wrong taps, gentle
+noun_q6	noun:quiz		Which one is an animal? دوس على الصورة اللي هي an animal. حيوان!	quiz question 6
+noun_q6_right	noun:quiz		an animal! الكلب حيوان.	after correct answer (plays after a cheer line)
+noun_q6_fix	noun:quiz		animal يعني حيوان. دوس على الكلب.	hint after 2 wrong taps, gentle
+pron_s01	pron:lesson	Y	أهلاً يا مالك! الضمير، pronoun، بيحل مكان الاسم. بدل ما نقول اسمك كل مرة، بنقول he أو she. يلا نشوف!	lesson step 1 | on screen: Pronouns
+pron_s02	pron:lesson		I يعني أنا. أنا مالك. I am Malek. قول معايا: I!	repeat-after-me line, English words slow and clear | on screen: I
+pron_s03	pron:lesson		you يعني إنت. قول معايا: you!	repeat-after-me line, English words slow and clear | on screen: you
+pron_s04	pron:lesson		ولد. بنقول he. قول معايا: he!	repeat-after-me line, English words slow and clear | on screen: he
+pron_s05	pron:lesson		بنت. بنقول she. قول معايا: she!	repeat-after-me line, English words slow and clear | on screen: she
+pron_s06	pron:lesson		كلب. بنقول it. قول معايا: it!	repeat-after-me line, English words slow and clear | on screen: it
+pron_s07	pron:lesson		ولد وبنت مع بعض. بنقول they. قول معايا: they!	repeat-after-me line, English words slow and clear | on screen: they
+pron_s08	pron:lesson		برافو! الضمائر بتحل مكان الأسماء. يلا نلعب!	lesson step 8 | on screen: he · she · it · they
+pron_q1	pron:quiz		Which pronoun? ده ولد. نقول إيه؟	quiz question 1
+pron_q1_right	pron:quiz		he! ولد يبقى he.	after correct answer (plays after a cheer line)
+pron_q1_fix	pron:quiz		الولد بنقول عليه he.	hint after 2 wrong taps, gentle
+pron_q2	pron:quiz		Which pronoun? دي بنت. نقول إيه؟	quiz question 2
+pron_q2_right	pron:quiz		she! بنت يبقى she.	after correct answer (plays after a cheer line)
+pron_q2_fix	pron:quiz		البنت بنقول عليها she.	hint after 2 wrong taps, gentle
+pron_q3	pron:quiz		Which pronoun? ده كلب. نقول إيه؟	quiz question 3
+pron_q3_right	pron:quiz		it! الكلب بنقول عليه it.	after correct answer (plays after a cheer line)
+pron_q3_fix	pron:quiz		الحيوان بنقول عليه it.	hint after 2 wrong taps, gentle
+pron_q4	pron:quiz		Which pronoun? دول ولد وبنت مع بعض. نقول إيه؟	quiz question 4
+pron_q4_right	pron:quiz		they! اتنين يبقى they.	after correct answer (plays after a cheer line)
+pron_q4_fix	pron:quiz		أكتر من واحد بنقول they.	hint after 2 wrong taps, gentle
+pron_q5	pron:quiz		Which pronoun? دي عربية. نقول إيه؟	quiz question 5
+pron_q5_right	pron:quiz		it! العربية بنقول عليها it.	after correct answer (plays after a cheer line)
+pron_q5_fix	pron:quiz		الحاجة بنقول عليها it.	hint after 2 wrong taps, gentle
+pron_q6	pron:quiz		Which one is she? دوس على الصورة اللي هي she. البنت!	quiz question 6
+pron_q6_right	pron:quiz		she! البنت.	after correct answer (plays after a cheer line)
+pron_q6_fix	pron:quiz		she يعني هي، للبنت. دوس على البنت.	hint after 2 wrong taps, gentle
+heshe_s01	heshe:lesson	Y	أهلاً يا مالك! he للولد، وshe للبنت. يلا نشوف!	lesson step 1 | on screen: he · she
+heshe_s02	heshe:lesson		ولد. He is a boy. قول معايا: He is a boy!	repeat-after-me line, English words slow and clear | on screen: He is a boy.
+heshe_s03	heshe:lesson		راجل. He is a man. قول معايا: He is a man!	repeat-after-me line, English words slow and clear | on screen: He is a man.
+heshe_s04	heshe:lesson		بنت. She is a girl. قول معايا: She is a girl!	repeat-after-me line, English words slow and clear | on screen: She is a girl.
+heshe_s05	heshe:lesson		ست. She is a woman. قول معايا: She is a woman!	repeat-after-me line, English words slow and clear | on screen: She is a woman.
+heshe_s06	heshe:lesson		برافو! he للولد والراجل، وshe للبنت والست. يلا نلعب!	lesson step 6 | on screen: he → boy, man   she → girl, woman
+heshe_q1	heshe:quiz		Is it he, or she? ده ولد. نقول he ولا she؟	quiz question 1
+heshe_q1_right	heshe:quiz		he! ولد يبقى he.	after correct answer (plays after a cheer line)
+heshe_q1_fix	heshe:quiz		الولد بنقول he.	hint after 2 wrong taps, gentle
+heshe_q2	heshe:quiz		Is it he, or she? دي ست. نقول he ولا she؟	quiz question 2
+heshe_q2_right	heshe:quiz		she! ست يبقى she.	after correct answer (plays after a cheer line)
+heshe_q2_fix	heshe:quiz		الست بنقول she.	hint after 2 wrong taps, gentle
+heshe_q3	heshe:quiz		Is it he, or she? ده راجل. نقول he ولا she؟	quiz question 3
+heshe_q3_right	heshe:quiz		he! راجل يبقى he.	after correct answer (plays after a cheer line)
+heshe_q3_fix	heshe:quiz		الراجل بنقول he.	hint after 2 wrong taps, gentle
+heshe_q4	heshe:quiz		Is it he, or she? دي بنت. نقول he ولا she؟	quiz question 4
+heshe_q4_right	heshe:quiz		she! بنت يبقى she.	after correct answer (plays after a cheer line)
+heshe_q4_fix	heshe:quiz		البنت بنقول she.	hint after 2 wrong taps, gentle
+heshe_q5	heshe:quiz		He is a ___ . He is a boy ولا a girl؟	quiz question 5
+heshe_q5_right	heshe:quiz		He is a boy! تمام.	after correct answer (plays after a cheer line)
+heshe_q5_fix	heshe:quiz		he للولد. يبقى boy.	hint after 2 wrong taps, gentle
+heshe_q6	heshe:quiz		Which one is she? دوس على الصورة اللي هي she. البنت!	quiz question 6
+heshe_q6_right	heshe:quiz		she! البنت.	after correct answer (plays after a cheer line)
+heshe_q6_fix	heshe:quiz		she للبنت. دوس على البنت.	hint after 2 wrong taps, gentle
+it_s01	it:lesson	Y	أهلاً يا مالك! it بنقولها على الحاجات وعلى الحيوانات. مش للولد ولا للبنت. يلا نشوف!	lesson step 1 | on screen: it
+it_s02	it:lesson		كلب. It is a dog. قول معايا: It is a dog!	repeat-after-me line, English words slow and clear | on screen: It is a dog.
+it_s03	it:lesson		قطة. It is a cat. قول معايا: It is a cat!	repeat-after-me line, English words slow and clear | on screen: It is a cat.
+it_s04	it:lesson		عربية. It is a car. قول معايا: It is a car!	repeat-after-me line, English words slow and clear | on screen: It is a car.
+it_s05	it:lesson		تفاحة. It is an apple. قول معايا: It is an apple!	repeat-after-me line, English words slow and clear | on screen: It is an apple.
+it_s06	it:lesson		برافو! it للحيوان وللحاجة. يلا نلعب!	lesson step 6 | on screen: it = animal or thing
+it_q1	it:quiz		Which word? ده كلب. نقول he ولا it؟	quiz question 1
+it_q1_right	it:quiz		it! الكلب it.	after correct answer (plays after a cheer line)
+it_q1_fix	it:quiz		الحيوان بنقول it.	hint after 2 wrong taps, gentle
+it_q2	it:quiz		Which word? دي عربية. نقول she ولا it؟	quiz question 2
+it_q2_right	it:quiz		it! العربية it.	after correct answer (plays after a cheer line)
+it_q2_fix	it:quiz		الحاجة بنقول it.	hint after 2 wrong taps, gentle
+it_q3	it:quiz		Which word? دي بنت. نقول she ولا it؟	quiz question 3
+it_q3_right	it:quiz		she! البنت she.	after correct answer (plays after a cheer line)
+it_q3_fix	it:quiz		البنت بنقول she مش it.	hint after 2 wrong taps, gentle
+it_q4	it:quiz		It is an ___ . It is an apple ولا a apple؟ هي حرف علة، فنقول an.	quiz question 4
+it_q4_right	it:quiz		It is an apple! تمام.	after correct answer (plays after a cheer line)
+it_q4_fix	it:quiz		an بتيجي قبل apple.	hint after 2 wrong taps, gentle
+it_q5	it:quiz		Which word? دي قطة. نقول it ولا he؟	quiz question 5
+it_q5_right	it:quiz		it! القطة it.	after correct answer (plays after a cheer line)
+it_q5_fix	it:quiz		الحيوان بنقول it.	hint after 2 wrong taps, gentle
+it_q6	it:quiz		Which one is it? دوس على الصورة اللي نقول عليها it. مش الولد!	quiz question 6
+it_q6_right	it:quiz		it! العربية.	after correct answer (plays after a cheer line)
+it_q6_fix	it:quiz		it للحاجة. دوس على العربية.	hint after 2 wrong taps, gentle
 can_s01	can:lesson	Y	يا أهلاً يا مالك! النهارده هنتعلم كلمتين: can، يعني أقدر. وcan't، يعني مقدرش. بنقول بيهم أنا أقدر أعمل إيه، ومقدرش أعمل إيه. يلا بينا!	lesson step 1 | on screen: can  and  can't
 can_s02	can:lesson		شوف الولد بيعوم! I can swim. يعني أنا أقدر أعوم. can، يعني أقدر. قول معايا: I can swim!	repeat-after-me line, English words slow and clear | on screen: I can swim.
 can_s03	can:lesson		وهنا علامة إكس! I can't swim. يعني أنا مقدرش أعوم. can't، يعني مقدرش. قول معايا: I can't swim!	repeat-after-me line, English words slow and clear | on screen: I can't swim.

@@ -239,3 +239,8 @@ img.em{display:inline-block;height:1.05em;width:1.05em;vertical-align:-.14em;poi
 .vis.dist .ground{background:repeating-linear-gradient(90deg,rgba(60,150,80,.55) 0 12px,transparent 12px 24px);background-size:24px 6px;animation:dash 1.2s linear infinite}
 .opt .vis *,.opt .vis::before,.opt .vis::after{animation-duration:0s!important;animation-iteration-count:1!important}
 @media (prefers-reduced-motion:reduce){.vis *{animation:none!important}}
+.vis.dist.multi .obj{gap:0;min-width:0}
+.vis.dist.multi.near .obj img.em{width:calc(var(--k,1)*min(17vw,12vh,88px));height:calc(var(--k,1)*min(17vw,12vh,88px))}
+.vis.dist.multi.far .obj img.em{width:calc(var(--k,1)*min(9vw,6.5vh,48px));height:calc(var(--k,1)*min(9vw,6.5vh,48px))}
+.vis.dist.multi.near .obj{margin-right:3%}
+.vis.dist.multi .kid img.em{width:calc(var(--k,1)*min(20vw,14vh,110px));height:calc(var(--k,1)*min(20vw,14vh,110px))}
