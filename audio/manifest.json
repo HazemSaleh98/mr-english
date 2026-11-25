@@ -2,7 +2,7 @@
  "app": "Mr English",
  "voice": "Shalabi: Orus, deep warm giant monster, Egyptian Arabic, playful, slow clear English words",
  "format": "audio/<id>.mp3 (ogg/m4a also accepted)",
- "count": 453,
+ "count": 607,
  "lines": [
   {
    "id": "ui_hello",
@@ -2583,7 +2583,7 @@
   {
    "id": "heshe_q5",
    "group": "heshe:quiz",
-   "text": "He is a ___ . He is a boy ولا a girl؟",
+   "text": "He is a blank . He is a boy ولا a girl؟",
    "personal": false,
    "note": "quiz question 5"
   },
@@ -2730,7 +2730,7 @@
   {
    "id": "it_q4",
    "group": "it:quiz",
-   "text": "It is an ___ . It is an apple ولا a apple؟ هي حرف علة، فنقول an.",
+   "text": "It is an blank . It is an apple ولا a apple؟ هي حرف علة، فنقول an.",
    "personal": false,
    "note": "quiz question 4"
   },
@@ -2787,6 +2787,370 @@
    "id": "it_q6_fix",
    "group": "it:quiz",
    "text": "it للحاجة. دوس على العربية.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "they_s01",
+   "group": "they:lesson",
+   "text": "أهلاً يا مالك! النهارده هنتعلم أنا، وإنت، وإحنا، وهم بالإنجليزي. يلا نبدأ!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: I · you · we · they"
+  },
+  {
+   "id": "they_s02",
+   "group": "they:lesson",
+   "text": "أنا واحد. I. قول معايا: I!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: I"
+  },
+  {
+   "id": "they_s03",
+   "group": "they:lesson",
+   "text": "لما أكلم واحد قدامي، أقول you. قول معايا: you!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: you"
+  },
+  {
+   "id": "they_s04",
+   "group": "they:lesson",
+   "text": "أنا وإنت مع بعض، نقول we. قول معايا: we!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: we"
+  },
+  {
+   "id": "they_s05",
+   "group": "they:lesson",
+   "text": "ناس تانيين، مش أنا ومش إنت، نقول they. قول معايا: they!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: they"
+  },
+  {
+   "id": "they_s06",
+   "group": "they:lesson",
+   "text": "ولد وبنت أصحاب. They are friends. قول معايا: They are friends!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: They are friends."
+  },
+  {
+   "id": "they_s07",
+   "group": "they:lesson",
+   "text": "أنا وإنت أصحاب. We are friends. قول معايا: We are friends!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: We are friends."
+  },
+  {
+   "id": "they_s08",
+   "group": "they:lesson",
+   "text": "برافو يا وحش! عرفت أنا، وإنت، وإحنا، وهم. يلا نلعب!",
+   "personal": false,
+   "note": "lesson step 8 | on screen: I · you · we · they"
+  },
+  {
+   "id": "they_q1",
+   "group": "they:quiz",
+   "text": "Which pronoun? ده أنا لوحدي. نقول إيه؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "they_q1_right",
+   "group": "they:quiz",
+   "text": "I! أنا لوحدي.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "they_q1_fix",
+   "group": "they:quiz",
+   "text": "أنا لوحدي بنقول I.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "they_q2",
+   "group": "they:quiz",
+   "text": "Which pronoun? أنا وصاحبي مع بعض. نقول إيه؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "they_q2_right",
+   "group": "they:quiz",
+   "text": "we! إحنا مع بعض.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "they_q2_fix",
+   "group": "they:quiz",
+   "text": "أنا وإنت مع بعض بنقول we.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "they_q3",
+   "group": "they:quiz",
+   "text": "Which pronoun? دول ناس تانيين. نقول إيه؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "they_q3_right",
+   "group": "they:quiz",
+   "text": "they! هم ناس تانيين.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "they_q3_fix",
+   "group": "they:quiz",
+   "text": "الناس التانيين بنقول they.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "they_q4",
+   "group": "they:quiz",
+   "text": "Which pronoun? ولد وبنت بعيد عننا. نقول إيه؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "they_q4_right",
+   "group": "they:quiz",
+   "text": "they! هم.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "they_q4_fix",
+   "group": "they:quiz",
+   "text": "اللي بعيد عننا بنقول they.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "they_q5",
+   "group": "they:quiz",
+   "text": "Which pronoun? أنا بكلم واحد قدامي. نقول إيه؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "they_q5_right",
+   "group": "they:quiz",
+   "text": "you! إنت.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "they_q5_fix",
+   "group": "they:quiz",
+   "text": "اللي بكلمه بنقول you.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "they_q6",
+   "group": "they:quiz",
+   "text": "Which one is we? دوس على الصورة اللي هي we. أنا وإنت!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "they_q6_right",
+   "group": "they:quiz",
+   "text": "we! إحنا مع بعض.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "they_q6_fix",
+   "group": "they:quiz",
+   "text": "we يعني إحنا. اختار اتنين مع بعض.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "verb_s01",
+   "group": "verb:lesson",
+   "text": "أهلاً يا مالك! الفعل، verb، هو كلمة بتقول حد بيعمل إيه. زي بيجري، وبيعوم، وبينط. يلا نشوف!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: Verbs"
+  },
+  {
+   "id": "verb_s02",
+   "group": "verb:lesson",
+   "text": "ده بيجري! run. قول معايا: run!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: run"
+  },
+  {
+   "id": "verb_s03",
+   "group": "verb:lesson",
+   "text": "وده بيعوم! swim. قول معايا: swim!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: swim"
+  },
+  {
+   "id": "verb_s04",
+   "group": "verb:lesson",
+   "text": "وده بينط! jump. قول معايا: jump!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: jump"
+  },
+  {
+   "id": "verb_s05",
+   "group": "verb:lesson",
+   "text": "وده بترقص! dance. قول معايا: dance!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: dance"
+  },
+  {
+   "id": "verb_s06",
+   "group": "verb:lesson",
+   "text": "وده نايم! sleep. قول معايا: sleep!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: sleep"
+  },
+  {
+   "id": "verb_s07",
+   "group": "verb:lesson",
+   "text": "وده ماشي! walk. قول معايا: walk!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: walk"
+  },
+  {
+   "id": "verb_s08",
+   "group": "verb:lesson",
+   "text": "برافو عليك! الفعل هو الحاجة اللي بنعملها. يلا نلعب!",
+   "personal": false,
+   "note": "lesson step 8 | on screen: verb = action"
+  },
+  {
+   "id": "verb_q1",
+   "group": "verb:quiz",
+   "text": "What is the verb? الولد ده بيعمل إيه؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "verb_q1_right",
+   "group": "verb:quiz",
+   "text": "run! بيجري.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "verb_q1_fix",
+   "group": "verb:quiz",
+   "text": "الولد بيجري. يبقى run.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "verb_q2",
+   "group": "verb:quiz",
+   "text": "What is the verb? ودي بتعمل إيه؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "verb_q2_right",
+   "group": "verb:quiz",
+   "text": "swim! بيعوم.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "verb_q2_fix",
+   "group": "verb:quiz",
+   "text": "بيعوم. يبقى swim.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "verb_q3",
+   "group": "verb:quiz",
+   "text": "What is the verb? وده بيعمل إيه؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "verb_q3_right",
+   "group": "verb:quiz",
+   "text": "sleep! نايم.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "verb_q3_fix",
+   "group": "verb:quiz",
+   "text": "نايم. يبقى sleep.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "verb_q4",
+   "group": "verb:quiz",
+   "text": "What is the verb? وده بيعمل إيه؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "verb_q4_right",
+   "group": "verb:quiz",
+   "text": "dance! بترقص.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "verb_q4_fix",
+   "group": "verb:quiz",
+   "text": "بترقص. يبقى dance.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "verb_q5",
+   "group": "verb:quiz",
+   "text": "What is the verb? وده بيعمل إيه؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "verb_q5_right",
+   "group": "verb:quiz",
+   "text": "jump! بينط.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "verb_q5_fix",
+   "group": "verb:quiz",
+   "text": "بينط. يبقى jump.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "verb_q6",
+   "group": "verb:quiz",
+   "text": "Which one is walk? دوس على الصورة اللي هي walk. الماشي!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "verb_q6_right",
+   "group": "verb:quiz",
+   "text": "walk! ماشي.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "verb_q6_fix",
+   "group": "verb:quiz",
+   "text": "walk يعني يمشي. دوس على الماشي.",
    "personal": false,
    "note": "hint after 2 wrong taps, gentle"
   },
@@ -2976,6 +3340,370 @@
    "id": "can_q6_fix",
    "group": "can:quiz",
    "text": "can swim يعني بيعوم. دوس على الصورة اللي بتعوم من غير إكس.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "tobe_s01",
+   "group": "tobe:lesson",
+   "text": "أهلاً يا مالك! النهارده هنتعلم am وis وare. كلمات صغيرة بنقول بيها مين هو إيه!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: am · is · are"
+  },
+  {
+   "id": "tobe_s02",
+   "group": "tobe:lesson",
+   "text": "I am happy. مع I بنقول am. قول معايا: I am happy!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: I am happy."
+  },
+  {
+   "id": "tobe_s03",
+   "group": "tobe:lesson",
+   "text": "He is tall. مع he بنقول is. قول معايا: He is tall!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: He is tall."
+  },
+  {
+   "id": "tobe_s04",
+   "group": "tobe:lesson",
+   "text": "She is nice. مع she بنقول is. قول معايا: She is nice!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: She is nice."
+  },
+  {
+   "id": "tobe_s05",
+   "group": "tobe:lesson",
+   "text": "It is a dog. مع it بنقول is. قول معايا: It is a dog!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: It is a dog."
+  },
+  {
+   "id": "tobe_s06",
+   "group": "tobe:lesson",
+   "text": "We are friends. مع we بنقول are. قول معايا: We are friends!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: We are friends."
+  },
+  {
+   "id": "tobe_s07",
+   "group": "tobe:lesson",
+   "text": "They are happy. مع they بنقول are. قول معايا: They are happy!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: They are happy."
+  },
+  {
+   "id": "tobe_s08",
+   "group": "tobe:lesson",
+   "text": "برافو يا وحش! am مع I. وis مع he وshe وit. وare مع we وyou وthey. يلا نلعب!",
+   "personal": false,
+   "note": "lesson step 8 | on screen: I am · he, she, it is · we, you, they are"
+  },
+  {
+   "id": "tobe_q1",
+   "group": "tobe:quiz",
+   "text": "I blank happy. أنا مبسوط. I am ولا I is؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "tobe_q1_right",
+   "group": "tobe:quiz",
+   "text": "I am happy! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "tobe_q1_fix",
+   "group": "tobe:quiz",
+   "text": "مع I بنقول am.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "tobe_q2",
+   "group": "tobe:quiz",
+   "text": "He blank tall. هو طويل. He is ولا He are؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "tobe_q2_right",
+   "group": "tobe:quiz",
+   "text": "He is tall! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "tobe_q2_fix",
+   "group": "tobe:quiz",
+   "text": "مع he بنقول is.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "tobe_q3",
+   "group": "tobe:quiz",
+   "text": "It blank a dog. ده كلب. It is ولا It are؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "tobe_q3_right",
+   "group": "tobe:quiz",
+   "text": "It is a dog! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "tobe_q3_fix",
+   "group": "tobe:quiz",
+   "text": "مع it بنقول is.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "tobe_q4",
+   "group": "tobe:quiz",
+   "text": "We blank friends. إحنا أصحاب. We is ولا We are؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "tobe_q4_right",
+   "group": "tobe:quiz",
+   "text": "We are friends! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "tobe_q4_fix",
+   "group": "tobe:quiz",
+   "text": "مع we بنقول are.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "tobe_q5",
+   "group": "tobe:quiz",
+   "text": "They blank happy. هم مبسوطين. They is ولا They are؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "tobe_q5_right",
+   "group": "tobe:quiz",
+   "text": "They are happy! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "tobe_q5_fix",
+   "group": "tobe:quiz",
+   "text": "مع they بنقول are.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "tobe_q6",
+   "group": "tobe:quiz",
+   "text": "Which one is she is? دوس على الصورة اللي هي She is nice. البنت!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "tobe_q6_right",
+   "group": "tobe:quiz",
+   "text": "She is nice! البنت.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "tobe_q6_fix",
+   "group": "tobe:quiz",
+   "text": "she للبنت. دوس على البنت.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "nbe_s01",
+   "group": "nbe:lesson",
+   "text": "أهلاً يا مالك! لو عايزين نقول لأ، نزود كلمة not بعد am أو is أو are. يلا نشوف!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: is not · are not"
+  },
+  {
+   "id": "nbe_s02",
+   "group": "nbe:lesson",
+   "text": "شوف علامة الإكس! It is not a dog. يعني ده مش كلب. قول معايا: It is not a dog!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: It is not a dog."
+  },
+  {
+   "id": "nbe_s03",
+   "group": "nbe:lesson",
+   "text": "وهنا إكس تاني! It is not a cat. يعني ده مش قطة. قول معايا: It is not a cat!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: It is not a cat."
+  },
+  {
+   "id": "nbe_s04",
+   "group": "nbe:lesson",
+   "text": "I am not sad. يعني أنا مش حزين. قول معايا: I am not sad!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: I am not sad."
+  },
+  {
+   "id": "nbe_s05",
+   "group": "nbe:lesson",
+   "text": "He is not a girl. يعني هو مش بنت. قول معايا: He is not a girl!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: He is not a girl."
+  },
+  {
+   "id": "nbe_s06",
+   "group": "nbe:lesson",
+   "text": "We are not sad. يعني إحنا مش حزينين. قول معايا: We are not sad!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: We are not sad."
+  },
+  {
+   "id": "nbe_s07",
+   "group": "nbe:lesson",
+   "text": "وفي طريقة أقصر. is not بتبقى isn't، وare not بتبقى aren't. قول معايا: isn't، aren't!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: isn't · aren't"
+  },
+  {
+   "id": "nbe_s08",
+   "group": "nbe:lesson",
+   "text": "برافو عليك! not يعني لأ. is not تبقى isn't. يلا نلعب!",
+   "personal": false,
+   "note": "lesson step 8 | on screen: is not = isn't"
+  },
+  {
+   "id": "nbe_q1",
+   "group": "nbe:quiz",
+   "text": "It blank a dog. علامة إكس! ده مش كلب. It is ولا It is not؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "nbe_q1_right",
+   "group": "nbe:quiz",
+   "text": "It is not a dog! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "nbe_q1_fix",
+   "group": "nbe:quiz",
+   "text": "إكس يعني not. يبقى is not.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "nbe_q2",
+   "group": "nbe:quiz",
+   "text": "It blank a dog. مفيش علامة إكس. ده كلب فعلاً. It is ولا It is not؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "nbe_q2_right",
+   "group": "nbe:quiz",
+   "text": "It is a dog! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "nbe_q2_fix",
+   "group": "nbe:quiz",
+   "text": "مفيش إكس. يبقى is.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "nbe_q3",
+   "group": "nbe:quiz",
+   "text": "I blank sad. علامة إكس! أنا مش حزين. I am ولا I am not؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "nbe_q3_right",
+   "group": "nbe:quiz",
+   "text": "I am not sad! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "nbe_q3_fix",
+   "group": "nbe:quiz",
+   "text": "إكس يعني not. يبقى am not.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "nbe_q4",
+   "group": "nbe:quiz",
+   "text": "We blank sad. علامة إكس! إحنا مش حزينين. We are ولا We are not؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "nbe_q4_right",
+   "group": "nbe:quiz",
+   "text": "We are not sad! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "nbe_q4_fix",
+   "group": "nbe:quiz",
+   "text": "إكس يعني not. يبقى are not.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "nbe_q5",
+   "group": "nbe:quiz",
+   "text": "He blank a girl. علامة إكس! هو مش بنت. He is ولا He isn't؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "nbe_q5_right",
+   "group": "nbe:quiz",
+   "text": "He isn't a girl! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "nbe_q5_fix",
+   "group": "nbe:quiz",
+   "text": "إكس يعني not. is not تبقى isn't.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "nbe_q6",
+   "group": "nbe:quiz",
+   "text": "Which one is not a dog? دوس على الصورة اللي مش كلب. It is not a dog!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "nbe_q6_right",
+   "group": "nbe:quiz",
+   "text": "It is not a dog! القطة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "nbe_q6_fix",
+   "group": "nbe:quiz",
+   "text": "مش كلب يعني القطة. دوس على القطة.",
    "personal": false,
    "note": "hint after 2 wrong taps, gentle"
   },
@@ -3172,6 +3900,356 @@
    "id": "adj_q6_fix",
    "group": "adj:quiz",
    "text": "السلحفاة بتمشي براحة. يبقى slow.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "isit_s01",
+   "group": "isit:lesson",
+   "text": "أهلاً يا مالك! النهارده هنتعلم نسأل. Is it a dog؟ يعني هل ده كلب؟ يلا نشوف!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: Is it ...?"
+  },
+  {
+   "id": "isit_s02",
+   "group": "isit:lesson",
+   "text": "Is it a dog؟ يعني هل ده كلب؟ قول معايا: Is it a dog?",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: Is it a dog?"
+  },
+  {
+   "id": "isit_s03",
+   "group": "isit:lesson",
+   "text": "والإجابة: Yes, it is. يعني أيوه هو كلب. قول معايا: Yes, it is!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: Yes, it is."
+  },
+  {
+   "id": "isit_s04",
+   "group": "isit:lesson",
+   "text": "وهنا Is it a dog؟ هل ده كلب؟",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: Is it a dog?"
+  },
+  {
+   "id": "isit_s05",
+   "group": "isit:lesson",
+   "text": "والإجابة: No, it isn't. يعني لأ، مش كلب. قول معايا: No, it isn't!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: No, it isn't."
+  },
+  {
+   "id": "isit_s06",
+   "group": "isit:lesson",
+   "text": "وده Is it an apple؟ هل دي تفاحة؟ Yes, it is! أيوه!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: Is it an apple?"
+  },
+  {
+   "id": "isit_s07",
+   "group": "isit:lesson",
+   "text": "برافو يا وحش! لو الإجابة أيوه نقول Yes, it is. ولو لأ نقول No, it isn't. يلا نلعب!",
+   "personal": false,
+   "note": "lesson step 7 | on screen: Yes, it is. · No, it isn't."
+  },
+  {
+   "id": "isit_q1",
+   "group": "isit:quiz",
+   "text": "Is it a dog? هل ده كلب؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "isit_q1_right",
+   "group": "isit:quiz",
+   "text": "Yes, it is! ده كلب.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "isit_q1_fix",
+   "group": "isit:quiz",
+   "text": "ده كلب فعلاً. يبقى Yes, it is.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "isit_q2",
+   "group": "isit:quiz",
+   "text": "Is it a dog? هل ده كلب؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "isit_q2_right",
+   "group": "isit:quiz",
+   "text": "No, it isn't! دي قطة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "isit_q2_fix",
+   "group": "isit:quiz",
+   "text": "دي قطة مش كلب. يبقى No, it isn't.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "isit_q3",
+   "group": "isit:quiz",
+   "text": "Is it an apple? هل دي تفاحة؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "isit_q3_right",
+   "group": "isit:quiz",
+   "text": "Yes, it is! تفاحة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "isit_q3_fix",
+   "group": "isit:quiz",
+   "text": "دي تفاحة. يبقى Yes, it is.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "isit_q4",
+   "group": "isit:quiz",
+   "text": "Is it a ball? هل دي كورة؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "isit_q4_right",
+   "group": "isit:quiz",
+   "text": "No, it isn't! دي عربية.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "isit_q4_fix",
+   "group": "isit:quiz",
+   "text": "دي عربية مش كورة. يبقى No, it isn't.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "isit_q5",
+   "group": "isit:quiz",
+   "text": "Is it a cat? هل دي قطة؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "isit_q5_right",
+   "group": "isit:quiz",
+   "text": "Yes, it is! قطة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "isit_q5_fix",
+   "group": "isit:quiz",
+   "text": "دي قطة. يبقى Yes, it is.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "isit_q6",
+   "group": "isit:quiz",
+   "text": "Which one is a ball? دوس على الصورة اللي هي a ball. الكورة!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "isit_q6_right",
+   "group": "isit:quiz",
+   "text": "a ball! الكورة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "isit_q6_fix",
+   "group": "isit:quiz",
+   "text": "ball يعني كورة. دوس على الكورة.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "what_s01",
+   "group": "what:lesson",
+   "text": "أهلاً يا مالك! النهارده هنتعلم نسأل: What is it؟ يعني ده إيه؟ ونجاوب It is a ... يلا نشوف!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: What is it?"
+  },
+  {
+   "id": "what_s02",
+   "group": "what:lesson",
+   "text": "شوف! What is it؟ يعني ده إيه؟ قول معايا: What is it?",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: What is it?"
+  },
+  {
+   "id": "what_s03",
+   "group": "what:lesson",
+   "text": "الإجابة: It is an apple. يعني ده تفاحة. قول معايا: It is an apple!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: It is an apple."
+  },
+  {
+   "id": "what_s04",
+   "group": "what:lesson",
+   "text": "وده؟ What is it؟ It is a cat. قطة! قول معايا: It is a cat!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: What is it?  It is a cat."
+  },
+  {
+   "id": "what_s05",
+   "group": "what:lesson",
+   "text": "وده؟ What is it؟ It is a car. عربية! قول معايا: It is a car!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: What is it?  It is a car."
+  },
+  {
+   "id": "what_s06",
+   "group": "what:lesson",
+   "text": "وده؟ What is it؟ It is a ball. كورة! قول معايا: It is a ball!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: What is it?  It is a ball."
+  },
+  {
+   "id": "what_s07",
+   "group": "what:lesson",
+   "text": "برافو عليك! نسأل What is it؟ ونجاوب It is a ... يلا نلعب!",
+   "personal": false,
+   "note": "lesson step 7 | on screen: What is it? · It is a ..."
+  },
+  {
+   "id": "what_q1",
+   "group": "what:quiz",
+   "text": "What is it? ده إيه؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "what_q1_right",
+   "group": "what:quiz",
+   "text": "It is an apple! تفاحة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "what_q1_fix",
+   "group": "what:quiz",
+   "text": "دي تفاحة. يبقى It is an apple.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "what_q2",
+   "group": "what:quiz",
+   "text": "What is it? ده إيه؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "what_q2_right",
+   "group": "what:quiz",
+   "text": "It is a cat! قطة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "what_q2_fix",
+   "group": "what:quiz",
+   "text": "دي قطة. يبقى It is a cat.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "what_q3",
+   "group": "what:quiz",
+   "text": "What is it? ده إيه؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "what_q3_right",
+   "group": "what:quiz",
+   "text": "It is a car! عربية.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "what_q3_fix",
+   "group": "what:quiz",
+   "text": "دي عربية. يبقى It is a car.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "what_q4",
+   "group": "what:quiz",
+   "text": "What is it? ده إيه؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "what_q4_right",
+   "group": "what:quiz",
+   "text": "It is a ball! كورة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "what_q4_fix",
+   "group": "what:quiz",
+   "text": "دي كورة. يبقى It is a ball.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "what_q5",
+   "group": "what:quiz",
+   "text": "What is it? ده إيه؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "what_q5_right",
+   "group": "what:quiz",
+   "text": "It is a dog! كلب.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "what_q5_fix",
+   "group": "what:quiz",
+   "text": "ده كلب. يبقى It is a dog.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "what_q6",
+   "group": "what:quiz",
+   "text": "Which one is a car? دوس على الصورة اللي هي a car. العربية!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "what_q6_right",
+   "group": "what:quiz",
+   "text": "a car! العربية.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "what_q6_fix",
+   "group": "what:quiz",
+   "text": "car يعني عربية. دوس على العربية.",
    "personal": false,
    "note": "hint after 2 wrong taps, gentle"
   }

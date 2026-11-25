@@ -1,4 +1,4 @@
-const V = 'mre-v18';
+const V = 'mre-v19';
 const CORE = ['./', 'index.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/lessons2.js', 'js/sfx.js', 'manifest.webmanifest', 'fonts/fonts.css', 'icon-192.png', 'icon-180.png',
   'img/blue_stand.png', 'img/blue_cheer.png', 'img/green_stand.png', 'img/green_cheer.png'];
 self.addEventListener('install', (e) => {

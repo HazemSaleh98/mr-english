@@ -367,7 +367,7 @@ heshe_q3_fix	heshe:quiz		الراجل بنقول he.	hint after 2 wrong taps, ge
 heshe_q4	heshe:quiz		Is it he, or she? دي بنت. نقول he ولا she؟	quiz question 4
 heshe_q4_right	heshe:quiz		she! بنت يبقى she.	after correct answer (plays after a cheer line)
 heshe_q4_fix	heshe:quiz		البنت بنقول she.	hint after 2 wrong taps, gentle
-heshe_q5	heshe:quiz		He is a ___ . He is a boy ولا a girl؟	quiz question 5
+heshe_q5	heshe:quiz		He is a blank . He is a boy ولا a girl؟	quiz question 5
 heshe_q5_right	heshe:quiz		He is a boy! تمام.	after correct answer (plays after a cheer line)
 heshe_q5_fix	heshe:quiz		he للولد. يبقى boy.	hint after 2 wrong taps, gentle
 heshe_q6	heshe:quiz		Which one is she? دوس على الصورة اللي هي she. البنت!	quiz question 6
@@ -388,7 +388,7 @@ it_q2_fix	it:quiz		الحاجة بنقول it.	hint after 2 wrong taps, gentle
 it_q3	it:quiz		Which word? دي بنت. نقول she ولا it؟	quiz question 3
 it_q3_right	it:quiz		she! البنت she.	after correct answer (plays after a cheer line)
 it_q3_fix	it:quiz		البنت بنقول she مش it.	hint after 2 wrong taps, gentle
-it_q4	it:quiz		It is an ___ . It is an apple ولا a apple؟ هي حرف علة، فنقول an.	quiz question 4
+it_q4	it:quiz		It is an blank . It is an apple ولا a apple؟ هي حرف علة، فنقول an.	quiz question 4
 it_q4_right	it:quiz		It is an apple! تمام.	after correct answer (plays after a cheer line)
 it_q4_fix	it:quiz		an بتيجي قبل apple.	hint after 2 wrong taps, gentle
 it_q5	it:quiz		Which word? دي قطة. نقول it ولا he؟	quiz question 5
@@ -397,6 +397,58 @@ it_q5_fix	it:quiz		الحيوان بنقول it.	hint after 2 wrong taps, gentle
 it_q6	it:quiz		Which one is it? دوس على الصورة اللي نقول عليها it. مش الولد!	quiz question 6
 it_q6_right	it:quiz		it! العربية.	after correct answer (plays after a cheer line)
 it_q6_fix	it:quiz		it للحاجة. دوس على العربية.	hint after 2 wrong taps, gentle
+they_s01	they:lesson	Y	أهلاً يا مالك! النهارده هنتعلم أنا، وإنت، وإحنا، وهم بالإنجليزي. يلا نبدأ!	lesson step 1 | on screen: I · you · we · they
+they_s02	they:lesson		أنا واحد. I. قول معايا: I!	repeat-after-me line, English words slow and clear | on screen: I
+they_s03	they:lesson		لما أكلم واحد قدامي، أقول you. قول معايا: you!	repeat-after-me line, English words slow and clear | on screen: you
+they_s04	they:lesson		أنا وإنت مع بعض، نقول we. قول معايا: we!	repeat-after-me line, English words slow and clear | on screen: we
+they_s05	they:lesson		ناس تانيين، مش أنا ومش إنت، نقول they. قول معايا: they!	repeat-after-me line, English words slow and clear | on screen: they
+they_s06	they:lesson		ولد وبنت أصحاب. They are friends. قول معايا: They are friends!	repeat-after-me line, English words slow and clear | on screen: They are friends.
+they_s07	they:lesson		أنا وإنت أصحاب. We are friends. قول معايا: We are friends!	repeat-after-me line, English words slow and clear | on screen: We are friends.
+they_s08	they:lesson		برافو يا وحش! عرفت أنا، وإنت، وإحنا، وهم. يلا نلعب!	lesson step 8 | on screen: I · you · we · they
+they_q1	they:quiz		Which pronoun? ده أنا لوحدي. نقول إيه؟	quiz question 1
+they_q1_right	they:quiz		I! أنا لوحدي.	after correct answer (plays after a cheer line)
+they_q1_fix	they:quiz		أنا لوحدي بنقول I.	hint after 2 wrong taps, gentle
+they_q2	they:quiz		Which pronoun? أنا وصاحبي مع بعض. نقول إيه؟	quiz question 2
+they_q2_right	they:quiz		we! إحنا مع بعض.	after correct answer (plays after a cheer line)
+they_q2_fix	they:quiz		أنا وإنت مع بعض بنقول we.	hint after 2 wrong taps, gentle
+they_q3	they:quiz		Which pronoun? دول ناس تانيين. نقول إيه؟	quiz question 3
+they_q3_right	they:quiz		they! هم ناس تانيين.	after correct answer (plays after a cheer line)
+they_q3_fix	they:quiz		الناس التانيين بنقول they.	hint after 2 wrong taps, gentle
+they_q4	they:quiz		Which pronoun? ولد وبنت بعيد عننا. نقول إيه؟	quiz question 4
+they_q4_right	they:quiz		they! هم.	after correct answer (plays after a cheer line)
+they_q4_fix	they:quiz		اللي بعيد عننا بنقول they.	hint after 2 wrong taps, gentle
+they_q5	they:quiz		Which pronoun? أنا بكلم واحد قدامي. نقول إيه؟	quiz question 5
+they_q5_right	they:quiz		you! إنت.	after correct answer (plays after a cheer line)
+they_q5_fix	they:quiz		اللي بكلمه بنقول you.	hint after 2 wrong taps, gentle
+they_q6	they:quiz		Which one is we? دوس على الصورة اللي هي we. أنا وإنت!	quiz question 6
+they_q6_right	they:quiz		we! إحنا مع بعض.	after correct answer (plays after a cheer line)
+they_q6_fix	they:quiz		we يعني إحنا. اختار اتنين مع بعض.	hint after 2 wrong taps, gentle
+verb_s01	verb:lesson	Y	أهلاً يا مالك! الفعل، verb، هو كلمة بتقول حد بيعمل إيه. زي بيجري، وبيعوم، وبينط. يلا نشوف!	lesson step 1 | on screen: Verbs
+verb_s02	verb:lesson		ده بيجري! run. قول معايا: run!	repeat-after-me line, English words slow and clear | on screen: run
+verb_s03	verb:lesson		وده بيعوم! swim. قول معايا: swim!	repeat-after-me line, English words slow and clear | on screen: swim
+verb_s04	verb:lesson		وده بينط! jump. قول معايا: jump!	repeat-after-me line, English words slow and clear | on screen: jump
+verb_s05	verb:lesson		وده بترقص! dance. قول معايا: dance!	repeat-after-me line, English words slow and clear | on screen: dance
+verb_s06	verb:lesson		وده نايم! sleep. قول معايا: sleep!	repeat-after-me line, English words slow and clear | on screen: sleep
+verb_s07	verb:lesson		وده ماشي! walk. قول معايا: walk!	repeat-after-me line, English words slow and clear | on screen: walk
+verb_s08	verb:lesson		برافو عليك! الفعل هو الحاجة اللي بنعملها. يلا نلعب!	lesson step 8 | on screen: verb = action
+verb_q1	verb:quiz		What is the verb? الولد ده بيعمل إيه؟	quiz question 1
+verb_q1_right	verb:quiz		run! بيجري.	after correct answer (plays after a cheer line)
+verb_q1_fix	verb:quiz		الولد بيجري. يبقى run.	hint after 2 wrong taps, gentle
+verb_q2	verb:quiz		What is the verb? ودي بتعمل إيه؟	quiz question 2
+verb_q2_right	verb:quiz		swim! بيعوم.	after correct answer (plays after a cheer line)
+verb_q2_fix	verb:quiz		بيعوم. يبقى swim.	hint after 2 wrong taps, gentle
+verb_q3	verb:quiz		What is the verb? وده بيعمل إيه؟	quiz question 3
+verb_q3_right	verb:quiz		sleep! نايم.	after correct answer (plays after a cheer line)
+verb_q3_fix	verb:quiz		نايم. يبقى sleep.	hint after 2 wrong taps, gentle
+verb_q4	verb:quiz		What is the verb? وده بيعمل إيه؟	quiz question 4
+verb_q4_right	verb:quiz		dance! بترقص.	after correct answer (plays after a cheer line)
+verb_q4_fix	verb:quiz		بترقص. يبقى dance.	hint after 2 wrong taps, gentle
+verb_q5	verb:quiz		What is the verb? وده بيعمل إيه؟	quiz question 5
+verb_q5_right	verb:quiz		jump! بينط.	after correct answer (plays after a cheer line)
+verb_q5_fix	verb:quiz		بينط. يبقى jump.	hint after 2 wrong taps, gentle
+verb_q6	verb:quiz		Which one is walk? دوس على الصورة اللي هي walk. الماشي!	quiz question 6
+verb_q6_right	verb:quiz		walk! ماشي.	after correct answer (plays after a cheer line)
+verb_q6_fix	verb:quiz		walk يعني يمشي. دوس على الماشي.	hint after 2 wrong taps, gentle
 can_s01	can:lesson	Y	يا أهلاً يا مالك! النهارده هنتعلم كلمتين: can، يعني أقدر. وcan't، يعني مقدرش. بنقول بيهم أنا أقدر أعمل إيه، ومقدرش أعمل إيه. يلا بينا!	lesson step 1 | on screen: can  and  can't
 can_s02	can:lesson		شوف الولد بيعوم! I can swim. يعني أنا أقدر أعوم. can، يعني أقدر. قول معايا: I can swim!	repeat-after-me line, English words slow and clear | on screen: I can swim.
 can_s03	can:lesson		وهنا علامة إكس! I can't swim. يعني أنا مقدرش أعوم. can't، يعني مقدرش. قول معايا: I can't swim!	repeat-after-me line, English words slow and clear | on screen: I can't swim.
@@ -424,6 +476,58 @@ can_q5_fix	can:quiz		مفيش علامة إكس، يبقى can.	hint after 2 wro
 can_q6	can:quiz		Which one is I can swim? دوس على الصورة اللي هي I can swim. أنا أقدر أعوم!	quiz question 6
 can_q6_right	can:quiz		I can swim! الولد بيعوم.	after correct answer (plays after a cheer line)
 can_q6_fix	can:quiz		can swim يعني بيعوم. دوس على الصورة اللي بتعوم من غير إكس.	hint after 2 wrong taps, gentle
+tobe_s01	tobe:lesson	Y	أهلاً يا مالك! النهارده هنتعلم am وis وare. كلمات صغيرة بنقول بيها مين هو إيه!	lesson step 1 | on screen: am · is · are
+tobe_s02	tobe:lesson		I am happy. مع I بنقول am. قول معايا: I am happy!	repeat-after-me line, English words slow and clear | on screen: I am happy.
+tobe_s03	tobe:lesson		He is tall. مع he بنقول is. قول معايا: He is tall!	repeat-after-me line, English words slow and clear | on screen: He is tall.
+tobe_s04	tobe:lesson		She is nice. مع she بنقول is. قول معايا: She is nice!	repeat-after-me line, English words slow and clear | on screen: She is nice.
+tobe_s05	tobe:lesson		It is a dog. مع it بنقول is. قول معايا: It is a dog!	repeat-after-me line, English words slow and clear | on screen: It is a dog.
+tobe_s06	tobe:lesson		We are friends. مع we بنقول are. قول معايا: We are friends!	repeat-after-me line, English words slow and clear | on screen: We are friends.
+tobe_s07	tobe:lesson		They are happy. مع they بنقول are. قول معايا: They are happy!	repeat-after-me line, English words slow and clear | on screen: They are happy.
+tobe_s08	tobe:lesson		برافو يا وحش! am مع I. وis مع he وshe وit. وare مع we وyou وthey. يلا نلعب!	lesson step 8 | on screen: I am · he, she, it is · we, you, they are
+tobe_q1	tobe:quiz		I blank happy. أنا مبسوط. I am ولا I is؟	quiz question 1
+tobe_q1_right	tobe:quiz		I am happy! تمام.	after correct answer (plays after a cheer line)
+tobe_q1_fix	tobe:quiz		مع I بنقول am.	hint after 2 wrong taps, gentle
+tobe_q2	tobe:quiz		He blank tall. هو طويل. He is ولا He are؟	quiz question 2
+tobe_q2_right	tobe:quiz		He is tall! تمام.	after correct answer (plays after a cheer line)
+tobe_q2_fix	tobe:quiz		مع he بنقول is.	hint after 2 wrong taps, gentle
+tobe_q3	tobe:quiz		It blank a dog. ده كلب. It is ولا It are؟	quiz question 3
+tobe_q3_right	tobe:quiz		It is a dog! تمام.	after correct answer (plays after a cheer line)
+tobe_q3_fix	tobe:quiz		مع it بنقول is.	hint after 2 wrong taps, gentle
+tobe_q4	tobe:quiz		We blank friends. إحنا أصحاب. We is ولا We are؟	quiz question 4
+tobe_q4_right	tobe:quiz		We are friends! تمام.	after correct answer (plays after a cheer line)
+tobe_q4_fix	tobe:quiz		مع we بنقول are.	hint after 2 wrong taps, gentle
+tobe_q5	tobe:quiz		They blank happy. هم مبسوطين. They is ولا They are؟	quiz question 5
+tobe_q5_right	tobe:quiz		They are happy! تمام.	after correct answer (plays after a cheer line)
+tobe_q5_fix	tobe:quiz		مع they بنقول are.	hint after 2 wrong taps, gentle
+tobe_q6	tobe:quiz		Which one is she is? دوس على الصورة اللي هي She is nice. البنت!	quiz question 6
+tobe_q6_right	tobe:quiz		She is nice! البنت.	after correct answer (plays after a cheer line)
+tobe_q6_fix	tobe:quiz		she للبنت. دوس على البنت.	hint after 2 wrong taps, gentle
+nbe_s01	nbe:lesson	Y	أهلاً يا مالك! لو عايزين نقول لأ، نزود كلمة not بعد am أو is أو are. يلا نشوف!	lesson step 1 | on screen: is not · are not
+nbe_s02	nbe:lesson		شوف علامة الإكس! It is not a dog. يعني ده مش كلب. قول معايا: It is not a dog!	repeat-after-me line, English words slow and clear | on screen: It is not a dog.
+nbe_s03	nbe:lesson		وهنا إكس تاني! It is not a cat. يعني ده مش قطة. قول معايا: It is not a cat!	repeat-after-me line, English words slow and clear | on screen: It is not a cat.
+nbe_s04	nbe:lesson		I am not sad. يعني أنا مش حزين. قول معايا: I am not sad!	repeat-after-me line, English words slow and clear | on screen: I am not sad.
+nbe_s05	nbe:lesson		He is not a girl. يعني هو مش بنت. قول معايا: He is not a girl!	repeat-after-me line, English words slow and clear | on screen: He is not a girl.
+nbe_s06	nbe:lesson		We are not sad. يعني إحنا مش حزينين. قول معايا: We are not sad!	repeat-after-me line, English words slow and clear | on screen: We are not sad.
+nbe_s07	nbe:lesson		وفي طريقة أقصر. is not بتبقى isn't، وare not بتبقى aren't. قول معايا: isn't، aren't!	repeat-after-me line, English words slow and clear | on screen: isn't · aren't
+nbe_s08	nbe:lesson		برافو عليك! not يعني لأ. is not تبقى isn't. يلا نلعب!	lesson step 8 | on screen: is not = isn't
+nbe_q1	nbe:quiz		It blank a dog. علامة إكس! ده مش كلب. It is ولا It is not؟	quiz question 1
+nbe_q1_right	nbe:quiz		It is not a dog! تمام.	after correct answer (plays after a cheer line)
+nbe_q1_fix	nbe:quiz		إكس يعني not. يبقى is not.	hint after 2 wrong taps, gentle
+nbe_q2	nbe:quiz		It blank a dog. مفيش علامة إكس. ده كلب فعلاً. It is ولا It is not؟	quiz question 2
+nbe_q2_right	nbe:quiz		It is a dog! تمام.	after correct answer (plays after a cheer line)
+nbe_q2_fix	nbe:quiz		مفيش إكس. يبقى is.	hint after 2 wrong taps, gentle
+nbe_q3	nbe:quiz		I blank sad. علامة إكس! أنا مش حزين. I am ولا I am not؟	quiz question 3
+nbe_q3_right	nbe:quiz		I am not sad! تمام.	after correct answer (plays after a cheer line)
+nbe_q3_fix	nbe:quiz		إكس يعني not. يبقى am not.	hint after 2 wrong taps, gentle
+nbe_q4	nbe:quiz		We blank sad. علامة إكس! إحنا مش حزينين. We are ولا We are not؟	quiz question 4
+nbe_q4_right	nbe:quiz		We are not sad! تمام.	after correct answer (plays after a cheer line)
+nbe_q4_fix	nbe:quiz		إكس يعني not. يبقى are not.	hint after 2 wrong taps, gentle
+nbe_q5	nbe:quiz		He blank a girl. علامة إكس! هو مش بنت. He is ولا He isn't؟	quiz question 5
+nbe_q5_right	nbe:quiz		He isn't a girl! تمام.	after correct answer (plays after a cheer line)
+nbe_q5_fix	nbe:quiz		إكس يعني not. is not تبقى isn't.	hint after 2 wrong taps, gentle
+nbe_q6	nbe:quiz		Which one is not a dog? دوس على الصورة اللي مش كلب. It is not a dog!	quiz question 6
+nbe_q6_right	nbe:quiz		It is not a dog! القطة.	after correct answer (plays after a cheer line)
+nbe_q6_fix	nbe:quiz		مش كلب يعني القطة. دوس على القطة.	hint after 2 wrong taps, gentle
 adj_s01	adj:lesson	Y	يا أهلاً يا مالك! إيه هي الصفات يا شاطر؟ الصفة هي كلمة بتوصف شخص أو حاجة معينة. زي: fat، tall، sad، fast. يلا بينا!	lesson step 1 | on screen: fat · tall · sad · fast
 adj_s02	adj:lesson		شوف شلبي بقى تخين! Shalabi is fat. fat، يعني تخين. قول معايا: fat!	repeat-after-me line, English words slow and clear | on screen: Shalabi is fat.
 adj_s03	adj:lesson		وشوف شلبي بقى رفيع! Shalabi is thin. thin، يعني رفيع. قول معايا: thin!	repeat-after-me line, English words slow and clear | on screen: Shalabi is thin.
@@ -452,3 +556,53 @@ adj_q5_fix	adj:quiz		الوش بيعيط. يبقى sad.	hint after 2 wrong taps,
 adj_q6	adj:quiz		Is it fast, or slow? السلحفاة دي بتمشي براحة. هي fast ولا slow؟	quiz question 6
 adj_q6_right	adj:quiz		slow! السلحفاة بطيئة.	after correct answer (plays after a cheer line)
 adj_q6_fix	adj:quiz		السلحفاة بتمشي براحة. يبقى slow.	hint after 2 wrong taps, gentle
+isit_s01	isit:lesson	Y	أهلاً يا مالك! النهارده هنتعلم نسأل. Is it a dog؟ يعني هل ده كلب؟ يلا نشوف!	lesson step 1 | on screen: Is it ...?
+isit_s02	isit:lesson		Is it a dog؟ يعني هل ده كلب؟ قول معايا: Is it a dog?	repeat-after-me line, English words slow and clear | on screen: Is it a dog?
+isit_s03	isit:lesson		والإجابة: Yes, it is. يعني أيوه هو كلب. قول معايا: Yes, it is!	repeat-after-me line, English words slow and clear | on screen: Yes, it is.
+isit_s04	isit:lesson		وهنا Is it a dog؟ هل ده كلب؟	repeat-after-me line, English words slow and clear | on screen: Is it a dog?
+isit_s05	isit:lesson		والإجابة: No, it isn't. يعني لأ، مش كلب. قول معايا: No, it isn't!	repeat-after-me line, English words slow and clear | on screen: No, it isn't.
+isit_s06	isit:lesson		وده Is it an apple؟ هل دي تفاحة؟ Yes, it is! أيوه!	repeat-after-me line, English words slow and clear | on screen: Is it an apple?
+isit_s07	isit:lesson		برافو يا وحش! لو الإجابة أيوه نقول Yes, it is. ولو لأ نقول No, it isn't. يلا نلعب!	lesson step 7 | on screen: Yes, it is. · No, it isn't.
+isit_q1	isit:quiz		Is it a dog? هل ده كلب؟	quiz question 1
+isit_q1_right	isit:quiz		Yes, it is! ده كلب.	after correct answer (plays after a cheer line)
+isit_q1_fix	isit:quiz		ده كلب فعلاً. يبقى Yes, it is.	hint after 2 wrong taps, gentle
+isit_q2	isit:quiz		Is it a dog? هل ده كلب؟	quiz question 2
+isit_q2_right	isit:quiz		No, it isn't! دي قطة.	after correct answer (plays after a cheer line)
+isit_q2_fix	isit:quiz		دي قطة مش كلب. يبقى No, it isn't.	hint after 2 wrong taps, gentle
+isit_q3	isit:quiz		Is it an apple? هل دي تفاحة؟	quiz question 3
+isit_q3_right	isit:quiz		Yes, it is! تفاحة.	after correct answer (plays after a cheer line)
+isit_q3_fix	isit:quiz		دي تفاحة. يبقى Yes, it is.	hint after 2 wrong taps, gentle
+isit_q4	isit:quiz		Is it a ball? هل دي كورة؟	quiz question 4
+isit_q4_right	isit:quiz		No, it isn't! دي عربية.	after correct answer (plays after a cheer line)
+isit_q4_fix	isit:quiz		دي عربية مش كورة. يبقى No, it isn't.	hint after 2 wrong taps, gentle
+isit_q5	isit:quiz		Is it a cat? هل دي قطة؟	quiz question 5
+isit_q5_right	isit:quiz		Yes, it is! قطة.	after correct answer (plays after a cheer line)
+isit_q5_fix	isit:quiz		دي قطة. يبقى Yes, it is.	hint after 2 wrong taps, gentle
+isit_q6	isit:quiz		Which one is a ball? دوس على الصورة اللي هي a ball. الكورة!	quiz question 6
+isit_q6_right	isit:quiz		a ball! الكورة.	after correct answer (plays after a cheer line)
+isit_q6_fix	isit:quiz		ball يعني كورة. دوس على الكورة.	hint after 2 wrong taps, gentle
+what_s01	what:lesson	Y	أهلاً يا مالك! النهارده هنتعلم نسأل: What is it؟ يعني ده إيه؟ ونجاوب It is a ... يلا نشوف!	lesson step 1 | on screen: What is it?
+what_s02	what:lesson		شوف! What is it؟ يعني ده إيه؟ قول معايا: What is it?	repeat-after-me line, English words slow and clear | on screen: What is it?
+what_s03	what:lesson		الإجابة: It is an apple. يعني ده تفاحة. قول معايا: It is an apple!	repeat-after-me line, English words slow and clear | on screen: It is an apple.
+what_s04	what:lesson		وده؟ What is it؟ It is a cat. قطة! قول معايا: It is a cat!	repeat-after-me line, English words slow and clear | on screen: What is it?  It is a cat.
+what_s05	what:lesson		وده؟ What is it؟ It is a car. عربية! قول معايا: It is a car!	repeat-after-me line, English words slow and clear | on screen: What is it?  It is a car.
+what_s06	what:lesson		وده؟ What is it؟ It is a ball. كورة! قول معايا: It is a ball!	repeat-after-me line, English words slow and clear | on screen: What is it?  It is a ball.
+what_s07	what:lesson		برافو عليك! نسأل What is it؟ ونجاوب It is a ... يلا نلعب!	lesson step 7 | on screen: What is it? · It is a ...
+what_q1	what:quiz		What is it? ده إيه؟	quiz question 1
+what_q1_right	what:quiz		It is an apple! تفاحة.	after correct answer (plays after a cheer line)
+what_q1_fix	what:quiz		دي تفاحة. يبقى It is an apple.	hint after 2 wrong taps, gentle
+what_q2	what:quiz		What is it? ده إيه؟	quiz question 2
+what_q2_right	what:quiz		It is a cat! قطة.	after correct answer (plays after a cheer line)
+what_q2_fix	what:quiz		دي قطة. يبقى It is a cat.	hint after 2 wrong taps, gentle
+what_q3	what:quiz		What is it? ده إيه؟	quiz question 3
+what_q3_right	what:quiz		It is a car! عربية.	after correct answer (plays after a cheer line)
+what_q3_fix	what:quiz		دي عربية. يبقى It is a car.	hint after 2 wrong taps, gentle
+what_q4	what:quiz		What is it? ده إيه؟	quiz question 4
+what_q4_right	what:quiz		It is a ball! كورة.	after correct answer (plays after a cheer line)
+what_q4_fix	what:quiz		دي كورة. يبقى It is a ball.	hint after 2 wrong taps, gentle
+what_q5	what:quiz		What is it? ده إيه؟	quiz question 5
+what_q5_right	what:quiz		It is a dog! كلب.	after correct answer (plays after a cheer line)
+what_q5_fix	what:quiz		ده كلب. يبقى It is a dog.	hint after 2 wrong taps, gentle
+what_q6	what:quiz		Which one is a car? دوس على الصورة اللي هي a car. العربية!	quiz question 6
+what_q6_right	what:quiz		a car! العربية.	after correct answer (plays after a cheer line)
+what_q6_fix	what:quiz		car يعني عربية. دوس على العربية.	hint after 2 wrong taps, gentle
