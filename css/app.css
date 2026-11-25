@@ -247,3 +247,10 @@ img.em{display:inline-block;height:1.05em;width:1.05em;vertical-align:-.14em;poi
 
 .mike{position:fixed;left:8px;bottom:calc(env(safe-area-inset-bottom,0px) + 118px);z-index:60;display:flex;align-items:flex-end;gap:6px;max-width:92vw;opacity:0;transform:translateX(-40px) scale(.9);transition:opacity .25s,transform .3s cubic-bezier(.3,1.4,.5,1);pointer-events:none}.mike.on{opacity:1;transform:none}.mike .buddy{width:84px;flex:none}.mbub{background:#fff;color:#2b3a67;font-weight:800;border-radius:18px 18px 18px 4px;padding:9px 13px;font-size:15px;line-height:1.35;box-shadow:0 4px 14px rgba(0,0,0,.18);direction:rtl;max-width:62vw}
 .vis.text span.vow{background:none;-webkit-background-clip:border-box;background-clip:border-box;color:inherit;animation:none}
+
+.vis.emoji.pair span{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:2%}
+.vis.emoji.pair span img.em{width:min(22vw,17vh,140px);height:min(22vw,17vh,140px)}
+.q .vcard .vis.emoji.pair span img.em{width:min(17vw,10vh,96px);height:min(17vw,10vh,96px)}
+.opt.pic .vis.emoji.pair span img.em{width:min(14vw,8vh,80px);height:min(14vw,8vh,80px)}
+
+.credit{text-align:center;font-size:12px;color:#8a8fa8;opacity:.75;padding:18px 0 10px;letter-spacing:.3px}

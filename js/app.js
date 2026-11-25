@@ -166,7 +166,7 @@
   }
   function vis(v, cls) {
     cls = cls || '';
-    if (v.k === 'emoji') return '<div class="vis emoji ' + cls + '"><span>' + v.e + '</span>' + (v.cross ? '<div class="x">✕</div>' : '') + (v.cap ? '<div class="capchip">' + esc(v.cap) + '</div>' : '') + '</div>';
+    if (v.k === 'emoji') return '<div class="vis emoji ' + (v.pair ? 'pair ' : '') + cls + '"><span>' + v.e + '</span>' + (v.cross ? '<div class="x">✕</div>' : '') + (v.cap ? '<div class="capchip">' + esc(v.cap) + '</div>' : '') + '</div>';
     if (v.k === 'grp') { const n = v.n, g = n <= 2 ? 2 : n <= 4 ? 4 : n <= 6 ? 6 : 10; return '<div class="vis grp g' + g + ' ' + cls + '"><div class="gw">' + Array.from({ length: n }, (_, i) => '<span style="animation-delay:' + i * 0.12 + 's">' + (Array.isArray(v.e) ? v.e[i % v.e.length] : v.e) + '</span>').join('') + '</div>' + (v.cap ? '<div class="capchip">' + esc(v.cap) + '</div>' : '') + '</div>'; }
     if (v.k === 'dist') return '<div class="vis dist ' + (v.far ? 'far' : 'near') + (v.n > 1 ? ' multi' : '') + ' ' + cls + '"><span class="kid">' + (v.kid || '🧒') + '</span><span class="obj">' + (v.n > 1 ? Array.from({ length: v.n }, () => '<i>' + v.e + '</i>').join('') : '<i>' + v.e + '</i>') + '</span><div class="ground"></div>' + (v.cap ? '<div class="capchip">' + esc(v.cap) + '</div>' : '') + '</div>';
     if (v.k === 'sh') return '<div class="vis sfx ' + v.cls + ' ' + cls + '"><img src="img/blue_stand.png" alt=""></div>';
@@ -207,7 +207,7 @@
       const f = document.createDocumentFragment();
       const SEQ = /(\p{Extended_Pictographic}\uFE0F?(?:\u200d\p{Extended_Pictographic}\uFE0F?)*)/u;
       n.nodeValue.split(SEQ).forEach((part) => {
-        if (/^\p{Extended_Pictographic}/u.test(part)) { const cp = Array.from(part).map((c) => c.codePointAt(0).toString(16)).filter((x) => x !== 'fe0f').join('-'); const im = document.createElement('img'); im.className = 'em'; im.alt = part; im.src = 'img/e/' + cp + '.svg'; im.draggable = false; f.appendChild(im); }
+        if (/^\p{Extended_Pictographic}/u.test(part)) { const cp = Array.from(part).map((c) => c.codePointAt(0).toString(16)).filter((x) => x !== 'fe0f').join('-'); const im = document.createElement('img'); im.className = 'em'; im.onerror = function () { this.replaceWith(document.createTextNode(this.alt)); }; im.alt = part; im.src = 'img/e/' + cp + '.svg'; im.draggable = false; f.appendChild(im); }
         else if (part) f.appendChild(document.createTextNode(part));
       });
       n.parentNode.replaceChild(f, n);
@@ -216,7 +216,18 @@
   function setScreen(html, cls) { app.innerHTML = '<div class="screen ' + (cls || '') + '">' + html + '</div>'; emojify(app); }
 
   /* ---------- HOME ---------- */
-  let greeted = false;
+  let greeted = false, greeting = false;
+  /* opening hello: tries on open (works where autoplay is allowed, e.g. the Android app), otherwise on the first touch */
+  async function homeHello(auto, manual) {
+    if (greeting && !manual) return; greeting = true;
+    try {
+      sayN++;
+      const ok = await say(await pick('hello'));
+      if (!ok && auto) { greeted = false; return; }
+      greeted = true;
+      if (ok && !mikeHello && !mikeBusy && $('.hero') && S.name === DEFAULT_NAME && S.voice) { const id = await pick('mike_hello'); if (id && await getBlob(id)) { mikeHello = true; mikeBusy = true; lastMike = sayN; try { await mikeSay(id); } finally { mikeBusy = false; } } }
+    } finally { greeting = false; }
+  }
   function home() {
     stopVoice();
     const cards = LESSONS.map((L, i) => '<button class="card' + (starsOf(L.id) ? '' : (i === firstOpen() ? ' new' : '')) + '" data-l="' + L.id + '" style="background:linear-gradient(160deg,' + L.color[0] + ',' + L.color[1] + ');animation-delay:' + (i * 70) + 'ms">'
@@ -224,16 +235,13 @@
     const soon = D.SOON.map((L, i) => '<button class="card locked sm" data-soon="1" style="animation-delay:' + (300 + i * 40) + 'ms"><span class="lk">🔒</span><div class="ic">' + L.icon + '</div><div class="t">' + esc(L.title) + '</div><div class="a">' + esc(L.ar) + '</div><div class="bk">' + esc(L.book) + '</div></button>').join('');
     setScreen('<div class="top"><div class="pill">⭐ ' + totalStars() + '</div><div class="brand">Mr English</div><button class="rbtn" id="gear" aria-label="settings">⚙️</button></div>'
       + '<div class="body"><div class="hero"><div class="bubble"><div>Hi ' + esc(S.name) + '! Let\'s learn English!</div><div class="ar">يلا نتعلم إنجليزي يا ' + esc(S.name === DEFAULT_NAME ? 'مالك' : S.name) + '!</div></div>' + shalabi('big') + buddy() + '</div>'
-      + '<div><div class="sec">📚 Lessons</div><div class="grid">' + cards + '</div><div class="sec">🔜 Coming soon</div><div class="grid">' + soon + '</div></div></div>', 'home');
-    $('.hero .sh').onclick = () => { unlock(); SFX.pop(); jump($('.hero .sh')); (async () => { await sayPool('hello'); if (!mikeHello && !mikeBusy && S.name === DEFAULT_NAME && S.voice) { const id = await pick('mike_hello'); if (id && await getBlob(id)) { mikeHello = true; mikeBusy = true; lastMike = sayN; try { await mikeSay(id); } finally { mikeBusy = false; } } } })(); };
+      + '<div><div class="sec">📚 Lessons</div><div class="grid">' + cards + '</div><div class="sec">🔜 Coming soon</div><div class="grid">' + soon + '</div><div class="credit">© Hazem Saleh</div></div></div>', 'home');
+    $('.hero .sh').onclick = () => { unlock(); SFX.pop(); jump($('.hero .sh')); greeted = true; homeHello(false, true); };
     app.querySelectorAll('.card[data-l]').forEach((b) => (b.onclick = () => { unlock(); SFX.tap(); startLesson(b.dataset.l); }));
     app.querySelectorAll('.card[data-soon]').forEach((b) => (b.onclick = () => { unlock(); SFX.wrong(); b.classList.add('no'); setTimeout(() => b.classList.remove('no'), 500); b.style.opacity = ''; toast('🔒 Coming soon / قريب'); sayPool('locked'); }));
-    let hold; const g = $('#gear');
-    const open = () => { SFX.pop(); settings(); };
-    g.onpointerdown = () => { hold = setTimeout(open, 900); }; g.onpointerup = g.onpointerleave = () => clearTimeout(hold);
-    g.onclick = () => toast('Hold ⚙️ for parents / اضغط مطولاً');
+    $('#gear').onclick = () => { unlock(); SFX.pop(); parentGate(); };
     prefetch(POOLS.hello.concat(POOLS.locked, ['mike_hello', 'mike_hello_luka']));
-    if (!greeted) { greeted = true; /* browsers need a tap first; greeting plays after first interaction */ }
+    if (!greeted) setTimeout(() => { if (!greeted && $('.hero')) homeHello(true); }, 900);
   }
   function firstOpen() { for (let i = 0; i < LESSONS.length; i++) if (!starsOf(LESSONS[i].id)) return i; return -1; }
   function jump(el) { el.classList.remove('jump'); void el.offsetWidth; el.classList.add('jump'); setTimeout(() => el.classList.remove('jump'), 800); }
@@ -272,6 +280,7 @@
         await sayPool('turn'); if (r2 !== stepRun) return; await sleep(ok ? 2200 : 1500); if (r2 !== stepRun) return; b.remove();
       }
       const n = $('#nx'); if (n) n.classList.add('ready');
+      if (S.auto !== false) { await sleep(1300); if (r2 === stepRun && cur && cur.L === L && cur.i === i && $('#nx')) next(); }
     }
     SFX.whoosh();
     if (first) await sleep(250);
@@ -355,24 +364,37 @@
   }
 
   /* ---------- SETTINGS ---------- */
+  /* parents' gate: a small sum so a child tapping the gear does not open the settings */
+  function parentGate() {
+    const x = 3 + Math.floor(Math.random() * 6), y = 4 + Math.floor(Math.random() * 5);
+    const m = document.createElement('div'); m.className = 'modal';
+    m.innerHTML = '<div class="panel"><h2>⚙️ Parents only</h2><small style="font-size:1.05em">لأولياء الأمور فقط. حل المسألة:</small><label style="font-size:1.4em">' + x + ' + ' + y + ' = <input type="number" inputmode="numeric" id="ga" style="max-width:6em"></label><div class="btns" style="padding:8px 0 0"><button class="btn o" id="gc">Cancel</button><button class="btn g" id="go">OK</button></div></div>';
+    document.body.appendChild(m);
+    const tryGo = () => { if (+$('#ga', m).value === x + y) { m.remove(); settings(); } else { SFX.wrong(); $('#ga', m).value = ''; } };
+    $('#go', m).onclick = tryGo; $('#gc', m).onclick = () => m.remove(); $('#ga', m).onkeydown = (e) => { if (e.key === 'Enter') tryGo(); };
+    setTimeout(() => { try { $('#ga', m).focus(); } catch (e) {} }, 100);
+  }
   function settings() {
     const m = document.createElement('div'); m.className = 'modal';
     m.innerHTML = '<div class="panel"><h2>⚙️ Parents</h2><label>Child name<input type="text" id="nm" maxlength="14" value="' + esc(S.name) + '"></label>'
       + '<small>Voice lines that say the name are recorded for "' + DEFAULT_NAME + '". For another name the app uses the other lines and shows the name on screen.</small>'
+      + '<label>Auto-advance<input type="checkbox" id="au" ' + (S.auto !== false ? 'checked' : '') + '></label><small>Moves to the next screen by itself after the voice finishes. The arrow still works.</small>'
       + '<label>Teacher voice<input type="checkbox" id="vo" ' + (S.voice ? 'checked' : '') + '></label><label>Sound effects<input type="checkbox" id="sf" ' + (S.sfx ? 'checked' : '') + '></label>'
+      + '<div class="credit">© Hazem Saleh</div>'
       + '<label>Stars collected<b>⭐ ' + totalStars() + '</b></label><div class="btns" style="padding:8px 0 0"><button class="btn o" id="rs">Reset progress</button><button class="btn g" id="ok">Done</button></div><small style="margin-top:12px;text-align:center">Mr English · built by Hazem Saleh</small></div>';
     document.body.appendChild(m); emojify(m);
-    $('#ok', m).onclick = () => { S.name = ($('#nm', m).value.trim() || DEFAULT_NAME); S.voice = $('#vo', m).checked; S.sfx = $('#sf', m).checked; SFX.set(S.sfx); save(); m.remove(); home(); };
+    $('#ok', m).onclick = () => { S.name = ($('#nm', m).value.trim() || DEFAULT_NAME); S.voice = $('#vo', m).checked; S.auto = $('#au', m).checked; S.sfx = $('#sf', m).checked; SFX.set(S.sfx); save(); m.remove(); home(); };
     $('#rs', m).onclick = () => { if (confirm('Reset all stars?')) { S.lessons = {}; save(); m.remove(); home(); } };
   }
 
   /* ---------- boot ---------- */
   document.addEventListener('touchstart', unlock, { once: true, passive: true }); document.addEventListener('mousedown', unlock, { once: true });
+  document.addEventListener('pointerdown', (e) => { if (!greeted && !greeting && $('.hero') && !e.target.closest('.card,#gear,.modal')) { unlock(); homeHello(false); } }, true);
   const h = location.hash.match(/^#\/(lesson|quiz|result)\/(\w+)(?:\/(\d+))?/);
   if (h && h[1] === 'lesson') startLesson(h[2], +(h[3] || 0));
   else if (h && h[1] === 'quiz') { startLesson(h[2]); cur.i = 0; Q = { L: cur.L, i: +(h[3] || 0), mistakes: 0 }; quizView(+(h[3] || 0) === 0); }
   else if (h && h[1] === 'result') { cur = { L: LESSONS.find((l) => l.id === h[2]) }; Q = { L: cur.L, i: 0, mistakes: +(h[3] || 0) }; result(); }
   else home();
   window.MRE = { home, startLesson, S };
-  if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw.js').catch(() => {});
+  if ('serviceWorker' in navigator && location.protocol !== 'file:' && !/MrEnglishApp/.test(navigator.userAgent)) navigator.serviceWorker.register('sw.js').catch(() => {});
 })();

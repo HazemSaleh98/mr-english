@@ -233,7 +233,7 @@
     /* ---------------- verb to be (p47) ---------------- */
     add('tobe', 'verb to be', 'am · is · are', '⭐', ['#ffd89b', '#19547b'], 'Page 47', [
       S('tobe_s01', TX('am · is · are'), 'am · is · are', 'كلمات بنقول بيها مين هو إيه', 'أهلاً يا مالك! النهارده هنتعلم am وis وare. كلمات صغيرة بنقول بيها مين هو إيه!', { personal: true }),
-      SI('tobe_s02', E('🧒'), 'I am happy.', 'أنا مبسوط', 'I am happy. مع I بنقول am. قول معايا: I am happy!'),
+      SI('tobe_s02', E('😊'), 'I am happy.', 'أنا مبسوط', 'I am happy. مع I بنقول am. قول معايا: I am happy!'),
       SI('tobe_s03', E('👦'), 'He is tall.', 'هو طويل', 'He is tall. مع he بنقول is. قول معايا: He is tall!'),
       SI('tobe_s04', E('👧'), 'She is nice.', 'هي لطيفة', 'She is nice. مع she بنقول is. قول معايا: She is nice!'),
       SI('tobe_s05', E('🐶'), 'It is a dog.', 'ده كلب', 'It is a dog. مع it بنقول is. قول معايا: It is a dog!'),
@@ -241,7 +241,7 @@
       SI('tobe_s07', E('👪'), 'They are happy.', 'هم مبسوطين', 'They are happy. مع they بنقول are. قول معايا: They are happy!'),
       S('tobe_s08', TX('I am · he/she/it is · we/you/they are'), 'I am · he, she, it is · we, you, they are', 'am مع I، is مع he وshe وit، are مع الباقي', 'برافو يا وحش! am مع I. وis مع he وshe وit. وare مع we وyou وthey. يلا نلعب!')
     ], [
-      Q('tobe_q1', E('🧒'), 'I ___ happy.', 'أنا مبسوط. I am ولا I is؟', 'word', ['am', 'is', 'are'], 'am', 'I am happy! تمام.', 'مع I بنقول am.'),
+      Q('tobe_q1', E('😊'), 'I ___ happy.', 'أنا مبسوط. I am ولا I is؟', 'word', ['am', 'is', 'are'], 'am', 'I am happy! تمام.', 'مع I بنقول am.'),
       Q('tobe_q2', E('👦'), 'He ___ tall.', 'هو طويل. He is ولا He are؟', 'word', ['am', 'is', 'are'], 'is', 'He is tall! تمام.', 'مع he بنقول is.'),
       Q('tobe_q3', E('🐶'), 'It ___ a dog.', 'ده كلب. It is ولا It are؟', 'word', ['am', 'is', 'are'], 'is', 'It is a dog! تمام.', 'مع it بنقول is.'),
       Q('tobe_q4', E('👫'), 'We ___ friends.', 'إحنا أصحاب. We is ولا We are؟', 'word', ['am', 'is', 'are'], 'are', 'We are friends! تمام.', 'مع we بنقول are.'),
@@ -311,15 +311,15 @@
       SI('have_s02', E('⚽'), 'I have a ball.', 'أنا عندي كورة', 'I have a ball. يعني أنا عندي كورة. قول معايا: I have a ball!'),
       SI('have_s03', E('📘'), 'You have a book.', 'انت عندك كتاب', 'You have a book. يعني انت عندك كتاب. قول معايا: You have a book!'),
       SI('have_s04', E('🚗'), 'We have a car.', 'إحنا عندنا عربية', 'We have a car. يعني إحنا عندنا عربية. قول معايا: We have a car!'),
-      SI('have_s05', E('🐶'), 'He has a dog.', 'هو عنده كلب', 'وهنا He has a dog. يعني هو عنده كلب. لاحظ: He بتاخد has. قول معايا: He has a dog!'),
-      SI('have_s06', E('🎒'), 'She has a bag.', 'هي عندها شنطة', 'She has a bag. يعني هي عندها شنطة. قول معايا: She has a bag!'),
+      SI('have_s05', E('👦🐶', { pair: true }), 'He has a dog.', 'هو عنده كلب', 'وهنا He has a dog. يعني هو عنده كلب. لاحظ: He بتاخد has. قول معايا: He has a dog!'),
+      SI('have_s06', E('👧🎒', { pair: true }), 'She has a bag.', 'هي عندها شنطة', 'She has a bag. يعني هي عندها شنطة. قول معايا: She has a bag!'),
       SI('have_s07', E('🐱'), 'It has a tail.', 'هي عندها دنب', 'It has a tail. يعني الحيوان عنده دنب. It بتاخد has. قول معايا: It has a tail!'),
       S('have_s08', TX('I · you · we · they → have'), 'he · she · it → has', 'have و has', 'برافو عليك! I وyou وwe وthey بياخدوا have. وhe وshe وit بياخدوا has. يلا نلعب!')
     ], [
       Q('have_q1', E('⚽'), 'I ___ a ball.', 'أنا عندي كورة. have ولا has؟', 'word', YN, 'have', 'I have a ball! تمام.', 'I بتاخد have.'),
-      Q('have_q2', E('🐶'), 'He ___ a dog.', 'هو عنده كلب. have ولا has؟', 'word', YN, 'has', 'He has a dog! تمام.', 'He بتاخد has.'),
+      Q('have_q2', E('👦🐶', { pair: true }), 'He ___ a dog.', 'هو عنده كلب. have ولا has؟', 'word', YN, 'has', 'He has a dog! تمام.', 'He بتاخد has.'),
       Q('have_q3', E('🚗'), 'We ___ a car.', 'إحنا عندنا عربية. have ولا has؟', 'word', YN, 'have', 'We have a car! تمام.', 'We بتاخد have.'),
-      Q('have_q4', E('🎒'), 'She ___ a bag.', 'هي عندها شنطة. have ولا has؟', 'word', YN, 'has', 'She has a bag! تمام.', 'She بتاخد has.'),
+      Q('have_q4', E('👧🎒', { pair: true }), 'She ___ a bag.', 'هي عندها شنطة. have ولا has؟', 'word', YN, 'has', 'She has a bag! تمام.', 'She بتاخد has.'),
       Q('have_q5', E('🐱'), 'It ___ a tail.', 'الحيوان عنده دنب. have ولا has؟', 'word', YN, 'has', 'It has a tail! تمام.', 'It بتاخد has.'),
       Q('have_q6', TX('They ___ a cat.'), 'They ___ a cat.', 'هم عندهم قطة. have ولا has؟', 'word', YN, 'have', 'They have a cat! تمام.', 'They بتاخد have.')
     ]);
@@ -327,19 +327,19 @@
     /* ---------------- his / her (p70) ---------------- */
     add('hish', 'his · her', 'بتاعه، بتاعها', '🧢', ['#d4fc79', '#96e6a1'], 'Page 70', [
       S('hish_s01', TX('his · her'), 'his · her', 'بتاعه وبتاعها', 'أهلاً يا مالك! النهارده هنتعلم his وher. his يعني بتاع الولد. وher يعني بتاعة البنت. يلا بينا!', { personal: true }),
-      SI('hish_s02', E('👦'), 'his ball', 'الكورة بتاعته', 'شوف الولد ده. الكورة بتاعته. نقول his ball. قول معايا: his ball!'),
-      SI('hish_s03', E('👧'), 'her bag', 'الشنطة بتاعتها', 'وشوف البنت دي. الشنطة بتاعتها. نقول her bag. قول معايا: her bag!'),
-      SI('hish_s04', E('👦'), 'This is his cap.', 'دي الكاب بتاعه', 'This is his cap. يعني دي الكاب بتاعه. قول معايا: This is his cap!'),
-      SI('hish_s05', E('👧'), 'This is her doll.', 'دي العروسة بتاعتها', 'This is her doll. يعني دي العروسة بتاعتها. قول معايا: This is her doll!'),
-      SI('hish_s06', E('👨'), 'This is his car.', 'دي عربيته', 'This is his car. يعني دي عربيته. قول معايا: This is his car!'),
-      SI('hish_s07', E('👩'), 'This is her book.', 'ده كتابها', 'This is her book. يعني ده كتابها. قول معايا: This is her book!'),
+      SI('hish_s02', E('👦⚽', { pair: true }), 'his ball', 'الكورة بتاعته', 'شوف الولد ده. الكورة بتاعته. نقول his ball. قول معايا: his ball!'),
+      SI('hish_s03', E('👧🎒', { pair: true }), 'her bag', 'الشنطة بتاعتها', 'وشوف البنت دي. الشنطة بتاعتها. نقول her bag. قول معايا: her bag!'),
+      SI('hish_s04', E('👦🧢', { pair: true }), 'This is his cap.', 'دي الكاب بتاعه', 'This is his cap. يعني دي الكاب بتاعه. قول معايا: This is his cap!'),
+      SI('hish_s05', E('👧🪆', { pair: true }), 'This is her doll.', 'دي العروسة بتاعتها', 'This is her doll. يعني دي العروسة بتاعتها. قول معايا: This is her doll!'),
+      SI('hish_s06', E('👨🚗', { pair: true }), 'This is his car.', 'دي عربيته', 'This is his car. يعني دي عربيته. قول معايا: This is his car!'),
+      SI('hish_s07', E('👩📘', { pair: true }), 'This is her book.', 'ده كتابها', 'This is her book. يعني ده كتابها. قول معايا: This is her book!'),
       S('hish_s08', TX('boy → his · girl → her'), 'his = boy · her = girl', 'his للولد، her للبنت', 'برافو عليك يا وحش! his للولد. her للبنت. يلا نلعب!')
     ], [
-      Q('hish_q1', E('👦'), 'This is ___ ball.', 'الولد ده. الكورة بتاعته. his ولا her؟', 'word', ['his', 'her'], 'his', 'his ball! تمام.', 'ولد يبقى his.'),
-      Q('hish_q2', E('👧'), 'This is ___ bag.', 'البنت دي. الشنطة بتاعتها. his ولا her؟', 'word', ['his', 'her'], 'her', 'her bag! تمام.', 'بنت يبقى her.'),
-      Q('hish_q3', E('👨'), 'This is ___ car.', 'الراجل ده. العربية بتاعته. his ولا her؟', 'word', ['his', 'her'], 'his', 'his car! تمام.', 'راجل يبقى his.'),
-      Q('hish_q4', E('👩'), 'This is ___ book.', 'الست دي. الكتاب بتاعها. his ولا her؟', 'word', ['his', 'her'], 'her', 'her book! تمام.', 'ست يبقى her.'),
-      Q('hish_q5', E('👧'), 'This is ___ doll.', 'البنت دي. العروسة بتاعتها. his ولا her؟', 'word', ['his', 'her'], 'her', 'her doll! تمام.', 'بنت يبقى her.'),
+      Q('hish_q1', E('👦⚽', { pair: true }), 'This is ___ ball.', 'الولد ده. الكورة بتاعته. his ولا her؟', 'word', ['his', 'her'], 'his', 'his ball! تمام.', 'ولد يبقى his.'),
+      Q('hish_q2', E('👧🎒', { pair: true }), 'This is ___ bag.', 'البنت دي. الشنطة بتاعتها. his ولا her؟', 'word', ['his', 'her'], 'her', 'her bag! تمام.', 'بنت يبقى her.'),
+      Q('hish_q3', E('👨🚗', { pair: true }), 'This is ___ car.', 'الراجل ده. العربية بتاعته. his ولا her؟', 'word', ['his', 'her'], 'his', 'his car! تمام.', 'راجل يبقى his.'),
+      Q('hish_q4', E('👩📘', { pair: true }), 'This is ___ book.', 'الست دي. الكتاب بتاعها. his ولا her؟', 'word', ['his', 'her'], 'her', 'her book! تمام.', 'ست يبقى her.'),
+      Q('hish_q5', E('👧🪆', { pair: true }), 'This is ___ doll.', 'البنت دي. العروسة بتاعتها. his ولا her؟', 'word', ['his', 'her'], 'her', 'her doll! تمام.', 'بنت يبقى her.'),
       Q('hish_q6', TX('his cap'), 'Which one is  his ?', 'دوس على الصورة اللي هي his. بتاع الولد!', 'pic', [E('👧'), E('👦')], 1, 'his! الولد.', 'his يعني بتاع الولد. دوس على الولد.')
     ]);
 
@@ -428,7 +428,7 @@
       [E('🍎'), 'What is it?', 'ده إيه؟', ['It is an apple.', 'It is a ball.'], 'It is an apple.', 'It is an apple! تمام.', 'دي تفاحة.'],
       [E('👦'), 'He ___ a dog.', 'هو عنده كلب. have ولا has؟', ['have', 'has'], 'has', 'He has a dog! تمام.', 'He بتاخد has.'],
       [E('⚽'), 'I ___ a ball.', 'أنا عندي كورة. have ولا has؟', ['have', 'has'], 'have', 'I have a ball! تمام.', 'I بتاخد have.'],
-      [E('👧'), 'This is ___ bag.', 'البنت دي. الشنطة بتاعتها. his ولا her؟', ['his', 'her'], 'her', 'her bag! تمام.', 'بنت يبقى her.']
+      [E('👧🎒', { pair: true }), 'This is ___ bag.', 'البنت دي. الشنطة بتاعتها. his ولا her؟', ['his', 'her'], 'her', 'her bag! تمام.', 'بنت يبقى her.']
     ]);
 
     /* ---------------- Words bank / Writing / Revision / Final ---------------- */
@@ -459,7 +459,7 @@
       [E('🐱', { cross: true }), 'It ___ a dog.', 'علامة إكس! ده مش كلب. is ولا is not؟', ['is', 'is not'], 'is not', 'It is not a dog! تمام.', 'إكس يعني not.'],
       [E('🐶'), 'Is it a dog?', 'هل ده كلب؟', ['Yes, it is.', "No, it isn't."], 'Yes, it is.', 'Yes, it is! تمام.', 'ده كلب. يبقى Yes, it is.'],
       [E('👦'), 'He ___ a dog.', 'هو عنده كلب. have ولا has؟', ['have', 'has'], 'has', 'He has a dog! تمام.', 'He بتاخد has.'],
-      [E('👧'), 'This is ___ bag.', 'البنت دي. الشنطة بتاعتها. his ولا her؟', ['his', 'her'], 'her', 'her bag! تمام.', 'بنت يبقى her.'],
+      [E('👧🎒', { pair: true }), 'This is ___ bag.', 'البنت دي. الشنطة بتاعتها. his ولا her؟', ['his', 'her'], 'her', 'her bag! تمام.', 'بنت يبقى her.'],
       [E('🍽️'), 'He ___ .', 'هو بياكل. eat ولا eats؟', ['eat', 'eats'], 'eats', 'He eats! تمام.', 'He بتاخد s. يبقى eats.'],
       [E('😴', { cross: true }), 'He ___ sleep.', "علامة إكس! هو منامش. don't ولا doesn't؟", ["don't", "doesn't"], "doesn't", "He doesn't sleep! تمام.", "He بتاخد doesn't."]
     ];

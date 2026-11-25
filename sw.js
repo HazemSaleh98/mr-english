@@ -1,4 +1,4 @@
-const V = 'mre-v31';
+const V = 'mre-v33';
 const CORE = ['./', 'index.html', 'css/app.css', 'js/app.js', 'js/data.js', 'js/lessons2.js', 'js/sfx.js', 'manifest.webmanifest', 'fonts/fonts.css', 'icon-192.png', 'icon-180.png',
   'img/blue_stand.png', 'img/blue_cheer.png', 'img/green_stand.png', 'img/green_cheer.png'];
 self.addEventListener('install', (e) => {
@@ -6,6 +6,7 @@ self.addEventListener('install', (e) => {
     const c = await caches.open(V);
     await c.addAll(CORE);
     try { const f = await (await fetch('fonts/fonts.css')).text(); const u = [...f.matchAll(/url\(([^)]+)\)/g)].map((m) => 'fonts/' + m[1]); await Promise.all(u.map((x) => c.add(x).catch(() => {}))); } catch (e) {}
+    try { const e = await (await fetch('img/e/list.json')).json(); await Promise.all(e.map((x) => c.add('img/e/' + x).catch(() => {}))); } catch (e) {}
     try { const m = await (await fetch('audio/manifest.json')).json(); await Promise.all(m.lines.map((l) => c.add('audio/' + l.id + '.m4a').catch(() => c.add('audio/' + l.id + '.mp3').catch(() => {})))); } catch (e) {}
   })());
   self.skipWaiting();

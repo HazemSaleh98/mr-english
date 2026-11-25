@@ -16,3 +16,5 @@ fs.mkdirSync('audio', { recursive: true });
 fs.writeFileSync('audio/manifest.json', JSON.stringify(out, null, 1));
 fs.writeFileSync('audio/manifest.tsv', 'id\tgroup\tpersonal\ttext\tnote\n' + lines.map((l) => [l.id, l.group, l.personal ? 'Y' : '', l.text, l.note].join('\t')).join('\n') + '\n');
 console.log(lines.length + ' lines');
+
+fs.writeFileSync('img/e/list.json', JSON.stringify(fs.readdirSync('img/e').filter((f) => f.endsWith('.svg')).sort()));
