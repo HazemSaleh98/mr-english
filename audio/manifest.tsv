@@ -1,29 +1,29 @@
 id	group	personal	text	note
-ui_hello	ui	Y	أهلاً أهلاً يا مالك! أنا شلبي، مستر إنجلش بتاعك! يلا نتعلم إنجليزي ونلعب. اختار الدرس يا وحش!	plays when the home screen opens (once per app launch)
+ui_hello	ui	Y	أهلاً أهلاً يا مالك! أنا شلبي سولوفانة، مستر إنجلش بتاعك! يلا نتعلم إنجليزي ونلعب. اختار الدرس يا وحش!	plays when the home screen opens (once per app launch)
 ui_quiz_intro	ui		يلا بينا! وقت الأسئلة! دوس على الإجابة الصح!	start of every quiz
 ui_your_turn	ui		دورك يا وحش!	after a repeat-after-me line
 ui_locked	ui		الدرس ده لسه مجهز. قريب جداً! جرب درس تاني.	tap on a locked lesson card
 ui_cheer_1	ui		برافو يا وحش!	correct
 ui_cheer_2	ui		صح! عظمة عظمة!	correct
 ui_cheer_3	ui		ايوه كده! انت جامد!	correct
-ui_cheer_4	ui		هاهاها! شاطر أوي يا بطل!	with belly laugh
+ui_cheer_4	ui		شاطر أوي يا بطل!	with belly laugh
 ui_cheer_5	ui		ممتاز! انت أقوى حد في صحابك!	correct
 ui_cheer_6	ui		يا سلام! مستر إنجلش فخور بيك!	correct
 ui_try_1	ui		قريب! جرب تاني يا بطل.	wrong
 ui_try_2	ui		ولا يهمك، جرب تاني!	wrong
 ui_try_3	ui		مممم، لأ. فكر تاني وانت هتعرف!	wrong
 ui_try_4	ui		ماتزعلش، كلنا بنغلط. جرب تاني!	wrong
-ui_done_3	ui	Y	ثلاث نجوم يا مالك! انت بطل البطل! هاهاها! يلا نتعلم درس جديد؟	3 stars
+ui_done_3	ui	Y	ثلاث نجوم يا مالك! انت بطل البطل! يلا نتعلم درس جديد؟	3 stars
 ui_done_2	ui	Y	نجمتين يا مالك! شاطر أوي! ممكن تاخد تلاتة لو لعبت تاني. جرب!	2 stars
 ui_done_1	ui	Y	نجمة يا مالك! بداية حلوة! العب الدرس تاني وهتبقى أحسن!	1 star
-ui_fun_aan_1	ui		تفاحة؟ an apple! هاهاها، ريحة التفاح فتحت نفسي!	joke after a correct answer in the aan lesson (plays about 1 in 3)
+ui_fun_aan_1	ui		تفاحة؟ an apple! ريحة التفاح فتحت نفسي!	joke after a correct answer in the aan lesson (plays about 1 in 3)
 ui_fun_aan_2	ui		a ball وan egg! هو انت اللي بتعلمني!	joke after a correct answer in the aan lesson (plays about 1 in 3)
 ui_fun_aan_3	ui		a و an! انت بقيت أستاذ!	joke after a correct answer in the aan lesson (plays about 1 in 3)
 ui_fun_can_1	ui		can! لو أنا أقدر أنط، فانت أقدر مني!	joke after a correct answer in the can lesson (plays about 1 in 3)
 ui_fun_can_2	ui		الكنغر بيقول It can jump! وأنا بقول: برافو عليك!	joke after a correct answer in the can lesson (plays about 1 in 3)
 ui_fun_can_3	ui		مين يقدر؟ انت تقدر! can can can!	joke after a correct answer in the can lesson (plays about 1 in 3)
 ui_fun_prep_1	ui		العصفورة مبسوطة، عرفت مكانها!	joke after a correct answer in the prep lesson (plays about 1 in 3)
-ui_fun_prep_2	ui		under و on و next to و in! أنا لسه بدور على الصندوق هاهاها!	joke after a correct answer in the prep lesson (plays about 1 in 3)
+ui_fun_prep_2	ui		under و on و next to و in! أنا لسه بدور على الصندوق!	joke after a correct answer in the prep lesson (plays about 1 in 3)
 ui_fun_prep_3	ui		عينك زي الرادار! بتلاقي كل حاجة!	joke after a correct answer in the prep lesson (plays about 1 in 3)
 ui_fun_adj_1	ui		أنا الكبير التخين وانت الشاطر! صح صح!	joke after a correct answer in the adj lesson (plays about 1 in 3)
 ui_fun_adj_2	ui		طويل وقصير! أنا الطويل وانت الذكي!	joke after a correct answer in the adj lesson (plays about 1 in 3)
@@ -34,11 +34,11 @@ ui_cheer_9	ui		هو ده! عينك زي الصقر!	correct
 ui_cheer_10	ui		صح يا سيدي! دماغك تقيلة!	correct
 ui_cheer_11	ui		ما شاء الله عليك! انت ذكي!	correct
 ui_cheer_12	ui		أيوه! عشرة على عشرة!	correct
-ui_cheer_13	ui		هاهاها! ده انت مش سهل!	correct
+ui_cheer_13	ui		ده انت مش سهل!	correct
 ui_cheer_14	ui		برافو عليك! كده بتتعلم بجد!	correct
 ui_streak_1	ui		ثلاثة ورا بعض! انت نار!	3 correct in a row (replaces the cheer)
 ui_streak_2	ui		ولا غلطة! انت ماشي زي الصاروخ!	3 correct in a row (replaces the cheer)
-ui_streak_3	ui		هاهاها! انت مش بتغلط النهارده!	3 correct in a row (replaces the cheer)
+ui_streak_3	ui		انت مش بتغلط النهارده!	3 correct in a row (replaces the cheer)
 ui_streak_4	ui		تلاتة صح ورا بعض! مين يوقفك؟	3 correct in a row (replaces the cheer)
 ui_try_5	ui		لأ مش كده، بس انت قريب! جرب تاني!	wrong
 ui_try_6	ui		همم، مش دي. بص كويس وجرب!	wrong
@@ -61,7 +61,7 @@ ui_your_turn_5	ui		دورك، وريني!	after a repeat-after-me line (variant)
 ui_your_turn_6	ui		قولها بصوت عالي!	after a repeat-after-me line (variant)
 ui_done_3_2	ui	Y	ثلاث نجوم! ولا غلطة! انت أسطورة يا مالك!	3 stars (variant)
 ui_done_3_3	ui		كامل الدسم! تلات نجوم! يلا على درس جديد؟	3 stars (variant)
-ui_done_3_4	ui		هاهاها! تلات نجوم! مستر إنجلش فخور بيك أوي!	3 stars (variant)
+ui_done_3_4	ui		تلات نجوم! مستر إنجلش فخور بيك أوي!	3 stars (variant)
 ui_done_2_2	ui		نجمتين! حلو أوي! جرب مرة كمان وهتاخد التلاتة!	2 stars (variant)
 ui_done_2_3	ui		نجمتين يا بطل! قريب من الكمال!	2 stars (variant)
 ui_done_2_4	ui		شاطر! نجمتين في الجيب!	2 stars (variant)
@@ -730,7 +730,7 @@ qz1_q5_fix	qz1:quiz		dog بتبدأ بحرف d. يبقى a.	hint after 2 wrong t
 qz1_q6	qz1:quiz		blank orange. برتقالة. a ولا an؟	quiz question 6
 qz1_q6_right	qz1:quiz		an orange! تمام.	after correct answer (plays after a cheer line)
 qz1_q6_fix	qz1:quiz		orange بتبدأ بحرف o. يبقى an.	hint after 2 wrong taps, gentle
-qz1_q7	qz1:quiz		Is it One, or many?? ده واحد ولا كتير؟	quiz question 7
+qz1_q7	qz1:quiz		Is it one, or many? ده واحد ولا كتير؟	quiz question 7
 qz1_q7_right	qz1:quiz		many! اتنين يبقى كتير.	after correct answer (plays after a cheer line)
 qz1_q7_fix	qz1:quiz		في اتنين موز. يبقى many.	hint after 2 wrong taps, gentle
 qz1_q8	qz1:quiz		How many? عد التفاح. كام تفاحة؟	quiz question 8
@@ -738,22 +738,22 @@ qz1_q8_right	qz1:quiz		seven! تمام.	after correct answer (plays after a chee
 qz1_q8_fix	qz1:quiz		عد واحدة واحدة. هتلاقيها seven.	hint after 2 wrong taps, gentle
 qz2_s01	qz2:lesson	Y	أهلاً يا مالك! ده اختبار الباب التاني. فيه this وthat، وthese وthose، وأماكن الحاجات. يلا بينا!	lesson step 1 | on screen: Quiz 2
 qz2_s02	qz2:lesson		جاهز يا وحش؟ ركز كويس، وخد وقتك. بالتوفيق!	lesson step 2 | on screen: Good luck!
-qz2_q1	qz2:quiz		Is it This, or that?? التفاحة قريبة منك. this ولا that؟	quiz question 1
+qz2_q1	qz2:quiz		Is it this, or that? التفاحة قريبة منك. this ولا that؟	quiz question 1
 qz2_q1_right	qz2:quiz		this! قريبة.	after correct answer (plays after a cheer line)
 qz2_q1_fix	qz2:quiz		القريب this.	hint after 2 wrong taps, gentle
-qz2_q2	qz2:quiz		Is it This, or that?? التفاحة بعيدة عنك. this ولا that؟	quiz question 2
+qz2_q2	qz2:quiz		Is it this, or that? التفاحة بعيدة عنك. this ولا that؟	quiz question 2
 qz2_q2_right	qz2:quiz		that! بعيدة.	after correct answer (plays after a cheer line)
 qz2_q2_fix	qz2:quiz		البعيد that.	hint after 2 wrong taps, gentle
-qz2_q3	qz2:quiz		Is it These, or those?? التفاح قريب منك. these ولا those؟	quiz question 3
+qz2_q3	qz2:quiz		Is it these, or those? التفاح قريب منك. these ولا those؟	quiz question 3
 qz2_q3_right	qz2:quiz		these! قريب.	after correct answer (plays after a cheer line)
 qz2_q3_fix	qz2:quiz		القريب these.	hint after 2 wrong taps, gentle
-qz2_q4	qz2:quiz		Is it These, or those?? التفاح بعيد عنك. these ولا those؟	quiz question 4
+qz2_q4	qz2:quiz		Is it these, or those? التفاح بعيد عنك. these ولا those؟	quiz question 4
 qz2_q4_right	qz2:quiz		those! بعيد.	after correct answer (plays after a cheer line)
 qz2_q4_fix	qz2:quiz		البعيد those.	hint after 2 wrong taps, gentle
-qz2_q5	qz2:quiz		Is it This, or that?? القطة قريبة منك. this ولا that؟	quiz question 5
+qz2_q5	qz2:quiz		Is it this, or that? القطة قريبة منك. this ولا that؟	quiz question 5
 qz2_q5_right	qz2:quiz		this! قريبة.	after correct answer (plays after a cheer line)
 qz2_q5_fix	qz2:quiz		القريب this.	hint after 2 wrong taps, gentle
-qz2_q6	qz2:quiz		Is it This, or that?? الكلب بعيد عنك. this ولا that؟	quiz question 6
+qz2_q6	qz2:quiz		Is it this, or that? الكلب بعيد عنك. this ولا that؟	quiz question 6
 qz2_q6_right	qz2:quiz		that! بعيد.	after correct answer (plays after a cheer line)
 qz2_q6_fix	qz2:quiz		البعيد that.	hint after 2 wrong taps, gentle
 qz3_s01	qz3:lesson	Y	أهلاً يا مالك! ده اختبار الباب التالت. فيه الأسماء، والضمائر، وhe وshe وit. يلا نشوف!	lesson step 1 | on screen: Quiz 3
@@ -882,7 +882,7 @@ rev_q1_fix	rev:quiz		apple بتبدأ بحرف a. يبقى an.	hint after 2 wron
 rev_q2	rev:quiz		How many? عد البالونات. كام بالونة؟	quiz question 2
 rev_q2_right	rev:quiz		four! تمام.	after correct answer (plays after a cheer line)
 rev_q2_fix	rev:quiz		عد واحدة واحدة. هتلاقيها four.	hint after 2 wrong taps, gentle
-rev_q3	rev:quiz		Is it This, or that?? التفاحة بعيدة عنك. this ولا that؟	quiz question 3
+rev_q3	rev:quiz		Is it this, or that? التفاحة بعيدة عنك. this ولا that؟	quiz question 3
 rev_q3_right	rev:quiz		that! بعيدة.	after correct answer (plays after a cheer line)
 rev_q3_fix	rev:quiz		البعيد that.	hint after 2 wrong taps, gentle
 rev_q4	rev:quiz		blank is a girl. دي بنت. He ولا She؟	quiz question 4
@@ -941,7 +941,7 @@ final_q8_fix	final:quiz		الحيوان يبقى It.	hint after 2 wrong taps, ge
 final_q9	final:quiz		blank is a girl. دي بنت. He ولا She؟	quiz question 9
 final_q9_right	final:quiz		She is a girl! تمام.	after correct answer (plays after a cheer line)
 final_q9_fix	final:quiz		بنت يبقى She.	hint after 2 wrong taps, gentle
-final_q10	final:quiz		Is it This, or that?? التفاحة بعيدة عنك. this ولا that؟	quiz question 10
+final_q10	final:quiz		Is it this, or that? التفاحة بعيدة عنك. this ولا that؟	quiz question 10
 final_q10_right	final:quiz		that! بعيدة.	after correct answer (plays after a cheer line)
 final_q10_fix	final:quiz		البعيد that.	hint after 2 wrong taps, gentle
 final_q11	final:quiz		How many? عد البالونات. كام بالونة؟	quiz question 11

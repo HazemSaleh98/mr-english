@@ -122,31 +122,31 @@
 
   /* UI voice lines */
   const UI = [
-    { id: 'ui_hello', say: 'أهلاً أهلاً يا مالك! أنا شلبي، مستر إنجلش بتاعك! يلا نتعلم إنجليزي ونلعب. اختار الدرس يا وحش!', personal: true, note: 'plays when the home screen opens (once per app launch)' },
+    { id: 'ui_hello', say: 'أهلاً أهلاً يا مالك! أنا شلبي سولوفانة، مستر إنجلش بتاعك! يلا نتعلم إنجليزي ونلعب. اختار الدرس يا وحش!', personal: true, note: 'plays when the home screen opens (once per app launch)' },
     { id: 'ui_quiz_intro', say: 'يلا بينا! وقت الأسئلة! دوس على الإجابة الصح!', note: 'start of every quiz' },
     { id: 'ui_your_turn', say: 'دورك يا وحش!', note: 'after a repeat-after-me line', short: true },
     { id: 'ui_locked', say: 'الدرس ده لسه مجهز. قريب جداً! جرب درس تاني.', note: 'tap on a locked lesson card' },
     { id: 'ui_cheer_1', say: 'برافو يا وحش!', kind: 'correct' },
     { id: 'ui_cheer_2', say: 'صح! عظمة عظمة!', kind: 'correct' },
     { id: 'ui_cheer_3', say: 'ايوه كده! انت جامد!', kind: 'correct' },
-    { id: 'ui_cheer_4', say: 'هاهاها! شاطر أوي يا بطل!', kind: 'correct', note: 'with belly laugh' },
+    { id: 'ui_cheer_4', say: 'شاطر أوي يا بطل!', kind: 'correct', note: 'with belly laugh' },
     { id: 'ui_cheer_5', say: 'ممتاز! انت أقوى حد في صحابك!', kind: 'correct' },
     { id: 'ui_cheer_6', say: 'يا سلام! مستر إنجلش فخور بيك!', kind: 'correct' },
     { id: 'ui_try_1', say: 'قريب! جرب تاني يا بطل.', kind: 'wrong' },
     { id: 'ui_try_2', say: 'ولا يهمك، جرب تاني!', kind: 'wrong' },
     { id: 'ui_try_3', say: 'مممم، لأ. فكر تاني وانت هتعرف!', kind: 'wrong' },
     { id: 'ui_try_4', say: 'ماتزعلش، كلنا بنغلط. جرب تاني!', kind: 'wrong' },
-    { id: 'ui_done_3', say: 'ثلاث نجوم يا مالك! انت بطل البطل! هاهاها! يلا نتعلم درس جديد؟', personal: true, kind: 'result', note: '3 stars' },
+    { id: 'ui_done_3', say: 'ثلاث نجوم يا مالك! انت بطل البطل! يلا نتعلم درس جديد؟', personal: true, kind: 'result', note: '3 stars' },
     { id: 'ui_done_2', say: 'نجمتين يا مالك! شاطر أوي! ممكن تاخد تلاتة لو لعبت تاني. جرب!', personal: true, kind: 'result', note: '2 stars' },
     { id: 'ui_done_1', say: 'نجمة يا مالك! بداية حلوة! العب الدرس تاني وهتبقى أحسن!', personal: true, kind: 'result', note: '1 star' },
-    { id: 'ui_fun_aan_1', say: 'تفاحة؟ an apple! هاهاها، ريحة التفاح فتحت نفسي!', kind: 'correct', note: 'joke after a correct answer in the aan lesson (plays about 1 in 3)' },
+    { id: 'ui_fun_aan_1', say: 'تفاحة؟ an apple! ريحة التفاح فتحت نفسي!', kind: 'correct', note: 'joke after a correct answer in the aan lesson (plays about 1 in 3)' },
     { id: 'ui_fun_aan_2', say: 'a ball وan egg! هو انت اللي بتعلمني!', kind: 'correct', note: 'joke after a correct answer in the aan lesson (plays about 1 in 3)' },
     { id: 'ui_fun_aan_3', say: 'a و an! انت بقيت أستاذ!', kind: 'correct', note: 'joke after a correct answer in the aan lesson (plays about 1 in 3)' },
     { id: 'ui_fun_can_1', say: 'can! لو أنا أقدر أنط، فانت أقدر مني!', kind: 'correct', note: 'joke after a correct answer in the can lesson (plays about 1 in 3)' },
     { id: 'ui_fun_can_2', say: 'الكنغر بيقول It can jump! وأنا بقول: برافو عليك!', kind: 'correct', note: 'joke after a correct answer in the can lesson (plays about 1 in 3)' },
     { id: 'ui_fun_can_3', say: 'مين يقدر؟ انت تقدر! can can can!', kind: 'correct', note: 'joke after a correct answer in the can lesson (plays about 1 in 3)' },
     { id: 'ui_fun_prep_1', say: 'العصفورة مبسوطة، عرفت مكانها!', kind: 'correct', note: 'joke after a correct answer in the prep lesson (plays about 1 in 3)' },
-    { id: 'ui_fun_prep_2', say: 'under و on و next to و in! أنا لسه بدور على الصندوق هاهاها!', kind: 'correct', note: 'joke after a correct answer in the prep lesson (plays about 1 in 3)' },
+    { id: 'ui_fun_prep_2', say: 'under و on و next to و in! أنا لسه بدور على الصندوق!', kind: 'correct', note: 'joke after a correct answer in the prep lesson (plays about 1 in 3)' },
     { id: 'ui_fun_prep_3', say: 'عينك زي الرادار! بتلاقي كل حاجة!', kind: 'correct', note: 'joke after a correct answer in the prep lesson (plays about 1 in 3)' },
     { id: 'ui_fun_adj_1', say: 'أنا الكبير التخين وانت الشاطر! صح صح!', kind: 'correct', note: 'joke after a correct answer in the adj lesson (plays about 1 in 3)' },
     { id: 'ui_fun_adj_2', say: 'طويل وقصير! أنا الطويل وانت الذكي!', kind: 'correct', note: 'joke after a correct answer in the adj lesson (plays about 1 in 3)' },
@@ -157,11 +157,11 @@
     { id: 'ui_cheer_10', say: 'صح يا سيدي! دماغك تقيلة!', kind: 'correct' },
     { id: 'ui_cheer_11', say: 'ما شاء الله عليك! انت ذكي!', kind: 'correct' },
     { id: 'ui_cheer_12', say: 'أيوه! عشرة على عشرة!', kind: 'correct' },
-    { id: 'ui_cheer_13', say: 'هاهاها! ده انت مش سهل!', kind: 'correct' },
+    { id: 'ui_cheer_13', say: 'ده انت مش سهل!', kind: 'correct' },
     { id: 'ui_cheer_14', say: 'برافو عليك! كده بتتعلم بجد!', kind: 'correct' },
     { id: 'ui_streak_1', say: 'ثلاثة ورا بعض! انت نار!', kind: 'streak', note: '3 correct in a row (replaces the cheer)' },
     { id: 'ui_streak_2', say: 'ولا غلطة! انت ماشي زي الصاروخ!', kind: 'streak', note: '3 correct in a row (replaces the cheer)' },
-    { id: 'ui_streak_3', say: 'هاهاها! انت مش بتغلط النهارده!', kind: 'streak', note: '3 correct in a row (replaces the cheer)' },
+    { id: 'ui_streak_3', say: 'انت مش بتغلط النهارده!', kind: 'streak', note: '3 correct in a row (replaces the cheer)' },
     { id: 'ui_streak_4', say: 'تلاتة صح ورا بعض! مين يوقفك؟', kind: 'streak', note: '3 correct in a row (replaces the cheer)' },
     { id: 'ui_try_5', say: 'لأ مش كده، بس انت قريب! جرب تاني!', kind: 'wrong' },
     { id: 'ui_try_6', say: 'همم، مش دي. بص كويس وجرب!', kind: 'wrong' },
@@ -184,7 +184,7 @@
     { id: 'ui_your_turn_6', say: 'قولها بصوت عالي!', note: 'after a repeat-after-me line (variant)' },
     { id: 'ui_done_3_2', say: 'ثلاث نجوم! ولا غلطة! انت أسطورة يا مالك!', kind: 'result', personal: true, note: '3 stars (variant)' },
     { id: 'ui_done_3_3', say: 'كامل الدسم! تلات نجوم! يلا على درس جديد؟', kind: 'result', note: '3 stars (variant)' },
-    { id: 'ui_done_3_4', say: 'هاهاها! تلات نجوم! مستر إنجلش فخور بيك أوي!', kind: 'result', note: '3 stars (variant)' },
+    { id: 'ui_done_3_4', say: 'تلات نجوم! مستر إنجلش فخور بيك أوي!', kind: 'result', note: '3 stars (variant)' },
     { id: 'ui_done_2_2', say: 'نجمتين! حلو أوي! جرب مرة كمان وهتاخد التلاتة!', kind: 'result', note: '2 stars (variant)' },
     { id: 'ui_done_2_3', say: 'نجمتين يا بطل! قريب من الكمال!', kind: 'result', note: '2 stars (variant)' },
     { id: 'ui_done_2_4', say: 'شاطر! نجمتين في الجيب!', kind: 'result', note: '2 stars (variant)' },
@@ -223,7 +223,7 @@
     if (/^The bird is ___/.test(p)) return 'Where is the bird? In, on, under, or next to?';
     if (/___/.test(p) && /can/.test(q.say)) { const b = p.replace(/\.$/, ''); return b.replace('___', 'can') + ', or ' + b.replace('___', "can't") + '?'; }
     if (/___/.test(p)) return p.replace('___', 'blank');
-    if (/ or /.test(p)) { const m = p.replace(/ \?$/, '').split(' or '); return 'Is it ' + m[0].trim() + ', or ' + m[1].trim() + '?'; }
+    if (/ or /.test(p)) { const m = p.replace(/\s*\?+$/, '').split(' or '); const a = m[0].trim(); return 'Is it ' + (/^I(\s|$)/.test(a) ? a : a.charAt(0).toLowerCase() + a.slice(1)) + ', or ' + m[1].trim().replace(/\?+$/, '') + '?'; }
     return p;
   }
   LESSONS.forEach(l => (l.quiz || []).forEach(q => {
