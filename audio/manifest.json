@@ -2,7 +2,7 @@
  "app": "Mr English",
  "voice": "Shalabi: Orus, deep warm giant monster, Egyptian Arabic, playful, slow clear English words",
  "format": "audio/<id>.mp3 (ogg/m4a also accepted)",
- "count": 711,
+ "count": 817,
  "lines": [
   {
    "id": "ui_hello",
@@ -4978,6 +4978,748 @@
    "id": "nsimp_q6_fix",
    "group": "nsimp:quiz",
    "text": "It بتاخد doesn't.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz1_s01",
+   "group": "qz1:lesson",
+   "text": "أهلاً يا مالك! ده اختبار الباب الأول. فيه a وan، والأرقام، والمفرد والجمع. يلا نشوف شطارتك!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: Quiz 1"
+  },
+  {
+   "id": "qz1_s02",
+   "group": "qz1:lesson",
+   "text": "جاهز يا وحش؟ ركز كويس، وخد وقتك. بالتوفيق!",
+   "personal": false,
+   "note": "lesson step 2 | on screen: Good luck!"
+  },
+  {
+   "id": "qz1_q1",
+   "group": "qz1:quiz",
+   "text": "blank apple. تفاحة. a ولا an؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "qz1_q1_right",
+   "group": "qz1:quiz",
+   "text": "an apple! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz1_q1_fix",
+   "group": "qz1:quiz",
+   "text": "apple بتبدأ بحرف a. يبقى an.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz1_q2",
+   "group": "qz1:quiz",
+   "text": "blank cat. قطة. a ولا an؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "qz1_q2_right",
+   "group": "qz1:quiz",
+   "text": "a cat! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz1_q2_fix",
+   "group": "qz1:quiz",
+   "text": "cat مش بتبدأ بحرف متحرك. يبقى a.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz1_q3",
+   "group": "qz1:quiz",
+   "text": "How many? عد البالونات. كام بالونة؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "qz1_q3_right",
+   "group": "qz1:quiz",
+   "text": "three! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz1_q3_fix",
+   "group": "qz1:quiz",
+   "text": "عد واحدة واحدة. هتلاقيها three.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz1_q4",
+   "group": "qz1:quiz",
+   "text": "How many? عد النجوم. كام نجمة؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "qz1_q4_right",
+   "group": "qz1:quiz",
+   "text": "five! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz1_q4_fix",
+   "group": "qz1:quiz",
+   "text": "عد النجوم واحدة واحدة. هتلاقيها five.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz1_q5",
+   "group": "qz1:quiz",
+   "text": "blank dog. كلب. a ولا an؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "qz1_q5_right",
+   "group": "qz1:quiz",
+   "text": "a dog! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz1_q5_fix",
+   "group": "qz1:quiz",
+   "text": "dog بتبدأ بحرف d. يبقى a.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz1_q6",
+   "group": "qz1:quiz",
+   "text": "blank orange. برتقالة. a ولا an؟",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "qz1_q6_right",
+   "group": "qz1:quiz",
+   "text": "an orange! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz1_q6_fix",
+   "group": "qz1:quiz",
+   "text": "orange بتبدأ بحرف o. يبقى an.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz1_q7",
+   "group": "qz1:quiz",
+   "text": "Is it One, or many?? ده واحد ولا كتير؟",
+   "personal": false,
+   "note": "quiz question 7"
+  },
+  {
+   "id": "qz1_q7_right",
+   "group": "qz1:quiz",
+   "text": "many! اتنين يبقى كتير.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz1_q7_fix",
+   "group": "qz1:quiz",
+   "text": "في اتنين موز. يبقى many.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz1_q8",
+   "group": "qz1:quiz",
+   "text": "How many? عد التفاح. كام تفاحة؟",
+   "personal": false,
+   "note": "quiz question 8"
+  },
+  {
+   "id": "qz1_q8_right",
+   "group": "qz1:quiz",
+   "text": "seven! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz1_q8_fix",
+   "group": "qz1:quiz",
+   "text": "عد واحدة واحدة. هتلاقيها seven.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz2_s01",
+   "group": "qz2:lesson",
+   "text": "أهلاً يا مالك! ده اختبار الباب التاني. فيه this وthat، وthese وthose، وأماكن الحاجات. يلا بينا!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: Quiz 2"
+  },
+  {
+   "id": "qz2_s02",
+   "group": "qz2:lesson",
+   "text": "جاهز يا وحش؟ ركز كويس، وخد وقتك. بالتوفيق!",
+   "personal": false,
+   "note": "lesson step 2 | on screen: Good luck!"
+  },
+  {
+   "id": "qz2_q1",
+   "group": "qz2:quiz",
+   "text": "Is it This, or that?? التفاحة قريبة منك. this ولا that؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "qz2_q1_right",
+   "group": "qz2:quiz",
+   "text": "this! قريبة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz2_q1_fix",
+   "group": "qz2:quiz",
+   "text": "القريب this.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz2_q2",
+   "group": "qz2:quiz",
+   "text": "Is it This, or that?? التفاحة بعيدة عنك. this ولا that؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "qz2_q2_right",
+   "group": "qz2:quiz",
+   "text": "that! بعيدة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz2_q2_fix",
+   "group": "qz2:quiz",
+   "text": "البعيد that.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz2_q3",
+   "group": "qz2:quiz",
+   "text": "Is it These, or those?? التفاح قريب منك. these ولا those؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "qz2_q3_right",
+   "group": "qz2:quiz",
+   "text": "these! قريب.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz2_q3_fix",
+   "group": "qz2:quiz",
+   "text": "القريب these.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz2_q4",
+   "group": "qz2:quiz",
+   "text": "Is it These, or those?? التفاح بعيد عنك. these ولا those؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "qz2_q4_right",
+   "group": "qz2:quiz",
+   "text": "those! بعيد.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz2_q4_fix",
+   "group": "qz2:quiz",
+   "text": "البعيد those.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz2_q5",
+   "group": "qz2:quiz",
+   "text": "Is it This, or that?? القطة قريبة منك. this ولا that؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "qz2_q5_right",
+   "group": "qz2:quiz",
+   "text": "this! قريبة.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz2_q5_fix",
+   "group": "qz2:quiz",
+   "text": "القريب this.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz2_q6",
+   "group": "qz2:quiz",
+   "text": "Is it This, or that?? الكلب بعيد عنك. this ولا that؟",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "qz2_q6_right",
+   "group": "qz2:quiz",
+   "text": "that! بعيد.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz2_q6_fix",
+   "group": "qz2:quiz",
+   "text": "البعيد that.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz3_s01",
+   "group": "qz3:lesson",
+   "text": "أهلاً يا مالك! ده اختبار الباب التالت. فيه الأسماء، والضمائر، وhe وshe وit. يلا نشوف!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: Quiz 3"
+  },
+  {
+   "id": "qz3_s02",
+   "group": "qz3:lesson",
+   "text": "جاهز يا وحش؟ ركز كويس، وخد وقتك. بالتوفيق!",
+   "personal": false,
+   "note": "lesson step 2 | on screen: Good luck!"
+  },
+  {
+   "id": "qz3_q1",
+   "group": "qz3:quiz",
+   "text": "blank is a boy. ده ولد. He ولا She؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "qz3_q1_right",
+   "group": "qz3:quiz",
+   "text": "He is a boy! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz3_q1_fix",
+   "group": "qz3:quiz",
+   "text": "ولد يبقى He.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz3_q2",
+   "group": "qz3:quiz",
+   "text": "blank is a girl. دي بنت. He ولا She؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "qz3_q2_right",
+   "group": "qz3:quiz",
+   "text": "She is a girl! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz3_q2_fix",
+   "group": "qz3:quiz",
+   "text": "بنت يبقى She.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz3_q3",
+   "group": "qz3:quiz",
+   "text": "blank is a cat. ده حيوان. He ولا It؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "qz3_q3_right",
+   "group": "qz3:quiz",
+   "text": "It is a cat! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz3_q3_fix",
+   "group": "qz3:quiz",
+   "text": "الحيوان يبقى It.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz3_q4",
+   "group": "qz3:quiz",
+   "text": "Which pronoun? دول إحنا. we ولا they؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "qz3_q4_right",
+   "group": "qz3:quiz",
+   "text": "we! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz3_q4_fix",
+   "group": "qz3:quiz",
+   "text": "إحنا يبقى we.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz3_q5",
+   "group": "qz3:quiz",
+   "text": "blank is an apple. دي تفاحة. She ولا It؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "qz3_q5_right",
+   "group": "qz3:quiz",
+   "text": "It is an apple! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz3_q5_fix",
+   "group": "qz3:quiz",
+   "text": "الحاجة يبقى It.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz3_q6",
+   "group": "qz3:quiz",
+   "text": "blank is a man. ده راجل. He ولا She؟",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "qz3_q6_right",
+   "group": "qz3:quiz",
+   "text": "He is a man! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz3_q6_fix",
+   "group": "qz3:quiz",
+   "text": "راجل يبقى He.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz4_s01",
+   "group": "qz4:lesson",
+   "text": "أهلاً يا مالك! ده اختبار الباب الرابع. فيه الأفعال، وverb to be، والنفي. يلا بينا!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: Quiz 4"
+  },
+  {
+   "id": "qz4_s02",
+   "group": "qz4:lesson",
+   "text": "جاهز يا وحش؟ ركز كويس، وخد وقتك. بالتوفيق!",
+   "personal": false,
+   "note": "lesson step 2 | on screen: Good luck!"
+  },
+  {
+   "id": "qz4_q1",
+   "group": "qz4:quiz",
+   "text": "I blank happy. أنا سعيد. am ولا is؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "qz4_q1_right",
+   "group": "qz4:quiz",
+   "text": "I am happy! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz4_q1_fix",
+   "group": "qz4:quiz",
+   "text": "I بتاخد am.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz4_q2",
+   "group": "qz4:quiz",
+   "text": "He blank tall. هو طويل. is ولا are؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "qz4_q2_right",
+   "group": "qz4:quiz",
+   "text": "He is tall! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz4_q2_fix",
+   "group": "qz4:quiz",
+   "text": "He بتاخد is.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz4_q3",
+   "group": "qz4:quiz",
+   "text": "We blank happy. إحنا سعداء. is ولا are؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "qz4_q3_right",
+   "group": "qz4:quiz",
+   "text": "We are happy! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz4_q3_fix",
+   "group": "qz4:quiz",
+   "text": "We بتاخد are.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz4_q4",
+   "group": "qz4:quiz",
+   "text": "It blank a dog. علامة إكس! ده مش كلب. is ولا is not؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "qz4_q4_right",
+   "group": "qz4:quiz",
+   "text": "It is not a dog! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz4_q4_fix",
+   "group": "qz4:quiz",
+   "text": "إكس يعني not.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz4_q5",
+   "group": "qz4:quiz",
+   "text": "I can swim, or I can't swim? أنا بعرف أعوم. can ولا can't؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "qz4_q5_right",
+   "group": "qz4:quiz",
+   "text": "I can swim! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz4_q5_fix",
+   "group": "qz4:quiz",
+   "text": "بعرف يعني can.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz4_q6",
+   "group": "qz4:quiz",
+   "text": "Which one is a verb? أي واحدة فعل؟ run ولا cat؟",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "qz4_q6_right",
+   "group": "qz4:quiz",
+   "text": "run! فعل.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz4_q6_fix",
+   "group": "qz4:quiz",
+   "text": "run يعني يجري. ده فعل.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz5_s01",
+   "group": "qz5:lesson",
+   "text": "أهلاً يا مالك! ده اختبار الباب الخامس. فيه الصفات، وIs it، وhave وhas. يلا نشوف!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: Quiz 5"
+  },
+  {
+   "id": "qz5_s02",
+   "group": "qz5:lesson",
+   "text": "جاهز يا وحش؟ ركز كويس، وخد وقتك. بالتوفيق!",
+   "personal": false,
+   "note": "lesson step 2 | on screen: Good luck!"
+  },
+  {
+   "id": "qz5_q1",
+   "group": "qz5:quiz",
+   "text": "Is it a dog? هل ده كلب؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "qz5_q1_right",
+   "group": "qz5:quiz",
+   "text": "Yes, it is! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz5_q1_fix",
+   "group": "qz5:quiz",
+   "text": "ده كلب. يبقى Yes, it is.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz5_q2",
+   "group": "qz5:quiz",
+   "text": "Is it a ball? هل دي كورة؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "qz5_q2_right",
+   "group": "qz5:quiz",
+   "text": "No, it isn't! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz5_q2_fix",
+   "group": "qz5:quiz",
+   "text": "دي عربية. يبقى No, it isn't.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz5_q3",
+   "group": "qz5:quiz",
+   "text": "What is it? ده إيه؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "qz5_q3_right",
+   "group": "qz5:quiz",
+   "text": "It is an apple! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz5_q3_fix",
+   "group": "qz5:quiz",
+   "text": "دي تفاحة.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz5_q4",
+   "group": "qz5:quiz",
+   "text": "He blank a dog. هو عنده كلب. have ولا has؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "qz5_q4_right",
+   "group": "qz5:quiz",
+   "text": "He has a dog! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz5_q4_fix",
+   "group": "qz5:quiz",
+   "text": "He بتاخد has.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz5_q5",
+   "group": "qz5:quiz",
+   "text": "I blank a ball. أنا عندي كورة. have ولا has؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "qz5_q5_right",
+   "group": "qz5:quiz",
+   "text": "I have a ball! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz5_q5_fix",
+   "group": "qz5:quiz",
+   "text": "I بتاخد have.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "qz5_q6",
+   "group": "qz5:quiz",
+   "text": "This is blank bag. البنت دي. الشنطة بتاعتها. his ولا her؟",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "qz5_q6_right",
+   "group": "qz5:quiz",
+   "text": "her bag! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "qz5_q6_fix",
+   "group": "qz5:quiz",
+   "text": "بنت يبقى her.",
    "personal": false,
    "note": "hint after 2 wrong taps, gentle"
   }

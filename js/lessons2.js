@@ -197,18 +197,18 @@
       S('they_s01', TX('I · you · we · they'), 'I · you · we · they', 'ضمائر الأشخاص', 'أهلاً يا مالك! النهارده هنتعلم أنا، وإنت، وإحنا، وهم بالإنجليزي. يلا نبدأ!', { personal: true }),
       SI('they_s02', E('🧒'), 'I', 'أنا', 'أنا واحد. I. قول معايا: I!'),
       SI('they_s03', E('👉'), 'you', 'إنت', 'لما أكلم واحد قدامي، أقول you. قول معايا: you!'),
-      SI('they_s04', E('🧑‍🤝‍🧑'), 'we', 'إحنا (أنا وإنت)', 'أنا وإنت مع بعض، نقول we. قول معايا: we!'),
+      SI('they_s04', E('👫'), 'we', 'إحنا (أنا وإنت)', 'أنا وإنت مع بعض، نقول we. قول معايا: we!'),
       SI('they_s05', E('👪'), 'they', 'هم', 'ناس تانيين، مش أنا ومش إنت، نقول they. قول معايا: they!'),
       SI('they_s06', E('👫'), 'They are friends.', 'هم أصحاب', 'ولد وبنت أصحاب. They are friends. قول معايا: They are friends!'),
-      SI('they_s07', E('🧑‍🤝‍🧑'), 'We are friends.', 'إحنا أصحاب', 'أنا وإنت أصحاب. We are friends. قول معايا: We are friends!'),
+      SI('they_s07', E('👫'), 'We are friends.', 'إحنا أصحاب', 'أنا وإنت أصحاب. We are friends. قول معايا: We are friends!'),
       S('they_s08', TX('I · you · we · they'), 'I · you · we · they', 'أنا، إنت، إحنا، هم', 'برافو يا وحش! عرفت أنا، وإنت، وإحنا، وهم. يلا نلعب!')
     ], [
       Q('they_q1', E('🧒'), 'Which pronoun?', 'ده أنا لوحدي. نقول إيه؟', 'word', ['I', 'we', 'they'], 'I', 'I! أنا لوحدي.', 'أنا لوحدي بنقول I.'),
-      Q('they_q2', E('🧑‍🤝‍🧑'), 'Which pronoun?', 'أنا وصاحبي مع بعض. نقول إيه؟', 'word', ['I', 'we', 'they'], 'we', 'we! إحنا مع بعض.', 'أنا وإنت مع بعض بنقول we.'),
+      Q('they_q2', E('👫'), 'Which pronoun?', 'أنا وصاحبي مع بعض. نقول إيه؟', 'word', ['I', 'we', 'they'], 'we', 'we! إحنا مع بعض.', 'أنا وإنت مع بعض بنقول we.'),
       Q('they_q3', E('👪'), 'Which pronoun?', 'دول ناس تانيين. نقول إيه؟', 'word', ['I', 'we', 'they'], 'they', 'they! هم ناس تانيين.', 'الناس التانيين بنقول they.'),
       Q('they_q4', E('👫'), 'Which pronoun?', 'ولد وبنت بعيد عننا. نقول إيه؟', 'word', ['we', 'they'], 'they', 'they! هم.', 'اللي بعيد عننا بنقول they.'),
       Q('they_q5', E('👉'), 'Which pronoun?', 'أنا بكلم واحد قدامي. نقول إيه؟', 'word', ['you', 'they'], 'you', 'you! إنت.', 'اللي بكلمه بنقول you.'),
-      Q('they_q6', TX('We are friends.'), 'Which one is  we ?', 'دوس على الصورة اللي هي we. أنا وإنت!', 'pic', [E('🧒'), E('🧑‍🤝‍🧑'), E('👪')], 1, 'we! إحنا مع بعض.', 'we يعني إحنا. اختار اتنين مع بعض.')
+      Q('they_q6', TX('We are friends.'), 'Which one is  we ?', 'دوس على الصورة اللي هي we. أنا وإنت!', 'pic', [E('🧒'), E('👫'), E('👪')], 1, 'we! إحنا مع بعض.', 'we يعني إحنا. اختار اتنين مع بعض.')
     ]);
 
     /* ---------------- Verbs (p43) ---------------- */
@@ -237,14 +237,14 @@
       SI('tobe_s03', E('👦'), 'He is tall.', 'هو طويل', 'He is tall. مع he بنقول is. قول معايا: He is tall!'),
       SI('tobe_s04', E('👧'), 'She is nice.', 'هي لطيفة', 'She is nice. مع she بنقول is. قول معايا: She is nice!'),
       SI('tobe_s05', E('🐶'), 'It is a dog.', 'ده كلب', 'It is a dog. مع it بنقول is. قول معايا: It is a dog!'),
-      SI('tobe_s06', E('🧑‍🤝‍🧑'), 'We are friends.', 'إحنا أصحاب', 'We are friends. مع we بنقول are. قول معايا: We are friends!'),
+      SI('tobe_s06', E('👫'), 'We are friends.', 'إحنا أصحاب', 'We are friends. مع we بنقول are. قول معايا: We are friends!'),
       SI('tobe_s07', E('👪'), 'They are happy.', 'هم مبسوطين', 'They are happy. مع they بنقول are. قول معايا: They are happy!'),
       S('tobe_s08', TX('I am · he/she/it is · we/you/they are'), 'I am · he, she, it is · we, you, they are', 'am مع I، is مع he وshe وit، are مع الباقي', 'برافو يا وحش! am مع I. وis مع he وshe وit. وare مع we وyou وthey. يلا نلعب!')
     ], [
       Q('tobe_q1', E('🧒'), 'I ___ happy.', 'أنا مبسوط. I am ولا I is؟', 'word', ['am', 'is', 'are'], 'am', 'I am happy! تمام.', 'مع I بنقول am.'),
       Q('tobe_q2', E('👦'), 'He ___ tall.', 'هو طويل. He is ولا He are؟', 'word', ['am', 'is', 'are'], 'is', 'He is tall! تمام.', 'مع he بنقول is.'),
       Q('tobe_q3', E('🐶'), 'It ___ a dog.', 'ده كلب. It is ولا It are؟', 'word', ['am', 'is', 'are'], 'is', 'It is a dog! تمام.', 'مع it بنقول is.'),
-      Q('tobe_q4', E('🧑‍🤝‍🧑'), 'We ___ friends.', 'إحنا أصحاب. We is ولا We are؟', 'word', ['am', 'is', 'are'], 'are', 'We are friends! تمام.', 'مع we بنقول are.'),
+      Q('tobe_q4', E('👫'), 'We ___ friends.', 'إحنا أصحاب. We is ولا We are؟', 'word', ['am', 'is', 'are'], 'are', 'We are friends! تمام.', 'مع we بنقول are.'),
       Q('tobe_q5', E('👪'), 'They ___ happy.', 'هم مبسوطين. They is ولا They are؟', 'word', ['is', 'are'], 'are', 'They are happy! تمام.', 'مع they بنقول are.'),
       Q('tobe_q6', TX('She is nice.'), 'Which one is  she is ?', 'دوس على الصورة اللي هي She is nice. البنت!', 'pic', [E('👦'), E('👧'), E('🐶')], 1, 'She is nice! البنت.', 'she للبنت. دوس على البنت.')
     ]);
@@ -256,14 +256,14 @@
       SI('nbe_s03', E('🐶', { cross: true }), 'It is not a cat.', 'ده مش قطة', 'وهنا إكس تاني! It is not a cat. يعني ده مش قطة. قول معايا: It is not a cat!'),
       SI('nbe_s04', E('😢', { cross: true }), 'I am not sad.', 'أنا مش حزين', 'I am not sad. يعني أنا مش حزين. قول معايا: I am not sad!'),
       SI('nbe_s05', E('👦', { cross: true }), 'He is not a girl.', 'هو مش بنت', 'He is not a girl. يعني هو مش بنت. قول معايا: He is not a girl!'),
-      SI('nbe_s06', E('🧑‍🤝‍🧑', { cross: true }), 'We are not sad.', 'إحنا مش حزينين', 'We are not sad. يعني إحنا مش حزينين. قول معايا: We are not sad!'),
+      SI('nbe_s06', E('👫', { cross: true }), 'We are not sad.', 'إحنا مش حزينين', 'We are not sad. يعني إحنا مش حزينين. قول معايا: We are not sad!'),
       SI('nbe_s07', TX("isn't · aren't"), "isn't · aren't", 'is not = isn\'t، are not = aren\'t', 'وفي طريقة أقصر. is not بتبقى isn\'t، وare not بتبقى aren\'t. قول معايا: isn\'t، aren\'t!'),
       S('nbe_s08', TX('is + not = isn\'t'), 'is not = isn\'t', 'not يعني لأ', 'برافو عليك! not يعني لأ. is not تبقى isn\'t. يلا نلعب!')
     ], [
       Q('nbe_q1', E('🐱', { cross: true }), 'It ___ a dog.', 'علامة إكس! ده مش كلب. It is ولا It is not؟', 'word', ['is', 'is not'], 'is not', 'It is not a dog! تمام.', 'إكس يعني not. يبقى is not.'),
       Q('nbe_q2', E('🐶'), 'It ___ a dog.', 'مفيش علامة إكس. ده كلب فعلاً. It is ولا It is not؟', 'word', ['is', 'is not'], 'is', 'It is a dog! تمام.', 'مفيش إكس. يبقى is.'),
       Q('nbe_q3', E('😢', { cross: true }), 'I ___ sad.', 'علامة إكس! أنا مش حزين. I am ولا I am not؟', 'word', ['am', 'am not'], 'am not', 'I am not sad! تمام.', 'إكس يعني not. يبقى am not.'),
-      Q('nbe_q4', E('🧑‍🤝‍🧑', { cross: true }), 'We ___ sad.', 'علامة إكس! إحنا مش حزينين. We are ولا We are not؟', 'word', ['are', 'are not'], 'are not', 'We are not sad! تمام.', 'إكس يعني not. يبقى are not.'),
+      Q('nbe_q4', E('👫', { cross: true }), 'We ___ sad.', 'علامة إكس! إحنا مش حزينين. We are ولا We are not؟', 'word', ['are', 'are not'], 'are not', 'We are not sad! تمام.', 'إكس يعني not. يبقى are not.'),
       Q('nbe_q5', E('👦', { cross: true }), 'He ___ a girl.', 'علامة إكس! هو مش بنت. He is ولا He isn\'t؟', 'word', ['is', "isn't"], "isn't", "He isn't a girl! تمام.", "إكس يعني not. is not تبقى isn't."),
       Q('nbe_q6', TX('It is not a dog.'), 'Which one is  not a dog ?', 'دوس على الصورة اللي مش كلب. It is not a dog!', 'pic', [E('🐶'), E('🐱')], 1, 'It is not a dog! القطة.', 'مش كلب يعني القطة. دوس على القطة.')
     ]);
@@ -379,6 +379,56 @@
       Q('nsimp_q4', E('🍽️', { cross: true }), 'She ___ eat.', "علامة إكس! هي مبتاكلش. don't ولا doesn't؟", 'word', ["don't", "doesn't"], "doesn't", "She doesn't eat! تمام.", "She بتاخد doesn't."),
       Q('nsimp_q5', E('🏊', { cross: true }), 'We ___ swim.', "علامة إكس! إحنا مبنعومش. don't ولا doesn't؟", 'word', ["don't", "doesn't"], "don't", "We don't swim! تمام.", "We بتاخد don't."),
       Q('nsimp_q6', E('🏃', { cross: true }), 'It ___ run.', "علامة إكس! الحيوان مبيجريش. don't ولا doesn't؟", 'word', ["don't", "doesn't"], "doesn't", "It doesn't run! تمام.", "It بتاخد doesn't.")
+    ]);
+
+    /* ---------------- Chapter quizzes ---------------- */
+    const QZ = (id, title, ar, icon, color, book, intro, items) => add(id, title, ar, icon, color, book, [
+      S(id + '_s01', TX(title), title, 'اختبار على الدروس اللي فاتت', intro, { personal: true }),
+      S(id + '_s02', TX('⭐⭐⭐'), 'Good luck!', 'بالتوفيق يا بطل', 'جاهز يا وحش؟ ركز كويس، وخد وقتك. بالتوفيق!')
+    ], items.map((x, i) => Q(id + '_q' + (i + 1), x[0], x[1], x[2], 'word', x[3], x[4], x[5], x[6])));
+    const AA = ['a', 'an'];
+    const IA = (e) => [e, 'Which one?'];
+    QZ('qz1', 'Quiz 1', 'اختبار ١', '📝', ['#f6d365', '#fda085'], 'Page 14', 'أهلاً يا مالك! ده اختبار الباب الأول. فيه a وan، والأرقام، والمفرد والجمع. يلا نشوف شطارتك!', [
+      [E('🍎'), '___ apple.', 'تفاحة. a ولا an؟', AA, 'an', 'an apple! تمام.', 'apple بتبدأ بحرف a. يبقى an.'],
+      [E('🐱'), '___ cat.', 'قطة. a ولا an؟', AA, 'a', 'a cat! تمام.', 'cat مش بتبدأ بحرف متحرك. يبقى a.'],
+      [G('🎈', 3), 'How many?', 'عد البالونات. كام بالونة؟', ['two', 'three', 'four'], 'three', 'three! تمام.', 'عد واحدة واحدة. هتلاقيها three.'],
+      [G('⭐', 5), 'How many?', 'عد النجوم. كام نجمة؟', ['four', 'five', 'six'], 'five', 'five! تمام.', 'عد النجوم واحدة واحدة. هتلاقيها five.'],
+      [E('🐶'), '___ dog.', 'كلب. a ولا an؟', AA, 'a', 'a dog! تمام.', 'dog بتبدأ بحرف d. يبقى a.'],
+      [E('🍊'), '___ orange.', 'برتقالة. a ولا an؟', AA, 'an', 'an orange! تمام.', 'orange بتبدأ بحرف o. يبقى an.'],
+      [G('🍌', 2), 'One or many?', 'ده واحد ولا كتير؟', ['one', 'many'], 'many', 'many! اتنين يبقى كتير.', 'في اتنين موز. يبقى many.'],
+      [G('🍎', 7), 'How many?', 'عد التفاح. كام تفاحة؟', ['six', 'seven', 'eight'], 'seven', 'seven! تمام.', 'عد واحدة واحدة. هتلاقيها seven.']
+    ]);
+    QZ('qz2', 'Quiz 2', 'اختبار ٢', '📝', ['#84fab0', '#8fd3f4'], 'Page 28', 'أهلاً يا مالك! ده اختبار الباب التاني. فيه this وthat، وthese وthose، وأماكن الحاجات. يلا بينا!', [
+      [D('🍎', false), 'This or that?', 'التفاحة قريبة منك. this ولا that؟', ['this', 'that'], 'this', 'this! قريبة.', 'القريب this.'],
+      [D('🍎', true), 'This or that?', 'التفاحة بعيدة عنك. this ولا that؟', ['this', 'that'], 'that', 'that! بعيدة.', 'البعيد that.'],
+      [G('🍎', 3), 'These or those?', 'التفاح قريب منك. these ولا those؟', ['these', 'those'], 'these', 'these! قريب.', 'القريب these.'],
+      [G('🍎', 3), 'These or those?', 'التفاح بعيد عنك. these ولا those؟', ['these', 'those'], 'those', 'those! بعيد.', 'البعيد those.'],
+      [D('🐱', false), 'This or that?', 'القطة قريبة منك. this ولا that؟', ['this', 'that'], 'this', 'this! قريبة.', 'القريب this.'],
+      [D('🐶', true), 'This or that?', 'الكلب بعيد عنك. this ولا that؟', ['this', 'that'], 'that', 'that! بعيد.', 'البعيد that.']
+    ]);
+    QZ('qz3', 'Quiz 3', 'اختبار ٣', '📝', ['#a1c4fd', '#c2e9fb'], 'Page 42', 'أهلاً يا مالك! ده اختبار الباب التالت. فيه الأسماء، والضمائر، وhe وshe وit. يلا نشوف!', [
+      [E('👦'), '___ is a boy.', 'ده ولد. He ولا She؟', ['He', 'She'], 'He', 'He is a boy! تمام.', 'ولد يبقى He.'],
+      [E('👧'), '___ is a girl.', 'دي بنت. He ولا She؟', ['He', 'She'], 'She', 'She is a girl! تمام.', 'بنت يبقى She.'],
+      [E('🐱'), '___ is a cat.', 'ده حيوان. He ولا It؟', ['He', 'It'], 'It', 'It is a cat! تمام.', 'الحيوان يبقى It.'],
+      [E('👫'), 'Which pronoun?', 'دول إحنا. we ولا they؟', ['we', 'they'], 'we', 'we! تمام.', 'إحنا يبقى we.'],
+      [E('🍎'), '___ is an apple.', 'دي تفاحة. She ولا It؟', ['She', 'It'], 'It', 'It is an apple! تمام.', 'الحاجة يبقى It.'],
+      [E('👨'), '___ is a man.', 'ده راجل. He ولا She؟', ['He', 'She'], 'He', 'He is a man! تمام.', 'راجل يبقى He.']
+    ]);
+    QZ('qz4', 'Quiz 4', 'اختبار ٤', '📝', ['#fbc2eb', '#a6c1ee'], 'Page 55', 'أهلاً يا مالك! ده اختبار الباب الرابع. فيه الأفعال، وverb to be، والنفي. يلا بينا!', [
+      [E('😊'), 'I ___ happy.', 'أنا سعيد. am ولا is؟', ['am', 'is', 'are'], 'am', 'I am happy! تمام.', 'I بتاخد am.'],
+      [E('👦'), 'He ___ tall.', 'هو طويل. is ولا are؟', ['is', 'are'], 'is', 'He is tall! تمام.', 'He بتاخد is.'],
+      [E('👫'), 'We ___ happy.', 'إحنا سعداء. is ولا are؟', ['is', 'are'], 'are', 'We are happy! تمام.', 'We بتاخد are.'],
+      [E('🐱', { cross: true }), 'It ___ a dog.', 'علامة إكس! ده مش كلب. is ولا is not؟', ['is', 'is not'], 'is not', 'It is not a dog! تمام.', 'إكس يعني not.'],
+      [E('🏊'), 'I ___ swim.', 'أنا بعرف أعوم. can ولا can\'t؟', ['can', "can't"], 'can', 'I can swim! تمام.', 'بعرف يعني can.'],
+      [E('🏃'), 'Which one is  a verb ?', 'أي واحدة فعل؟ run ولا cat؟', ['run', 'cat'], 'run', 'run! فعل.', 'run يعني يجري. ده فعل.']
+    ]);
+    QZ('qz5', 'Quiz 5', 'اختبار ٥', '📝', ['#ffecd2', '#fcb69f'], 'Page 69', 'أهلاً يا مالك! ده اختبار الباب الخامس. فيه الصفات، وIs it، وhave وhas. يلا نشوف!', [
+      [E('🐶'), 'Is it a dog?', 'هل ده كلب؟', ['Yes, it is.', "No, it isn't."], 'Yes, it is.', 'Yes, it is! تمام.', 'ده كلب. يبقى Yes, it is.'],
+      [E('🚗'), 'Is it a ball?', 'هل دي كورة؟', ['Yes, it is.', "No, it isn't."], "No, it isn't.", "No, it isn't! تمام.", "دي عربية. يبقى No, it isn't."],
+      [E('🍎'), 'What is it?', 'ده إيه؟', ['It is an apple.', 'It is a ball.'], 'It is an apple.', 'It is an apple! تمام.', 'دي تفاحة.'],
+      [E('👦'), 'He ___ a dog.', 'هو عنده كلب. have ولا has؟', ['have', 'has'], 'has', 'He has a dog! تمام.', 'He بتاخد has.'],
+      [E('⚽'), 'I ___ a ball.', 'أنا عندي كورة. have ولا has؟', ['have', 'has'], 'have', 'I have a ball! تمام.', 'I بتاخد have.'],
+      [E('👧'), 'This is ___ bag.', 'البنت دي. الشنطة بتاعتها. his ولا her؟', ['his', 'her'], 'her', 'her bag! تمام.', 'بنت يبقى her.']
     ]);
 
     return out;
