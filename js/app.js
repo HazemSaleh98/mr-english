@@ -16,6 +16,7 @@
     cheer: seq('ui_cheer_', 14), streak: seq('ui_streak_', 4), hello: ['ui_hello', 'ui_hello_2', 'ui_hello_3', 'ui_hello_4'], locked: ['ui_locked', 'ui_locked_2', 'ui_locked_3'],
     wrong1: ['ui_try_1', 'ui_try_2', 'ui_try_5', 'ui_try_9'], wrong2: ['ui_try_3', 'ui_try_6', 'ui_try_8'], wrong3: ['ui_try_4', 'ui_try_7', 'ui_try_10'],
     hint: seq('ui_hint_', 4), qintro: ['ui_quiz_intro', 'ui_quiz_intro_2', 'ui_quiz_intro_3', 'ui_quiz_intro_4', 'ui_quiz_intro_5'], turn: ['ui_your_turn', 'ui_your_turn_2', 'ui_your_turn_3', 'ui_your_turn_4', 'ui_your_turn_5', 'ui_your_turn_6'],
+    mike_ok: seq('mike_ok_', 4), mike_streak: seq('mike_streak_', 2), mike_retry: seq('mike_retry_', 3), mike_done: seq('mike_done_', 3),
     done3: ['ui_done_3', 'ui_done_3_2', 'ui_done_3_3', 'ui_done_3_4'], done2: ['ui_done_2', 'ui_done_2_2', 'ui_done_2_3', 'ui_done_2_4'], done1: ['ui_done_1', 'ui_done_1_2', 'ui_done_1_3', 'ui_done_1_4']
   };
   ['aan', 'can', 'prep', 'adj'].forEach((l) => { POOLS['fun_' + l] = seq('ui_fun_' + l + '_', 3); POOLS['start_' + l] = ['ui_start_1', 'ui_start_2', 'ui_start_3', 'ui_start_4', 'ui_start_5', 'ui_start_' + l + '_1', 'ui_start_' + l + '_2', 'ui_start_' + l + '_1', 'ui_start_' + l + '_2']; });
@@ -29,7 +30,26 @@
     if (!bag.length) { bag = ok.slice().sort(() => Math.random() - .5); if (bag.length > 1 && bag[0] === lastPick[pool]) bag.push(bag.shift()); }
     const id = bag.shift(); bags[pool] = bag; lastPick[pool] = id; return id;
   }
-  const sayPool = async (pool) => say(await pick(pool));
+  /* Mike (second character): shows now and then in place of Shalabi, never twice within 3 lines, only when his audio exists */
+  const MIKE = { cheer: 'mike_ok', streak: 'mike_streak', wrong1: 'mike_retry', wrong2: 'mike_retry', done3: 'mike_done', done2: 'mike_done', done1: 'mike_done' };
+  let sayN = 0, lastMike = -9, mikeIntro = false;
+  async function mikeSay(id) {
+    const meta = lineIndex[id] || {};
+    const el = document.createElement('div'); el.className = 'mike';
+    el.innerHTML = '<div class="buddy cheer"><img class="s" src="img/green_stand.png" alt=""><img class="c" src="img/green_cheer.png" alt=""></div><div class="mbub">' + esc(meta.say || '') + '</div>';
+    document.body.appendChild(el); requestAnimationFrame(() => el.classList.add('on'));
+    try { await say(id); } finally { el.classList.remove('on'); setTimeout(() => el.remove(), 350); }
+    return true;
+  }
+  const sayPool = async (pool) => {
+    sayN++; const mp = MIKE[pool];
+    if (mp && sayN - lastMike > 3 && Math.random() < 0.3) {
+      if (!mikeIntro && await getBlob('mike_intro')) { mikeIntro = true; lastMike = sayN; return mikeSay('mike_intro'); }
+      const id = await pick(mp);
+      if (id && await getBlob(id)) { lastMike = sayN; return mikeSay(id); }
+    }
+    return say(await pick(pool));
+  };
 
   /* ---------- state ---------- */
   let S = { name: DEFAULT_NAME, sfx: true, voice: true, lessons: {} };

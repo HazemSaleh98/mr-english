@@ -1,4 +1,17 @@
 id	group	personal	text	note
+mike_intro	ui		أنا مارد، وَشْوَشْنِي! أنا صاحب شلبي، وجاي أشجعك معاه!	Mike (Gemini Puck): first time he appears
+mike_ok_1	ui	Y	برافو عليك يا مالك يا بطل! عين واحدة وشايفاك شاطر!	Mike (Gemini Puck): after a correct answer
+mike_ok_2	ui		الله! إجابة جامدة!	Mike (Gemini Puck): after a correct answer
+mike_ok_3	ui	Y	كده يا مالك يا بطل! كمل!	Mike (Gemini Puck): after a correct answer
+mike_ok_4	ui		صح! أنا فرحان بيك أوي!	Mike (Gemini Puck): after a correct answer
+mike_streak_1	ui	Y	ولا غلطة! انت نجم يا مالك!	Mike (Gemini Puck): 3 correct in a row
+mike_streak_2	ui		ده انت مولع! كمل كده!	Mike (Gemini Puck): 3 correct in a row
+mike_retry_1	ui	Y	ولا يهمك يا مالك يا بطل! جرب تاني، انت تقدر!	Mike (Gemini Puck): after a wrong answer
+mike_retry_2	ui		قربت! فكر تاني شوية.	Mike (Gemini Puck): after a wrong answer
+mike_retry_3	ui		الغلط بيعلمنا! يلا تاني!	Mike (Gemini Puck): after a wrong answer
+mike_done_1	ui	Y	خلصنا الدرس! انت أحسن واحد في الدنيا يا مالك!	Mike (Gemini Puck): finished a lesson
+mike_done_2	ui	Y	برافو يا مالك يا بطل! شلبي وأنا فخورين بيك أوي!	Mike (Gemini Puck): finished a lesson
+mike_done_3	ui		تعالى نلعب درس تاني؟ أنا جاهز!	Mike (Gemini Puck): finished a lesson
 ui_hello	ui	Y	أهلاً أهلاً يا مالك! أنا شلبي سولوفانة، مستر إنجلش بتاعك! يلا نتعلم إنجليزي ونلعب. اختار الدرس يا وحش!	plays when the home screen opens (once per app launch)
 ui_quiz_intro	ui		يلا بينا! وقت الأسئلة! دوس على الإجابة الصح!	start of every quiz
 ui_your_turn	ui		دورك يا وحش!	after a repeat-after-me line

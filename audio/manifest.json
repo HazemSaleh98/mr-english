@@ -2,8 +2,99 @@
  "app": "Mr English",
  "voice": "Shalabi: Orus, deep warm giant monster, Egyptian Arabic, playful, slow clear English words",
  "format": "audio/<id>.mp3 (ogg/m4a also accepted)",
- "count": 951,
+ "count": 964,
  "lines": [
+  {
+   "id": "mike_intro",
+   "group": "ui",
+   "text": "أنا مارد، وَشْوَشْنِي! أنا صاحب شلبي، وجاي أشجعك معاه!",
+   "personal": false,
+   "note": "Mike (Gemini Puck): first time he appears"
+  },
+  {
+   "id": "mike_ok_1",
+   "group": "ui",
+   "text": "برافو عليك يا مالك يا بطل! عين واحدة وشايفاك شاطر!",
+   "personal": true,
+   "note": "Mike (Gemini Puck): after a correct answer"
+  },
+  {
+   "id": "mike_ok_2",
+   "group": "ui",
+   "text": "الله! إجابة جامدة!",
+   "personal": false,
+   "note": "Mike (Gemini Puck): after a correct answer"
+  },
+  {
+   "id": "mike_ok_3",
+   "group": "ui",
+   "text": "كده يا مالك يا بطل! كمل!",
+   "personal": true,
+   "note": "Mike (Gemini Puck): after a correct answer"
+  },
+  {
+   "id": "mike_ok_4",
+   "group": "ui",
+   "text": "صح! أنا فرحان بيك أوي!",
+   "personal": false,
+   "note": "Mike (Gemini Puck): after a correct answer"
+  },
+  {
+   "id": "mike_streak_1",
+   "group": "ui",
+   "text": "ولا غلطة! انت نجم يا مالك!",
+   "personal": true,
+   "note": "Mike (Gemini Puck): 3 correct in a row"
+  },
+  {
+   "id": "mike_streak_2",
+   "group": "ui",
+   "text": "ده انت مولع! كمل كده!",
+   "personal": false,
+   "note": "Mike (Gemini Puck): 3 correct in a row"
+  },
+  {
+   "id": "mike_retry_1",
+   "group": "ui",
+   "text": "ولا يهمك يا مالك يا بطل! جرب تاني، انت تقدر!",
+   "personal": true,
+   "note": "Mike (Gemini Puck): after a wrong answer"
+  },
+  {
+   "id": "mike_retry_2",
+   "group": "ui",
+   "text": "قربت! فكر تاني شوية.",
+   "personal": false,
+   "note": "Mike (Gemini Puck): after a wrong answer"
+  },
+  {
+   "id": "mike_retry_3",
+   "group": "ui",
+   "text": "الغلط بيعلمنا! يلا تاني!",
+   "personal": false,
+   "note": "Mike (Gemini Puck): after a wrong answer"
+  },
+  {
+   "id": "mike_done_1",
+   "group": "ui",
+   "text": "خلصنا الدرس! انت أحسن واحد في الدنيا يا مالك!",
+   "personal": true,
+   "note": "Mike (Gemini Puck): finished a lesson"
+  },
+  {
+   "id": "mike_done_2",
+   "group": "ui",
+   "text": "برافو يا مالك يا بطل! شلبي وأنا فخورين بيك أوي!",
+   "personal": true,
+   "note": "Mike (Gemini Puck): finished a lesson"
+  },
+  {
+   "id": "mike_done_3",
+   "group": "ui",
+   "text": "تعالى نلعب درس تاني؟ أنا جاهز!",
+   "personal": false,
+   "note": "Mike (Gemini Puck): finished a lesson"
+  },
   {
    "id": "ui_hello",
    "group": "ui",

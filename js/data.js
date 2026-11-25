@@ -122,6 +122,19 @@
 
   /* UI voice lines */
   const UI = [
+    { id: 'mike_intro', say: 'أنا مارد، وَشْوَشْنِي! أنا صاحب شلبي، وجاي أشجعك معاه!', kind: 'mike', note: 'Mike (Gemini Puck): first time he appears' },
+    { id: 'mike_ok_1', say: 'برافو عليك يا مالك يا بطل! عين واحدة وشايفاك شاطر!', kind: 'mike', note: 'Mike (Gemini Puck): after a correct answer', personal: true },
+    { id: 'mike_ok_2', say: 'الله! إجابة جامدة!', kind: 'mike', note: 'Mike (Gemini Puck): after a correct answer' },
+    { id: 'mike_ok_3', say: 'كده يا مالك يا بطل! كمل!', kind: 'mike', note: 'Mike (Gemini Puck): after a correct answer', personal: true },
+    { id: 'mike_ok_4', say: 'صح! أنا فرحان بيك أوي!', kind: 'mike', note: 'Mike (Gemini Puck): after a correct answer' },
+    { id: 'mike_streak_1', say: 'ولا غلطة! انت نجم يا مالك!', kind: 'mike', note: 'Mike (Gemini Puck): 3 correct in a row', personal: true },
+    { id: 'mike_streak_2', say: 'ده انت مولع! كمل كده!', kind: 'mike', note: 'Mike (Gemini Puck): 3 correct in a row' },
+    { id: 'mike_retry_1', say: 'ولا يهمك يا مالك يا بطل! جرب تاني، انت تقدر!', kind: 'mike', note: 'Mike (Gemini Puck): after a wrong answer', personal: true },
+    { id: 'mike_retry_2', say: 'قربت! فكر تاني شوية.', kind: 'mike', note: 'Mike (Gemini Puck): after a wrong answer' },
+    { id: 'mike_retry_3', say: 'الغلط بيعلمنا! يلا تاني!', kind: 'mike', note: 'Mike (Gemini Puck): after a wrong answer' },
+    { id: 'mike_done_1', say: 'خلصنا الدرس! انت أحسن واحد في الدنيا يا مالك!', kind: 'mike', note: 'Mike (Gemini Puck): finished a lesson', personal: true },
+    { id: 'mike_done_2', say: 'برافو يا مالك يا بطل! شلبي وأنا فخورين بيك أوي!', kind: 'mike', note: 'Mike (Gemini Puck): finished a lesson', personal: true },
+    { id: 'mike_done_3', say: 'تعالى نلعب درس تاني؟ أنا جاهز!', kind: 'mike', note: 'Mike (Gemini Puck): finished a lesson' },
     { id: 'ui_hello', say: 'أهلاً أهلاً يا مالك! أنا شلبي سولوفانة، مستر إنجلش بتاعك! يلا نتعلم إنجليزي ونلعب. اختار الدرس يا وحش!', personal: true, note: 'plays when the home screen opens (once per app launch)' },
     { id: 'ui_quiz_intro', say: 'يلا بينا! وقت الأسئلة! دوس على الإجابة الصح!', note: 'start of every quiz' },
     { id: 'ui_your_turn', say: 'دورك يا وحش!', note: 'after a repeat-after-me line', short: true },
