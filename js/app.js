@@ -45,14 +45,22 @@
     return true;
   }
   const sayPool = async (pool) => {
-    sayN++; const mp = MIKE[pool];
+    sayN++;
+    const mp = MIKE[pool] || (/^fun_/.test(pool) ? 'mike_ok' : null);
+    const first = !mikeIntro && (mp || /^start_/.test(pool));
+    if (first && await getBlob('mike_intro')) {
+      /* deterministic first appearance: Mike introduces himself once per session */
+      mikeIntro = true; lastMike = sayN;
+      if (/^start_/.test(pool)) { await say(await pick(pool)); return mikeSay('mike_intro'); }
+      return mikeSay('mike_intro');
+    }
     if (mp && sayN - lastMike > 3 && Math.random() < 0.3) {
-      if (!mikeIntro && await getBlob('mike_intro')) { mikeIntro = true; lastMike = sayN; return mikeSay('mike_intro'); }
       const id = await pick(mp);
       if (id && await getBlob(id)) { lastMike = sayN; return mikeSay(id); }
     }
     return say(await pick(pool));
   };
+
 
   /* ---------- state ---------- */
   let S = { name: DEFAULT_NAME, sfx: true, voice: true, lessons: {} };
