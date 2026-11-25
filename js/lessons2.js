@@ -304,6 +304,83 @@
       Q('what_q6', TX('It is a car.'), 'Which one is  a car ?', 'دوس على الصورة اللي هي a car. العربية!', 'pic', [E('🍎'), E('⚽'), E('🚗')], 2, 'a car! العربية.', 'car يعني عربية. دوس على العربية.')
     ]);
 
+    /* ---------------- have / has (p66) ---------------- */
+    const YN = ['have', 'has'];
+    add('have', 'have · has', 'عندي، عنده', '🎒', ['#ffecd2', '#fcb69f'], 'Page 66', [
+      S('have_s01', TX('have · has'), 'have · has', 'يعني عندي', 'أهلاً يا مالك! النهارده هنتعلم have وhas. يعني عندي، وعنده. يلا نشوف!', { personal: true }),
+      SI('have_s02', E('⚽'), 'I have a ball.', 'أنا عندي كورة', 'I have a ball. يعني أنا عندي كورة. قول معايا: I have a ball!'),
+      SI('have_s03', E('📘'), 'You have a book.', 'انت عندك كتاب', 'You have a book. يعني انت عندك كتاب. قول معايا: You have a book!'),
+      SI('have_s04', E('🚗'), 'We have a car.', 'إحنا عندنا عربية', 'We have a car. يعني إحنا عندنا عربية. قول معايا: We have a car!'),
+      SI('have_s05', E('🐶'), 'He has a dog.', 'هو عنده كلب', 'وهنا He has a dog. يعني هو عنده كلب. لاحظ: He بتاخد has. قول معايا: He has a dog!'),
+      SI('have_s06', E('🎒'), 'She has a bag.', 'هي عندها شنطة', 'She has a bag. يعني هي عندها شنطة. قول معايا: She has a bag!'),
+      SI('have_s07', E('🐱'), 'It has a tail.', 'هي عندها دنب', 'It has a tail. يعني الحيوان عنده دنب. It بتاخد has. قول معايا: It has a tail!'),
+      S('have_s08', TX('I · you · we · they → have'), 'he · she · it → has', 'have و has', 'برافو عليك! I وyou وwe وthey بياخدوا have. وhe وshe وit بياخدوا has. يلا نلعب!')
+    ], [
+      Q('have_q1', E('⚽'), 'I ___ a ball.', 'أنا عندي كورة. have ولا has؟', 'word', YN, 'have', 'I have a ball! تمام.', 'I بتاخد have.'),
+      Q('have_q2', E('🐶'), 'He ___ a dog.', 'هو عنده كلب. have ولا has؟', 'word', YN, 'has', 'He has a dog! تمام.', 'He بتاخد has.'),
+      Q('have_q3', E('🚗'), 'We ___ a car.', 'إحنا عندنا عربية. have ولا has؟', 'word', YN, 'have', 'We have a car! تمام.', 'We بتاخد have.'),
+      Q('have_q4', E('🎒'), 'She ___ a bag.', 'هي عندها شنطة. have ولا has؟', 'word', YN, 'has', 'She has a bag! تمام.', 'She بتاخد has.'),
+      Q('have_q5', E('🐱'), 'It ___ a tail.', 'الحيوان عنده دنب. have ولا has؟', 'word', YN, 'has', 'It has a tail! تمام.', 'It بتاخد has.'),
+      Q('have_q6', TX('They ___ a cat.'), 'They ___ a cat.', 'هم عندهم قطة. have ولا has؟', 'word', YN, 'have', 'They have a cat! تمام.', 'They بتاخد have.')
+    ]);
+
+    /* ---------------- his / her (p70) ---------------- */
+    add('hish', 'his · her', 'بتاعه، بتاعها', '🧢', ['#d4fc79', '#96e6a1'], 'Page 70', [
+      S('hish_s01', TX('his · her'), 'his · her', 'بتاعه وبتاعها', 'أهلاً يا مالك! النهارده هنتعلم his وher. his يعني بتاع الولد. وher يعني بتاعة البنت. يلا بينا!', { personal: true }),
+      SI('hish_s02', E('👦'), 'his ball', 'الكورة بتاعته', 'شوف الولد ده. الكورة بتاعته. نقول his ball. قول معايا: his ball!'),
+      SI('hish_s03', E('👧'), 'her bag', 'الشنطة بتاعتها', 'وشوف البنت دي. الشنطة بتاعتها. نقول her bag. قول معايا: her bag!'),
+      SI('hish_s04', E('👦'), 'This is his cap.', 'دي الكاب بتاعه', 'This is his cap. يعني دي الكاب بتاعه. قول معايا: This is his cap!'),
+      SI('hish_s05', E('👧'), 'This is her doll.', 'دي العروسة بتاعتها', 'This is her doll. يعني دي العروسة بتاعتها. قول معايا: This is her doll!'),
+      SI('hish_s06', E('👨'), 'This is his car.', 'دي عربيته', 'This is his car. يعني دي عربيته. قول معايا: This is his car!'),
+      SI('hish_s07', E('👩'), 'This is her book.', 'ده كتابها', 'This is her book. يعني ده كتابها. قول معايا: This is her book!'),
+      S('hish_s08', TX('boy → his · girl → her'), 'his = boy · her = girl', 'his للولد، her للبنت', 'برافو عليك يا وحش! his للولد. her للبنت. يلا نلعب!')
+    ], [
+      Q('hish_q1', E('👦'), 'This is ___ ball.', 'الولد ده. الكورة بتاعته. his ولا her؟', 'word', ['his', 'her'], 'his', 'his ball! تمام.', 'ولد يبقى his.'),
+      Q('hish_q2', E('👧'), 'This is ___ bag.', 'البنت دي. الشنطة بتاعتها. his ولا her؟', 'word', ['his', 'her'], 'her', 'her bag! تمام.', 'بنت يبقى her.'),
+      Q('hish_q3', E('👨'), 'This is ___ car.', 'الراجل ده. العربية بتاعته. his ولا her؟', 'word', ['his', 'her'], 'his', 'his car! تمام.', 'راجل يبقى his.'),
+      Q('hish_q4', E('👩'), 'This is ___ book.', 'الست دي. الكتاب بتاعها. his ولا her؟', 'word', ['his', 'her'], 'her', 'her book! تمام.', 'ست يبقى her.'),
+      Q('hish_q5', E('👧'), 'This is ___ doll.', 'البنت دي. العروسة بتاعتها. his ولا her؟', 'word', ['his', 'her'], 'her', 'her doll! تمام.', 'بنت يبقى her.'),
+      Q('hish_q6', TX('his cap'), 'Which one is  his ?', 'دوس على الصورة اللي هي his. بتاع الولد!', 'pic', [E('👧'), E('👦')], 1, 'his! الولد.', 'his يعني بتاع الولد. دوس على الولد.')
+    ]);
+
+    /* ---------------- simple present (p73) ---------------- */
+    add('pres', 'simple present', 'المضارع البسيط', '🍽️', ['#fbc2eb', '#a6c1ee'], 'Page 73', [
+      S('pres_s01', TX('I eat · He eats'), 'I eat · He eats', 'بنقول اللي بنعمله كل يوم', 'أهلاً يا مالك! النهارده هنتكلم عن اللي بنعمله كل يوم. زي I eat. وHe eats. يلا نشوف!', { personal: true }),
+      SI('pres_s02', E('🍽️'), 'I eat.', 'أنا باكل', 'I eat. يعني أنا باكل. قول معايا: I eat!'),
+      SI('pres_s03', E('🏃'), 'They run.', 'هم بيجروا', 'They run. يعني هم بيجروا. قول معايا: They run!'),
+      SI('pres_s04', E('🏊'), 'We swim.', 'إحنا بنعوم', 'We swim. يعني إحنا بنعوم. قول معايا: We swim!'),
+      SI('pres_s05', E('🍽️'), 'He eats.', 'هو بياكل', 'وهنا He eats. شوف الـ s في الآخر! قول معايا: He eats!'),
+      SI('pres_s06', E('😴'), 'She sleeps.', 'هي بتنام', 'She sleeps. برضه فيها s في الآخر. قول معايا: She sleeps!'),
+      SI('pres_s07', E('🏃'), 'It runs.', 'هو بيجري', 'It runs. الحيوان بيجري. وفيها s. قول معايا: It runs!'),
+      S('pres_s08', TX('he · she · it → verb + s'), 'he · she · it + s', 'هو وهي والحيوان: s', 'برافو عليك! مع he وshe وit بنزود s في آخر الفعل. يلا نلعب!')
+    ], [
+      Q('pres_q1', E('🍽️'), 'I ___ .', 'أنا باكل. eat ولا eats؟', 'word', ['eat', 'eats'], 'eat', 'I eat! تمام.', 'I مفيهاش s. يبقى eat.'),
+      Q('pres_q2', E('🍽️'), 'He ___ .', 'هو بياكل. eat ولا eats؟', 'word', ['eat', 'eats'], 'eats', 'He eats! تمام.', 'He بتاخد s. يبقى eats.'),
+      Q('pres_q3', E('🏃'), 'They ___ .', 'هم بيجروا. run ولا runs؟', 'word', ['run', 'runs'], 'run', 'They run! تمام.', 'They مفيهاش s. يبقى run.'),
+      Q('pres_q4', E('😴'), 'She ___ .', 'هي بتنام. sleep ولا sleeps؟', 'word', ['sleep', 'sleeps'], 'sleeps', 'She sleeps! تمام.', 'She بتاخد s. يبقى sleeps.'),
+      Q('pres_q5', E('🏊'), 'We ___ .', 'إحنا بنعوم. swim ولا swims؟', 'word', ['swim', 'swims'], 'swim', 'We swim! تمام.', 'We مفيهاش s. يبقى swim.'),
+      Q('pres_q6', E('🏃'), 'It ___ .', 'الحيوان بيجري. run ولا runs؟', 'word', ['run', 'runs'], 'runs', 'It runs! تمام.', 'It بتاخد s. يبقى runs.')
+    ]);
+
+    /* ---------------- negative simple (p73) ---------------- */
+    add('nsimp', "don't · doesn't", 'نفي المضارع', '🙅', ['#ffd1ff', '#fad0c4'], 'Page 73', [
+      S('nsimp_s01', TX("don't · doesn't"), "don't · doesn't", 'للنفي', 'أهلاً يا مالك! النهارده هنتعلم النفي. don\'t وdoesn\'t. يعني لأ، مش بعمل. يلا بينا!', { personal: true }),
+      SI('nsimp_s02', E('🍽️', { cross: true }), "I don't eat.", 'أنا مباكلش', "I don't eat. يعني أنا مباكلش. قول معايا: I don't eat!"),
+      SI('nsimp_s03', E('🏃', { cross: true }), "They don't run.", 'هم مبيجروش', "They don't run. يعني هم مبيجروش. قول معايا: They don't run!"),
+      SI('nsimp_s04', E('🏊', { cross: true }), "We don't swim.", 'إحنا مبنعومش', "We don't swim. يعني إحنا مبنعومش. قول معايا: We don't swim!"),
+      SI('nsimp_s05', E('😴', { cross: true }), "He doesn't sleep.", 'هو منامش', "He doesn't sleep. لاحظ: مع he بنقول doesn't. وsleep من غير s. قول معايا: He doesn't sleep!"),
+      SI('nsimp_s06', E('🍽️', { cross: true }), "She doesn't eat.", 'هي مبتاكلش', "She doesn't eat. قول معايا: She doesn't eat!"),
+      SI('nsimp_s07', E('🏃', { cross: true }), "It doesn't run.", 'هو مبيجريش', "It doesn't run. الحيوان مبيجريش. قول معايا: It doesn't run!"),
+      S('nsimp_s08', TX("I · you · we · they → don't"), "he · she · it → doesn't", "don't و doesn't", "برافو عليك! I وyou وwe وthey بياخدوا don't. وhe وshe وit بياخدوا doesn't. يلا نلعب!")
+    ], [
+      Q('nsimp_q1', E('🍽️', { cross: true }), 'I ___ eat.', "علامة إكس! أنا مباكلش. don't ولا doesn't؟", 'word', ["don't", "doesn't"], "don't", "I don't eat! تمام.", "I بتاخد don't."),
+      Q('nsimp_q2', E('😴', { cross: true }), 'He ___ sleep.', "علامة إكس! هو منامش. don't ولا doesn't؟", 'word', ["don't", "doesn't"], "doesn't", "He doesn't sleep! تمام.", "He بتاخد doesn't."),
+      Q('nsimp_q3', E('🏃', { cross: true }), 'They ___ run.', "علامة إكس! هم مبيجروش. don't ولا doesn't؟", 'word', ["don't", "doesn't"], "don't", "They don't run! تمام.", "They بتاخد don't."),
+      Q('nsimp_q4', E('🍽️', { cross: true }), 'She ___ eat.', "علامة إكس! هي مبتاكلش. don't ولا doesn't؟", 'word', ["don't", "doesn't"], "doesn't", "She doesn't eat! تمام.", "She بتاخد doesn't."),
+      Q('nsimp_q5', E('🏊', { cross: true }), 'We ___ swim.', "علامة إكس! إحنا مبنعومش. don't ولا doesn't؟", 'word', ["don't", "doesn't"], "don't", "We don't swim! تمام.", "We بتاخد don't."),
+      Q('nsimp_q6', E('🏃', { cross: true }), 'It ___ run.', "علامة إكس! الحيوان مبيجريش. don't ولا doesn't؟", 'word', ["don't", "doesn't"], "doesn't", "It doesn't run! تمام.", "It بتاخد doesn't.")
+    ]);
+
     return out;
   };
   root.MRE_MORE = make;

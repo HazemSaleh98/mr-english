@@ -2,7 +2,7 @@
  "app": "Mr English",
  "voice": "Shalabi: Orus, deep warm giant monster, Egyptian Arabic, playful, slow clear English words",
  "format": "audio/<id>.mp3 (ogg/m4a also accepted)",
- "count": 607,
+ "count": 711,
  "lines": [
   {
    "id": "ui_hello",
@@ -4250,6 +4250,734 @@
    "id": "what_q6_fix",
    "group": "what:quiz",
    "text": "car يعني عربية. دوس على العربية.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "have_s01",
+   "group": "have:lesson",
+   "text": "أهلاً يا مالك! النهارده هنتعلم have وhas. يعني عندي، وعنده. يلا نشوف!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: have · has"
+  },
+  {
+   "id": "have_s02",
+   "group": "have:lesson",
+   "text": "I have a ball. يعني أنا عندي كورة. قول معايا: I have a ball!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: I have a ball."
+  },
+  {
+   "id": "have_s03",
+   "group": "have:lesson",
+   "text": "You have a book. يعني انت عندك كتاب. قول معايا: You have a book!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: You have a book."
+  },
+  {
+   "id": "have_s04",
+   "group": "have:lesson",
+   "text": "We have a car. يعني إحنا عندنا عربية. قول معايا: We have a car!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: We have a car."
+  },
+  {
+   "id": "have_s05",
+   "group": "have:lesson",
+   "text": "وهنا He has a dog. يعني هو عنده كلب. لاحظ: He بتاخد has. قول معايا: He has a dog!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: He has a dog."
+  },
+  {
+   "id": "have_s06",
+   "group": "have:lesson",
+   "text": "She has a bag. يعني هي عندها شنطة. قول معايا: She has a bag!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: She has a bag."
+  },
+  {
+   "id": "have_s07",
+   "group": "have:lesson",
+   "text": "It has a tail. يعني الحيوان عنده دنب. It بتاخد has. قول معايا: It has a tail!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: It has a tail."
+  },
+  {
+   "id": "have_s08",
+   "group": "have:lesson",
+   "text": "برافو عليك! I وyou وwe وthey بياخدوا have. وhe وshe وit بياخدوا has. يلا نلعب!",
+   "personal": false,
+   "note": "lesson step 8 | on screen: he · she · it → has"
+  },
+  {
+   "id": "have_q1",
+   "group": "have:quiz",
+   "text": "I blank a ball. أنا عندي كورة. have ولا has؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "have_q1_right",
+   "group": "have:quiz",
+   "text": "I have a ball! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "have_q1_fix",
+   "group": "have:quiz",
+   "text": "I بتاخد have.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "have_q2",
+   "group": "have:quiz",
+   "text": "He blank a dog. هو عنده كلب. have ولا has؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "have_q2_right",
+   "group": "have:quiz",
+   "text": "He has a dog! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "have_q2_fix",
+   "group": "have:quiz",
+   "text": "He بتاخد has.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "have_q3",
+   "group": "have:quiz",
+   "text": "We blank a car. إحنا عندنا عربية. have ولا has؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "have_q3_right",
+   "group": "have:quiz",
+   "text": "We have a car! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "have_q3_fix",
+   "group": "have:quiz",
+   "text": "We بتاخد have.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "have_q4",
+   "group": "have:quiz",
+   "text": "She blank a bag. هي عندها شنطة. have ولا has؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "have_q4_right",
+   "group": "have:quiz",
+   "text": "She has a bag! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "have_q4_fix",
+   "group": "have:quiz",
+   "text": "She بتاخد has.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "have_q5",
+   "group": "have:quiz",
+   "text": "It blank a tail. الحيوان عنده دنب. have ولا has؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "have_q5_right",
+   "group": "have:quiz",
+   "text": "It has a tail! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "have_q5_fix",
+   "group": "have:quiz",
+   "text": "It بتاخد has.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "have_q6",
+   "group": "have:quiz",
+   "text": "They blank a cat. هم عندهم قطة. have ولا has؟",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "have_q6_right",
+   "group": "have:quiz",
+   "text": "They have a cat! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "have_q6_fix",
+   "group": "have:quiz",
+   "text": "They بتاخد have.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "hish_s01",
+   "group": "hish:lesson",
+   "text": "أهلاً يا مالك! النهارده هنتعلم his وher. his يعني بتاع الولد. وher يعني بتاعة البنت. يلا بينا!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: his · her"
+  },
+  {
+   "id": "hish_s02",
+   "group": "hish:lesson",
+   "text": "شوف الولد ده. الكورة بتاعته. نقول his ball. قول معايا: his ball!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: his ball"
+  },
+  {
+   "id": "hish_s03",
+   "group": "hish:lesson",
+   "text": "وشوف البنت دي. الشنطة بتاعتها. نقول her bag. قول معايا: her bag!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: her bag"
+  },
+  {
+   "id": "hish_s04",
+   "group": "hish:lesson",
+   "text": "This is his cap. يعني دي الكاب بتاعه. قول معايا: This is his cap!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: This is his cap."
+  },
+  {
+   "id": "hish_s05",
+   "group": "hish:lesson",
+   "text": "This is her doll. يعني دي العروسة بتاعتها. قول معايا: This is her doll!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: This is her doll."
+  },
+  {
+   "id": "hish_s06",
+   "group": "hish:lesson",
+   "text": "This is his car. يعني دي عربيته. قول معايا: This is his car!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: This is his car."
+  },
+  {
+   "id": "hish_s07",
+   "group": "hish:lesson",
+   "text": "This is her book. يعني ده كتابها. قول معايا: This is her book!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: This is her book."
+  },
+  {
+   "id": "hish_s08",
+   "group": "hish:lesson",
+   "text": "برافو عليك يا وحش! his للولد. her للبنت. يلا نلعب!",
+   "personal": false,
+   "note": "lesson step 8 | on screen: his = boy · her = girl"
+  },
+  {
+   "id": "hish_q1",
+   "group": "hish:quiz",
+   "text": "This is blank ball. الولد ده. الكورة بتاعته. his ولا her؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "hish_q1_right",
+   "group": "hish:quiz",
+   "text": "his ball! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "hish_q1_fix",
+   "group": "hish:quiz",
+   "text": "ولد يبقى his.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "hish_q2",
+   "group": "hish:quiz",
+   "text": "This is blank bag. البنت دي. الشنطة بتاعتها. his ولا her؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "hish_q2_right",
+   "group": "hish:quiz",
+   "text": "her bag! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "hish_q2_fix",
+   "group": "hish:quiz",
+   "text": "بنت يبقى her.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "hish_q3",
+   "group": "hish:quiz",
+   "text": "This is blank car. الراجل ده. العربية بتاعته. his ولا her؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "hish_q3_right",
+   "group": "hish:quiz",
+   "text": "his car! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "hish_q3_fix",
+   "group": "hish:quiz",
+   "text": "راجل يبقى his.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "hish_q4",
+   "group": "hish:quiz",
+   "text": "This is blank book. الست دي. الكتاب بتاعها. his ولا her؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "hish_q4_right",
+   "group": "hish:quiz",
+   "text": "her book! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "hish_q4_fix",
+   "group": "hish:quiz",
+   "text": "ست يبقى her.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "hish_q5",
+   "group": "hish:quiz",
+   "text": "This is blank doll. البنت دي. العروسة بتاعتها. his ولا her؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "hish_q5_right",
+   "group": "hish:quiz",
+   "text": "her doll! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "hish_q5_fix",
+   "group": "hish:quiz",
+   "text": "بنت يبقى her.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "hish_q6",
+   "group": "hish:quiz",
+   "text": "Which one is his? دوس على الصورة اللي هي his. بتاع الولد!",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "hish_q6_right",
+   "group": "hish:quiz",
+   "text": "his! الولد.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "hish_q6_fix",
+   "group": "hish:quiz",
+   "text": "his يعني بتاع الولد. دوس على الولد.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "pres_s01",
+   "group": "pres:lesson",
+   "text": "أهلاً يا مالك! النهارده هنتكلم عن اللي بنعمله كل يوم. زي I eat. وHe eats. يلا نشوف!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: I eat · He eats"
+  },
+  {
+   "id": "pres_s02",
+   "group": "pres:lesson",
+   "text": "I eat. يعني أنا باكل. قول معايا: I eat!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: I eat."
+  },
+  {
+   "id": "pres_s03",
+   "group": "pres:lesson",
+   "text": "They run. يعني هم بيجروا. قول معايا: They run!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: They run."
+  },
+  {
+   "id": "pres_s04",
+   "group": "pres:lesson",
+   "text": "We swim. يعني إحنا بنعوم. قول معايا: We swim!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: We swim."
+  },
+  {
+   "id": "pres_s05",
+   "group": "pres:lesson",
+   "text": "وهنا He eats. شوف الـ s في الآخر! قول معايا: He eats!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: He eats."
+  },
+  {
+   "id": "pres_s06",
+   "group": "pres:lesson",
+   "text": "She sleeps. برضه فيها s في الآخر. قول معايا: She sleeps!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: She sleeps."
+  },
+  {
+   "id": "pres_s07",
+   "group": "pres:lesson",
+   "text": "It runs. الحيوان بيجري. وفيها s. قول معايا: It runs!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: It runs."
+  },
+  {
+   "id": "pres_s08",
+   "group": "pres:lesson",
+   "text": "برافو عليك! مع he وshe وit بنزود s في آخر الفعل. يلا نلعب!",
+   "personal": false,
+   "note": "lesson step 8 | on screen: he · she · it + s"
+  },
+  {
+   "id": "pres_q1",
+   "group": "pres:quiz",
+   "text": "I blank . أنا باكل. eat ولا eats؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "pres_q1_right",
+   "group": "pres:quiz",
+   "text": "I eat! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "pres_q1_fix",
+   "group": "pres:quiz",
+   "text": "I مفيهاش s. يبقى eat.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "pres_q2",
+   "group": "pres:quiz",
+   "text": "He blank . هو بياكل. eat ولا eats؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "pres_q2_right",
+   "group": "pres:quiz",
+   "text": "He eats! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "pres_q2_fix",
+   "group": "pres:quiz",
+   "text": "He بتاخد s. يبقى eats.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "pres_q3",
+   "group": "pres:quiz",
+   "text": "They blank . هم بيجروا. run ولا runs؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "pres_q3_right",
+   "group": "pres:quiz",
+   "text": "They run! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "pres_q3_fix",
+   "group": "pres:quiz",
+   "text": "They مفيهاش s. يبقى run.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "pres_q4",
+   "group": "pres:quiz",
+   "text": "She blank . هي بتنام. sleep ولا sleeps؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "pres_q4_right",
+   "group": "pres:quiz",
+   "text": "She sleeps! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "pres_q4_fix",
+   "group": "pres:quiz",
+   "text": "She بتاخد s. يبقى sleeps.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "pres_q5",
+   "group": "pres:quiz",
+   "text": "We blank . إحنا بنعوم. swim ولا swims؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "pres_q5_right",
+   "group": "pres:quiz",
+   "text": "We swim! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "pres_q5_fix",
+   "group": "pres:quiz",
+   "text": "We مفيهاش s. يبقى swim.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "pres_q6",
+   "group": "pres:quiz",
+   "text": "It blank . الحيوان بيجري. run ولا runs؟",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "pres_q6_right",
+   "group": "pres:quiz",
+   "text": "It runs! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "pres_q6_fix",
+   "group": "pres:quiz",
+   "text": "It بتاخد s. يبقى runs.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "nsimp_s01",
+   "group": "nsimp:lesson",
+   "text": "أهلاً يا مالك! النهارده هنتعلم النفي. don't وdoesn't. يعني لأ، مش بعمل. يلا بينا!",
+   "personal": true,
+   "note": "lesson step 1 | on screen: don't · doesn't"
+  },
+  {
+   "id": "nsimp_s02",
+   "group": "nsimp:lesson",
+   "text": "I don't eat. يعني أنا مباكلش. قول معايا: I don't eat!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: I don't eat."
+  },
+  {
+   "id": "nsimp_s03",
+   "group": "nsimp:lesson",
+   "text": "They don't run. يعني هم مبيجروش. قول معايا: They don't run!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: They don't run."
+  },
+  {
+   "id": "nsimp_s04",
+   "group": "nsimp:lesson",
+   "text": "We don't swim. يعني إحنا مبنعومش. قول معايا: We don't swim!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: We don't swim."
+  },
+  {
+   "id": "nsimp_s05",
+   "group": "nsimp:lesson",
+   "text": "He doesn't sleep. لاحظ: مع he بنقول doesn't. وsleep من غير s. قول معايا: He doesn't sleep!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: He doesn't sleep."
+  },
+  {
+   "id": "nsimp_s06",
+   "group": "nsimp:lesson",
+   "text": "She doesn't eat. قول معايا: She doesn't eat!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: She doesn't eat."
+  },
+  {
+   "id": "nsimp_s07",
+   "group": "nsimp:lesson",
+   "text": "It doesn't run. الحيوان مبيجريش. قول معايا: It doesn't run!",
+   "personal": false,
+   "note": "repeat-after-me line, English words slow and clear | on screen: It doesn't run."
+  },
+  {
+   "id": "nsimp_s08",
+   "group": "nsimp:lesson",
+   "text": "برافو عليك! I وyou وwe وthey بياخدوا don't. وhe وshe وit بياخدوا doesn't. يلا نلعب!",
+   "personal": false,
+   "note": "lesson step 8 | on screen: he · she · it → doesn't"
+  },
+  {
+   "id": "nsimp_q1",
+   "group": "nsimp:quiz",
+   "text": "I blank eat. علامة إكس! أنا مباكلش. don't ولا doesn't؟",
+   "personal": false,
+   "note": "quiz question 1"
+  },
+  {
+   "id": "nsimp_q1_right",
+   "group": "nsimp:quiz",
+   "text": "I don't eat! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "nsimp_q1_fix",
+   "group": "nsimp:quiz",
+   "text": "I بتاخد don't.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "nsimp_q2",
+   "group": "nsimp:quiz",
+   "text": "He blank sleep. علامة إكس! هو منامش. don't ولا doesn't؟",
+   "personal": false,
+   "note": "quiz question 2"
+  },
+  {
+   "id": "nsimp_q2_right",
+   "group": "nsimp:quiz",
+   "text": "He doesn't sleep! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "nsimp_q2_fix",
+   "group": "nsimp:quiz",
+   "text": "He بتاخد doesn't.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "nsimp_q3",
+   "group": "nsimp:quiz",
+   "text": "They blank run. علامة إكس! هم مبيجروش. don't ولا doesn't؟",
+   "personal": false,
+   "note": "quiz question 3"
+  },
+  {
+   "id": "nsimp_q3_right",
+   "group": "nsimp:quiz",
+   "text": "They don't run! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "nsimp_q3_fix",
+   "group": "nsimp:quiz",
+   "text": "They بتاخد don't.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "nsimp_q4",
+   "group": "nsimp:quiz",
+   "text": "She blank eat. علامة إكس! هي مبتاكلش. don't ولا doesn't؟",
+   "personal": false,
+   "note": "quiz question 4"
+  },
+  {
+   "id": "nsimp_q4_right",
+   "group": "nsimp:quiz",
+   "text": "She doesn't eat! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "nsimp_q4_fix",
+   "group": "nsimp:quiz",
+   "text": "She بتاخد doesn't.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "nsimp_q5",
+   "group": "nsimp:quiz",
+   "text": "We blank swim. علامة إكس! إحنا مبنعومش. don't ولا doesn't؟",
+   "personal": false,
+   "note": "quiz question 5"
+  },
+  {
+   "id": "nsimp_q5_right",
+   "group": "nsimp:quiz",
+   "text": "We don't swim! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "nsimp_q5_fix",
+   "group": "nsimp:quiz",
+   "text": "We بتاخد don't.",
+   "personal": false,
+   "note": "hint after 2 wrong taps, gentle"
+  },
+  {
+   "id": "nsimp_q6",
+   "group": "nsimp:quiz",
+   "text": "It blank run. علامة إكس! الحيوان مبيجريش. don't ولا doesn't؟",
+   "personal": false,
+   "note": "quiz question 6"
+  },
+  {
+   "id": "nsimp_q6_right",
+   "group": "nsimp:quiz",
+   "text": "It doesn't run! تمام.",
+   "personal": false,
+   "note": "after correct answer (plays after a cheer line)"
+  },
+  {
+   "id": "nsimp_q6_fix",
+   "group": "nsimp:quiz",
+   "text": "It بتاخد doesn't.",
    "personal": false,
    "note": "hint after 2 wrong taps, gentle"
   }

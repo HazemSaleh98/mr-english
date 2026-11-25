@@ -606,3 +606,107 @@ what_q5_fix	what:quiz		ده كلب. يبقى It is a dog.	hint after 2 wrong tap
 what_q6	what:quiz		Which one is a car? دوس على الصورة اللي هي a car. العربية!	quiz question 6
 what_q6_right	what:quiz		a car! العربية.	after correct answer (plays after a cheer line)
 what_q6_fix	what:quiz		car يعني عربية. دوس على العربية.	hint after 2 wrong taps, gentle
+have_s01	have:lesson	Y	أهلاً يا مالك! النهارده هنتعلم have وhas. يعني عندي، وعنده. يلا نشوف!	lesson step 1 | on screen: have · has
+have_s02	have:lesson		I have a ball. يعني أنا عندي كورة. قول معايا: I have a ball!	repeat-after-me line, English words slow and clear | on screen: I have a ball.
+have_s03	have:lesson		You have a book. يعني انت عندك كتاب. قول معايا: You have a book!	repeat-after-me line, English words slow and clear | on screen: You have a book.
+have_s04	have:lesson		We have a car. يعني إحنا عندنا عربية. قول معايا: We have a car!	repeat-after-me line, English words slow and clear | on screen: We have a car.
+have_s05	have:lesson		وهنا He has a dog. يعني هو عنده كلب. لاحظ: He بتاخد has. قول معايا: He has a dog!	repeat-after-me line, English words slow and clear | on screen: He has a dog.
+have_s06	have:lesson		She has a bag. يعني هي عندها شنطة. قول معايا: She has a bag!	repeat-after-me line, English words slow and clear | on screen: She has a bag.
+have_s07	have:lesson		It has a tail. يعني الحيوان عنده دنب. It بتاخد has. قول معايا: It has a tail!	repeat-after-me line, English words slow and clear | on screen: It has a tail.
+have_s08	have:lesson		برافو عليك! I وyou وwe وthey بياخدوا have. وhe وshe وit بياخدوا has. يلا نلعب!	lesson step 8 | on screen: he · she · it → has
+have_q1	have:quiz		I blank a ball. أنا عندي كورة. have ولا has؟	quiz question 1
+have_q1_right	have:quiz		I have a ball! تمام.	after correct answer (plays after a cheer line)
+have_q1_fix	have:quiz		I بتاخد have.	hint after 2 wrong taps, gentle
+have_q2	have:quiz		He blank a dog. هو عنده كلب. have ولا has؟	quiz question 2
+have_q2_right	have:quiz		He has a dog! تمام.	after correct answer (plays after a cheer line)
+have_q2_fix	have:quiz		He بتاخد has.	hint after 2 wrong taps, gentle
+have_q3	have:quiz		We blank a car. إحنا عندنا عربية. have ولا has؟	quiz question 3
+have_q3_right	have:quiz		We have a car! تمام.	after correct answer (plays after a cheer line)
+have_q3_fix	have:quiz		We بتاخد have.	hint after 2 wrong taps, gentle
+have_q4	have:quiz		She blank a bag. هي عندها شنطة. have ولا has؟	quiz question 4
+have_q4_right	have:quiz		She has a bag! تمام.	after correct answer (plays after a cheer line)
+have_q4_fix	have:quiz		She بتاخد has.	hint after 2 wrong taps, gentle
+have_q5	have:quiz		It blank a tail. الحيوان عنده دنب. have ولا has؟	quiz question 5
+have_q5_right	have:quiz		It has a tail! تمام.	after correct answer (plays after a cheer line)
+have_q5_fix	have:quiz		It بتاخد has.	hint after 2 wrong taps, gentle
+have_q6	have:quiz		They blank a cat. هم عندهم قطة. have ولا has؟	quiz question 6
+have_q6_right	have:quiz		They have a cat! تمام.	after correct answer (plays after a cheer line)
+have_q6_fix	have:quiz		They بتاخد have.	hint after 2 wrong taps, gentle
+hish_s01	hish:lesson	Y	أهلاً يا مالك! النهارده هنتعلم his وher. his يعني بتاع الولد. وher يعني بتاعة البنت. يلا بينا!	lesson step 1 | on screen: his · her
+hish_s02	hish:lesson		شوف الولد ده. الكورة بتاعته. نقول his ball. قول معايا: his ball!	repeat-after-me line, English words slow and clear | on screen: his ball
+hish_s03	hish:lesson		وشوف البنت دي. الشنطة بتاعتها. نقول her bag. قول معايا: her bag!	repeat-after-me line, English words slow and clear | on screen: her bag
+hish_s04	hish:lesson		This is his cap. يعني دي الكاب بتاعه. قول معايا: This is his cap!	repeat-after-me line, English words slow and clear | on screen: This is his cap.
+hish_s05	hish:lesson		This is her doll. يعني دي العروسة بتاعتها. قول معايا: This is her doll!	repeat-after-me line, English words slow and clear | on screen: This is her doll.
+hish_s06	hish:lesson		This is his car. يعني دي عربيته. قول معايا: This is his car!	repeat-after-me line, English words slow and clear | on screen: This is his car.
+hish_s07	hish:lesson		This is her book. يعني ده كتابها. قول معايا: This is her book!	repeat-after-me line, English words slow and clear | on screen: This is her book.
+hish_s08	hish:lesson		برافو عليك يا وحش! his للولد. her للبنت. يلا نلعب!	lesson step 8 | on screen: his = boy · her = girl
+hish_q1	hish:quiz		This is blank ball. الولد ده. الكورة بتاعته. his ولا her؟	quiz question 1
+hish_q1_right	hish:quiz		his ball! تمام.	after correct answer (plays after a cheer line)
+hish_q1_fix	hish:quiz		ولد يبقى his.	hint after 2 wrong taps, gentle
+hish_q2	hish:quiz		This is blank bag. البنت دي. الشنطة بتاعتها. his ولا her؟	quiz question 2
+hish_q2_right	hish:quiz		her bag! تمام.	after correct answer (plays after a cheer line)
+hish_q2_fix	hish:quiz		بنت يبقى her.	hint after 2 wrong taps, gentle
+hish_q3	hish:quiz		This is blank car. الراجل ده. العربية بتاعته. his ولا her؟	quiz question 3
+hish_q3_right	hish:quiz		his car! تمام.	after correct answer (plays after a cheer line)
+hish_q3_fix	hish:quiz		راجل يبقى his.	hint after 2 wrong taps, gentle
+hish_q4	hish:quiz		This is blank book. الست دي. الكتاب بتاعها. his ولا her؟	quiz question 4
+hish_q4_right	hish:quiz		her book! تمام.	after correct answer (plays after a cheer line)
+hish_q4_fix	hish:quiz		ست يبقى her.	hint after 2 wrong taps, gentle
+hish_q5	hish:quiz		This is blank doll. البنت دي. العروسة بتاعتها. his ولا her؟	quiz question 5
+hish_q5_right	hish:quiz		her doll! تمام.	after correct answer (plays after a cheer line)
+hish_q5_fix	hish:quiz		بنت يبقى her.	hint after 2 wrong taps, gentle
+hish_q6	hish:quiz		Which one is his? دوس على الصورة اللي هي his. بتاع الولد!	quiz question 6
+hish_q6_right	hish:quiz		his! الولد.	after correct answer (plays after a cheer line)
+hish_q6_fix	hish:quiz		his يعني بتاع الولد. دوس على الولد.	hint after 2 wrong taps, gentle
+pres_s01	pres:lesson	Y	أهلاً يا مالك! النهارده هنتكلم عن اللي بنعمله كل يوم. زي I eat. وHe eats. يلا نشوف!	lesson step 1 | on screen: I eat · He eats
+pres_s02	pres:lesson		I eat. يعني أنا باكل. قول معايا: I eat!	repeat-after-me line, English words slow and clear | on screen: I eat.
+pres_s03	pres:lesson		They run. يعني هم بيجروا. قول معايا: They run!	repeat-after-me line, English words slow and clear | on screen: They run.
+pres_s04	pres:lesson		We swim. يعني إحنا بنعوم. قول معايا: We swim!	repeat-after-me line, English words slow and clear | on screen: We swim.
+pres_s05	pres:lesson		وهنا He eats. شوف الـ s في الآخر! قول معايا: He eats!	repeat-after-me line, English words slow and clear | on screen: He eats.
+pres_s06	pres:lesson		She sleeps. برضه فيها s في الآخر. قول معايا: She sleeps!	repeat-after-me line, English words slow and clear | on screen: She sleeps.
+pres_s07	pres:lesson		It runs. الحيوان بيجري. وفيها s. قول معايا: It runs!	repeat-after-me line, English words slow and clear | on screen: It runs.
+pres_s08	pres:lesson		برافو عليك! مع he وshe وit بنزود s في آخر الفعل. يلا نلعب!	lesson step 8 | on screen: he · she · it + s
+pres_q1	pres:quiz		I blank . أنا باكل. eat ولا eats؟	quiz question 1
+pres_q1_right	pres:quiz		I eat! تمام.	after correct answer (plays after a cheer line)
+pres_q1_fix	pres:quiz		I مفيهاش s. يبقى eat.	hint after 2 wrong taps, gentle
+pres_q2	pres:quiz		He blank . هو بياكل. eat ولا eats؟	quiz question 2
+pres_q2_right	pres:quiz		He eats! تمام.	after correct answer (plays after a cheer line)
+pres_q2_fix	pres:quiz		He بتاخد s. يبقى eats.	hint after 2 wrong taps, gentle
+pres_q3	pres:quiz		They blank . هم بيجروا. run ولا runs؟	quiz question 3
+pres_q3_right	pres:quiz		They run! تمام.	after correct answer (plays after a cheer line)
+pres_q3_fix	pres:quiz		They مفيهاش s. يبقى run.	hint after 2 wrong taps, gentle
+pres_q4	pres:quiz		She blank . هي بتنام. sleep ولا sleeps؟	quiz question 4
+pres_q4_right	pres:quiz		She sleeps! تمام.	after correct answer (plays after a cheer line)
+pres_q4_fix	pres:quiz		She بتاخد s. يبقى sleeps.	hint after 2 wrong taps, gentle
+pres_q5	pres:quiz		We blank . إحنا بنعوم. swim ولا swims؟	quiz question 5
+pres_q5_right	pres:quiz		We swim! تمام.	after correct answer (plays after a cheer line)
+pres_q5_fix	pres:quiz		We مفيهاش s. يبقى swim.	hint after 2 wrong taps, gentle
+pres_q6	pres:quiz		It blank . الحيوان بيجري. run ولا runs؟	quiz question 6
+pres_q6_right	pres:quiz		It runs! تمام.	after correct answer (plays after a cheer line)
+pres_q6_fix	pres:quiz		It بتاخد s. يبقى runs.	hint after 2 wrong taps, gentle
+nsimp_s01	nsimp:lesson	Y	أهلاً يا مالك! النهارده هنتعلم النفي. don't وdoesn't. يعني لأ، مش بعمل. يلا بينا!	lesson step 1 | on screen: don't · doesn't
+nsimp_s02	nsimp:lesson		I don't eat. يعني أنا مباكلش. قول معايا: I don't eat!	repeat-after-me line, English words slow and clear | on screen: I don't eat.
+nsimp_s03	nsimp:lesson		They don't run. يعني هم مبيجروش. قول معايا: They don't run!	repeat-after-me line, English words slow and clear | on screen: They don't run.
+nsimp_s04	nsimp:lesson		We don't swim. يعني إحنا مبنعومش. قول معايا: We don't swim!	repeat-after-me line, English words slow and clear | on screen: We don't swim.
+nsimp_s05	nsimp:lesson		He doesn't sleep. لاحظ: مع he بنقول doesn't. وsleep من غير s. قول معايا: He doesn't sleep!	repeat-after-me line, English words slow and clear | on screen: He doesn't sleep.
+nsimp_s06	nsimp:lesson		She doesn't eat. قول معايا: She doesn't eat!	repeat-after-me line, English words slow and clear | on screen: She doesn't eat.
+nsimp_s07	nsimp:lesson		It doesn't run. الحيوان مبيجريش. قول معايا: It doesn't run!	repeat-after-me line, English words slow and clear | on screen: It doesn't run.
+nsimp_s08	nsimp:lesson		برافو عليك! I وyou وwe وthey بياخدوا don't. وhe وshe وit بياخدوا doesn't. يلا نلعب!	lesson step 8 | on screen: he · she · it → doesn't
+nsimp_q1	nsimp:quiz		I blank eat. علامة إكس! أنا مباكلش. don't ولا doesn't؟	quiz question 1
+nsimp_q1_right	nsimp:quiz		I don't eat! تمام.	after correct answer (plays after a cheer line)
+nsimp_q1_fix	nsimp:quiz		I بتاخد don't.	hint after 2 wrong taps, gentle
+nsimp_q2	nsimp:quiz		He blank sleep. علامة إكس! هو منامش. don't ولا doesn't؟	quiz question 2
+nsimp_q2_right	nsimp:quiz		He doesn't sleep! تمام.	after correct answer (plays after a cheer line)
+nsimp_q2_fix	nsimp:quiz		He بتاخد doesn't.	hint after 2 wrong taps, gentle
+nsimp_q3	nsimp:quiz		They blank run. علامة إكس! هم مبيجروش. don't ولا doesn't؟	quiz question 3
+nsimp_q3_right	nsimp:quiz		They don't run! تمام.	after correct answer (plays after a cheer line)
+nsimp_q3_fix	nsimp:quiz		They بتاخد don't.	hint after 2 wrong taps, gentle
+nsimp_q4	nsimp:quiz		She blank eat. علامة إكس! هي مبتاكلش. don't ولا doesn't؟	quiz question 4
+nsimp_q4_right	nsimp:quiz		She doesn't eat! تمام.	after correct answer (plays after a cheer line)
+nsimp_q4_fix	nsimp:quiz		She بتاخد doesn't.	hint after 2 wrong taps, gentle
+nsimp_q5	nsimp:quiz		We blank swim. علامة إكس! إحنا مبنعومش. don't ولا doesn't؟	quiz question 5
+nsimp_q5_right	nsimp:quiz		We don't swim! تمام.	after correct answer (plays after a cheer line)
+nsimp_q5_fix	nsimp:quiz		We بتاخد don't.	hint after 2 wrong taps, gentle
+nsimp_q6	nsimp:quiz		It blank run. علامة إكس! الحيوان مبيجريش. don't ولا doesn't؟	quiz question 6
+nsimp_q6_right	nsimp:quiz		It doesn't run! تمام.	after correct answer (plays after a cheer line)
+nsimp_q6_fix	nsimp:quiz		It بتاخد doesn't.	hint after 2 wrong taps, gentle
