@@ -816,3 +816,137 @@ qz5_q5_fix	qz5:quiz		I بتاخد have.	hint after 2 wrong taps, gentle
 qz5_q6	qz5:quiz		This is blank bag. البنت دي. الشنطة بتاعتها. his ولا her؟	quiz question 6
 qz5_q6_right	qz5:quiz		her bag! تمام.	after correct answer (plays after a cheer line)
 qz5_q6_fix	qz5:quiz		بنت يبقى her.	hint after 2 wrong taps, gentle
+bank_s01	bank:lesson	Y	أهلاً يا مالك! ده بنك الكلمات. هنراجع كلمات حلوة مع بعض. يلا بينا!	lesson step 1 | on screen: Words bank
+bank_s02	bank:lesson		تفاحة. بالإنجليزي: apple. قول معايا: apple!	repeat-after-me line, English words slow and clear | on screen: apple
+bank_s03	bank:lesson		قطة. بالإنجليزي: cat. قول معايا: cat!	repeat-after-me line, English words slow and clear | on screen: cat
+bank_s04	bank:lesson		كلب. بالإنجليزي: dog. قول معايا: dog!	repeat-after-me line, English words slow and clear | on screen: dog
+bank_s05	bank:lesson		عربية. بالإنجليزي: car. قول معايا: car!	repeat-after-me line, English words slow and clear | on screen: car
+bank_s06	bank:lesson		كورة. بالإنجليزي: ball. قول معايا: ball!	repeat-after-me line, English words slow and clear | on screen: ball
+bank_s07	bank:lesson		شنطة. بالإنجليزي: bag. قول معايا: bag!	repeat-after-me line, English words slow and clear | on screen: bag
+bank_s08	bank:lesson		كتاب. بالإنجليزي: book. قول معايا: book!	repeat-after-me line, English words slow and clear | on screen: book
+bank_s09	bank:lesson		موزة. بالإنجليزي: banana. قول معايا: banana!	repeat-after-me line, English words slow and clear | on screen: banana
+bank_s10	bank:lesson		برتقالة. بالإنجليزي: orange. قول معايا: orange!	repeat-after-me line, English words slow and clear | on screen: orange
+bank_s11	bank:lesson		يعوم. بالإنجليزي: swim. قول معايا: swim!	repeat-after-me line, English words slow and clear | on screen: swim
+bank_s12	bank:lesson		يجري. بالإنجليزي: run. قول معايا: run!	repeat-after-me line, English words slow and clear | on screen: run
+bank_s13	bank:lesson		ينام. بالإنجليزي: sleep. قول معايا: sleep!	repeat-after-me line, English words slow and clear | on screen: sleep
+bank_s14	bank:lesson		برافو عليك يا وحش! اتعلمنا اتناشر كلمة. يلا نلعب!	lesson step 14 | on screen: 12 words
+bank_q1	bank:quiz		What is it? ده إيه؟	quiz question 1
+bank_q1_right	bank:quiz		apple! تفاحة.	after correct answer (plays after a cheer line)
+bank_q1_fix	bank:quiz		ده تفاحة. يبقى apple.	hint after 2 wrong taps, gentle
+bank_q2	bank:quiz		What is it? ده إيه؟	quiz question 2
+bank_q2_right	bank:quiz		car! عربية.	after correct answer (plays after a cheer line)
+bank_q2_fix	bank:quiz		ده عربية. يبقى car.	hint after 2 wrong taps, gentle
+bank_q3	bank:quiz		What is it? ده إيه؟	quiz question 3
+bank_q3_right	bank:quiz		book! كتاب.	after correct answer (plays after a cheer line)
+bank_q3_fix	bank:quiz		ده كتاب. يبقى book.	hint after 2 wrong taps, gentle
+bank_q4	bank:quiz		What is it? ده إيه؟	quiz question 4
+bank_q4_right	bank:quiz		swim! يعوم.	after correct answer (plays after a cheer line)
+bank_q4_fix	bank:quiz		ده يعوم. يبقى swim.	hint after 2 wrong taps, gentle
+bank_q5	bank:quiz		What is it? ده إيه؟	quiz question 5
+bank_q5_right	bank:quiz		cat! قطة.	after correct answer (plays after a cheer line)
+bank_q5_fix	bank:quiz		ده قطة. يبقى cat.	hint after 2 wrong taps, gentle
+bank_q6	bank:quiz		What is it? ده إيه؟	quiz question 6
+bank_q6_right	bank:quiz		orange! برتقالة.	after correct answer (plays after a cheer line)
+bank_q6_fix	bank:quiz		ده برتقالة. يبقى orange.	hint after 2 wrong taps, gentle
+bank_q7	bank:quiz		What is it? ده إيه؟	quiz question 7
+bank_q7_right	bank:quiz		sleep! ينام.	after correct answer (plays after a cheer line)
+bank_q7_fix	bank:quiz		ده ينام. يبقى sleep.	hint after 2 wrong taps, gentle
+bank_q8	bank:quiz		What is it? ده إيه؟	quiz question 8
+bank_q8_right	bank:quiz		bag! شنطة.	after correct answer (plays after a cheer line)
+bank_q8_fix	bank:quiz		ده شنطة. يبقى bag.	hint after 2 wrong taps, gentle
+write_s01	write:lesson	Y	أهلاً يا مالك! النهارده هنتعلم نكتب جملة صح. نبدأ بحرف كبير، ونخلي الجملة تخلص بنقطة. والسؤال بيخلص بعلامة استفهام. يلا نشوف!	lesson step 1 | on screen: Writing skills
+write_s02	write:lesson		جاهز يا وحش؟ ركز كويس، وخد وقتك. بالتوفيق!	lesson step 2 | on screen: Good luck!
+write_q1	write:quiz		Which is right? أي جملة مكتوبة صح؟	quiz question 1
+write_q1_right	write:quiz		I am happy. حرف كبير ونقطة. تمام!	after correct answer (plays after a cheer line)
+write_q1_fix	write:quiz		الجملة لازم تبدأ بحرف كبير وتخلص بنقطة.	hint after 2 wrong taps, gentle
+write_q2	write:quiz		Which is right? أي جملة مكتوبة صح؟	quiz question 2
+write_q2_right	write:quiz		It is a cat. تمام!	after correct answer (plays after a cheer line)
+write_q2_fix	write:quiz		الجملة لازم تبدأ بحرف كبير وتخلص بنقطة.	hint after 2 wrong taps, gentle
+write_q3	write:quiz		Which is right? أي سؤال مكتوب صح؟	quiz question 3
+write_q3_right	write:quiz		Is it a dog? علامة استفهام. تمام!	after correct answer (plays after a cheer line)
+write_q3_fix	write:quiz		السؤال بيخلص بعلامة استفهام.	hint after 2 wrong taps, gentle
+write_q4	write:quiz		Which is right? أي سؤال مكتوب صح؟	quiz question 4
+write_q4_right	write:quiz		What is it? تمام!	after correct answer (plays after a cheer line)
+write_q4_fix	write:quiz		السؤال بيخلص بعلامة استفهام.	hint after 2 wrong taps, gentle
+write_q5	write:quiz		Which is right? أي جملة مكتوبة صح؟	quiz question 5
+write_q5_right	write:quiz		He has a dog. تمام!	after correct answer (plays after a cheer line)
+write_q5_fix	write:quiz		الجملة لازم تبدأ بحرف كبير وتخلص بنقطة.	hint after 2 wrong taps, gentle
+write_q6	write:quiz		Which is right? أي جملة مكتوبة صح؟	quiz question 6
+write_q6_right	write:quiz		We are not sad. تمام!	after correct answer (plays after a cheer line)
+write_q6_fix	write:quiz		الجملة لازم تبدأ بحرف كبير وتخلص بنقطة.	hint after 2 wrong taps, gentle
+rev_s01	rev:lesson	Y	أهلاً يا مالك! دي مراجعة عامة على كل اللي اتعلمناه. اتناشر سؤال. يلا نشوف شطارتك!	lesson step 1 | on screen: General revision
+rev_s02	rev:lesson		جاهز يا وحش؟ ركز كويس، وخد وقتك. بالتوفيق!	lesson step 2 | on screen: Good luck!
+rev_q1	rev:quiz		blank apple. تفاحة. a ولا an؟	quiz question 1
+rev_q1_right	rev:quiz		an apple! تمام.	after correct answer (plays after a cheer line)
+rev_q1_fix	rev:quiz		apple بتبدأ بحرف a. يبقى an.	hint after 2 wrong taps, gentle
+rev_q2	rev:quiz		How many? عد البالونات. كام بالونة؟	quiz question 2
+rev_q2_right	rev:quiz		four! تمام.	after correct answer (plays after a cheer line)
+rev_q2_fix	rev:quiz		عد واحدة واحدة. هتلاقيها four.	hint after 2 wrong taps, gentle
+rev_q3	rev:quiz		Is it This, or that?? التفاحة بعيدة عنك. this ولا that؟	quiz question 3
+rev_q3_right	rev:quiz		that! بعيدة.	after correct answer (plays after a cheer line)
+rev_q3_fix	rev:quiz		البعيد that.	hint after 2 wrong taps, gentle
+rev_q4	rev:quiz		blank is a girl. دي بنت. He ولا She؟	quiz question 4
+rev_q4_right	rev:quiz		She is a girl! تمام.	after correct answer (plays after a cheer line)
+rev_q4_fix	rev:quiz		بنت يبقى She.	hint after 2 wrong taps, gentle
+rev_q5	rev:quiz		blank is a cat. ده حيوان. He ولا It؟	quiz question 5
+rev_q5_right	rev:quiz		It is a cat! تمام.	after correct answer (plays after a cheer line)
+rev_q5_fix	rev:quiz		الحيوان يبقى It.	hint after 2 wrong taps, gentle
+rev_q6	rev:quiz		We blank happy. إحنا سعداء. is ولا are؟	quiz question 6
+rev_q6_right	rev:quiz		We are happy! تمام.	after correct answer (plays after a cheer line)
+rev_q6_fix	rev:quiz		We بتاخد are.	hint after 2 wrong taps, gentle
+rev_q7	rev:quiz		It blank a dog. علامة إكس! ده مش كلب. is ولا is not؟	quiz question 7
+rev_q7_right	rev:quiz		It is not a dog! تمام.	after correct answer (plays after a cheer line)
+rev_q7_fix	rev:quiz		إكس يعني not.	hint after 2 wrong taps, gentle
+rev_q8	rev:quiz		Is it a dog? هل ده كلب؟	quiz question 8
+rev_q8_right	rev:quiz		Yes, it is! تمام.	after correct answer (plays after a cheer line)
+rev_q8_fix	rev:quiz		ده كلب. يبقى Yes, it is.	hint after 2 wrong taps, gentle
+rev_q9	rev:quiz		He blank a dog. هو عنده كلب. have ولا has؟	quiz question 9
+rev_q9_right	rev:quiz		He has a dog! تمام.	after correct answer (plays after a cheer line)
+rev_q9_fix	rev:quiz		He بتاخد has.	hint after 2 wrong taps, gentle
+rev_q10	rev:quiz		This is blank bag. البنت دي. الشنطة بتاعتها. his ولا her؟	quiz question 10
+rev_q10_right	rev:quiz		her bag! تمام.	after correct answer (plays after a cheer line)
+rev_q10_fix	rev:quiz		بنت يبقى her.	hint after 2 wrong taps, gentle
+rev_q11	rev:quiz		He blank . هو بياكل. eat ولا eats؟	quiz question 11
+rev_q11_right	rev:quiz		He eats! تمام.	after correct answer (plays after a cheer line)
+rev_q11_fix	rev:quiz		He بتاخد s. يبقى eats.	hint after 2 wrong taps, gentle
+rev_q12	rev:quiz		He blank sleep. علامة إكس! هو منامش. don't ولا doesn't؟	quiz question 12
+rev_q12_right	rev:quiz		He doesn't sleep! تمام.	after correct answer (plays after a cheer line)
+rev_q12_fix	rev:quiz		He بتاخد doesn't.	hint after 2 wrong taps, gentle
+final_s01	final:lesson	Y	أهلاً يا مالك! ده الامتحان النهائي. اتناشر سؤال من كل الكتاب. ركز وخد وقتك. أنا واثق فيك يا بطل!	lesson step 1 | on screen: Final exam
+final_s02	final:lesson		جاهز يا وحش؟ ركز كويس، وخد وقتك. بالتوفيق!	lesson step 2 | on screen: Good luck!
+final_q1	final:quiz		He blank sleep. علامة إكس! هو منامش. don't ولا doesn't؟	quiz question 1
+final_q1_right	final:quiz		He doesn't sleep! تمام.	after correct answer (plays after a cheer line)
+final_q1_fix	final:quiz		He بتاخد doesn't.	hint after 2 wrong taps, gentle
+final_q2	final:quiz		He blank . هو بياكل. eat ولا eats؟	quiz question 2
+final_q2_right	final:quiz		He eats! تمام.	after correct answer (plays after a cheer line)
+final_q2_fix	final:quiz		He بتاخد s. يبقى eats.	hint after 2 wrong taps, gentle
+final_q3	final:quiz		This is blank bag. البنت دي. الشنطة بتاعتها. his ولا her؟	quiz question 3
+final_q3_right	final:quiz		her bag! تمام.	after correct answer (plays after a cheer line)
+final_q3_fix	final:quiz		بنت يبقى her.	hint after 2 wrong taps, gentle
+final_q4	final:quiz		He blank a dog. هو عنده كلب. have ولا has؟	quiz question 4
+final_q4_right	final:quiz		He has a dog! تمام.	after correct answer (plays after a cheer line)
+final_q4_fix	final:quiz		He بتاخد has.	hint after 2 wrong taps, gentle
+final_q5	final:quiz		Is it a dog? هل ده كلب؟	quiz question 5
+final_q5_right	final:quiz		Yes, it is! تمام.	after correct answer (plays after a cheer line)
+final_q5_fix	final:quiz		ده كلب. يبقى Yes, it is.	hint after 2 wrong taps, gentle
+final_q6	final:quiz		It blank a dog. علامة إكس! ده مش كلب. is ولا is not؟	quiz question 6
+final_q6_right	final:quiz		It is not a dog! تمام.	after correct answer (plays after a cheer line)
+final_q6_fix	final:quiz		إكس يعني not.	hint after 2 wrong taps, gentle
+final_q7	final:quiz		We blank happy. إحنا سعداء. is ولا are؟	quiz question 7
+final_q7_right	final:quiz		We are happy! تمام.	after correct answer (plays after a cheer line)
+final_q7_fix	final:quiz		We بتاخد are.	hint after 2 wrong taps, gentle
+final_q8	final:quiz		blank is a cat. ده حيوان. He ولا It؟	quiz question 8
+final_q8_right	final:quiz		It is a cat! تمام.	after correct answer (plays after a cheer line)
+final_q8_fix	final:quiz		الحيوان يبقى It.	hint after 2 wrong taps, gentle
+final_q9	final:quiz		blank is a girl. دي بنت. He ولا She؟	quiz question 9
+final_q9_right	final:quiz		She is a girl! تمام.	after correct answer (plays after a cheer line)
+final_q9_fix	final:quiz		بنت يبقى She.	hint after 2 wrong taps, gentle
+final_q10	final:quiz		Is it This, or that?? التفاحة بعيدة عنك. this ولا that؟	quiz question 10
+final_q10_right	final:quiz		that! بعيدة.	after correct answer (plays after a cheer line)
+final_q10_fix	final:quiz		البعيد that.	hint after 2 wrong taps, gentle
+final_q11	final:quiz		How many? عد البالونات. كام بالونة؟	quiz question 11
+final_q11_right	final:quiz		four! تمام.	after correct answer (plays after a cheer line)
+final_q11_fix	final:quiz		عد واحدة واحدة. هتلاقيها four.	hint after 2 wrong taps, gentle
+final_q12	final:quiz		blank apple. تفاحة. a ولا an؟	quiz question 12
+final_q12_right	final:quiz		an apple! تمام.	after correct answer (plays after a cheer line)
+final_q12_fix	final:quiz		apple بتبدأ بحرف a. يبقى an.	hint after 2 wrong taps, gentle

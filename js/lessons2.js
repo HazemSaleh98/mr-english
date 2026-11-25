@@ -431,6 +431,41 @@
       [E('👧'), 'This is ___ bag.', 'البنت دي. الشنطة بتاعتها. his ولا her؟', ['his', 'her'], 'her', 'her bag! تمام.', 'بنت يبقى her.']
     ]);
 
+    /* ---------------- Words bank / Writing / Revision / Final ---------------- */
+    const WB = [['🍎', 'apple', 'تفاحة'], ['🐱', 'cat', 'قطة'], ['🐶', 'dog', 'كلب'], ['🚗', 'car', 'عربية'], ['⚽', 'ball', 'كورة'], ['🎒', 'bag', 'شنطة'], ['📘', 'book', 'كتاب'], ['🍌', 'banana', 'موزة'], ['🍊', 'orange', 'برتقالة'], ['🏊', 'swim', 'يعوم'], ['🏃', 'run', 'يجري'], ['😴', 'sleep', 'ينام']];
+    const wbq = (i, a, b) => [E(WB[i][0]), 'What is it?', 'ده إيه؟', [WB[a][1], WB[b][1], WB[i][1]].sort(), WB[i][1], WB[i][1] + '! ' + WB[i][2] + '.', 'ده ' + WB[i][2] + '. يبقى ' + WB[i][1] + '.'];
+    add('bank', 'Words bank', 'بنك الكلمات', '🏦', ['#f6d365', '#fda085'], 'Page 91', [
+      S('bank_s01', TX('Words bank'), 'Words bank', 'كلمات نحفظها', 'أهلاً يا مالك! ده بنك الكلمات. هنراجع كلمات حلوة مع بعض. يلا بينا!', { personal: true }),
+      ...WB.map((w, i) => SI('bank_s' + String(i + 2).padStart(2, '0'), E(w[0]), w[1], w[2], w[2] + '. بالإنجليزي: ' + w[1] + '. قول معايا: ' + w[1] + '!')),
+      S('bank_s14', TX('12 words'), '12 words', 'تعلمنا اتناشر كلمة', 'برافو عليك يا وحش! اتعلمنا اتناشر كلمة. يلا نلعب!')
+    ], [wbq(0, 1, 2), wbq(3, 4, 5), wbq(6, 7, 8), wbq(9, 10, 11), wbq(1, 0, 4), wbq(8, 7, 6), wbq(11, 9, 10), wbq(5, 3, 0)].map((x, i) => Q('bank_q' + (i + 1), ...x.slice(0, 2), x[2], 'word', x[3], x[4], x[5], x[6])));
+
+    QZ('write', 'Writing skills', 'مهارات الكتابة', '✏️', ['#d4fc79', '#96e6a1'], 'Page 82', 'أهلاً يا مالك! النهارده هنتعلم نكتب جملة صح. نبدأ بحرف كبير، ونخلي الجملة تخلص بنقطة. والسؤال بيخلص بعلامة استفهام. يلا نشوف!', [
+      [TX('i am happy'), 'Which is right?', 'أي جملة مكتوبة صح؟', ['I am happy.', 'i am happy'], 'I am happy.', 'I am happy. حرف كبير ونقطة. تمام!', 'الجملة لازم تبدأ بحرف كبير وتخلص بنقطة.'],
+      [TX('It is a cat'), 'Which is right?', 'أي جملة مكتوبة صح؟', ['It is a cat.', 'it is a cat'], 'It is a cat.', 'It is a cat. تمام!', 'الجملة لازم تبدأ بحرف كبير وتخلص بنقطة.'],
+      [TX('Is it a dog'), 'Which is right?', 'أي سؤال مكتوب صح؟', ['Is it a dog?', 'Is it a dog.'], 'Is it a dog?', 'Is it a dog? علامة استفهام. تمام!', 'السؤال بيخلص بعلامة استفهام.'],
+      [TX('What is it'), 'Which is right?', 'أي سؤال مكتوب صح؟', ['What is it?', 'What is it.'], 'What is it?', 'What is it? تمام!', 'السؤال بيخلص بعلامة استفهام.'],
+      [TX('he has a dog'), 'Which is right?', 'أي جملة مكتوبة صح؟', ['He has a dog.', 'he has a dog'], 'He has a dog.', 'He has a dog. تمام!', 'الجملة لازم تبدأ بحرف كبير وتخلص بنقطة.'],
+      [TX('We are not sad'), 'Which is right?', 'أي جملة مكتوبة صح؟', ['We are not sad.', 'we are not sad'], 'We are not sad.', 'We are not sad. تمام!', 'الجملة لازم تبدأ بحرف كبير وتخلص بنقطة.']
+    ]);
+
+    const MIX = [
+      [E('🍎'), '___ apple.', 'تفاحة. a ولا an؟', AA, 'an', 'an apple! تمام.', 'apple بتبدأ بحرف a. يبقى an.'],
+      [G('🎈', 4), 'How many?', 'عد البالونات. كام بالونة؟', ['three', 'four', 'five'], 'four', 'four! تمام.', 'عد واحدة واحدة. هتلاقيها four.'],
+      [D('🍎', true), 'This or that?', 'التفاحة بعيدة عنك. this ولا that؟', ['this', 'that'], 'that', 'that! بعيدة.', 'البعيد that.'],
+      [E('👧'), '___ is a girl.', 'دي بنت. He ولا She؟', ['He', 'She'], 'She', 'She is a girl! تمام.', 'بنت يبقى She.'],
+      [E('🐱'), '___ is a cat.', 'ده حيوان. He ولا It؟', ['He', 'It'], 'It', 'It is a cat! تمام.', 'الحيوان يبقى It.'],
+      [E('👫'), 'We ___ happy.', 'إحنا سعداء. is ولا are؟', ['is', 'are'], 'are', 'We are happy! تمام.', 'We بتاخد are.'],
+      [E('🐱', { cross: true }), 'It ___ a dog.', 'علامة إكس! ده مش كلب. is ولا is not؟', ['is', 'is not'], 'is not', 'It is not a dog! تمام.', 'إكس يعني not.'],
+      [E('🐶'), 'Is it a dog?', 'هل ده كلب؟', ['Yes, it is.', "No, it isn't."], 'Yes, it is.', 'Yes, it is! تمام.', 'ده كلب. يبقى Yes, it is.'],
+      [E('👦'), 'He ___ a dog.', 'هو عنده كلب. have ولا has؟', ['have', 'has'], 'has', 'He has a dog! تمام.', 'He بتاخد has.'],
+      [E('👧'), 'This is ___ bag.', 'البنت دي. الشنطة بتاعتها. his ولا her؟', ['his', 'her'], 'her', 'her bag! تمام.', 'بنت يبقى her.'],
+      [E('🍽️'), 'He ___ .', 'هو بياكل. eat ولا eats؟', ['eat', 'eats'], 'eats', 'He eats! تمام.', 'He بتاخد s. يبقى eats.'],
+      [E('😴', { cross: true }), 'He ___ sleep.', "علامة إكس! هو منامش. don't ولا doesn't؟", ["don't", "doesn't"], "doesn't", "He doesn't sleep! تمام.", "He بتاخد doesn't."]
+    ];
+    QZ('rev', 'General revision', 'مراجعة عامة', '🔁', ['#a1c4fd', '#c2e9fb'], 'Page 79', 'أهلاً يا مالك! دي مراجعة عامة على كل اللي اتعلمناه. اتناشر سؤال. يلا نشوف شطارتك!', MIX);
+    QZ('final', 'Final exam', 'الامتحان النهائي', '🏆', ['#fbc2eb', '#a6c1ee'], 'Page 101', 'أهلاً يا مالك! ده الامتحان النهائي. اتناشر سؤال من كل الكتاب. ركز وخد وقتك. أنا واثق فيك يا بطل!', MIX.slice().reverse());
+
     return out;
   };
   root.MRE_MORE = make;
