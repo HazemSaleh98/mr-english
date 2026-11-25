@@ -686,7 +686,7 @@
   {
    "id": "aan_q1",
    "group": "aan:quiz",
-   "text": "القطة دي، cat. نقول a ولا an؟",
+   "text": "Is it a, or an? القطة دي، cat. نقول a ولا an؟",
    "personal": false,
    "note": "quiz question 1"
   },
@@ -707,7 +707,7 @@
   {
    "id": "aan_q2",
    "group": "aan:quiz",
-   "text": "التفاحة دي، apple. نقول a ولا an؟",
+   "text": "Is it a, or an? التفاحة دي، apple. نقول a ولا an؟",
    "personal": false,
    "note": "quiz question 2"
   },
@@ -728,7 +728,7 @@
   {
    "id": "aan_q3",
    "group": "aan:quiz",
-   "text": "الكلب ده، dog. نقول a ولا an؟",
+   "text": "Is it a, or an? الكلب ده، dog. نقول a ولا an؟",
    "personal": false,
    "note": "quiz question 3"
   },
@@ -749,7 +749,7 @@
   {
    "id": "aan_q4",
    "group": "aan:quiz",
-   "text": "البيضة دي، egg. نقول a ولا an؟",
+   "text": "Is it a, or an? البيضة دي، egg. نقول a ولا an؟",
    "personal": false,
    "note": "quiz question 4"
   },
@@ -770,7 +770,7 @@
   {
    "id": "aan_q5",
    "group": "aan:quiz",
-   "text": "الشمسية دي، umbrella. نقول a ولا an؟",
+   "text": "Is it a, or an? الشمسية دي، umbrella. نقول a ولا an؟",
    "personal": false,
    "note": "quiz question 5"
   },
@@ -791,7 +791,7 @@
   {
    "id": "aan_q6",
    "group": "aan:quiz",
-   "text": "دوس على الصورة اللي هي an elephant. فين الفيل؟",
+   "text": "Which one is an elephant? دوس على الصورة اللي هي an elephant. فين الفيل؟",
    "personal": false,
    "note": "quiz question 6"
   },
@@ -896,7 +896,7 @@
   {
    "id": "num_q1",
    "group": "num:quiz",
-   "text": "عد البالونات معايا. كام بالونة؟",
+   "text": "How many? عد البالونات معايا. كام بالونة؟",
    "personal": false,
    "note": "quiz question 1"
   },
@@ -917,7 +917,7 @@
   {
    "id": "num_q2",
    "group": "num:quiz",
-   "text": "كام قطة هنا؟",
+   "text": "How many? كام قطة هنا؟",
    "personal": false,
    "note": "quiz question 2"
   },
@@ -938,7 +938,7 @@
   {
    "id": "num_q3",
    "group": "num:quiz",
-   "text": "عد النجوم. كام نجمة؟",
+   "text": "How many? عد النجوم. كام نجمة؟",
    "personal": false,
    "note": "quiz question 3"
   },
@@ -959,7 +959,7 @@
   {
    "id": "num_q4",
    "group": "num:quiz",
-   "text": "عد البسكوت. كام بسكوتة؟",
+   "text": "How many? عد البسكوت. كام بسكوتة؟",
    "personal": false,
    "note": "quiz question 4"
   },
@@ -980,7 +980,7 @@
   {
    "id": "num_q5",
    "group": "num:quiz",
-   "text": "ورود كتير! عدها معايا. كام وردة؟",
+   "text": "How many? ورود كتير! عدها معايا. كام وردة؟",
    "personal": false,
    "note": "quiz question 5"
   },
@@ -1001,7 +1001,7 @@
   {
    "id": "num_q6",
    "group": "num:quiz",
-   "text": "دوس على الصورة اللي فيها four. أربعة!",
+   "text": "Which one is four? دوس على الصورة اللي فيها four. أربعة!",
    "personal": false,
    "note": "quiz question 6"
   },
@@ -1078,7 +1078,7 @@
   {
    "id": "plu_q1",
    "group": "plu:quiz",
-   "text": "كلاب كتير ولا كلب واحد؟ نقول dog ولا dogs؟",
+   "text": "Is it one, or many? كلاب كتير ولا كلب واحد؟ نقول dog ولا dogs؟",
    "personal": false,
    "note": "quiz question 1"
   },
@@ -1099,7 +1099,7 @@
   {
    "id": "plu_q2",
    "group": "plu:quiz",
-   "text": "كورة واحدة بس. نقول ball ولا balls؟",
+   "text": "Is it one, or many? كورة واحدة بس. نقول ball ولا balls؟",
    "personal": false,
    "note": "quiz question 2"
   },
@@ -1120,7 +1120,7 @@
   {
    "id": "plu_q3",
    "group": "plu:quiz",
-   "text": "تفاح كتير! نقول apple ولا apples؟",
+   "text": "Is it one, or many? تفاح كتير! نقول apple ولا apples؟",
    "personal": false,
    "note": "quiz question 3"
   },
@@ -1141,7 +1141,7 @@
   {
    "id": "plu_q4",
    "group": "plu:quiz",
-   "text": "صندوقين! نقول boxs ولا boxes؟",
+   "text": "Is it one, or many? صندوقين! نقول boxs ولا boxes؟",
    "personal": false,
    "note": "quiz question 4"
   },
@@ -1162,7 +1162,7 @@
   {
    "id": "plu_q5",
    "group": "plu:quiz",
-   "text": "أتوبيس واحد. نقول bus ولا buses؟",
+   "text": "Is it one, or many? أتوبيس واحد. نقول bus ولا buses؟",
    "personal": false,
    "note": "quiz question 5"
   },
@@ -1183,7 +1183,7 @@
   {
    "id": "plu_q6",
    "group": "plu:quiz",
-   "text": "دوس على الصورة اللي هي cats. قطط كتير!",
+   "text": "Which one is cats? دوس على الصورة اللي هي cats. قطط كتير!",
    "personal": false,
    "note": "quiz question 6"
   },
@@ -1253,7 +1253,7 @@
   {
    "id": "many_q1",
    "group": "many:quiz",
-   "text": "How many apples؟ عد التفاح.",
+   "text": "How many apples? عد التفاح.",
    "personal": false,
    "note": "quiz question 1"
   },
@@ -1274,7 +1274,7 @@
   {
    "id": "many_q2",
    "group": "many:quiz",
-   "text": "How many cats؟ كام قطة؟",
+   "text": "How many cats? كام قطة؟",
    "personal": false,
    "note": "quiz question 2"
   },
@@ -1295,7 +1295,7 @@
   {
    "id": "many_q3",
    "group": "many:quiz",
-   "text": "How many stars؟ عد النجوم.",
+   "text": "How many stars? عد النجوم.",
    "personal": false,
    "note": "quiz question 3"
   },
@@ -1316,7 +1316,7 @@
   {
    "id": "many_q4",
    "group": "many:quiz",
-   "text": "How many cars؟ كام عربية؟",
+   "text": "How many cars? كام عربية؟",
    "personal": false,
    "note": "quiz question 4"
   },
@@ -1337,7 +1337,7 @@
   {
    "id": "many_q5",
    "group": "many:quiz",
-   "text": "How many balloons؟ كام بالونة؟",
+   "text": "How many balloons? كام بالونة؟",
    "personal": false,
    "note": "quiz question 5"
   },
@@ -1358,7 +1358,7 @@
   {
    "id": "many_q6",
    "group": "many:quiz",
-   "text": "دوس على الصورة اللي فيها four cars. أربع عربيات!",
+   "text": "Which one is four cars? دوس على الصورة اللي فيها four cars. أربع عربيات!",
    "personal": false,
    "note": "quiz question 6"
   },
@@ -1435,7 +1435,7 @@
   {
    "id": "cnt_q1",
    "group": "cnt:quiz",
-   "text": "التفاحة دي، apple. نقدر نعدها؟",
+   "text": "Can we count it? التفاحة دي، apple. نقدر نعدها؟",
    "personal": false,
    "note": "quiz question 1"
   },
@@ -1456,7 +1456,7 @@
   {
    "id": "cnt_q2",
    "group": "cnt:quiz",
-   "text": "الميه دي، water. نقدر نعدها؟",
+   "text": "Can we count it? الميه دي، water. نقدر نعدها؟",
    "personal": false,
    "note": "quiz question 2"
   },
@@ -1477,7 +1477,7 @@
   {
    "id": "cnt_q3",
    "group": "cnt:quiz",
-   "text": "الكتب دي، books. نقدر نعدها؟",
+   "text": "Can we count it? الكتب دي، books. نقدر نعدها؟",
    "personal": false,
    "note": "quiz question 3"
   },
@@ -1498,7 +1498,7 @@
   {
    "id": "cnt_q4",
    "group": "cnt:quiz",
-   "text": "اللبن ده، milk. نقدر نعده؟",
+   "text": "Can we count it? اللبن ده، milk. نقدر نعده؟",
    "personal": false,
    "note": "quiz question 4"
   },
@@ -1519,7 +1519,7 @@
   {
    "id": "cnt_q5",
    "group": "cnt:quiz",
-   "text": "الأرز ده، rice. نقدر نعده؟",
+   "text": "Can we count it? الأرز ده، rice. نقدر نعده؟",
    "personal": false,
    "note": "quiz question 5"
   },
@@ -1540,7 +1540,7 @@
   {
    "id": "cnt_q6",
    "group": "cnt:quiz",
-   "text": "دوس على الصورة اللي هي some milk. شوية لبن!",
+   "text": "Which one is some milk? دوس على الصورة اللي هي some milk. شوية لبن!",
    "personal": false,
    "note": "quiz question 6"
   },
@@ -1603,7 +1603,7 @@
   {
    "id": "prep_q1",
    "group": "prep:quiz",
-   "text": "العصفور فين؟ in ولا on ولا under ولا next to؟",
+   "text": "Where is the bird? In, on, under, or next to? العصفور فين؟ in ولا on ولا under ولا next to؟",
    "personal": false,
    "note": "quiz question 1"
   },
@@ -1624,7 +1624,7 @@
   {
    "id": "prep_q2",
    "group": "prep:quiz",
-   "text": "والعصفور ده فين بالنسبة للترابيزة؟",
+   "text": "Where is the bird? In, on, under, or next to? والعصفور ده فين بالنسبة للترابيزة؟",
    "personal": false,
    "note": "quiz question 2"
   },
@@ -1645,7 +1645,7 @@
   {
    "id": "prep_q3",
    "group": "prep:quiz",
-   "text": "والعصفور ده فين بالنسبة للصندوق؟",
+   "text": "Where is the bird? In, on, under, or next to? والعصفور ده فين بالنسبة للصندوق؟",
    "personal": false,
    "note": "quiz question 3"
   },
@@ -1666,7 +1666,7 @@
   {
    "id": "prep_q4",
    "group": "prep:quiz",
-   "text": "والعصفور ده فين؟",
+   "text": "Where is the bird? In, on, under, or next to? والعصفور ده فين؟",
    "personal": false,
    "note": "quiz question 4"
   },
@@ -1687,7 +1687,7 @@
   {
    "id": "prep_q5",
    "group": "prep:quiz",
-   "text": "دوس على الصورة اللي فيها العصفور under the table. تحت الترابيزة!",
+   "text": "Which one is under the table? دوس على الصورة اللي فيها العصفور under the table. تحت الترابيزة!",
    "personal": false,
    "note": "quiz question 5"
   },
@@ -1708,7 +1708,7 @@
   {
    "id": "prep_q6",
    "group": "prep:quiz",
-   "text": "دوس على الصورة اللي فيها العصفور in the box. جوه الصندوق!",
+   "text": "Which one is in the box? دوس على الصورة اللي فيها العصفور in the box. جوه الصندوق!",
    "personal": false,
    "note": "quiz question 6"
   },
@@ -1785,7 +1785,7 @@
   {
    "id": "this_q1",
    "group": "this:quiz",
-   "text": "البالونة قريبة منه. نقول this ولا that؟",
+   "text": "Is it this, or that? البالونة قريبة منه. نقول this ولا that؟",
    "personal": false,
    "note": "quiz question 1"
   },
@@ -1806,7 +1806,7 @@
   {
    "id": "this_q2",
    "group": "this:quiz",
-   "text": "الشجرة بعيدة. نقول this ولا that؟",
+   "text": "Is it this, or that? الشجرة بعيدة. نقول this ولا that؟",
    "personal": false,
    "note": "quiz question 2"
   },
@@ -1827,7 +1827,7 @@
   {
    "id": "this_q3",
    "group": "this:quiz",
-   "text": "القطة بعيدة. نقول this ولا that؟",
+   "text": "Is it this, or that? القطة بعيدة. نقول this ولا that؟",
    "personal": false,
    "note": "quiz question 3"
   },
@@ -1848,7 +1848,7 @@
   {
    "id": "this_q4",
    "group": "this:quiz",
-   "text": "الموزة قريبة. نقول this ولا that؟",
+   "text": "Is it this, or that? الموزة قريبة. نقول this ولا that؟",
    "personal": false,
    "note": "quiz question 4"
   },
@@ -1869,7 +1869,7 @@
   {
    "id": "this_q5",
    "group": "this:quiz",
-   "text": "العربية بعيدة. نقول this ولا that؟",
+   "text": "Is it this, or that? العربية بعيدة. نقول this ولا that؟",
    "personal": false,
    "note": "quiz question 5"
   },
@@ -1890,7 +1890,7 @@
   {
    "id": "this_q6",
    "group": "this:quiz",
-   "text": "دوس على الصورة اللي هي This is a ball. الكورة القريبة!",
+   "text": "Which one is this ball? دوس على الصورة اللي هي This is a ball. الكورة القريبة!",
    "personal": false,
    "note": "quiz question 6"
   },
@@ -1974,7 +1974,7 @@
   {
    "id": "can_q1",
    "group": "can:quiz",
-   "text": "الكنغر ده بيقفز، jump. نقول It can ولا It can't؟",
+   "text": "It can jump., or It can't jump.? الكنغر ده بيقفز، jump. نقول It can ولا It can't؟",
    "personal": false,
    "note": "quiz question 1"
   },
@@ -1995,7 +1995,7 @@
   {
    "id": "can_q2",
    "group": "can:quiz",
-   "text": "شوف علامة الإكس! swim، يعني أعوم. نقول I can ولا I can't؟",
+   "text": "I can swim., or I can't swim.? شوف علامة الإكس! swim، يعني أعوم. نقول I can ولا I can't؟",
    "personal": false,
    "note": "quiz question 2"
   },
@@ -2016,7 +2016,7 @@
   {
    "id": "can_q3",
    "group": "can:quiz",
-   "text": "الرسمة دي حلوة! draw، يعني أرسم. نقول I can ولا I can't؟",
+   "text": "I can draw., or I can't draw.? الرسمة دي حلوة! draw، يعني أرسم. نقول I can ولا I can't؟",
    "personal": false,
    "note": "quiz question 3"
   },
@@ -2037,7 +2037,7 @@
   {
    "id": "can_q4",
    "group": "can:quiz",
-   "text": "وعلامة إكس تاني! run، يعني أجري. نقول I can ولا I can't؟",
+   "text": "I can run., or I can't run.? وعلامة إكس تاني! run، يعني أجري. نقول I can ولا I can't؟",
    "personal": false,
    "note": "quiz question 4"
   },
@@ -2058,7 +2058,7 @@
   {
    "id": "can_q5",
    "group": "can:quiz",
-   "text": "الولد بيشوط الكورة، kick. نقول He can ولا He can't؟",
+   "text": "He can kick., or He can't kick.? الولد بيشوط الكورة، kick. نقول He can ولا He can't؟",
    "personal": false,
    "note": "quiz question 5"
   },
@@ -2079,7 +2079,7 @@
   {
    "id": "can_q6",
    "group": "can:quiz",
-   "text": "دوس على الصورة اللي هي I can swim. أنا أقدر أعوم!",
+   "text": "Which one is I can swim? دوس على الصورة اللي هي I can swim. أنا أقدر أعوم!",
    "personal": false,
    "note": "quiz question 6"
   },
@@ -2170,7 +2170,7 @@
   {
    "id": "adj_q1",
    "group": "adj:quiz",
-   "text": "دوس على الصورة اللي هي fat. مين التخين؟",
+   "text": "Which one is fat? دوس على الصورة اللي هي fat. مين التخين؟",
    "personal": false,
    "note": "quiz question 1"
   },
@@ -2191,7 +2191,7 @@
   {
    "id": "adj_q2",
    "group": "adj:quiz",
-   "text": "دوس على الصورة اللي هي tall. مين الطويل؟",
+   "text": "Which one is tall? دوس على الصورة اللي هي tall. مين الطويل؟",
    "personal": false,
    "note": "quiz question 2"
   },
@@ -2212,7 +2212,7 @@
   {
    "id": "adj_q3",
    "group": "adj:quiz",
-   "text": "دوس على الصورة اللي هي sad. مين الحزين؟",
+   "text": "Which one is sad? دوس على الصورة اللي هي sad. مين الحزين؟",
    "personal": false,
    "note": "quiz question 3"
   },
@@ -2233,7 +2233,7 @@
   {
    "id": "adj_q4",
    "group": "adj:quiz",
-   "text": "دوس على الصورة اللي هي fast. مين السريع؟",
+   "text": "Which one is fast? دوس على الصورة اللي هي fast. مين السريع؟",
    "personal": false,
    "note": "quiz question 4"
   },
@@ -2254,7 +2254,7 @@
   {
    "id": "adj_q5",
    "group": "adj:quiz",
-   "text": "الوش ده بيعيط! هو sad ولا fast؟",
+   "text": "Is it sad, or fast? الوش ده بيعيط! هو sad ولا fast؟",
    "personal": false,
    "note": "quiz question 5"
   },
@@ -2275,7 +2275,7 @@
   {
    "id": "adj_q6",
    "group": "adj:quiz",
-   "text": "السلحفاة دي بتمشي براحة. هي fast ولا slow؟",
+   "text": "Is it fast, or slow? السلحفاة دي بتمشي براحة. هي fast ولا slow؟",
    "personal": false,
    "note": "quiz question 6"
   },

@@ -214,6 +214,23 @@
   /* extra units from the book TOC */
   const MORE = (typeof module !== 'undefined' ? require('./lessons2.js') : root.MRE_MORE)({ E, TX });
   MORE.forEach((l) => LESSONS.push(l));
+  // spoken quiz questions: English first, then Arabic
+  function enQ(q) {
+    const p = q.prompt.replace(/\s+/g, ' ').trim();
+    if (q.id === 'this_q6') return 'Which one is this ball?';
+    if (/^a or an/.test(p)) return 'Is it a, or an?';
+    if (/^Which one is/.test(p)) return p.replace(/ \?$/, '?');
+    if (/^The bird is ___/.test(p)) return 'Where is the bird? In, on, under, or next to?';
+    if (/___/.test(p) && /can/.test(q.say)) const b = p.replace(/\.$/, ''); return b.replace('___', 'can') + ', or ' + b.replace('___', "can't") + '?';
+    if (/ or /.test(p)) { const m = p.replace(/ \?$/, '').split(' or '); return 'Is it ' + m[0].trim() + ', or ' + m[1].trim() + '?'; }
+    return p;
+  }
+  LESSONS.forEach(l => (l.quiz || []).forEach(q => {
+    if (q._en) return; q._en = enQ(q);
+    let ar = q.say; const pr = q.prompt.replace(/\s+/g, ' ').trim().replace(/\?$/, '');
+    if (ar.indexOf(pr) === 0) ar = ar.slice(pr.length).replace(/^[؟?]\s*/, '');
+    q.say = q._en + ' ' + ar;
+  }));
   const BOOK_ORDER = ['aan', 'num', 'plu', 'many', 'cnt', 'prep', 'this', 'these', 'noun', 'pron', 'heshe', 'it', 'they', 'verb', 'can', 'tobe', 'nbe', 'adj', 'isit', 'what', 'have', 'hish', 'pres', 'nsimp'];
   LESSONS.sort((a, b) => { const i = BOOK_ORDER.indexOf(a.id), j = BOOK_ORDER.indexOf(b.id); return (i < 0 ? 99 : i) - (j < 0 ? 99 : j); });
   const have = new Set(LESSONS.map((l) => l.id));
